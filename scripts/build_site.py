@@ -523,6 +523,7 @@ def output_guard_error(output_dir: Path, reports_dir: Path) -> str | None:
     reports = Path(reports_dir).resolve()
     source_dirs = [
         repo / "data",
+        repo / "design",
         assets,
         repo / "scripts",
         repo / "tests",

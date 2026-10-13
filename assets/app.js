@@ -1,7 +1,57 @@
-/* Job Alerts — filter interactions.
-   No cookies, no storage, no network: filter state lives in the URL query.
-   All report text is rendered server-side; this script only toggles
-   visibility and writes text nodes (never untrusted HTML). */
+/* Job Alerts — theme toggle and filter interactions.
+   No cookies, no network. The only storage is the theme choice
+   ("light" or "dark") under one local storage key; every storage access is
+   wrapped so blocked or full storage never breaks the page. Filter state
+   lives in the URL query. All report text is rendered server-side; this
+   script only toggles visibility/classes and writes text nodes (never
+   untrusted HTML). */
+
+/* Theme toggle — runs on every page, independent of the filter code below
+   (which returns early on pages without a filter bar, e.g. the archive).
+   The initial class is applied by the inline head script before paint. */
+(function () {
+  "use strict";
+
+  var KEY = "job-alerts-theme";
+  var root = document.documentElement;
+  var button = document.getElementById("theme-toggle");
+
+  function isDark() {
+    return root.classList.contains("dark");
+  }
+
+  function sync() {
+    if (button) button.setAttribute("aria-pressed", isDark() ? "true" : "false");
+  }
+
+  function setTheme(theme) {
+    if (theme === "light") root.classList.remove("dark");
+    else root.classList.add("dark");
+    sync();
+  }
+
+  sync();
+  if (button) {
+    button.addEventListener("click", function () {
+      var next = isDark() ? "light" : "dark";
+      setTheme(next);
+      try {
+        window.localStorage.setItem(KEY, next);
+      } catch (err) {
+        /* Storage unavailable: the choice applies to this page only. */
+      }
+    });
+  }
+
+  /* Follow a choice made in another tab. */
+  window.addEventListener("storage", function (event) {
+    if (event.key === KEY && (event.newValue === "light" || event.newValue === "dark")) {
+      setTheme(event.newValue);
+    }
+  });
+})();
+
+/* Filters. */
 (function () {
   "use strict";
 

@@ -17,6 +17,18 @@ Two clearly separated suites:
   counters, archive rows, the report JSON export and noscript visibility.
   Nothing here hardcodes a date or total, so appended reports stay green.
 
+* Design (deterministic): the Coinbase design-system checks in
+  tests/design_checks.py — both themes at 375 / 768 / 1280 on home, archive
+  and a daily report: measured text/background contrast (including hover,
+  expanded evidence and zero states), keyboard focus rings, toggle
+  persistence, pre-paint theme, blocked storage, reduced motion and
+  noscript. Screenshots go to .work/screenshots/ (gitignored).
+* Live fonts (network): one real Google Fonts load attempt, reported as
+  UNTESTED rather than passed when the network is unavailable.
+
+Google Fonts requests are blocked in every other context, so results do
+not depend on the network.
+
 Exit codes: 0 = pass or skipped (Playwright unavailable), 1 = failure.
 """
 
@@ -39,6 +51,8 @@ for _entry in (str(TESTS_DIR), str(ROOT / "scripts")):
 
 import build_site  # noqa: E402
 from fixtures import SEED_REPORTS, load_report_data, report_files  # noqa: E402
+import design_checks  # noqa: E402
+from design_checks import FONT_HOSTS, new_context  # noqa: E402
 
 VIEWPORTS = [(375, 812), (768, 1024), (1280, 900)]
 LIVE_VIEWPORT = (768, 1024)
@@ -82,6 +96,10 @@ def record_console(page) -> list[str]:
     def _record(msg):
         if msg.type == "error":
             location = (msg.location or {}).get("url", "")
+            if any(host in location for host in FONT_HOSTS):
+                return  # Google Fonts are blocked on purpose in these suites
+            if "net::ERR_FAILED" in msg.text and not location:
+                return
             if "favicon" not in msg.text.lower() and "favicon" not in location.lower():
                 errors.append(msg.text)
 
@@ -97,7 +115,7 @@ def record_console(page) -> list[str]:
 
 def run_seed_viewport(browser, base: str, width: int, height: int) -> None:
     label = f"seed {width}x{height}"
-    context = browser.new_context(viewport={"width": width, "height": height})
+    context = new_context(browser, viewport={"width": width, "height": height})
     page = context.new_page()
     errors = record_console(page)
 
@@ -190,7 +208,7 @@ def run_seed_viewport(browser, base: str, width: int, height: int) -> None:
     assert page.locator("#qualified-empty-data").is_visible(), (
         f"{label}: zero-qualified state missing on 2026-10-11"
     )
-    assert page.locator('link[rel="stylesheet"]').get_attribute("href") is not None
+    assert page.locator('link[rel="stylesheet"][href$="assets/style.css"]').count() == 1
     download = page.locator('a[download][href$="2026-10-11.json"]')
     assert download.count() == 1, f"{label}: Download JSON link missing"
     assert download.inner_text().strip() == "Download JSON", f"{label}: link text"
@@ -222,7 +240,7 @@ def run_seed_viewport(browser, base: str, width: int, height: int) -> None:
 
 
 def run_seed_noscript(browser, base: str) -> None:
-    context = browser.new_context(java_script_enabled=False, viewport={"width": 768, "height": 1024})
+    context = new_context(browser, java_script_enabled=False, viewport={"width": 768, "height": 1024})
     page = context.new_page()
     page.goto(f"{base}/index.html", wait_until="load")
     visible = page.eval_on_selector_all(
@@ -259,7 +277,7 @@ def run_live_checks(browser, base: str, reports_dir: Path) -> None:
     dates, jobs, total, latest = facts["dates"], facts["jobs"], facts["total"], facts["latest"]
     label = "live (dynamic)"
     width, height = LIVE_VIEWPORT
-    context = browser.new_context(viewport={"width": width, "height": height})
+    context = new_context(browser, viewport={"width": width, "height": height})
     page = context.new_page()
     errors = record_console(page)
 
@@ -313,8 +331,8 @@ def run_live_checks(browser, base: str, reports_dir: Path) -> None:
     context.close()
 
     # --- noscript shows every live entry ---------------------------------
-    noscript = browser.new_context(
-        java_script_enabled=False, viewport={"width": width, "height": height}
+    noscript = new_context(
+        browser, java_script_enabled=False, viewport={"width": width, "height": height}
     )
     npage = noscript.new_page()
     npage.goto(f"{base}/index.html", wait_until="load")
@@ -381,6 +399,18 @@ def main(argv: list[str] | None = None) -> int:
                 run_live_checks(browser, live_base, live_reports)
                 print(f"OK   live {LIVE_VIEWPORT[0]}x{LIVE_VIEWPORT[1]}: derived counters, "
                       f"{facts['total']} entries, archive rows, JSON export, noscript")
+
+                print("\n-- Design suite (Coinbase tokens, both themes, measured contrast) --")
+                for line in design_checks.run_theme_matrix(browser, seed_base):
+                    print(line)
+                for line in design_checks.run_toggle_checks(browser, seed_base):
+                    print(line)
+                for line in design_checks.run_motion_and_noscript(browser, seed_base):
+                    print(line)
+                print(f"     screenshots: {design_checks.SHOTS.relative_to(ROOT)}/")
+
+                print("\n-- Live fonts (real network; not deterministic) --")
+                print(design_checks.run_live_font_check(browser, seed_base))
                 browser.close()
         except AssertionError as exc:
             print(f"FAIL: {exc}", file=sys.stderr)

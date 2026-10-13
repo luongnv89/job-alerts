@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
-{{canonical}}  <link rel="stylesheet" href="{{base}}assets/style.css">
-  <script>document.documentElement.classList.add("js");</script>
+{{canonical}}  <script>
+    /* Theme before first paint: dark is the default (class="dark" above);
+       only a stored "light" choice removes it. Storage errors are ignored. */
+    (function () {
+      var root = document.documentElement;
+      root.classList.add("js");
+      var stored = null;
+      try {
+        stored = window.localStorage.getItem("job-alerts-theme");
+      } catch (err) {
+        stored = null;
+      }
+      if (stored === "light") root.classList.remove("dark");
+      else root.classList.add("dark");
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="{{base}}assets/style.css">
   <noscript>
     <style>
+      .theme-toggle { display: none !important; }
       .filter-bar, #result-count { display: none !important; }
       .noscript-note { display: block !important; }
       .job-card[hidden] { display: block !important; }
@@ -21,10 +40,13 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="{{base}}index.html">Job Alerts<span class="brand-mark" aria-hidden="true"></span></a>
-      <nav class="site-nav" aria-label="Site">
-        <a href="{{base}}index.html">Latest</a>
-        <a href="{{base}}archive.html">Archive</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="site-nav" aria-label="Site">
+          <a href="{{base}}index.html">Latest</a>
+          <a href="{{base}}archive.html">Archive</a>
+        </nav>
+        <button type="button" class="btn-ghost theme-toggle" id="theme-toggle" aria-pressed="true"><span class="theme-switch" aria-hidden="true"></span><span class="theme-toggle-label">Dark theme</span></button>
+      </div>
     </div>
   </header>
   <main id="main" class="wrap">
@@ -32,7 +54,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <p>Entries record evidence checks made on each report date. They are not a live guarantee that a role is still open, and research leads are never recommendations.</p>
-      <p class="mono fine-print">Static site · no cookies · no analytics · rendered from <code>data/reports/</code></p>
+      <p class="fine-print">Static site rendered from <code>data/reports/</code>. No analytics, and this site sets no cookies. Your light/dark theme choice is saved only in this browser&rsquo;s local storage (key <code>job-alerts-theme</code>) and is never sent anywhere. The Inter typeface is loaded from Google Fonts, so your browser requests it from <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>, which receive your IP address and browser details; if that request is blocked, system fonts are used.</p>
     </div>
   </footer>
   <script id="site-data" type="application/json">{{payload}}</script>

@@ -400,7 +400,7 @@ class BuildOutputSafetyGuardTest(unittest.TestCase):
         self.assertTrue((ROOT / "data" / "reports").is_dir())
 
     def test_repository_source_directories_are_refused_and_intact(self):
-        for name in ("data", "assets", "scripts", "tests"):
+        for name in ("data", "design", "assets", "scripts", "tests"):
             out = ROOT / name
             before = sorted(p.name for p in out.iterdir())
             code, _, stderr = run_build(SEED_REPORTS, out)
@@ -698,10 +698,15 @@ class StaticResourcesTest(unittest.TestCase):
     def test_app_js_avoids_unsafe_dom_and_storage(self):
         app_js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertNotIn("innerHTML", app_js)
-        self.assertNotIn("localStorage", app_js)
         self.assertNotIn("sessionStorage", app_js)
         self.assertNotIn("document.cookie", app_js)
         self.assertIn("replaceState", app_js)
+        # The only storage is the theme choice: one key, write wrapped in try.
+        self.assertEqual(app_js.count("localStorage"), 1)
+        self.assertRegex(
+            app_js, r"try \{\s*window\.localStorage\.setItem\(KEY, next\);\s*\} catch"
+        )
+        self.assertIn('var KEY = "job-alerts-theme";', app_js)
 
     def test_report_schema_declares_camel_case_contract(self):
         schema = json.loads((ROOT / "assets" / "report.schema.json").read_text(encoding="utf-8"))

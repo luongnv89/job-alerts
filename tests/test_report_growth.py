@@ -29,7 +29,7 @@ for _entry in (str(TESTS_DIR), str(TESTS_DIR.parent / "scripts")):
 
 from fixtures import LIVE_REPORTS, make_report, report_files, write_report
 
-REPO_PARTS = ("scripts", "tests", "assets", "data")
+REPO_PARTS = ("scripts", "tests", "design", "assets", "data")
 GROWTH_GUARD_ENV = "JOB_ALERTS_SKIP_GROWTH_TEST"
 
 
