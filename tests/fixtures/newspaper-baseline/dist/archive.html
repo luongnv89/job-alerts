@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Alerts — report archive</title>
+  <meta name="description" content="Archive of daily AI engineering job research reports.">
+  <script>
+    /* Theme before first paint: dark is the default (class="dark" above);
+       only a stored "light" choice removes it. Storage errors are ignored. */
+    (function () {
+      var root = document.documentElement;
+      root.classList.add("js");
+      var stored = null;
+      try {
+        stored = window.localStorage.getItem("job-alerts-theme");
+      } catch (err) {
+        stored = null;
+      }
+      if (stored === "light") root.classList.remove("dark");
+      else root.classList.add("dark");
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+  <noscript>
+    <style>
+      .theme-toggle { display: none !important; }
+      .filter-bar, #result-count { display: none !important; }
+      .noscript-note { display: block !important; }
+      .job-card[hidden] { display: block !important; }
+      #no-results, .empty-message[hidden] { display: none !important; }
+    </style>
+  </noscript>
+</head>
+<body class="page page-archive">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Job Alerts<span class="brand-mark" aria-hidden="true"></span></a>
+      <div class="header-tools">
+        <nav class="site-nav" aria-label="Site">
+          <a href="index.html">Latest</a>
+          <a href="archive.html">Archive</a>
+        </nav>
+        <button type="button" class="btn-ghost theme-toggle" id="theme-toggle" aria-pressed="true"><span class="theme-switch" aria-hidden="true"></span><span class="theme-toggle-label">Dark theme</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+
+<section class="hero" aria-labelledby="page-title">
+  <p class="eyebrow mono">Archive</p>
+  <h1 id="page-title">Report archive</h1>
+  <p class="standfirst">Every published report with counts calculated from its own data. Entries record checks made on their report date; they are not live availability claims.</p>
+</section>
+<div class="table-scroll">
+  <table class="archive-table">
+    <caption class="sr-only">Daily reports with qualified and examined counts</caption>
+    <thead>
+      <tr>
+        <th scope="col">Report date</th>
+        <th scope="col">Qualified</th>
+        <th scope="col">Examined</th>
+        <th scope="col">Summary</th>
+        <th scope="col">Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><time datetime="2026-10-13">2026-10-13</time></td><td class="count">0</td><td class="count">4</td><td>No newly qualifying roles passed every hard gate. Four additional openings were examined; research leads are not recommendations.</td><td><a href="reports/2026-10-13.html">Open</a></td></tr>
+      <tr><td><time datetime="2026-10-12">2026-10-12</time></td><td class="count">0</td><td class="count">3</td><td>No new role cleared every gate. Qonto, Spiko and Runware are live discussion leads, not qualified recommendations.</td><td><a href="reports/2026-10-12.html">Open</a></td></tr>
+      <tr><td><time datetime="2026-10-11">2026-10-11</time></td><td class="count">0</td><td class="count">2</td><td>No new role passed the combined gates. Cohere and Parsio remain compensation near-misses, not ranked recommendations.</td><td><a href="reports/2026-10-11.html">Open</a></td></tr>
+      <tr><td><time datetime="2026-10-10">2026-10-10</time></td><td class="count">2</td><td class="count">2</td><td>Two roles passed the report’s evidence gates: Pigment Senior GenAI Engineer and DualEntry Senior AI Engineer. These are historical selections, not fresh listings today.</td><td><a href="reports/2026-10-10.html">Open</a></td></tr>
+    </tbody>
+  </table>
+</div>
+<details class="panel"><summary>Criteria applied (latest report)</summary><ul><li>Paris hybrid with explicit attendance, or fully remote explicitly allowing France.</li><li>Senior/staff hands-on AI-central engineering.</li><li>Employer-published annual gross cash-base floor &gt; €100,000, or ≥ €80,000 with explicit equity.</li><li>No unchanged previously reported picks; historical checks are not a current-open guarantee.</li></ul></details>
+<details class="panel"><summary>Uncertainty &amp; caveats (latest report)</summary><ul><li>Historical research snapshot checked October 13, 2026; recheck employer pages before applying.</li><li>An application form being reachable does not establish eligibility or hiring responsiveness.</li><li>No company advanced to separate product/financial diligence because no role qualified.</li></ul></details>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Entries record evidence checks made on each report date. They are not a live guarantee that a role is still open, and research leads are never recommendations.</p>
+      <p class="fine-print">Static site rendered from <code>data/reports/</code>. No analytics, and this site sets no cookies. Your light/dark theme choice is saved only in this browser&rsquo;s local storage (key <code>job-alerts-theme</code>) and is never sent anywhere. The Inter typeface is loaded from Google Fonts, so your browser requests it from <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>, which receive your IP address and browser details; if that request is blocked, system fonts are used.</p>
+    </div>
+  </footer>
+  <script id="site-data" type="application/json">{"dates": ["2026-10-13", "2026-10-12", "2026-10-11", "2026-10-10"], "jobs": [], "page": {"kind": "archive", "scopeDate": null, "total": 11}}</script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

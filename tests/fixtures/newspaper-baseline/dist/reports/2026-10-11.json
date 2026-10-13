@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "requestedCount": 3,
+  "summary": "No new role passed the combined gates. Cohere and Parsio remain compensation near-misses, not ranked recommendations.",
+  "coverage": "19 official Ashby boards screened; nine individual listings opened; seven newly examined applications checked. This is a bounded search. Archive exports contain selected evidence highlights, not every screened opening.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France.",
+    "Senior/staff hands-on AI-central engineering.",
+    "Employer-published annual gross cash-base floor > €100,000, or ≥ €80,000 with explicit equity.",
+    "No unchanged previously reported picks; historical checks are not a current-open guarantee."
+  ],
+  "uncertainty": [
+    "Historical snapshot: evidence was checked on this report date, not reverified at website publication.",
+    "A reachable application does not establish hiring responsiveness or individual eligibility.",
+    "Previous selections are retained as history, not recycled as new picks."
+  ],
+  "decision": "No approval needed. Check the original listing and confirm compensation and contract terms before applying independently.",
+  "jobs": [
+    {
+      "id": "cohere-safety",
+      "company": "Cohere",
+      "title": "Senior Member of Technical Staff, Safety and Security for Agents",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/cohere/1f7cc5e6-5f31-40d8-ad49-fe22c98a3ea4",
+      "applyUrl": "https://jobs.ashbyhq.com/cohere/1f7cc5e6-5f31-40d8-ad49-fe22c98a3ea4",
+      "checked": "2026-10-11",
+      "posted": "2026-03-23",
+      "location": "remote",
+      "locationQuote": "This role can be based remotely or from one of our office locations listed on the job description",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "Not published"
+      },
+      "reasons": [
+        "Published compensation covers Canada and the USA; no France-applicable annual cash-base floor."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Cohere official listing",
+          "url": "https://jobs.ashbyhq.com/cohere/1f7cc5e6-5f31-40d8-ad49-fe22c98a3ea4",
+          "quote": "This role can be based remotely or from one of our office locations listed on the job description; Published compensation covers Canada and the USA; no France-applicable annual cash-base floor.",
+          "checked": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "parsio-founding",
+      "company": "Parsio",
+      "title": "Founding Backend/AI Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.oss.ventures/founding-backend-ai-engineer-parsio",
+      "applyUrl": "https://jobs.oss.ventures/founding-backend-ai-engineer-parsio",
+      "checked": "2026-10-11",
+      "posted": "2026-06-29",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris; CDI · On-site・ 3–4 days/week",
+      "salary": {
+        "lower": 80000,
+        "upper": 95000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "EUR 80,000–95,000; annual cash-base classification unverified"
+      },
+      "reasons": [
+        "€80–95K gross plus founding-level BSPCE; annual fixed cash-base classification and seniority at entry remain unverified."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Parsio official listing",
+          "url": "https://jobs.oss.ventures/founding-backend-ai-engineer-parsio",
+          "quote": "Location: Paris; CDI · On-site・ 3–4 days/week; €80–95K gross plus founding-level BSPCE; annual fixed cash-base classification and seniority at entry remain unverified.",
+          "checked": "2026-10-11"
+        }
+      ]
+    }
+  ]
+}

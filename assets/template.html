@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
 {{canonical}}  <script>
-    /* Theme before first paint: dark is the default (class="dark" above);
-       only a stored "light" choice removes it. Storage errors are ignored. */
+    /* Paper before first paint: the aged-paper (light) edition is the
+       default; only a stored "dark" choice adds the darker-paper class.
+       Storage errors are ignored. */
     (function () {
       var root = document.documentElement;
       root.classList.add("js");
@@ -17,13 +18,13 @@
       } catch (err) {
         stored = null;
       }
-      if (stored === "light") root.classList.remove("dark");
-      else root.classList.add("dark");
+      if (stored === "dark") root.classList.add("dark");
+      else root.classList.remove("dark");
     })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&family=UnifrakturMaguntia&display=swap">
   <link rel="stylesheet" href="{{base}}assets/style.css">
   <noscript>
     <style>
@@ -38,14 +39,17 @@
 <body class="page page-{{page_kind}}">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
+    <div class="wrap masthead">
+      <a class="brand" href="{{base}}index.html">Job Alerts</a>
+      {{dateline}}
+    </div>
     <div class="wrap header-inner">
-      <a class="brand" href="{{base}}index.html">Job Alerts<span class="brand-mark" aria-hidden="true"></span></a>
       <div class="header-tools">
         <nav class="site-nav" aria-label="Site">
           <a href="{{base}}index.html">Latest</a>
           <a href="{{base}}archive.html">Archive</a>
         </nav>
-        <button type="button" class="btn-ghost theme-toggle" id="theme-toggle" aria-pressed="true"><span class="theme-switch" aria-hidden="true"></span><span class="theme-toggle-label">Dark theme</span></button>
+        <button type="button" class="btn-ghost theme-toggle" id="theme-toggle" aria-pressed="false"><span class="theme-toggle-label">Dark theme</span></button>
       </div>
     </div>
   </header>
@@ -54,7 +58,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <p>Entries record evidence checks made on each report date. They are not a live guarantee that a role is still open, and research leads are never recommendations.</p>
-      <p class="fine-print">Static site rendered from <code>data/reports/</code>. No analytics, and this site sets no cookies. Your light/dark theme choice is saved only in this browser&rsquo;s local storage (key <code>job-alerts-theme</code>) and is never sent anywhere. The Inter typeface is loaded from Google Fonts, so your browser requests it from <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>, which receive your IP address and browser details; if that request is blocked, system fonts are used.</p>
+      <p class="fine-print">Static site rendered from <code>data/reports/</code>. No analytics, and this site sets no cookies. Your light/dark paper choice is saved only in this browser&rsquo;s local storage (key <code>job-alerts-theme</code>) and is never sent anywhere. The UnifrakturMaguntia, Playfair Display and Libre Baskerville typefaces are loaded from Google Fonts, so your browser requests them from <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>, which receive your IP address and browser details; if that request is blocked, Georgia, Times or another installed serif font is used.</p>
     </div>
   </footer>
   <script id="site-data" type="application/json">{{payload}}</script>

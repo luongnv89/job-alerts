@@ -1,5 +1,5 @@
-# Build output
-dist/
+# Build output (only at the repository root; public test fixtures may use dist/)
+/dist/
 dist-*/
 
 # Python

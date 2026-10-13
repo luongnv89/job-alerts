@@ -654,6 +654,10 @@ def render_card(report_date: str, job: dict, base: str, hidden: bool) -> str:
 
     badge = STATUS_LABELS[status]
     parts.append('<header class="card-head">')
+    # Decorative classified-advertisement label; the recorded title, company
+    # and status below are rendered unchanged.
+    notice = "Help Wanted" if status == "qualified" else "Wanted"
+    parts.append(f'<p class="notice-label" aria-hidden="true">{notice}</p>')
     parts.append('<div class="card-id">')
     parts.append(f'<p class="card-company">{esc(job["company"])}</p>')
     parts.append(f'<h3 class="card-title">{esc(job["title"])}</h3>')
@@ -712,12 +716,14 @@ def render_card(report_date: str, job: dict, base: str, hidden: bool) -> str:
 
     parts.append('<div class="card-actions">')
     if status == "qualified" and job["applyUrl"]:
+        parts.append('<span class="notice-closing-label">For particulars and application:</span> ')
         parts.append(f'<a class="btn" href="{esc(job["applyUrl"])}" rel="noopener">Apply</a>')
         parts.append(
             f'<a class="btn btn-quiet" href="{esc(job["listingUrl"])}" rel="noopener">'
             "Open listing</a>"
         )
     else:
+        parts.append('<span class="notice-closing-label">For particulars:</span> ')
         parts.append(
             f'<a class="btn btn-quiet" href="{esc(job["listingUrl"])}" rel="noopener">'
             "View listing</a>"
@@ -1088,6 +1094,50 @@ def render_archive(reports_desc: list[dict]) -> str:
 {render_details_panel("Uncertainty & caveats (latest report)", render_list(latest["uncertainty"]))}"""
 
 
+WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+MONTHS = (
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+)
+
+
+def long_day(value: str) -> str:
+    """Spell out a validated ISO report date, e.g. Tuesday, 13 October 2026."""
+    day = _dt.date.fromisoformat(value)
+    return f"{WEEKDAYS[day.weekday()]}, {day.day} {MONTHS[day.month - 1]} {day.year}"
+
+
+def render_dateline(dates_desc: list[str], date: str | None) -> str:
+    """Masthead dateline built only from published report dates.
+
+    The issue number is the report's position in date order (oldest = No. 1),
+    so it grows with the archive; volume is always I. The archive page, which
+    covers every report, shows the full issue and date range instead.
+    """
+    oldest_first = sorted(dates_desc)
+    if date is None:
+        first, last = oldest_first[0], oldest_first[-1]
+        issue = f"Nos. 1&ndash;{len(oldest_first)}" if len(oldest_first) > 1 else "No. 1"
+        when = (
+            f'Reports of <time datetime="{esc(first)}">{esc(long_day(first))}</time>'
+            + (
+                f' to <time datetime="{esc(last)}">{esc(long_day(last))}</time>'
+                if last != first
+                else ""
+            )
+        )
+    else:
+        issue = f"No. {oldest_first.index(date) + 1}"
+        when = f'Report of <time datetime="{esc(date)}">{esc(long_day(date))}</time>'
+    return (
+        '<div class="dateline">'
+        f'<p class="dateline-issue">Vol. I &middot; {issue}</p>'
+        f'<p class="dateline-date">{when}</p>'
+        '<p class="dateline-price">Price: Free &middot; Web Edition</p>'
+        "</div>"
+    )
+
+
 def render_page(
     template: str,
     *,
@@ -1099,6 +1149,7 @@ def render_page(
     payload: dict,
     base_url: str,
     rel_path: str,
+    dateline: str = "",
 ) -> str:
     canonical = ""
     if base_url:
@@ -1112,6 +1163,7 @@ def render_page(
             "description": esc(description),
             "canonical": canonical,
             "page_kind": esc(kind),
+            "dateline": dateline,
             "content": content if content.endswith("\n") else content + "\n",
             "payload": script_json(payload),
         },
@@ -1287,6 +1339,7 @@ def build(reports_dir: Path, output_dir: Path, base_url: str, validate_only: boo
         payload=home_payload,
         base_url=base_url,
         rel_path="index.html",
+        dateline=render_dateline(dates_desc, latest["date"]),
     )
 
     for report in reports_desc:
@@ -1314,6 +1367,7 @@ def build(reports_dir: Path, output_dir: Path, base_url: str, validate_only: boo
             payload=payload,
             base_url=base_url,
             rel_path=f"reports/{date}.html",
+            dateline=render_dateline(dates_desc, date),
         )
 
     archive_payload = {"page": {"kind": "archive", "scopeDate": None, "total": total},
@@ -1328,6 +1382,7 @@ def build(reports_dir: Path, output_dir: Path, base_url: str, validate_only: boo
         payload=archive_payload,
         base_url=base_url,
         rel_path="archive.html",
+        dateline=render_dateline(dates_desc, None),
     )
 
     # Everything is rendered in memory; now stage it next to the target, move

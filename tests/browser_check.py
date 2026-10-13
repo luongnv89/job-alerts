@@ -17,12 +17,17 @@ Two clearly separated suites:
   counters, archive rows, the report JSON export and noscript visibility.
   Nothing here hardcodes a date or total, so appended reports stay green.
 
-* Design (deterministic): the Coinbase design-system checks in
-  tests/design_checks.py — both themes at 375 / 768 / 1280 on home, archive
-  and a daily report: measured text/background contrast (including hover,
-  expanded evidence and zero states), keyboard focus rings, toggle
-  persistence, pre-paint theme, blocked storage, reduced motion and
-  noscript. Screenshots go to .work/screenshots/ (gitignored).
+* Design (deterministic): the printed-newspaper checks in
+  tests/design_checks.py — both paper variants at 375 / 639 / 640 / 768 /
+  1280 / 1920 on home, archive and a daily report: measured classified
+  column counts (1 / 2 / 3 / 4), full-width wrappers with <=16px outer
+  padding, no rounded corners / shadows / gradients / images, paper and ink
+  colours only, serif fonts on every element and control, boxed HELP
+  WANTED notices, justified hyphenated text, contrast (including hover,
+  expanded evidence and zero states), shadow-free focus outlines, toggle
+  persistence and cross-tab sync, pre-paint paper, blocked storage,
+  reduced motion, noscript and print. Screenshots go to
+  .work/screenshots/newspaper-* (gitignored).
 * Live fonts (network): one real Google Fonts load attempt, reported as
   UNTESTED rather than passed when the network is unavailable.
 
@@ -54,7 +59,7 @@ from fixtures import SEED_REPORTS, load_report_data, report_files  # noqa: E402
 import design_checks  # noqa: E402
 from design_checks import FONT_HOSTS, new_context  # noqa: E402
 
-VIEWPORTS = [(375, 812), (768, 1024), (1280, 900)]
+VIEWPORTS = [(375, 812), (768, 1024), (1280, 900), (1920, 1080)]
 LIVE_VIEWPORT = (768, 1024)
 
 
@@ -400,14 +405,14 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"OK   live {LIVE_VIEWPORT[0]}x{LIVE_VIEWPORT[1]}: derived counters, "
                       f"{facts['total']} entries, archive rows, JSON export, noscript")
 
-                print("\n-- Design suite (Coinbase tokens, both themes, measured contrast) --")
+                print("\n-- Design suite (printed newspaper, both paper variants, measured) --")
                 for line in design_checks.run_theme_matrix(browser, seed_base):
                     print(line)
                 for line in design_checks.run_toggle_checks(browser, seed_base):
                     print(line)
-                for line in design_checks.run_motion_and_noscript(browser, seed_base):
+                for line in design_checks.run_motion_noscript_print(browser, seed_base):
                     print(line)
-                print(f"     screenshots: {design_checks.SHOTS.relative_to(ROOT)}/")
+                print(f"     screenshots: {design_checks.SHOTS.relative_to(ROOT)}/{design_checks.PREFIX}-*")
 
                 print("\n-- Live fonts (real network; not deterministic) --")
                 print(design_checks.run_live_font_check(browser, seed_base))

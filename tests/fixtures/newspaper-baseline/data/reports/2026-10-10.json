@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-10",
+  "requestedCount": 3,
+  "summary": "Two roles passed the report’s evidence gates: Pigment Senior GenAI Engineer and DualEntry Senior AI Engineer. These are historical selections, not fresh listings today.",
+  "coverage": "Employer Ashby and Lever sources searched; the two selected listings and application forms opened. This is a bounded search. Archive exports contain selected evidence highlights, not every screened opening.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France.",
+    "Senior/staff hands-on AI-central engineering.",
+    "Employer-published annual gross cash-base floor > €100,000, or ≥ €80,000 with explicit equity.",
+    "No unchanged previously reported picks; historical checks are not a current-open guarantee."
+  ],
+  "uncertainty": [
+    "Historical snapshot: evidence was checked on this report date, not reverified at website publication.",
+    "A reachable application does not establish hiring responsiveness or individual eligibility.",
+    "Previous selections are retained as history, not recycled as new picks."
+  ],
+  "decision": "No approval needed. Check the original listing and confirm compensation and contract terms before applying independently.",
+  "jobs": [
+    {
+      "id": "pigment-genai",
+      "company": "Pigment",
+      "title": "Senior GenAI Engineer",
+      "status": "qualified",
+      "listingUrl": "https://jobs.lever.co/pigment/39662985-9160-45be-8363-352c69edeeef",
+      "applyUrl": "https://jobs.lever.co/pigment/39662985-9160-45be-8363-352c69edeeef/apply",
+      "checked": "2026-10-10",
+      "posted": null,
+      "location": "remote",
+      "locationQuote": "France; Remote",
+      "salary": {
+        "lower": 80000,
+        "upper": 140000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "EUR 80,000–140,000; annual cash-base classification verified"
+      },
+      "reasons": [
+        "€80,000–€140,000 annual salary and stock options meet the €80k-plus-equity rule.",
+        "Multi-agent feature engineering is central; a separate product source was read."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Planning and performance software for finance, HR, sales and supply-chain teams. This role improves deployed multi-agent features over a deterministic, auditable computation engine. A narrower assigned project is unknown.",
+      "financials": "Employer-reported 600+ staff and nearly $400m raised. March 2026 company reporting said ARR was approaching $100m; September coverage reported a later company claim that ARR exceeded $100m. These are not audited financial statements. Profitability and runway are not publicly verified.",
+      "evidence": [
+        {
+          "label": "Pigment official listing",
+          "url": "https://jobs.lever.co/pigment/39662985-9160-45be-8363-352c69edeeef",
+          "quote": "France; Remote; €80,000–€140,000 annual salary and stock options meet the €80k-plus-equity rule.; Multi-agent feature engineering is central; a separate product source was read.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "Analyst Agent product source",
+          "url": "https://www.pigment.com/ai/analyst-agent",
+          "quote": "Conversational analysis of governed planning data, generated reports, auditability and permissions.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "Salary metadata",
+          "url": "https://api.lever.co/v0/postings/pigment/39662985-9160-45be-8363-352c69edeeef",
+          "quote": "EUR 80,000–140,000; per-year-salary; stock options separately offered.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "March company announcement",
+          "url": "https://www.prnewswire.com/news-releases/on-the-path-to-100m-pigment-launches-ai-intent-modeling-302703473.html",
+          "quote": "ARR approaching $100m, company-reported.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "September independent coverage",
+          "url": "https://siliconangle.com/2026/09/10/pigment-launches-ai-generated-interfaces-to-broaden-business-planning",
+          "quote": "Reported later company claim of ARR exceeding $100m and a new AI-generated interface builder.",
+          "checked": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "dualentry-ai",
+      "company": "DualEntry",
+      "title": "Senior AI Engineer",
+      "status": "qualified",
+      "listingUrl": "https://jobs.ashbyhq.com/dualentry/7acbe603-8fbc-4249-942a-ee45eb273ea6",
+      "applyUrl": "https://jobs.ashbyhq.com/dualentry/7acbe603-8fbc-4249-942a-ee45eb273ea6/application",
+      "checked": "2026-10-10",
+      "posted": "2026-07-18",
+      "location": "remote",
+      "locationQuote": "Remote (EU, LATAM); Remote-first team",
+      "salary": {
+        "lower": 140000,
+        "upper": 200000,
+        "currency": "USD",
+        "annualBase": true,
+        "equity": true,
+        "quote": "USD 140,000–200,000; annual cash-base classification verified"
+      },
+      "reasons": [
+        "Base salary $140,000–$200,000 and separately stated equity $45,000–$65,000.",
+        "At the 9 October 2026 ECB rate EUR1=USD1.1206, the base floor is about EUR124,933; this is not a guaranteed euro-denominated French offer.",
+        "Agent workflows, RAG and production evaluation are central; separate product evidence read."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "AI-assisted accounting ERP for mid-market finance teams. The role owns agent workflows, RAG, experimentation and production infrastructure. A separate MCP product article documents permissions and draft → validate → approve → save. It does not establish that this hire would build the MCP server.",
+      "financials": "Company announcement of 2 October 2025 reported $90m Series A and over $100m total funding, thousands of users and $100bn in journal entries processed. These are dated company claims, not verified revenue or profitability. August 2026 MCP launch is recent product activity. Current size, revenue, newer funding and runway are not publicly verified.",
+      "evidence": [
+        {
+          "label": "DualEntry official listing",
+          "url": "https://jobs.ashbyhq.com/dualentry/7acbe603-8fbc-4249-942a-ee45eb273ea6",
+          "quote": "Remote (EU, LATAM); Remote-first team; Base salary $140,000–$200,000 and separately stated equity $45,000–$65,000.; At the 9 October 2026 ECB rate EUR1=USD1.1206, the base floor is about EUR124,933; this is not a guaranteed euro-denominated French offer.; Agent workflows, RAG and production evaluation are central; separate product evidence read.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "MCP product source",
+          "url": "https://www.dualentry.com/blog/introducing-the-dualentry-mcp-server",
+          "quote": "Live-ledger tools with role permissions and draft → validate → approve → save.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "Dated funding announcement",
+          "url": "https://www.dualentry.com/funding-announcement",
+          "quote": "2 October 2025: $90m Series A; more than $100m raised in total, company-reported.",
+          "checked": "2026-10-10"
+        },
+        {
+          "label": "Exchange-rate source",
+          "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+          "quote": "Historical value recorded by 10 October research: 9 October 2026 EUR1=USD1.1206. This endpoint changes daily; current content is not the historical snapshot.",
+          "checked": "2026-10-10"
+        }
+      ]
+    }
+  ]
+}

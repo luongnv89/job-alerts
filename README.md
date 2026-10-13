@@ -1,8 +1,8 @@
 # job-alerts
 
 Daily evidence-backed AI engineering job alerts, published as a static site
-styled with the Coinbase design system (dark by default, with a light theme),
-rendered from strict JSON research reports by a dependency-free Python 3
+set as a late-1800s / early-1900s printed newspaper (aged paper by default,
+with a slightly darker paper variant), rendered from strict JSON research reports by a dependency-free Python 3
 builder.
 
 Entries record evidence checks made on each report date. They are not a live
@@ -15,25 +15,27 @@ repository or on the site.
 ```
 assets/                site resources copied into dist/assets/
   template.html        page shell (tokens filled by the builder)
-  style.css            Coinbase design-system stylesheet (CSS custom properties)
+  style.css            printed-newspaper stylesheet (paper/ink custom properties)
   app.js               theme toggle + filter logic (no cookies, no network;
                        one local-storage key for the theme choice)
   report.schema.json   machine-readable report contract
 data/reports/          YYYY-MM-DD.json research reports (site's only content)
 design/
-  coinbase.design.json verbatim copy of the public design JSON (token source)
+  coinbase.design.json archived former design source (no longer used)
 scripts/
   validate.py          strict report validator
   build_site.py        standalone renderer + validator (stdlib only)
-tests/                 unit tests (synthetic fixtures only)
-  test_design_system.py  token/font/theme/contrast regression (no browser)
+tests/                 unit tests with synthetic safety/growth fixtures and public-content baselines
+  test_design_system.py  newspaper layout/palette/font/theme regression (no browser)
+  test_content_preservation.py  redesign never drops job text, links or data
+                       (compares with committed fixtures/newspaper-baseline;
+                       runs in CI, fails if the required baseline is missing)
   browser_check.py     optional Playwright suites (seed, live, design, fonts)
-  design_checks.py     Playwright design checks used by browser_check.py
+  design_checks.py     Playwright newspaper checks used by browser_check.py
   seed_reports/        frozen snapshot of the original dated reports; exact-count
                        tests build from this so they stay green as data grows
 dist/                  build output (gitignored)
 SCHEMA.md              report contract documentation
-design/coinbase.design.json  fetched design-system source
 ```
 
 ## Commands
@@ -49,7 +51,7 @@ python scripts/build_site.py --validate-only
 python -m unittest discover -s tests -v
 
 # optional browser suites (needs: pip install playwright && playwright install chromium)
-python tests/browser_check.py              # screenshots -> .work/screenshots/
+python tests/browser_check.py              # screenshots -> .work/screenshots/newspaper-*
 
 # build the site into dist/
 python scripts/build_site.py
@@ -128,7 +130,7 @@ no-results message, URL query state):
 | Salary evidence | known annual EUR base · known annual base non-EUR · numeric range with unconfirmed annual basis · no published figures |
 
 Sections are **Qualified matches** and **Research leads** (not
-recommendations). Each card shows the recorded gates, gate notes, salary and
+recommendations). Each entry is set as a boxed classified notice and shows the recorded gates, gate notes, salary and
 equity evidence, plus native `<details>` panels for company/role evidence
 notes and per-source evidence notes with direct links. Qualified entries get
 an Apply link; the others get a **View listing** link that is explicitly not a
@@ -138,74 +140,97 @@ Evidence note wording: source `quote` fields are recorded research notes that
 may paraphrase the source. The site labels them "Evidence note" and never
 presents them as verbatim employer quotations.
 
-Noscript keeps the full pre-rendered content readable in the default dark
-theme (filters and the theme toggle are hidden, and every entry is shown with
+Noscript keeps the full pre-rendered content readable on the default aged
+paper (filters and the theme toggle are hidden, and every entry is shown with
 its date badge).
 
-## Design system
+## Design: printed newspaper
 
-Styling follows `design/coinbase.design.json` (the Coinbase design from
-VoltAgent/awesome-design-md, as published in the sleek-ui design schema). It
-is plain CSS: no Tailwind, no framework, no npm packages.
+The site is styled as a late-1800s / early-1900s printed newspaper in plain
+CSS (no framework, no npm packages). The former Coinbase design JSON stays
+archived in `design/` but is not used.
 
-- **Colour tokens** are copied exactly as HSL triples: `tokens.colors.light`
-  on `:root`, `tokens.colors.dark` on `.dark`, used as `hsl(var(--token))`.
-- **Radius, typography, spacing and shadows** become custom properties:
-  `--radius: 0.375rem`, `--radius-sm/-lg/-full`, `--text-*`, `--font-*`
-  weights, `--leading-*`, `--tracking-*`, `--space-*`, `--shadow-sm`,
-  `--shadow`, `--shadow-lg`.
-- **Fonts:** `--font-sans` is Inter, `--font-serif` is Georgia and `--font-mono`
-  is JetBrains Mono, each with system fallbacks. Only Inter is loaded, from the
-  exact Google Fonts URL in `fonts.urls`. The JSON supplies no JetBrains Mono
-  URL, so mono text uses JetBrains Mono only if it is installed locally;
-  otherwise it falls back to the system monospace font.
-- **Components:** `.btn` is the primary button, `.btn-quiet` the secondary
-  button and `.btn-ghost` the ghost button (used by the theme toggle).
-  `.hero-report` and `.job-card` use the card component. The search box and
-  selects use the input component.
-- **Theme:** dark is the default (`agentInstructions.defaultMode`). Pages ship
-  `<html class="dark">`. A small inline script in `<head>` runs before the
-  stylesheets and removes the class only when the stored choice is `light`,
-  so there is no flash of the wrong theme. The header toggle is a real
-  `<button aria-pressed>`, so it works with Tab, Enter and Space. It saves
-  `light`/`dark` under the local-storage key `job-alerts-theme`. Storage
-  errors are caught; if storage is blocked, the toggle still works for the
-  current page. Without JavaScript the dark default is used and the toggle
-  is hidden.
-- **Focus:** `:focus-visible` uses `outline: 2px solid currentColor` with a
-  2px offset (`accessibility.focusRing`). Primary buttons have white text, so
-  their currentColor ring would be invisible on a white page. They also get a
-  6px `--ring`-coloured halo behind the unchanged ring (ring vs halo 5.8:1,
-  halo vs white 5.8:1).
-- **Motion:** the JSON defines no motion tokens, so the site has no
-  animations or transitions. A `prefers-reduced-motion` guard keeps it that
-  way.
+- **Full width:** `.wrap` is `width: 100%; max-width: none` with at most
+  16px outer padding at every width; there is no narrow centred wrapper.
+- **Masthead:** "Job Alerts" in UnifrakturMaguntia blackletter across the
+  full width, then a dateline between double rules: `Vol. I · No. N` (N is
+  the report's position in date order, oldest = No. 1), the real report date
+  written out from the ISO date (e.g. "Tuesday, 13 October 2026") and
+  "Price: Free · Web Edition". The archive shows the full issue and date
+  range. No historical dates are invented. Navigation sits in a ruled bar.
+- **Columns:** classified notices flow in CSS columns with thin vertical
+  rules: 1 column below 640px, 2 from 640px, and from 1024px a page grid
+  with Qualified matches in the first page column and Research leads filling
+  the remaining 2 (1024px+) or 3 (1440px+), so desktops show 3–4 columns.
+  Notices use `break-inside: avoid`; nothing is clipped, clamped or given a
+  fixed height. The archive table keeps a bounded horizontal scroll on
+  narrow screens.
+- **Classified notices:** each `.job-card` is a boxed advertisement (single
+  rule for research leads, double rule for qualified entries) headed by a
+  decorative `aria-hidden` "Help Wanted" (qualified) or "Wanted" label,
+  with the recorded company in small caps and the recorded title shown in
+  bold uppercase through CSS only — the DOM keeps the original text. The
+  links close the notice as a period line, "For particulars and
+  application: Apply · Open listing" (qualified) or "For particulars: View
+  listing" (research leads), with the original labels and targets. The
+  research-lead warning is boxed in bold. Notice text uses 1.35 leading.
+- **Type:** serif only, including inputs, selects, buttons, code and small
+  print: UnifrakturMaguntia (masthead), Playfair Display (headlines),
+  Libre Baskerville (body), then Georgia, Times New Roman, Times, serif.
+  Body text is justified with `hyphens: auto` (`lang="en"`). Only the lead
+  paragraph gets a drop cap: the home and archive standfirst, and the
+  summary on report pages. Section heads are uppercase between thin rules.
+- **Palette:** aged paper `#f4ecd8` (default) or `#e8dcc0` (darker variant),
+  with paper patches `#ece2c8` / `#efe5cc` for inputs, and near-black ink
+  `#2b2b2b` / `#1a1a1a` for text and rules. Rejected badges print in
+  reverse (paper type on an ink block). There are no other colours, no
+  rounded corners, shadows, gradients, images, SVG, icons or emoji.
+  Disclosures hide the native marker (`list-style: none`,
+  `::-webkit-details-marker`) and use underlined labels; selects use
+  `appearance: none` with no chevron; buttons are square ruled text.
+- **Theme:** aged paper (light) is the default. A small inline script in
+  `<head>` runs before the stylesheets and adds `html.dark` only when the
+  stored choice is `dark`, so there is no flash. The "Dark theme" toggle is
+  a real `<button aria-pressed>` (Tab, Enter, Space) and saves
+  `light`/`dark` under the local-storage key `job-alerts-theme`. Other open
+  tabs follow the change. Storage errors are caught; if storage is blocked
+  the toggle still works for the current page. The dark choice is a slightly
+  darker paper that keeps dark ink, not an inverted UI. Without JavaScript
+  the paper default is used and the toggle is hidden.
+- **Focus:** `:focus-visible` is a 2px solid ink outline with a 2px offset
+  and never a shadow.
+- **Motion:** no animations or transitions; a `prefers-reduced-motion`
+  guard keeps it that way.
+- **Print:** prints on paper colour with every notice (including ones hidden
+  by filters) and the contents of closed evidence panels (Chromium's
+  `::details-content`), plus each notice link's URL. Filters and the toggle
+  are not printed.
 
-### Contrast adjustments
-
-The raw tokens stay canonical. Where a raw token fails WCAG AA for a pair
-the site actually renders, a documented alias is used instead. Each alias is
-defined in `assets/style.css`:
-
-| Alias | Light | Dark | Why |
-| --- | --- | --- | --- |
-| `--primary-text` | `= --primary` | `221 100% 72%` | raw blue on dark surfaces is 2.7–3.4:1 |
-| `--destructive-text` | `0 72% 42%` | `0 90% 72%` | raw destructive as text: 3.4–3.8:1 light, 1.6–2.0:1 dark |
-| `--destructive-solid` | `0 72% 42%` | `= --destructive` | white on raw light destructive is 3.8:1 |
-| `--muted-text` | `240 3.8% 42%` | `= --muted-foreground` | raw light muted-foreground on `--muted` is 4.39:1 |
-| `--control-border` | `240 3.8% 46.1%` | `240 15% 55%` | raw `--input`/`--border` are 1.1–1.4:1, too faint for control boundaries |
-| `--primary-hover` | `221 100% 44%` | `221 100% 44%` | primary button hover fill (white text 7.0:1) |
+### Checks
 
 These checks are evidence, not a guarantee of full WCAG conformance:
 
-- `tests/test_design_system.py` computes every colour pair the stylesheet
-  uses from the CSS values: at least 4.5:1 for text and 3:1 for UI
-  boundaries and focus indicators.
-- `tests/browser_check.py` measures computed styles in Chromium. It covers
-  both themes at 375, 768 and 1280px on the home, archive and a daily report
-  page, including hover states, expanded evidence panels, zero states and
-  noscript. In the last run the lowest measured text contrast was 5.1:1
-  (light) and 5.8:1 (dark).
+- `tests/test_design_system.py` parses the CSS, template and built pages:
+  palette range, ink-on-paper contrast (>= 7:1 in both variants), serif-only
+  stacks, no radius/shadow/gradient/image declarations, full-width wrapper,
+  column counts, notice borders and labels, dateline derivation, theme
+  wiring and the font disclosure.
+- `tests/test_content_preservation.py` builds the hashed baseline report set
+  and checks that every original text string, link target and anchor label
+  survives per notice and across each page's `<main>`, that only the four
+  decorative strings were added, and that the filter payload, JSON exports
+  and source report hashes are unchanged.
+- `tests/browser_check.py` measures computed styles in Chromium for both
+  paper variants at 375, 639, 640, 768, 1280 and 1920px on the home, archive
+  and a daily report page. It counts the rendered notice columns (1/1/2/2/3/4),
+  checks <=16px outer padding and `max-width: none`, scans every element and
+  pseudo-element for radius, shadow, gradient, image, filter, non-paper/ink
+  colours and non-serif fonts, and checks notice borders and labels,
+  justification, contrast (including hover, expanded evidence and zero
+  states), shadow-free focus outlines, the toggle (cross-tab, blocked
+  storage, pre-paint), reduced motion, noscript and print. In the last run
+  the lowest measured text contrast was 10.98:1 (aged paper) and 12.79:1
+  (darker paper).
 - The browser checks do not cover other browsers, native `<select>`
   dropdown popups, forced-colours or high-contrast modes, or screen-reader
   behaviour.
@@ -215,10 +240,11 @@ These checks are evidence, not a guarantee of full WCAG conformance:
 - No analytics, and the site itself sets no cookies.
 - The theme choice is kept only in this browser's local storage and is never
   transmitted.
-- The Inter stylesheet and font files are requested from Google Fonts
-  (`fonts.googleapis.com`, `fonts.gstatic.com`). Those requests reveal the
-  visitor's IP address and browser details to Google. If they are blocked,
-  system fonts are used and the site stays fully readable.
+- The UnifrakturMaguntia, Playfair Display and Libre Baskerville stylesheet
+  and font files are requested from Google Fonts (`fonts.googleapis.com`,
+  `fonts.gstatic.com`). Those requests reveal the visitor's IP address and
+  browser details to Google. If they are blocked, Georgia, Times or another
+  installed serif font is used and the site stays fully readable.
 - There are no other external runtime requests.
 
 The browser suites block Google Fonts so their results do not depend on the
