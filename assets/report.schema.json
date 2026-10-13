@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luongnv89.github.io/job-alerts/report.schema.json",
+  "title": "Job Alerts daily research report (schemaVersion 1)",
+  "description": "One dated research report. camelCase contract shared by scripts/validate.py, scripts/build_site.py and SCHEMA.md. Unknown keys are rejected at every level; private/internal content (candidate data, contact details, local paths, non-public URLs) is forbidden anywhere in a report.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "date", "summary", "coverage", "criteria", "uncertainty", "jobs"],
+  "properties": {
+    "schemaVersion": {
+      "description": "Report contract version. Must be 1.",
+      "const": 1
+    },
+    "date": {
+      "description": "Report date; must match the file name YYYY-MM-DD.json.",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "requestedCount": {
+      "description": "Optional: how many roles the day's search targeted.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "decision": {
+      "description": "Optional: report-level decision note.",
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "description": "Human-readable summary of the day's result.",
+      "type": "string",
+      "minLength": 1
+    },
+    "coverage": {
+      "description": "How far the bounded search reached.",
+      "type": "string",
+      "minLength": 1
+    },
+    "criteria": {
+      "description": "Hard gates applied on the report date.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "uncertainty": {
+      "description": "Caveats readers must weigh.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "jobs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/job" }
+    }
+  },
+  "$defs": {
+    "isoDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "httpsUrl": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "publicUrl": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "job": {
+      "description": "One examined role. Statuses describe checks on the report date, not live availability.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "company", "title", "status", "listingUrl", "applyUrl",
+        "checked", "posted", "location", "locationQuote", "salary",
+        "reasons", "gates", "product", "financials", "evidence"
+      ],
+      "properties": {
+        "id": {
+          "description": "Slug unique within the report; used for anchors, never as a path.",
+          "$ref": "#/$defs/slug"
+        },
+        "company": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "status": {
+          "description": "qualified = passed every stored gate on the report date; rejected/near-miss are research leads, never recommendations.",
+          "enum": ["qualified", "rejected", "near-miss"]
+        },
+        "listingUrl": { "$ref": "#/$defs/httpsUrl" },
+        "applyUrl": {
+          "description": "HTTPS application URL, or null when none was recorded.",
+          "anyOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }]
+        },
+        "checked": {
+          "description": "Date the listing evidence was checked.",
+          "$ref": "#/$defs/isoDate"
+        },
+        "posted": {
+          "description": "Employer posting date, or null when unpublished.",
+          "anyOf": [{ "$ref": "#/$defs/isoDate" }, { "type": "null" }]
+        },
+        "location": {
+          "description": "Work mode.",
+          "enum": ["remote", "hybrid", "on-site", "unknown"]
+        },
+        "locationQuote": {
+          "description": "Recorded location/attendance wording from the listing.",
+          "type": "string",
+          "minLength": 1
+        },
+        "salary": { "$ref": "#/$defs/salary" },
+        "reasons": {
+          "description": "Gate notes: why an entry passed or failed. May be empty.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "gates": {
+          "description": "Stored results of the historic hard gates, recorded on the report date. Qualification is judged from these stored values, not from thresholds recomputed at publish time.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["open", "location", "ai", "pay", "product"],
+          "properties": {
+            "open": { "enum": ["pass", "fail", "unknown"] },
+            "location": { "enum": ["pass", "fail", "unknown"] },
+            "ai": { "enum": ["pass", "fail", "unknown"] },
+            "pay": { "enum": ["pass", "fail", "unknown"] },
+            "product": { "enum": ["pass", "fail", "unknown"] }
+          }
+        },
+        "product": {
+          "description": "Recorded product/role context note, or null when none was recorded.",
+          "type": ["string", "null"]
+        },
+        "financials": {
+          "description": "Recorded company research note, or null when none was recorded.",
+          "type": ["string", "null"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "salary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lower", "upper", "currency", "annualBase", "equity", "quote"],
+      "properties": {
+        "lower": {
+          "description": "Published numeric floor in `currency`, or null when unknown (never 0 as a placeholder).",
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "upper": {
+          "description": "Published numeric ceiling, or null when unknown.",
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "currency": {
+          "description": "Currency exactly as published; no conversion is stored or implied here.",
+          "enum": ["EUR", "USD", "GBP", null]
+        },
+        "annualBase": {
+          "description": "true only when figures are confirmed annual base pay; null = unconfirmed.",
+          "type": ["boolean", "null"]
+        },
+        "equity": {
+          "description": "Explicit equity/stock option offer; null = unknown, not false.",
+          "type": ["boolean", "null"]
+        },
+        "quote": {
+          "description": "Recorded research note of the employer's published pay wording (may be a paraphrase, not necessarily a verbatim quotation), or an explicit statement that none exists.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url", "quote", "checked"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": {
+          "description": "Public http(s) source URL.",
+          "$ref": "#/$defs/publicUrl"
+        },
+        "quote": {
+          "description": "Evidence note: a recorded research note from this source. It may paraphrase the source and is not guaranteed to be a verbatim quotation.",
+          "type": "string",
+          "minLength": 1
+        },
+        "checked": {
+          "description": "Date this source was checked.",
+          "$ref": "#/$defs/isoDate"
+        }
+      }
+    }
+  }
+}

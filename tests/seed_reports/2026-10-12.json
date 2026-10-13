@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-12",
+  "requestedCount": 3,
+  "summary": "No new role cleared every gate. Qonto, Spiko and Runware are live discussion leads, not qualified recommendations.",
+  "coverage": "36 official Ashby boards screened; ten individual URLs opened; eight readable/live applications and two unavailable roles. This is a bounded search. Archive exports contain selected evidence highlights, not every screened opening.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France.",
+    "Senior/staff hands-on AI-central engineering.",
+    "Employer-published annual gross cash-base floor > €100,000, or ≥ €80,000 with explicit equity.",
+    "No unchanged previously reported picks; historical checks are not a current-open guarantee."
+  ],
+  "uncertainty": [
+    "Historical snapshot: evidence was checked on this report date, not reverified at website publication.",
+    "A reachable application does not establish hiring responsiveness or individual eligibility.",
+    "Previous selections are retained as history, not recycled as new picks."
+  ],
+  "decision": "No approval needed. Check the original listing and confirm compensation and contract terms before applying independently.",
+  "jobs": [
+    {
+      "id": "qonto-agents",
+      "company": "Qonto",
+      "title": "Staff Software Engineer, AI Agents (Python)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/b1d8d47e-6fef-48ab-90fe-445354f3d2cd",
+      "applyUrl": "https://jobs.ashbyhq.com/qonto/b1d8d47e-6fef-48ab-90fe-445354f3d2cd",
+      "checked": "2026-10-12",
+      "posted": "2026-10-09",
+      "location": "remote",
+      "locationQuote": "France, Germany, Spain, or Italy — remote within these hiring locations",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "Not published"
+      },
+      "reasons": [
+        "No numerical annual cash-base range or explicit equity offer published."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Qonto official listing",
+          "url": "https://jobs.ashbyhq.com/qonto/b1d8d47e-6fef-48ab-90fe-445354f3d2cd",
+          "quote": "France, Germany, Spain, or Italy — remote within these hiring locations; No numerical annual cash-base range or explicit equity offer published.",
+          "checked": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "spiko-ai",
+      "company": "Spiko",
+      "title": "AI & data lead",
+      "status": "rejected",
+      "listingUrl": "https://spiko.teamtailor.com/jobs/8366750-ai-data-lead",
+      "applyUrl": "https://spiko.teamtailor.com/jobs/8366750-ai-data-lead",
+      "checked": "2026-10-12",
+      "posted": "2026-09-11",
+      "location": "hybrid",
+      "locationQuote": "up to 2 days per week and one full remote week per month",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "Not published"
+      },
+      "reasons": [
+        "Competitive package depending on experience + Stock Options; no numerical annual cash-base floor."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Spiko official listing",
+          "url": "https://spiko.teamtailor.com/jobs/8366750-ai-data-lead",
+          "quote": "up to 2 days per week and one full remote week per month; Competitive package depending on experience + Stock Options; no numerical annual cash-base floor.",
+          "checked": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "runware-serverless",
+      "company": "Runware",
+      "title": "Staff Software Engineer, Serverless",
+      "status": "rejected",
+      "listingUrl": "https://apply.workable.com/runware/j/3A932CE62B",
+      "applyUrl": "https://apply.workable.com/runware/j/3A932CE62B",
+      "checked": "2026-10-12",
+      "posted": "2026-04-29",
+      "location": "remote",
+      "locationQuote": "Remote; France explicitly listed",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "Not published"
+      },
+      "reasons": [
+        "Stock options are explicit, but no numerical annual cash-base floor is published.",
+        "Posting-date sources differ: main employer publication 29 April 2026; France-specific Workable version 26 August 2026. Neither is an October posting."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Runware official listing",
+          "url": "https://apply.workable.com/runware/j/3A932CE62B",
+          "quote": "Remote; France explicitly listed; Stock options are explicit, but no numerical annual cash-base floor is published.",
+          "checked": "2026-10-12"
+        },
+        {
+          "label": "France-specific Workable listing",
+          "url": "https://jobs.workable.com/view/2gHiQp3qsa6DutrCppHQ7i/remote-staff-software-engineer---serverless-in-france-at-runware",
+          "quote": "The October12 research recorded France-specific publication 26 August2026, distinct from the main employer listing dated29 April2026.",
+          "checked": "2026-10-12"
+        }
+      ]
+    }
+  ]
+}

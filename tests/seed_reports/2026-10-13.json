@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-13",
+  "summary": "No newly qualifying roles passed every hard gate. Four additional openings were examined; research leads are not recommendations.",
+  "coverage": "42 official Ashby boards retrieved from 47 attempted endpoints; four individual listings and four application forms examined. Bounded search, not an exhaustive market census.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France.",
+    "Senior/staff hands-on AI-central engineering.",
+    "Employer-published annual gross cash-base floor > €100,000, or ≥ €80,000 with explicit equity.",
+    "No unchanged previously reported picks; historical checks are not a current-open guarantee."
+  ],
+  "uncertainty": [
+    "Historical research snapshot checked October 13, 2026; recheck employer pages before applying.",
+    "An application form being reachable does not establish eligibility or hiring responsiveness.",
+    "No company advanced to separate product/financial diligence because no role qualified."
+  ],
+  "jobs": [
+    {
+      "id": "doctolib-applied-ai",
+      "company": "Doctolib",
+      "title": "Senior ML Engineer, Applied AI & LLMs",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/26543700-22d5-47c7-9ad5-3bdbdae5e7d4",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/26543700-22d5-47c7-9ad5-3bdbdae5e7d4/application",
+      "checked": "2026-10-13",
+      "posted": "2026-06-01",
+      "location": "hybrid",
+      "locationQuote": "Levallois-Perret, Paris; 3 office days/week",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No numerical annual cash-base range published."
+      },
+      "reasons": [
+        "Pay: no published numerical annual cash-base floor.",
+        "DoctoGrowth is a value-sharing plan, not explicitly equity."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Patient Solutions: retrieval/reranking, care pathways, LLM/VLM fine-tuning, agents, tools/MCP and monitoring.",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Doctolib employer listing",
+          "url": "https://jobs.ashbyhq.com/doctolib/26543700-22d5-47c7-9ad5-3bdbdae5e7d4",
+          "quote": "Hybrid work setup (3 days/week in the office).",
+          "checked": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "front-design-engineer",
+      "company": "Front",
+      "title": "Senior Design Engineer, Paris",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/frontcareers/a74eaf4f-92c0-4b1e-915b-c55fa1f4f537",
+      "applyUrl": "https://jobs.ashbyhq.com/frontcareers/a74eaf4f-92c0-4b1e-915b-c55fa1f4f537/application",
+      "checked": "2026-10-13",
+      "posted": "2026-10-06",
+      "location": "hybrid",
+      "locationQuote": "Paris; Tuesday, Wednesday and Thursday in office",
+      "salary": {
+        "lower": 85900,
+        "upper": 99200,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "€85,900–€99,200 annual salary plus equity; fixed-base breakdown unconfirmed."
+      },
+      "reasons": [
+        "Not AI-central: primary duties are design-system/UI engineering.",
+        "Base-pay notice may include commissions/overtime; clean fixed-base breakdown not supplied."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Design systems, accessibility, UI architecture and team enablement. Agent-compatible components do not establish an AI-system remit.",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Front employer listing",
+          "url": "https://jobs.ashbyhq.com/frontcareers/a74eaf4f-92c0-4b1e-915b-c55fa1f4f537",
+          "quote": "We come together in the office each Tuesday, Wednesday, and Thursday.",
+          "checked": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "photoroom-product-ml",
+      "company": "Photoroom",
+      "title": "Product ML Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/photoroom/1073f2ae-906a-42ae-bb5f-96981a2555cf",
+      "applyUrl": "https://jobs.ashbyhq.com/photoroom/1073f2ae-906a-42ae-bb5f-96981a2555cf/application",
+      "checked": "2026-10-13",
+      "posted": "2026-08-15",
+      "location": "hybrid",
+      "locationQuote": "Paris hybrid; attendance cadence unspecified",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "Competitive salary + meaningful equity; no numerical base."
+      },
+      "reasons": [
+        "No stated hybrid attendance policy.",
+        "No published numerical cash-base floor.",
+        "Senior/staff entry not explicit."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Ship product ML, fine-tune or integrate external models, evaluate and monitor production. Assigned product team unknown.",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Photoroom employer listing",
+          "url": "https://jobs.ashbyhq.com/photoroom/1073f2ae-906a-42ae-bb5f-96981a2555cf",
+          "quote": "Hybrid working from our Paris headquarters. Competitive salary + meaningful equity.",
+          "checked": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "zefir-analytics",
+      "company": "Zefir",
+      "title": "Founding Analytics Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/zefir/ba9afc5d-ed03-4680-85ae-7ec3841f7719",
+      "applyUrl": "https://jobs.ashbyhq.com/zefir/ba9afc5d-ed03-4680-85ae-7ec3841f7719/application",
+      "checked": "2026-10-13",
+      "posted": "2026-08-07",
+      "location": "hybrid",
+      "locationQuote": "Paris with flexible remote options; cadence unspecified",
+      "salary": {
+        "lower": 85300,
+        "upper": 93800,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "€85,300–€93,800 annual salary metadata plus BSPCE; salary calculator estimate, fixed base unverified."
+      },
+      "reasons": [
+        "No hybrid attendance policy or France-eligible fully remote commitment.",
+        "Salary is an estimate; fixed annual cash base unverified.",
+        "Not AI-central: primary remit is analytics/warehouse/BI."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Warehouse and semantic-layer ownership, governance, attribution and BI; MCP/text-to-SQL is a consumer interface.",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "Zefir employer listing",
+          "url": "https://jobs.ashbyhq.com/zefir/ba9afc5d-ed03-4680-85ae-7ec3841f7719",
+          "quote": "With flexible remote work options.",
+          "checked": "2026-10-13"
+        }
+      ]
+    }
+  ]
+}

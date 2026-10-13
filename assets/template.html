@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+{{canonical}}  <link rel="stylesheet" href="{{base}}assets/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <noscript>
+    <style>
+      .filter-bar, #result-count { display: none !important; }
+      .noscript-note { display: block !important; }
+      .job-card[hidden] { display: block !important; }
+      #no-results, .empty-message[hidden] { display: none !important; }
+    </style>
+  </noscript>
+</head>
+<body class="page page-{{page_kind}}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{base}}index.html">Job Alerts<span class="brand-mark" aria-hidden="true"></span></a>
+      <nav class="site-nav" aria-label="Site">
+        <a href="{{base}}index.html">Latest</a>
+        <a href="{{base}}archive.html">Archive</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+{{content}}  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Entries record evidence checks made on each report date. They are not a live guarantee that a role is still open, and research leads are never recommendations.</p>
+      <p class="mono fine-print">Static site · no cookies · no analytics · rendered from <code>data/reports/</code></p>
+    </div>
+  </footer>
+  <script id="site-data" type="application/json">{{payload}}</script>
+  <script src="{{base}}assets/app.js" defer></script>
+</body>
+</html>

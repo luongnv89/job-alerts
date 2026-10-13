@@ -1,0 +1,24 @@
+# Build output
+dist/
+dist-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+node_modules/
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scratch
+.work/
