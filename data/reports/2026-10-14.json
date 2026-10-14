@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate. Joko and Inato publish salary floors below the required minimum; OpenAI and Owkin do not publish a numerical France salary range. All four are exclusions or near-misses, not recommendations.",
+  "coverage": "39 official Ashby boards retrieved and screened from 50 attempted endpoints. Four additional individual listings and all four application forms rendered. Two Lever board endpoints also returned readable data, including Pigment for continuity. This bounded search is not an exhaustive market census; board screening is discovery, not verification of every opening.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; titles alone do not establish scope or level.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Equity is not cash; packages, estimates and upper bounds do not pass.",
+    "No unchanged previously reported selections. Historical qualification and checked dates are preserved, not presented as today's live verification."
+  ],
+  "uncertainty": [
+    "Evidence checked October 14, 2026. The four role publication dates are employer ATS dates, not newly posted October openings.",
+    "Eleven attempted Ashby board aliases returned 404; this does not establish that those employers have no vacancies. Search extraction was unavailable, so official ATS data and browser rendering supplied the listing evidence.",
+    "Joko and Inato publish annual Salary metadata with equity separately offered; a fixed gross cash-base label is not explicit. Their published numerical floors are already below €80,000. Joko additionally says final compensation may fall below its displayed range.",
+    "Owkin's listing explicitly permits remote work in France despite its Hybrid metadata. Its Scientist II title and five-year experience requirement do not explicitly establish senior/staff entry.",
+    "OpenAI's application confirms three office days per week. Senior/staff level and an engineering-primary rather than community/adoption-primary remit remain unverified.",
+    "No employer advanced to separate product and company diligence. Funding, current financial condition, employee size and recent material activity are not publicly verified in this run; listing marketing claims are not independent diligence.",
+    "Deduplication covers accessible October 10–13 reports and saved ATS snapshots, supplemented by recorded earlier continuity. It is not an exhaustive historic archive. Reachable application forms do not prove eligibility or hiring responsiveness."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No newly qualifying application is recommended. Any independent follow-up should first establish qualifying fixed annual cash-base terms and all remaining location, seniority and role-scope conditions. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "joko-ai-1526a790-5653-4910-9647-f4a7aa024a97",
+      "company": "Joko",
+      "title": "AI Software Engineer (senior/staff level)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/joko/1526a790-5653-4910-9647-f4a7aa024a97",
+      "applyUrl": "https://jobs.ashbyhq.com/joko/1526a790-5653-4910-9647-f4a7aa024a97/application",
+      "checked": "2026-10-14",
+      "posted": "2026-03-25",
+      "location": "remote",
+      "locationQuote": "This position is remote-friendly (France and Spain). Flexible remote : If you live in Paris, you can choose to work from our office or from home with no constraints.",
+      "salary": {
+        "lower": 76300,
+        "upper": 174600,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "€76.3K – €174.6K • Offers Equity. Employer ATS: Salary, 1 YEAR. Fixed gross cash-base label is not explicit. The employer says final compensation may sit at, above, or below the published range."
+      },
+      "reasons": [
+        "Published salary floor €76,300 is below €80,000; the €174,600 ceiling cannot satisfy the lower-bound rule.[55][37]",
+        "Final compensation is not a guaranteed published floor: the employer says it may fall below the range.[55]",
+        "France remote eligibility, explicit senior/staff entry and agent engineering are documented; the compensation gate remains decisive.[55]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "fail", "product": "unknown"},
+      "product": "Employer-listing summary: Joko AI is a shopping agent. Duties cover agent architecture, evaluations and regression monitoring, web/vector search tools, catalog ingestion and enrichment, personalization, model fine-tuning and production latency/cost/reliability. Five-plus years of software engineering and senior/staff ownership are requested. Separate product evidence was not advanced after the pay rejection.[55]",
+      "financials": null,
+      "evidence": [
+        {"label": "[55] Official listing: location, scope and salary caveat", "url": "https://jobs.ashbyhq.com/joko/1526a790-5653-4910-9647-f4a7aa024a97", "quote": "This position is remote-friendly (France and Spain).", "checked": "2026-10-14"},
+        {"label": "[55] Final-compensation caveat", "url": "https://jobs.ashbyhq.com/joko/1526a790-5653-4910-9647-f4a7aa024a97", "quote": "It may therefore sit at, above, or below the published range, depending on the candidate's calibration.", "checked": "2026-10-14"},
+        {"label": "[37] Official ATS annual salary and posting metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/joko?includeCompensation=true", "quote": "Metadata summary: Salary €76,300–€174,600; interval 1 YEAR; equity separately offered; published March 25, 2026. This is salary metadata, not an independently confirmed fixed gross base.", "checked": "2026-10-14"},
+        {"label": "[56] Application form", "url": "https://jobs.ashbyhq.com/joko/1526a790-5653-4910-9647-f4a7aa024a97/application", "quote": "What do you think is the hardest part about building an AI shopping assistant that users can truly rely on?", "checked": "2026-10-14"}
+      ]
+    },
+    {
+      "id": "inato-ai-6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+      "company": "Inato",
+      "title": "Senior AI Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+      "applyUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application",
+      "checked": "2026-10-14",
+      "posted": "2026-07-30",
+      "location": "remote",
+      "locationQuote": "PARIS OFFICE or REMOTE FROM FRANCE; Remote-first philosophy & flexible hours",
+      "salary": {
+        "lower": 70000,
+        "upper": 95000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "€70K – €95K • Offers Equity. Employer ATS: Salary, 1 YEAR, with equity separately offered. Fixed gross cash-base label is not explicit."
+      },
+      "reasons": [
+        "Published annual salary floor €70,000 is below the €80,000-plus-equity gate; the upper bound is irrelevant to minimum eligibility.[57][36]",
+        "France remote location and senior AI engineering are documented. The application additionally requires France residence/tax conditions and full work authorization, plus strong English and French assessed during recruitment.[57][58]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "fail", "product": "unknown"},
+      "product": "Employer-listing summary: clinical-trial technology. Responsibilities include multimodal model orchestration, RAG over medical documents and patient histories, recruitment/site-selection agents and production pipelines. Example projects are a reasoning-model/visual-RAG prescreening tool and a site-selection agent coupled with mathematical optimization; neither is a guaranteed assignment. Separate product diligence was not advanced after the pay rejection.[57]",
+      "financials": null,
+      "evidence": [
+        {"label": "[57] Official listing", "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7", "quote": "Build agentic systems to revolutionize key aspects of drug development such as patient recruitment or site selection", "checked": "2026-10-14"},
+        {"label": "[36] Official ATS annual salary and posting metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/inato?includeCompensation=true", "quote": "Metadata summary: Salary €70,000–€95,000; interval 1 YEAR; equity separately offered; published July 30, 2026. Location: PARIS OFFICE or REMOTE FROM FRANCE.", "checked": "2026-10-14"},
+        {"label": "[58] Application: additional eligibility and language conditions", "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application", "quote": "This role requires strong proficiency in both English and French, and both languages will be assessed during the recruitment process. Are you comfortable working fluently in both?", "checked": "2026-10-14"}
+      ]
+    },
+    {
+      "id": "openai-codex-d801f26e-951e-452c-9924-9449b55edc5a",
+      "company": "OpenAI",
+      "title": "Applied AI Engineer, Startups (Codex)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a/application",
+      "checked": "2026-10-14",
+      "posted": "2026-09-24",
+      "location": "hybrid",
+      "locationQuote": "Paris, France; Hybrid. Application: Are you able to work from a local office three days per week?",
+      "salary": {"lower": null, "upper": null, "currency": null, "annualBase": null, "equity": null, "quote": "No numerical salary range or explicit equity offer appears in this Paris listing or its employer ATS compensation fields. Unknown pay is not a below-threshold salary."},
+      "reasons": [
+        "No published numerical France annual cash-base lower bound; compensation cannot be verified against the gate.[59]",
+        "Paris attendance is explicit in the application: three office days per week.[60]",
+        "Senior/staff entry is not explicit. Presentations and community engagement are central; AI-system engineering as the primary assignment remains unverified, despite documented coding, workflow integrations and reliability evaluation.[59]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "unknown", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: the Go To Market team supports startup adoption of Codex through technical talks, demos, workshops and hackathons, plus selected customer workflows, integrations and automations. Reusable code and feedback to Product/Research/Engineering are part of the remit; this is not evidence of a dedicated model-building assignment. Separate product diligence was not advanced.[59]",
+      "financials": null,
+      "evidence": [
+        {"label": "[59] Official listing: duties and missing compensation", "url": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a", "quote": "Presentations and community engagement are central to this role.", "checked": "2026-10-14"},
+        {"label": "[11] Official ATS posting metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true", "quote": "Metadata summary: requisition d801f26e-951e-452c-9924-9449b55edc5a published September 24, 2026; Paris, France; Hybrid; no compensation tiers provided.", "checked": "2026-10-14"},
+        {"label": "[60] Application: Paris office attendance", "url": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a/application", "quote": "Are you able to work from a local office three days per week?", "checked": "2026-10-14"}
+      ]
+    },
+    {
+      "id": "owkin-llm-df08e875-432e-420f-ac18-543c07e0ee1b",
+      "company": "Owkin",
+      "title": "Scientist II Machine Learning Engineer (LLM & GenAI Specialist)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b",
+      "applyUrl": "https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b/application",
+      "checked": "2026-10-14",
+      "posted": "2026-07-15",
+      "location": "remote",
+      "locationQuote": "Position is based in our Paris offices or remotely in France, UK, or Germany.",
+      "salary": {"lower": null, "upper": null, "currency": null, "annualBase": null, "equity": null, "quote": "No numerical salary range or explicit equity offer appears in this listing or its employer ATS compensation fields. Unknown compensation is not insufficient published compensation."},
+      "reasons": [
+        "No published numerical annual cash-base floor.[61]",
+        "Remote work in France is explicit in the description, despite Hybrid metadata.[61]",
+        "Five-plus years of Python software development, production deep-learning deployment and mentoring are requested. Scientist II is not explicitly mapped to senior/staff entry; that level remains unverified.[61]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: biomedical LLM/GenAI engineering bridging research and production. Duties include ML libraries and research workflows, experiment reproducibility, lifecycle management, research infrastructure and model prototyping. Requirements include PyTorch/TensorFlow, Transformers, Hugging Face, agents/RAG, cloud/SageMaker and distributed training. The company describes K Pro, but assignment specifically to K Pro is not established. Separate product diligence was not advanced.[61]",
+      "financials": null,
+      "evidence": [
+        {"label": "[61] Official listing: France remote eligibility and work", "url": "https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b", "quote": "Position is based in our Paris offices or remotely in France, UK, or Germany.", "checked": "2026-10-14"},
+        {"label": "[61] Experience requirement", "url": "https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b", "quote": "Experience: 5+ years of professional experience in software development with Python and a proven track record of deploying deep learning models into production.", "checked": "2026-10-14"},
+        {"label": "[43] Official ATS posting metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/owkin?includeCompensation=true", "quote": "Metadata summary: requisition df08e875-432e-420f-ac18-543c07e0ee1b published July 15, 2026; Hybrid metadata; no compensation tiers provided. The description separately permits remote work in France.", "checked": "2026-10-14"},
+        {"label": "[62] Application form", "url": "https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b/application", "quote": "What city and country would you prefer to work from?", "checked": "2026-10-14"}
+      ]
+    }
+  ]
+}
