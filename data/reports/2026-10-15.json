@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate. Filigran lacks a numerical salary floor; AGON lacks explicit attendance and senior/staff requirements; Nango does not establish AI-primary work or explicit France eligibility. Docker and Mendo listings are unavailable. All five entries are exclusions or near-misses, not recommendations.",
+  "coverage": "19 official Ashby boards retrieved and screened from 25 attempted endpoints, supplemented by web discovery. Five leads examined in detail: Filigran, Nango, Docker, Mendo and an AGON careers-page role/application modal. Three application forms rendered; Docker and Mendo application paths were unavailable. This is a bounded search, not an exhaustive market census; board screening is discovery rather than verification of every opening.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; titles alone do not establish scope or level.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Equity is not cash; estimates, packages and upper bounds do not pass.",
+    "No unchanged previously reported selections. Historical qualification and checked dates remain historical, not current-live verification."
+  ],
+  "uncertainty": [
+    "Evidence checked October 15, 2026. Posting dates are recorded employer/ATS dates, not a claim that every lead is newly posted today.",
+    "Six attempted Ashby board aliases returned 404; that does not establish those employers have no vacancies. The configured extraction service was unavailable; official APIs, direct retrieval and browser rendering supplied verification.",
+    "Mendo's WTTJ page returned 403. Its readable official API identified an archived record and linked the employer Teamtailor page, which returned HTTP 410 and explicitly said the offer was unavailable. Discovery snippets did not prove a live opening.",
+    "AGON publishes an annual base range and equity, but does not explicitly label gross compensation, state hybrid attendance or document senior/staff entry requirements in the role summary. Its application modal is reachable, not proof of hiring responsiveness.",
+    "Nango's USD range is retained in its original currency. No EUR comparison was performed because AI-primary duties and explicit France eligibility were not established; no positive pay-gate claim is made.",
+    "Deduplication covers accessible October 10–14 reports, available board snapshots and supplied earlier continuity. Earlier original reports were not accessible in this checkout; complete historical deduplication is not claimed. Unchanged prior selections were not reused.",
+    "No employer advanced to separate product/company diligence. Funding, current financial condition, total employee size and recent material activity are not publicly verified in this run. Listing descriptions are not independent company verification."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No newly qualifying application is recommended. Independent follow-up on any near-miss should first establish qualifying annual gross cash-base terms and all unresolved location, seniority and role-scope gates. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "filigran-ai-native-078b3281-6e64-4c52-82c9-c20a73dcb2fa",
+      "company": "Filigran",
+      "title": "Senior Software Engineer — AI-Native Engineering (XTM Foundation)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/filigran/078b3281-6e64-4c52-82c9-c20a73dcb2fa",
+      "applyUrl": "https://jobs.ashbyhq.com/filigran/078b3281-6e64-4c52-82c9-c20a73dcb2fa/application",
+      "checked": "2026-10-15",
+      "posted": "2026-10-09",
+      "location": "remote",
+      "locationQuote": "Location: France; Germany; Italy; Spain; United Kingdom. Location Type: Remote.",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "Competitive compensation + equity — everyone shares in our success. No numerical annual cash-base range is published in the listing or employer ATS compensation fields.[52][19]"
+      },
+      "reasons": [
+        "No numerical annual gross cash-base floor; equity alone cannot satisfy the compensation gate. This is missing compensation evidence, not a below-minimum published salary.[52][19]",
+        "France remote location, senior engineering level and AI-tool/agent evaluation and workflow construction are documented. Seven-plus years of software engineering and prior team-level AI-assisted development practice are requested.[52]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: XTM Foundation supports OpenCTI, OpenAEV and OpenGRC engineering. Duties include measured AI coding-tool/agent experiments, code-quality guardrails, CI agent workflows for dependency updates, flaky-test triage and review assistance, shared MCP servers and prompt libraries, and team enablement. This is an internal engineering-platform remit, not a guaranteed assignment to a customer-facing AI model. Separate product diligence was not advanced.[52]",
+      "financials": null,
+      "evidence": [
+        {"label": "[52] Official listing: AI engineering duties", "url": "https://jobs.ashbyhq.com/filigran/078b3281-6e64-4c52-82c9-c20a73dcb2fa", "quote": "Run structured experiments to evaluate new AI coding tools and agents (Cursor, GitHub Copilot, Cline, MCP servers, code generation agents…), measure their real impact on velocity and quality, and translate findings into actionable recommendations.", "checked": "2026-10-15"},
+        {"label": "[52] Employer compensation wording", "url": "https://jobs.ashbyhq.com/filigran/078b3281-6e64-4c52-82c9-c20a73dcb2fa", "quote": "Competitive compensation + equity — everyone shares in our success", "checked": "2026-10-15"},
+        {"label": "[19] Official ATS posting/location metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/filigran?includeCompensation=true", "quote": "Metadata summary: requisition 078b3281-6e64-4c52-82c9-c20a73dcb2fa, published October 9, 2026; France and four additional European locations; Remote; no compensation tiers.", "checked": "2026-10-15"},
+        {"label": "[53] Application form", "url": "https://jobs.ashbyhq.com/filigran/078b3281-6e64-4c52-82c9-c20a73dcb2fa/application", "quote": "What are your salary expectations for this role ?", "checked": "2026-10-15"}
+      ]
+    },
+    {
+      "id": "agon-visuotactile-robot-learning",
+      "company": "AGON AI",
+      "title": "Research Scientist — Visuotactile Robot Learning",
+      "status": "near-miss",
+      "listingUrl": "https://www.getagon.io/careers",
+      "applyUrl": "https://www.getagon.io/careers",
+      "checked": "2026-10-15",
+      "posted": "2026-09-26",
+      "location": "hybrid",
+      "locationQuote": "Hybrid · Paris, France (Hybrid)",
+      "salary": {
+        "lower": 85000,
+        "upper": 115000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "€85,000 – €115,000 / year + BSPCE / Equity. The careers page describes its ranges as base salary, but gross compensation is not explicitly stated. No unconditional pay pass is recorded.[37]"
+      },
+      "reasons": [
+        "Paris Hybrid has no explicit office-attendance policy; France-eligible fully remote work is not offered for this particular role.[37]",
+        "The role summary and application modal do not establish senior/staff entry requirements. A Research Scientist title alone is insufficient.[37]",
+        "Annual base range and equity are documented, but gross classification remains unconfirmed. Other hard gates already prevent qualification.[37]",
+        "The role-specific application modal opened through its Apply / Details button and displayed five fields. No distinct permanent requisition URL or ATS identifier was exposed.[37]"
+      ],
+      "gates": {"open": "pass", "location": "unknown", "ai": "pass", "pay": "unknown", "product": "unknown"},
+      "product": "Employer role-summary: foundation policies, action-chunking diffusion architectures identified as ACT, FARM and RDP, and visuotactile representations for contact-rich physical tasks. The application repeats this short summary rather than giving detailed seniority requirements or a narrower assigned project. Separate product diligence was not advanced.[37]",
+      "financials": null,
+      "evidence": [
+        {"label": "[37] Employer role summary", "url": "https://www.getagon.io/careers", "quote": "Develop novel foundation policies, action-chunking diffusion architectures (ACT, FARM, RDP), and visuotactile representations that generalize across contact-rich physical tasks.", "checked": "2026-10-15"},
+        {"label": "[37] Base-pay classification", "url": "https://www.getagon.io/careers", "quote": "Every position — from hourly on-site teleoperators to principal hardware engineers and research scientists — states the exact base salary or hourly range in Euros upfront before you apply.", "checked": "2026-10-15"},
+        {"label": "[37] Role/application metadata", "url": "https://www.getagon.io/careers", "quote": "€85,000 – €115,000 / year + BSPCE / Equity · Hybrid · Paris, France (Hybrid)", "checked": "2026-10-15"}
+      ]
+    },
+    {
+      "id": "nango-fde-87ae18c8-5bef-423e-968e-7ea6ab4f97b8",
+      "company": "Nango",
+      "title": "Forward Deployed Engineer (Founding)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/nango/87ae18c8-5bef-423e-968e-7ea6ab4f97b8",
+      "applyUrl": "https://jobs.ashbyhq.com/nango/87ae18c8-5bef-423e-968e-7ea6ab4f97b8/application",
+      "checked": "2026-10-15",
+      "posted": "2026-10-13",
+      "location": "remote",
+      "locationQuote": "This is a remote role open to candidates based in North America & Europe",
+      "salary": {
+        "lower": 120000,
+        "upper": 200000,
+        "currency": "USD",
+        "annualBase": null,
+        "equity": true,
+        "quote": "Senior: $120K – $200K • 0.05% – 0.15%. ATS identifies annual Salary; gross cash-base classification is not explicit. Original USD retained; no EUR conversion or eligibility claim made.[54][7]"
+      },
+      "reasons": [
+        "AI-primary work is not established: responsibilities are customer integrations, implementation/platform debugging, pairing and general full-stack product improvements. Serving AI applications does not itself establish a primary AI-system engineering assignment.[54]",
+        "Remote North America/Europe does not explicitly establish France applicant/payroll eligibility.[54][55]",
+        "No positive pay decision: gross annual base and a dated EUR comparison were not established after the scope/location rejection.[54][7]"
+      ],
+      "gates": {"open": "pass", "location": "unknown", "ai": "fail", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: API access and product integrations for agents and applications. This hire helps customers from technical evaluation to production, builds integrations, resolves implementation/platform issues and ships full-stack improvements. AI mechanism or named model-building project for this hire is not documented. Separate product diligence was not advanced.[54]",
+      "financials": null,
+      "evidence": [
+        {"label": "[54] Official listing: work and geography", "url": "https://jobs.ashbyhq.com/nango/87ae18c8-5bef-423e-968e-7ea6ab4f97b8", "quote": "This is a full-stack engineering role with heavy customer interaction.", "checked": "2026-10-15"},
+        {"label": "[54] Remote-policy wording", "url": "https://jobs.ashbyhq.com/nango/87ae18c8-5bef-423e-968e-7ea6ab4f97b8", "quote": "This is a remote role open to candidates based in North America & Europe", "checked": "2026-10-15"},
+        {"label": "[7] Official ATS annual salary and posting metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/nango?includeCompensation=true", "quote": "Metadata summary: published October 13, 2026; Senior tier; Salary USD120,000–200,000, interval 1 YEAR; equity 0.05–0.15%. No EUR comparison performed.", "checked": "2026-10-15"},
+        {"label": "[55] Application: location reminder", "url": "https://jobs.ashbyhq.com/nango/87ae18c8-5bef-423e-968e-7ea6ab4f97b8/application", "quote": "Please verify in the role description that it is available in your location.", "checked": "2026-10-15"}
+      ]
+    },
+    {
+      "id": "docker-agents-ebc9eb47-4d48-4e6c-82db-b38c7c31e826",
+      "company": "Docker",
+      "title": "Senior Software Engineer, Docker Agents (discovery title; unavailable listing)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/docker/ebc9eb47-4d48-4e6c-82db-b38c7c31e826",
+      "applyUrl": "https://jobs.ashbyhq.com/docker/ebc9eb47-4d48-4e6c-82db-b38c7c31e826/application",
+      "checked": "2026-10-15",
+      "posted": null,
+      "location": "unknown",
+      "locationQuote": "No current official role-location evidence: listing and application display Job not found.",
+      "salary": {"lower": null, "upper": null, "currency": null, "annualBase": null, "equity": null, "quote": "No current readable official compensation evidence. Old aggregator pay ranges were not substituted for employer verification."},
+      "reasons": [
+        "Official listing and application both render Job not found; no application form is available. HTTP 200 alone did not establish an open role.[44][51]",
+        "The requisition is absent from the retrieved current Docker board. Discovery title retained solely to identify the excluded lead; old salary, duties and location were not verified as current.[5]"
+      ],
+      "gates": {"open": "fail", "location": "unknown", "ai": "unknown", "pay": "unknown", "product": "unknown"},
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {"label": "[44] Official listing unavailable", "url": "https://jobs.ashbyhq.com/docker/ebc9eb47-4d48-4e6c-82db-b38c7c31e826", "quote": "The job you requested was not found.", "checked": "2026-10-15"},
+        {"label": "[51] Official application unavailable", "url": "https://jobs.ashbyhq.com/docker/ebc9eb47-4d48-4e6c-82db-b38c7c31e826/application", "quote": "The job you requested was not found.", "checked": "2026-10-15"},
+        {"label": "[5] Current employer board", "url": "https://api.ashbyhq.com/posting-api/job-board/docker?includeCompensation=true", "quote": "Board-inspection summary: requisition ebc9eb47-4d48-4e6c-82db-b38c7c31e826 absent from the retrieved board. The board does not establish this missing role's current salary or location.", "checked": "2026-10-15"}
+      ]
+    },
+    {
+      "id": "mendo-senior-ai-6979783",
+      "company": "Mendo",
+      "title": "Senior AI Engineer (unavailable)",
+      "status": "rejected",
+      "listingUrl": "https://mendoai-1730204279.teamtailor.com/jobs/6979783-senior-ai-engineer",
+      "applyUrl": "https://mendoai-1730204279.teamtailor.com/jobs/6979783-senior-ai-engineer/applications/new",
+      "checked": "2026-10-15",
+      "posted": "2026-08-29",
+      "location": "hybrid",
+      "locationQuote": "Archived description only: Paris, Châtelet – Hybrid (2 days on-site / 3 days remote). Current employer page says the offer is unavailable.[56][57]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "Conflicting archived wording: €75,000–€90,000 gross annual base + BSPCE, versus €80,000–€95,000 base + BSPCE elsewhere in the same description. No authoritative current lower bound selected; this is not a current open offer.[56]"
+      },
+      "reasons": [
+        "Employer Teamtailor page returns HTTP 410 and says the offer is no longer available. The application endpoint returns 404 without a role application form.[57][58]",
+        "Official WTTJ API marks reference MENDO_7oeRWVL / b5f9d677-2174-490c-abcf-8fe655de3427 archived on September 12, 2026 and links employer requisition 6979783. Search visibility is not proof of an active opening.[56]",
+        "Archived salary floors conflict internally; choosing the higher range would improperly manufacture pay eligibility. Archived attendance/duties do not establish today's live conditions.[56]"
+      ],
+      "gates": {"open": "fail", "location": "unknown", "ai": "unknown", "pay": "unknown", "product": "unknown"},
+      "product": "Archived employer-description summary only: on-device small language models, fine-tuning/RAG, evaluation harnesses and AI adoption/analytics features. The current employer page does not expose an active assignment. No current product/project diligence was advanced.[56][57]",
+      "financials": null,
+      "evidence": [
+        {"label": "[57] Employer role unavailable", "url": "https://mendoai-1730204279.teamtailor.com/jobs/6979783-senior-ai-engineer", "quote": "L'offre n'est plus disponible", "checked": "2026-10-15"},
+        {"label": "[58] Application endpoint unavailable", "url": "https://mendoai-1730204279.teamtailor.com/jobs/6979783-senior-ai-engineer/applications/new", "quote": "La page n'a pas été trouvée", "checked": "2026-10-15"},
+        {"label": "[56] Official API: archival status and identity", "url": "https://api.welcometothejungle.com/api/v1/organizations/mendo-1/jobs/senior-data-scientist-ai-engineer_paris", "quote": "Metadata summary: status archived; archived_at 2026-09-12T00:02:32Z; published_at 2026-08-29T00:01:44Z; reference MENDO_7oeRWVL; wttj_reference b5f9d677-2174-490c-abcf-8fe655de3427; apply URL links Teamtailor requisition 6979783.", "checked": "2026-10-15"},
+        {"label": "[56] Lower archived salary statement", "url": "https://api.welcometothejungle.com/api/v1/organizations/mendo-1/jobs/senior-data-scientist-ai-engineer_paris", "quote": "€75,000–€90,000 gross annual base + BSPCE (equity), depending on level", "checked": "2026-10-15"}
+      ]
+    }
+  ]
+}
