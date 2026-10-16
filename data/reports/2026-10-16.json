@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate. Anthropic's hands-on Paris Forward Deployed Engineer opening does not publish numerical base pay; its Enterprise and Partnerships roles have advisory/pre-sales scope and compensation that is not confirmed cash base. DualEntry's Applied Engineer and Photoroom's Senior Backend Engineer primarily build integrations and pricing, not AI systems. Escape's previously selected research role has no numerical salary floor on the current listing. All six entries are research leads, not recommendations.",
+  "coverage": "16 official Ashby boards retrieved from 20 attempted board aliases, plus Anthropic's official Greenhouse board and web discovery. Six individual roles examined in detail, with six rendered application forms: three Anthropic Paris roles, DualEntry Applied Engineer, Photoroom Senior Backend Engineer and an Escape research-role recheck. Board screening is discovery, not individual verification of every vacancy. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; a technical title or an AI employer does not establish the required work scope.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Equity is not cash; OTE, packages, estimates and upper bounds do not pass.",
+    "No unchanged previously reported selections. Requisition identity takes precedence over refreshed titles, timestamps or URLs; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Evidence checked October 16, 2026. Posting dates come from employer ATS publication metadata, not a claim that these jobs were first discovered or created today.",
+    "Four attempted Ashby aliases returned 404; this does not establish the employers have no vacancies. Anthropic was instead retrieved through its actual Greenhouse board. The extraction service was unavailable; direct official retrieval and browser rendering were used. Web discovery used a fallback search backend.",
+    "Anthropic's Paris pages explicitly publish a location-based hybrid policy with at least 25% office attendance; the board's separate Location Type metadata says On-Site. The published minimum is recorded, not a guarantee of a particular weekly schedule or an upper attendance limit.",
+    "Anthropic's Enterprise and Partnerships pages show annual compensation figures but also an OTE disclaimer for sales roles, without a cash-base breakdown. These figures are not represented as verified annual base pay.",
+    "DualEntry's original USD annual base range is retained without a EUR eligibility comparison. No positive pay decision is made because AI-primary work and explicit France eligibility are unresolved or failed. Photoroom's shorthand 95k to 105k does not specify currency, annual basis or gross base, so those attributes remain unknown.",
+    "Deduplication covers accessible October 10–15 reports, October 14–15 board snapshots and supplied earlier selection history. Original October 3 and 5 reports were not accessible in this checkout; complete historical deduplication is not claimed. Escape, Pigment and DualEntry's prior Senior AI Engineer selection were not recycled.",
+    "No role advanced to separate product/company diligence. Funding, current financial condition, total employee size and recent material activity are not publicly verified in this run. Listing descriptions below are attributed role context, not independent product verification."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No newly qualifying application is recommended. Any follow-up on a near-miss should first establish qualifying annual gross cash-base terms and resolve its other stated gates. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "anthropic-fde-5391021008",
+      "company": "Anthropic",
+      "title": "Forward Deployed Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008#app",
+      "checked": "2026-10-16",
+      "posted": "2026-08-17",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.",
+      "salary": {"lower": null, "upper": null, "currency": null, "annualBase": null, "equity": null, "quote": "No numerical annual gross cash-base range is published in the role page. Generic competitive compensation and optional equity donation matching do not establish a qualifying base floor or an explicit equity grant.[42]"},
+      "reasons": [
+        "Numerical annual gross cash-base lower bound is missing; this is unknown compensation, not a published below-threshold salary.[42]",
+        "Hands-on production Claude applications, MCP servers, sub-agents and agent skills are central duties. The listing requests 8+ years in technical customer-facing work and production LLM experience, with 25–50% customer-site travel.[42]",
+        "Paris and a minimum 25% office policy are explicit, but the board's On-Site label differs from the page's hybrid heading; confirm the actual attendance schedule. The application renders and asks about office attendance and prior enterprise LLM deployments.[42][41]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: build and deploy customer production applications on Claude, ship MCP servers, sub-agents and agent skills, support enterprise deployments and codify repeatable deployment patterns. The specific customer project is unknown. This is hands-on model integration and agent deployment, not a frontier-model-training role. Separate product diligence was not advanced.[42]",
+      "financials": null,
+      "evidence": [
+        {"label": "[42] Official role: hands-on AI delivery", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008", "quote": "Deliver technical artifacts for customers like MCP servers, sub-agents, and agent skills that will be used in production workflows.", "checked": "2026-10-16"},
+        {"label": "[42] Explicit office attendance", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008", "quote": "Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.", "checked": "2026-10-16"},
+        {"label": "[42] Same-page application form", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008#app", "quote": "Have you been embedded onsite with an enterprise customer to build an LLM application that went live in their production environment?", "checked": "2026-10-16"},
+        {"label": "[41] Official ATS publication and location metadata", "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true", "quote": "Metadata summary: requisition 5391021008; first published August 17, 2026; Paris, France; separate Location Type metadata On-Site. The role-page hybrid policy is recorded alongside this discrepancy.", "checked": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "anthropic-enterprise-5390754008",
+      "company": "Anthropic",
+      "title": "Applied AI Engineer, Enterprise",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008#app",
+      "checked": "2026-10-16",
+      "posted": "2026-08-20",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.",
+      "salary": {"lower": 220000, "upper": 235000, "currency": "EUR", "annualBase": null, "equity": null, "quote": "Annual Salary: €220.000 - €235.000 EUR. The same page says the range for sales roles is OTE, including commissions/bonuses and annual base. This pre-sales/advisory role does not provide a separate cash-base floor; the displayed range is not confirmed base.[37]"},
+      "reasons": [
+        "Requested hands-on AI-engineering remit is not established: the role owns technical advisory, proof of value, executive business cases and procurement, while a systems integration partner does the build. AI subject matter alone does not establish the required hands-on assignment.[37]",
+        "The €220,000–235,000 annual compensation range cannot be treated as cash base in light of the sales OTE disclaimer and absent base breakdown. Pay remains unknown, not below threshold.[37]",
+        "The page requests 6+ years of technical experience, pre-sales/value-based selling experience and native or fluent French. Paris minimum office attendance is explicit; the same-page application form is reachable.[37][41]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "fail", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: advise large French enterprises on Claude architecture, agent design, evaluation, security and adoption. Duties emphasize technical wins, executive communication, proof of value and systems-integrator enablement rather than personally owning production implementation. Named customer project unknown; separate product diligence was not advanced.[37]",
+      "financials": null,
+      "evidence": [
+        {"label": "[37] Official role: advisory versus implementation", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008", "quote": "Once they have decided, you set their systems integration partner up to deliver, agreeing the target architecture and what good looks like, and you stay close as the customer's technical advisor on Claude throughout deployment, while the partner does the build.", "checked": "2026-10-16"},
+        {"label": "[37] Compensation limitation", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008", "quote": "For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.", "checked": "2026-10-16"},
+        {"label": "[37] Same-page application", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008#app", "quote": "Do you have experience in a pre-sales or technical advisory role selling into large enterprises, ideally in the French market, including scoping and designing complex solutions?", "checked": "2026-10-16"},
+        {"label": "[41] Official ATS identity and publication date", "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true", "quote": "Metadata summary: requisition 5390754008; first published August 20, 2026; Paris, France; Location Type On-Site. Exact weekly attendance beyond the page's minimum is not established.", "checked": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "anthropic-partnerships-5390787008",
+      "company": "Anthropic",
+      "title": "Applied AI Architect, Partnerships",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008#app",
+      "checked": "2026-10-16",
+      "posted": "2026-08-17",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.",
+      "salary": {"lower": 190000, "upper": 220000, "currency": "EUR", "annualBase": null, "equity": null, "quote": "Annual Salary: €190.000 - €220.000 EUR. The same page identifies sales-role ranges as OTE, including commissions/bonuses and base. No separate annual gross cash-base floor is established.[43]"},
+      "reasons": [
+        "The employer explicitly describes a pre-sales architect role for systems integrators and cloud partners, oriented toward indirect revenue, partner enablement, customer-deal support and events. This is not the requested senior/staff hands-on AI-engineering assignment.[43]",
+        "Annual compensation is published but is not verified cash base because the sales OTE disclaimer applies to the stated pre-sales context and no base breakdown is supplied.[43]",
+        "Five-plus years in technical customer/partner-facing roles are requested. The application is reachable; Paris and minimum 25% office attendance are explicit, with separate ATS On-Site metadata retained as a caveat.[43][41]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "fail", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: Claude partner solution architecture, GenAI reference designs and cloud/system-integrator enablement involving AWS and GCP. A primarily owned model, evaluation system or production-agent project is not specified. Separate product diligence was not advanced.[43]",
+      "financials": null,
+      "evidence": [
+        {"label": "[43] Official role: pre-sales scope", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008", "quote": "As an Applied AI Architect on the Partnerships team at Anthropic, you will be a pre-sales architect focused on cultivating technical relationships with our Global and Regional System Integrators (GSIs/RSIs), and our cloud partners (AWS and GCP).", "checked": "2026-10-16"},
+        {"label": "[43] OTE rather than verified base", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008", "quote": "For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.", "checked": "2026-10-16"},
+        {"label": "[43] Same-page application", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008#app", "quote": "Have you experience working with GSIs or Hyperscaler partners?", "checked": "2026-10-16"},
+        {"label": "[41] Official ATS publication metadata", "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true", "quote": "Metadata summary: requisition 5390787008; first published August 17, 2026; Paris, France; separate Location Type metadata On-Site.", "checked": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "dualentry-applied-f3d95a4c-dc28-4761-a8bc-66ab870d7121",
+      "company": "DualEntry",
+      "title": "Applied Engineer (Remote)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/dualentry/f3d95a4c-dc28-4761-a8bc-66ab870d7121",
+      "applyUrl": "https://jobs.ashbyhq.com/dualentry/f3d95a4c-dc28-4761-a8bc-66ab870d7121/application",
+      "checked": "2026-10-16",
+      "posted": "2026-10-15",
+      "location": "remote",
+      "locationQuote": "Remote (EU, LATAM, Canada). Remote-first team. The application requires working hours overlapping the Eastern Time Zone (NYC); France is not explicitly named.",
+      "salary": {"lower": 150000, "upper": 280000, "currency": "USD", "annualBase": true, "equity": true, "quote": "Base salary: $150,000 - $280,000; Equity: $50,000 - $80,000. Employer ATS identifies USD Salary with interval 1 YEAR. Original currency retained; no EUR comparison or positive pay-gate decision is made after the scope/location exclusions. Equity is not counted as cash.[44][9]"},
+      "reasons": [
+        "Primary duties are Temporal migration/integration pipelines, Postgres accounting-data reconciliation and internal tooling. AI-native ERP branding and access to AI tools do not establish AI-primary engineering responsibilities for this hire.[44]",
+        "Remote EU/LATAM/Canada wording does not explicitly establish France-based applicant/payroll eligibility. The application adds Eastern Time working-hours overlap.[44][45]",
+        "Existing requisition identity f3d95a4c-dc28-4761-a8bc-66ab870d7121 is retained. The October 15 publication timestamp does not by itself prove a new role; this record is distinct from the archived Senior AI Engineer requisition and is not a replacement qualified selection.[9]"
+      ],
+      "gates": {"open": "pass", "location": "unknown", "ai": "fail", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: finance ERP customer delivery, including idempotent/resumable/auditable Temporal workflows, accounting data migration into Postgres, reconciliation and productized internal tooling. Five-plus years shipping full-stack production software are requested. No model-training, agent-development or evaluation assignment is documented; separate product diligence was not advanced.[44]",
+      "financials": null,
+      "evidence": [
+        {"label": "[44] Official role: integration rather than AI-system work", "url": "https://jobs.ashbyhq.com/dualentry/f3d95a4c-dc28-4761-a8bc-66ab870d7121", "quote": "Build migration and integration pipelines on Temporal that are idempotent, resumable, and auditable", "checked": "2026-10-16"},
+        {"label": "[44] Cash-base wording", "url": "https://jobs.ashbyhq.com/dualentry/f3d95a4c-dc28-4761-a8bc-66ab870d7121", "quote": "Base salary: $150,000 - $280,000", "checked": "2026-10-16"},
+        {"label": "[45] Application: timezone requirement", "url": "https://jobs.ashbyhq.com/dualentry/f3d95a4c-dc28-4761-a8bc-66ab870d7121/application", "quote": "This role is remote but requires working hours that overlap with the Eastern Time Zone (NYC). Are you comfortable working these hours?", "checked": "2026-10-16"},
+        {"label": "[9] Official ATS identity, date and annual interval", "url": "https://api.ashbyhq.com/posting-api/job-board/dualentry?includeCompensation=true", "quote": "Current metadata summary: requisition f3d95a4c-dc28-4761-a8bc-66ab870d7121; published October 15, 2026; Applied Engineer (Remote); Remote (EU, LATAM, Canada); USD Salary 150,000–280,000, interval 1 YEAR; equity is a separate component. A refreshed timestamp does not prove a new requisition.", "checked": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "photoroom-backend-c95a2585-fd0b-4d52-8b5e-b08acf53ce02",
+      "company": "Photoroom",
+      "title": "Senior Backend Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02",
+      "applyUrl": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02/application",
+      "checked": "2026-10-16",
+      "posted": "2026-09-28",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris (hybrid). Application: If you are based in or around (Ile-de-France) Paris, are you willing to work from the Paris office at least a few days per week?" ,
+      "salary": {"lower": 95000, "upper": 105000, "currency": null, "annualBase": null, "equity": true, "quote": "Compensation: 95k to 105k + Stock-Options/BSPCE. The shorthand does not explicitly establish currency, annual basis or gross cash-base classification; these are not inferred from the Paris address. ATS compensation tiers are empty.[46][5]"},
+      "reasons": [
+        "The role owns pricing architecture, subscription management and backend endpoint performance. Working at an AI imaging company does not make those responsibilities AI-central.[46]",
+        "Paris hybrid is stated and the application explicitly asks for Paris-office attendance at least a few days per week; geography passes on the combined role and application evidence.[46][47]",
+        "95k to 105k plus stock options/BSPCE is published, but currency, annual basis and gross cash-base classification are unconfirmed. A superficially attractive numerical range is not enough for a pay pass.[46][5]",
+        "The listing requests 5+ years in Django/Django REST Framework, relational databases at scale and SaaS subscription systems. Its application form renders.[46][47]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "fail", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: own the pricing system across iOS, Android, web and API products; build backend features, optimize endpoints, monitor releases with Datadog and work with subscription providers such as Stripe/RevenueCat. A model, agent or evaluation project is not assigned to this role. Separate product diligence was not advanced.[46]",
+      "financials": null,
+      "evidence": [
+        {"label": "[46] Official role: pricing-system ownership", "url": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02", "quote": "We're looking for a Senior backend engineer to own the pricing system for all apps at Photoroom.", "checked": "2026-10-16"},
+        {"label": "[46] Unconfirmed base-pay attributes", "url": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02", "quote": "Compensation: 95k to 105k + Stock-Options/BSPCE", "checked": "2026-10-16"},
+        {"label": "[46] Location wording", "url": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02", "quote": "Office in Paris (Hybrid, from the 9th)", "checked": "2026-10-16"},
+        {"label": "[47] Application: explicit office attendance", "url": "https://jobs.ashbyhq.com/photoroom/c95a2585-fd0b-4d52-8b5e-b08acf53ce02/application", "quote": "If you are based in or around (Ile-de-France) Paris, are you willing to work from the Paris office at least a few days per week?", "checked": "2026-10-16"},
+        {"label": "[5] Official ATS publication and compensation metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/photoroom?includeCompensation=true", "quote": "Metadata summary: requisition c95a2585-fd0b-4d52-8b5e-b08acf53ce02; published September 28, 2026; Paris; no structured compensation tiers.", "checked": "2026-10-16"}
+      ]
+    },
+    {
+      "id": "escape-research-2384716d-587f-4ff2-a7e9-dd8557e49920",
+      "company": "Escape",
+      "title": "Senior Research Engineer | Cybersecurity AI AppSec",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/Escape/2384716d-587f-4ff2-a7e9-dd8557e49920",
+      "applyUrl": "https://jobs.ashbyhq.com/Escape/2384716d-587f-4ff2-a7e9-dd8557e49920/application",
+      "checked": "2026-10-16",
+      "posted": "2026-09-17",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris (75002) | Hybrid (2 days remote/week)",
+      "salary": {"lower": null, "upper": null, "currency": null, "annualBase": null, "equity": true, "quote": "Significant equity (Stock Options/BSPCE) is offered, but the current role page has no numerical annual cash-base range and current ATS compensation tiers are empty. An older selection is not evidence of today's pay floor.[48][8]"},
+      "reasons": [
+        "Current annual gross cash-base floor is unknown: the opened listing has no numerical salary range and the current official ATS record has empty compensation tiers. Explicit equity does not replace a cash floor.[48][8]",
+        "This exact requisition was previously selected on October 3 and October 5 according to supplied selection history. It is a recheck, not a newly discovered recommendation; older qualification is not reused.",
+        "The current listing documents senior hands-on agentic scanning, LLM-driven security testing and production detection logic, with Paris hybrid attendance. Its application form is reachable.[48][49]"
+      ],
+      "gates": {"open": "pass", "location": "pass", "ai": "pass", "pay": "unknown", "product": "unknown"},
+      "product": "Employer-listing summary: agentic application scanning, vulnerability detection, LLM/structured-reasoning workflows and distributed orchestration of concurrent scans. Python, Go, Kubernetes/EKS, Playwright, Kafka and observability tools are named; 4+ years in backend engineering, security research or applied R&D are requested. Named internal project unknown. Separate product diligence was not advanced.[48]",
+      "financials": null,
+      "evidence": [
+        {"label": "[48] Official role: attendance and AI work", "url": "https://jobs.ashbyhq.com/Escape/2384716d-587f-4ff2-a7e9-dd8557e49920", "quote": "Location: Paris (75002) | Hybrid (2 days remote/week)", "checked": "2026-10-16"},
+        {"label": "[48] AI-driven testing duty", "url": "https://jobs.ashbyhq.com/Escape/2384716d-587f-4ff2-a7e9-dd8557e49920", "quote": "AI-driven testing: Integrate LLMs and structured reasoning into scanning workflows to improve coverage and reduce false positives.", "checked": "2026-10-16"},
+        {"label": "[8] Current official ATS compensation metadata", "url": "https://api.ashbyhq.com/posting-api/job-board/Escape?includeCompensation=true", "quote": "Current metadata summary: requisition 2384716d-587f-4ff2-a7e9-dd8557e49920; published September 17, 2026; Paris Office, Hybrid; compensationTierSummary null and compensationTiers empty. No current numerical salary floor is established.", "checked": "2026-10-16"},
+        {"label": "[49] Reachable role application", "url": "https://jobs.ashbyhq.com/Escape/2384716d-587f-4ff2-a7e9-dd8557e49920/application", "quote": "Thanks for your interest in joining Escape! Please fill out the fields below to complete your application.", "checked": "2026-10-16"}
+      ]
+    }
+  ]
+}
