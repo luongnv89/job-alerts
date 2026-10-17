@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-17",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate. Hugging Face Voice Agents and Dust AI Support offer equity but no numerical cash-base floor. Cohere Training Infra publishes only North American pay tiers. n8n Agentic Engineering does not establish France eligibility or a French pay tier; Qonto Android has unresolved AI-primary scope and compensation. Thunderbird is excluded on geography. Five near-misses and one exclusion are research leads, not recommendations.",
+  "coverage": "Fourteen official employer boards retrieved from fifteen attempted aliases: Dust, Qonto, n8n, Hugging Face, Grafana Labs, Elastic, Mozilla, poolside, Modal, LangChain, Cohere, Photoroom, Exa and Lovable. Six roles and six rendered application forms examined in detail and exported below; additional board/discovery leads are not individually verified recommendations. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 17, 2026. Posting dates use employer publication metadata, not claims of newly created or newly discovered vacancies.",
+    "Fourteen retrieved boards are discovery coverage, not fourteen verified listings. The attempted mistral Ashby alias returned 404; this does not establish no Mistral vacancies. Web extraction was unavailable; direct official retrieval and browser rendering were used.",
+    "Deduplication covers accessible October 10–16 reports and supplied October 3/5 Escape selection history. Original October 3/5 reports were not accessible in this checkout; complete earlier-history novelty is not claimed. Prior Pigment, DualEntry and Escape picks were not recycled.",
+    "Unpublished or France-inapplicable pay is marked unknown, not below threshold. No foreign-currency threshold conversion was made because no foreign pay band was established as a French offer.",
+    "Dust has an On-site header, occasional home-working in its description and a four-office-day application question. The stricter application expectation is retained; no flexible schedule is inferred.",
+    "Qonto’s remote option is an application preference subject to discussion. n8n lacks explicit France role eligibility and named senior/staff grade; Cohere likewise does not name its exact grade. None is ranked.",
+    "No role advanced to separate company/product diligence. Funding, financial condition, employee size and recent material activity are not publicly verified in this run; listing-derived context is not independent product verification."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No newly qualifying application is recommended. Any near-miss requires its stated missing pay, France eligibility, level or work-scope evidence before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "hugging-face-9e2a4c02c7",
+      "company": "Hugging Face",
+      "title": "Senior Machine Learning Engineer, Voice Agents - EMEA Remote",
+      "status": "near-miss",
+      "listingUrl": "https://apply.workable.com/huggingface/j/9E2A4C02C7/",
+      "applyUrl": "https://apply.workable.com/huggingface/j/9E2A4C02C7/apply/",
+      "checked": "2026-10-17",
+      "posted": "2026-09-02",
+      "location": "remote",
+      "locationQuote": "Official ATS metadata: remote true; workplace remote; Paris, France; countryCode FR. France eligibility is explicit rather than inferred from EMEA.",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No numerical cash-base floor is published. All employees have company equity as part of their compensation package.[20]"
+      },
+      "reasons": [
+        "Annual gross cash-base lower bound is unknown, not published below threshold. Equity alone cannot satisfy the cash requirement.[20]",
+        "Senior ownership of open voice-agent infrastructure and production multimodal systems is explicit; the rendered form asks about Voice/ASR/TTS experience.[22][21]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: architectural ownership of speech-to-speech and hf-voice, integrating ASR/TTS/end-to-end speech models; realtime GPU inference, WebSockets/WebRTC, latency budgets, autoscaling, SLOs and graceful degradation. Separate product diligence not advanced.[22]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[22] Official individual role and France metadata",
+          "url": "https://apply.workable.com/api/v2/accounts/huggingface/jobs/9E2A4C02C7",
+          "quote": "Build the serving side: realtime inference on GPU, concurrency, autoscaling, observability, and cost per session.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[20] Equity, not a cash floor",
+          "url": "https://apply.workable.com/huggingface/j/9E2A4C02C7/",
+          "quote": "All employees have company equity as part of their compensation package.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[21] Rendered application",
+          "url": "https://apply.workable.com/huggingface/j/9E2A4C02C7/apply/",
+          "quote": "Do you have hands-on experience in Voice/ASR/TTS ?",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "dust-31640a53-7c85-416b-9c95-610445a55e81",
+      "company": "Dust",
+      "title": "Senior AI Support Engineer (Paris)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+      "applyUrl": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81/application",
+      "checked": "2026-10-17",
+      "posted": "2026-01-23",
+      "location": "hybrid",
+      "locationQuote": "Paris. Role header: On-site. Office-first description allows occasional home-working; application asks: Are you happy 4 days office based?",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "Competitive compensation; Significant equity package in a Sequoia-backed startup. No numerical cash-base floor published.[26]"
+      },
+      "reasons": [
+        "No numerical annual gross cash-base floor is established; competitive compensation and equity do not pass the pay gate.[26]",
+        "A senior individual contributor role that builds support agents, retrieval, escalation and measurement systems; it also includes front-line complex support work.[26]",
+        "Four office days are explicitly asked in the application. Occasional home-working in the description does not imply a more flexible schedule.[27]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: build ticket-classification, drafting, routing, incident-detection and knowledge-retrieval agents; debug model responses and close feedback loops. Named workstream is support automation, not frontier-model training. Separate product diligence not advanced.[26]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[26] Seniority",
+          "url": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+          "quote": "This is a senior individual contributor role",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[26] AI-system ownership",
+          "url": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+          "quote": "You will design, build, and continuously improve the AI-powered systems that help Dust support customers with speed and quality.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[26] Equity without numerical base",
+          "url": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+          "quote": "Significant equity package in a Sequoia-backed startup",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[27] Rendered application attendance",
+          "url": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81/application",
+          "quote": "Are you happy 4 days office based?",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "n8n-1af7a193-334d-4d5c-b45d-250122d9c3f1",
+      "company": "n8n",
+      "title": "Agentic Engineering Platform Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1",
+      "applyUrl": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1/application",
+      "checked": "2026-10-17",
+      "posted": "2026-09-24",
+      "location": "remote",
+      "locationQuote": "Remote-first Europe; role location list includes Berlin and other named European countries but does not name France. France eligibility remains unestablished.",
+      "salary": {
+        "lower": 114300,
+        "upper": 149300,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "Western Europe / Northern Europe: €114.3K – €149.3K • Offers Equity. ATS Salary interval: 1 YEAR. Regional tier shown for transparency, not a verified French offer; gross cash-base classification for France remains unconfirmed.[28][13]"
+      },
+      "reasons": [
+        "France is absent from the role-specific location list and structured secondary locations. Europe-wide branding and a general country selector do not establish France eligibility.[28][13]",
+        "Do not transfer the Western/Northern Europe salary tier to a French offer. The application defines expected compensation as gross yearly base, but this is an applicant-expectation prompt, not a French salary commitment.[29]",
+        "AI-primary platform duties are explicit. Senior/staff grade is not named; first-of-kind technical leadership is expected, but exact level remains unknown.[28]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: isolated agent execution, permissions/secrets guardrails, issue-to-draft-PR workflows, repository playbooks, CI integration and benchmarks for code-agent quality, failures and reviewer burden. Separate product diligence not advanced.[28]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[28] Hands-on agent safety",
+          "url": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1",
+          "quote": "Design and implement isolated execution environments where agents can work without exposing secrets or accessing sensitive systems unnecessarily.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[28] Regional salary tier; France applicability unknown",
+          "url": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1",
+          "quote": "€114.3K – €149.3K • Offers Equity",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[29] Rendered application: expectation, not an offer",
+          "url": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1/application",
+          "quote": "We're assuming this answer to be the gross yearly base salary for a full time permanent contract. If your role includes a variable, please detail.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[13] Official ATS identity/location/pay metadata",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/n8n?includeCompensation=true",
+          "quote": "Metadata summary: published September 24, 2026; Remote; no France secondary location; Western/Northern Europe Salary 114300–149300 EUR, interval 1 YEAR.",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "qonto-f0e01524-39cd-4353-b26e-a7044f95dcdf",
+      "company": "Qonto",
+      "title": "Senior Android Engineer - AI Product",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf",
+      "applyUrl": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf/application",
+      "checked": "2026-10-17",
+      "posted": "2026-10-12",
+      "location": "remote",
+      "locationQuote": "France is explicitly among permitted countries. The application offers a France-based 100% remote preference, qualified by: we will discuss it during the hiring process. Final arrangement is not established.",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No numerical annual gross cash-base floor or explicit equity grant found in the examined role/application.[30]"
+      },
+      "reasons": [
+        "Pay is unpublished, not demonstrated insufficient.[30]",
+        "AI-primary system-building remains unresolved: remit emphasizes Kotlin Android user experiences for AI agents, while the listing describes AI engineering as a future growth path.[30]",
+        "The form explicitly includes France-based remote applicants, but asks an ideal arrangement to discuss during hiring; unconditional full-remote terms are not verified.[31]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: Android UI/product delivery for finance-agent experiences, reliable Kotlin architecture and mobile parity with web. No individually assigned model-training or agent-evaluation system is established. Separate product diligence not advanced.[30]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[30] AI-scope limitation",
+          "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf",
+          "quote": "A clear growth path: This role is designed to evolve toward AI engineering",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[30] Android product remit",
+          "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf",
+          "quote": "Ship features, fast & well: Deliver Android features for our AI agents from scoping to release, balancing speed with reliability and minimal technical debt.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[31] Rendered application: France option",
+          "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf/application",
+          "quote": "I’m looking for a 100% remote position & I am based in France, Germany, Spain, Italy or Serbia",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[31] Arrangement remains conditional",
+          "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf/application",
+          "quote": "What working arrangement are you ideally looking for? (we will discuss it during the hiring process)",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "thunderbird-8174313",
+      "company": "Thunderbird",
+      "title": "Staff Product Engineer, Enterprise AI",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/mozilla/jobs/8174313",
+      "applyUrl": "https://job-boards.greenhouse.io/mozilla/jobs/8174313#app",
+      "checked": "2026-10-17",
+      "posted": "2026-09-02",
+      "location": "remote",
+      "locationQuote": "Remote; employer publishes only Canada and US pay markets and requires residence and permanent work authorization in the specified markets. France is not established; European customer hours are not hiring eligibility.",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "Canada: $155,000 - $185,000 CAD; US: $185,000 - $220,000 USD. No France salary published. Foreign market ranges are not stored as French pay or converted.[32]"
+      },
+      "reasons": [
+        "France-based eligibility is not established. The employer explicitly cannot consider applicants outside its specified markets; regular European-hour overlap is not authorization to work from France.[32]",
+        "Staff hands-on production engineering is explicit, including LLM platforms, RAG, agents and enterprise deployment. Actual employer is Thunderbird Technologies Corporation, separate from Mozilla Corporation/Foundation.[32]",
+        "Pay for a French contract is unknown, not a below-threshold offer. No currency conversion is appropriate for a geographically inapplicable band.[32]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: build full-stack Thunderbolt features, integrations and customer-controlled enterprise AI deployments; generalize customizations, debug identity/data access and write runbooks. Separate product diligence not advanced.[32]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[32] Country exclusion",
+          "url": "https://job-boards.greenhouse.io/mozilla/jobs/8174313",
+          "quote": "We are unable to consider applicants outside of these markets at this time.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[32] Not French compensation",
+          "url": "https://job-boards.greenhouse.io/mozilla/jobs/8174313",
+          "quote": "Canada: $155,000 - $185,000 CAD",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[32] Not French compensation",
+          "url": "https://job-boards.greenhouse.io/mozilla/jobs/8174313",
+          "quote": "US: $185,000 - $220,000 USD",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[32] Rendered same-page application",
+          "url": "https://job-boards.greenhouse.io/mozilla/jobs/8174313#app",
+          "quote": "What interests you about this role and the opportunity to work on Thunderbolt at Thunderbird?",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "cohere-training-infra-a13207e7-dc82-473f-8ca4-e832452fe8c3",
+      "company": "Cohere",
+      "title": "Member of Technical Staff, Training Infra Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3",
+      "applyUrl": "https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3/application",
+      "checked": "2026-10-17",
+      "posted": "2025-02-20",
+      "location": "remote",
+      "locationQuote": "Paris is an explicit role location. This role can be based remotely or from one of our office locations listed on the job description - there is no minimum in-office qualification requirement.",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "Numerical annual base tiers are published only for Canada and the USA, with equity. No French numerical base floor or France equity applicability is established; regional tiers are not transferred.[12][8]"
+      },
+      "reasons": [
+        "France remote eligibility is explicit through Paris plus no minimum office attendance. The application form renders.[12][45]",
+        "France-specific annual gross cash-base floor is unpublished; CAD/USD North American tiers cannot pass a French pay gate.[12][8]",
+        "Hands-on training infrastructure and large-model distributed training are central. Exact senior/staff grade is not named and remains unresolved.[12]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-listing summary: high-performance training software, training-cycle tooling, supercompute/data infrastructure and production model delivery. Python, JAX/PyTorch, XLA/MLIR, Kubernetes/Slurm and Ray are named; large-scale training experience is required. Named internal project unknown; separate product diligence not advanced.[12]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[12] Explicit remote attendance policy",
+          "url": "https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3",
+          "quote": "This role can be based remotely or from one of our office locations listed on the job description - there is no minimum in-office qualification requirement.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[12] Required training experience",
+          "url": "https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3",
+          "quote": "Hands on experience on training large model at scale and having contributed to the tooling and/or setup of the training infrastructure",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[8] Regional-pay limitation",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true",
+          "quote": "Metadata summary: Paris primary location; Remote; annual base salary tiers are Canada and USA only. No France tier is provided.",
+          "checked": "2026-10-17"
+        },
+        {
+          "label": "[45] Rendered application",
+          "url": "https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3/application",
+          "quote": "Are you authorized to work in the country you currently reside in?",
+          "checked": "2026-10-17"
+        }
+      ]
+    }
+  ]
+}
