@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-18",
+  "requestedCount": 3,
+  "summary": "One of three requested roles cleared every hard gate. OpenAI Deployment Company’s Forward Deployed Engineer - EU (Paris, hybrid) publishes a €115,000–200,000 annual salary range with equity, for a senior hands-on role building agentic LLM systems for enterprises. Sierra pays above the threshold but does not name a seniority level. Two new Doctolib AI-platform roles and Pennylane’s Embedded AI role do not publish pay. Escape’s full-stack role publishes a base floor below the equity-path minimum. Near-misses and the rejection are research leads, not recommendations.",
+  "coverage": "Two automated official-ATS sweeps on October 18. In the first, 96 of 170 attempted Ashby, Lever and Greenhouse board aliases returned data. In the second, 35 of 64 Ashby aliases returned data; the two sweeps overlap. Many failed aliases are likely wrong board names, not evidence of no vacancies. Web search was used for discovery. Six roles were examined individually and six application forms rendered. Board screening is discovery, not verification of every vacancy. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 18, 2026. Posting dates come from employer ATS metadata. The DeployCo role was posted July 6, 2026; it is new to this site’s history, not newly created.",
+    "DeployCo’s Paris location and Hybrid type are explicit, but the listing gives no office-day count or customer-travel share. Its pay band spans levels L3–L5, and the listing allows ranges to change during interviews; the published floor itself passes.",
+    "Salary figures come from Ashby compensation fields typed as annual Salary, separate from equity. They are not offer letters. No currency conversion was needed.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Doctolib’s ATS employment-type label reads Contract on both roles; the contract type was not resolved.",
+    "Deduplication covered the accessible October 10–17 reports and the supplied October 3/5 Escape selection history. None of today’s requisition IDs appear in those reports, and the earlier Escape, Pigment and DualEntry picks were not recycled. Full history before October 10 was not available in this checkout.",
+    "DeployCo company facts come from a founding partner’s republished announcement and the official DeployCo site; OpenAI’s own announcement page blocked automated retrieval. Completion of the Tomoro acquisition, current headcount, revenue and runway were not publicly verified.",
+    "Automated web extraction was unavailable. Direct official ATS API retrieval and browser rendering were used instead."
+  ],
+  "decision": "No approval needed for this authorized daily website update. One role qualified on the published evidence: confirm DeployCo’s office cadence, travel share and level mapping before applying, and note its limit of three applications per 180 days. Near-misses need their missing pay or level evidence before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "openai-deployment-company-ac3b7c6f",
+      "company": "OpenAI Deployment Company",
+      "title": "Forward Deployed Engineer - EU",
+      "status": "qualified",
+      "listingUrl": "https://jobs.ashbyhq.com/openai-deployment-company/ac3b7c6f-073b-4660-836c-ca6cca5a2e17",
+      "applyUrl": "https://jobs.ashbyhq.com/openai-deployment-company/ac3b7c6f-073b-4660-836c-ca6cca5a2e17/application",
+      "checked": "2026-10-18",
+      "posted": "2026-07-06",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris, France. Location Type: Hybrid. “This role is based in the France, with hybrid work and customer travel shaped by deployment needs.” No weekly office-day count is published.[1]",
+      "salary": {
+        "lower": 115000,
+        "upper": 200000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "L3-L5: €115K – €200K • Offers Equity. Official ATS data lists €115,000–200,000 as a one-year Salary component, separate from equity; the employer says ranges may change during the interview process.[1]"
+      },
+      "reasons": [
+        "Pay passes: the published annual salary floor of €115,000 is strictly above €100,000, and equity is explicit. Equity was not counted as cash.[1]",
+        "Location passes on employer evidence: Paris, France with an explicit Hybrid location type. The office-day cadence and customer-travel share are not stated, so check them before applying.[1]",
+        "Seniority and AI centrality pass: the employer seeks a Senior Applied AI Software Engineer to build agentic LLM applications and own evaluation and production readiness.[1]",
+        "The application form rendered on the check date. It asks about work authorization in the job country and states a limit of three applications per 180 days.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Product: DeployCo is OpenAI’s enterprise deployment arm. Forward Deployed Engineers work directly with customers to put AI systems into production, then turn repeatable patterns into product capabilities such as the Agent SDK and model benchmarking and reliability tools.[4] Users and problem: large enterprises that need to move from AI experiments to reliable production workflows. One customer example on the official site is BBVA, which is scaling to 120,000 employees across 25 countries.[4] Duties: lead engineering workstreams for customer deployments, owning architecture, implementation quality, evaluation strategy and production readiness for LLM-powered systems. Prototypes become reusable reference architectures.[1] AI mechanism: agents, retrieval, orchestration, evaluation and monitoring built on closed and open-source foundation models, including OpenAI models and APIs.[1] Named project: unknown, because the work depends on the customer. Interestingness: Medium-High. The concrete engineering problems are production agent reliability, evaluation design and generalising customer work into reusable components. The caveat is that this is consulting-style delivery with customer travel.",
+      "financials": "Investment: announced May 11, 2026 with more than $4 billion of initial investment from a 19-partner group led by TPG, with Advent, Bain Capital and Brookfield as co-leads.[3][5] Ownership: majority-owned and controlled by OpenAI.[3] Size: the announced Tomoro acquisition was to bring about 150 Forward Deployed Engineers and Deployment Specialists from day one. The official announcement made it subject to closing conditions; completion and current headcount were not verified from an official source in this run.[3] Disclosed financial condition, revenue, profitability and runway: not publicly verified. Funding commitments do not establish profitability.",
+      "evidence": [
+        {
+          "label": "[1] Official listing: location, level, pay and duties",
+          "url": "https://jobs.ashbyhq.com/openai-deployment-company/ac3b7c6f-073b-4660-836c-ca6cca5a2e17",
+          "quote": "This role is based in the France, with hybrid work and customer travel shaped by deployment needs. We are seeking a Senior Applied AI Software Engineer to lead the design, build, and deployment of enterprise AI systems. L3-L5 €115K – €200K • Offers Equity.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[2] Rendered application",
+          "url": "https://jobs.ashbyhq.com/openai-deployment-company/ac3b7c6f-073b-4660-836c-ca6cca5a2e17/application",
+          "quote": "Candidates may not apply more than 3 times in any 180 day span. Are you authorized to work in the country where the job is located?",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[3] Founding-partner announcement: investment, ownership, Tomoro",
+          "url": "https://www.adventinternational.com/news/openai-launches-the-openai-deployment-company-to-help-businesses-build-around-intelligence/",
+          "quote": "It will launch with more than $4 billion of initial investment. DeployCo is majority-owned and controlled by OpenAI. The acquisition will bring approximately 150 experienced Forward Deployed Engineers and Deployment Specialists to DeployCo from day one.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[4] Official DeployCo site: product and FDE model",
+          "url": "https://deploy.co/en-US",
+          "quote": "Forward deployed engineering (FDE) is how OpenAI brings AI into production for complex, real-world use cases.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[5] Founding-partner corroboration (BBVA)",
+          "url": "https://www.bbva.com/en/innovation/bbva-joins-deployco-openais-new-company-to-accelerate-ai-enterprise-transformation/",
+          "quote": "With a total investment of more than $4 billion",
+          "checked": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "sierra-b89816c1",
+      "company": "Sierra",
+      "title": "Software Engineer, Agent",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/sierra/b89816c1-80b2-449b-b69e-2c261b8e9e23",
+      "applyUrl": "https://jobs.ashbyhq.com/sierra/b89816c1-80b2-449b-b69e-2c261b8e9e23/application",
+      "checked": "2026-10-18",
+      "posted": "2025-12-05",
+      "location": "hybrid",
+      "locationQuote": "Paris; ATS location type On-site. The application asks: “We are primarily an in-person company (Monday-Thursday). Does that work for you?”[7]",
+      "salary": {
+        "lower": 125000,
+        "upper": 265000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "€125K – €265K • Offers Equity. Official ATS data lists a one-year Salary component plus an equity component.[6]"
+      },
+      "reasons": [
+        "The level is not named. The listing title and requirements do not state senior or staff, so the seniority gate is unverified even though the salary floor exceeds the threshold.[6]",
+        "Paris attendance is explicit: the application asks for Monday–Thursday in-person work. The role has been open since December 2025.[7]",
+        "Building and evolving production customer-facing AI agents is central to the role. Separate company and product diligence was not advanced because the role is not ranked.[6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": "Listing summary: design and deliver production-grade AI agents for enterprise customers in finance, healthcare and commerce, and own the Agent Development Life Cycle from pilot to iteration. Separate product diligence was not advanced.[6]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official listing: duties and pay",
+          "url": "https://jobs.ashbyhq.com/sierra/b89816c1-80b2-449b-b69e-2c261b8e9e23",
+          "quote": "You'll build and ship highly performant, reliable, and intuitive AI agents. €125K – €265K • Offers Equity.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[7] Rendered application: attendance",
+          "url": "https://jobs.ashbyhq.com/sierra/b89816c1-80b2-449b-b69e-2c261b8e9e23/application",
+          "quote": "We are primarily an in-person company (Monday-Thursday). Does that work for you?",
+          "checked": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-8d12d023",
+      "company": "Doctolib",
+      "title": "Senior Agents Platform Engineer (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/8d12d023-e52d-4c0b-824e-eeb8d2bf4a47",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/8d12d023-e52d-4c0b-824e-eeb8d2bf4a47/application",
+      "checked": "2026-10-18",
+      "posted": "2026-10-16",
+      "location": "hybrid",
+      "locationQuote": "Paris; Hybrid. “Hybrid work setup (up to 2 remote days per week)”.[8]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No numerical salary or equity terms are published on the listing.[8]"
+      },
+      "reasons": [
+        "The annual gross cash-base floor is unknown, not below threshold: no pay band is published.[8]",
+        "AI-central senior platform work: an agent manifest and registry, a LiteLLM-based GenAI gateway, long-running agent infrastructure, guardrails, and the evaluation and audit layer for healthcare agents.[8]",
+        "The application form rendered. The ATS employment-type label reads Contract while the listing describes French employee benefits; confirm the contract type.[13]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: a shared agent runtime, a unified GenAI gateway serving several hundred million requests per month, and observability and offline evaluation (LLM-as-judge, patient and practitioner simulators) for Consultation Assistant, Phone Assistant and Health Companion. Separate product diligence was not advanced.[8]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[8] Official listing",
+          "url": "https://jobs.ashbyhq.com/doctolib/8d12d023-e52d-4c0b-824e-eeb8d2bf4a47",
+          "quote": "Own the GenAI gateway end to end (built on LiteLLM). Hybrid work setup (up to 2 remote days per week).",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[13] Rendered application",
+          "url": "https://jobs.ashbyhq.com/doctolib/8d12d023-e52d-4c0b-824e-eeb8d2bf4a47/application",
+          "quote": "Please tell us if you have been a Public Official or a Close Family Member of a Public Official in the last 5 years?",
+          "checked": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-394db854",
+      "company": "Doctolib",
+      "title": "Senior IA Inference Engineer (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/394db854-2131-4a7e-8d3d-103af9975305",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/394db854-2131-4a7e-8d3d-103af9975305/application",
+      "checked": "2026-10-18",
+      "posted": "2026-10-16",
+      "location": "hybrid",
+      "locationQuote": "Paris; Hybrid. “Hybrid work setup (up to 2 remote days per week)”.[9]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No numerical salary or equity terms are published on the listing.[9]"
+      },
+      "reasons": [
+        "The annual gross cash-base floor is unknown, not below threshold: no pay band is published.[9]",
+        "AI-central senior work: own the self-hosted LLM serving platform for open-weight models, and tune vLLM, Triton and TensorRT-LLM for latency and cost across an L4-to-H200 GPU fleet.[9]",
+        "The application form rendered. The ATS employment-type label reads Contract; confirm the contract type.[14]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: shared LLM serving foundations on Ray Serve / Anyscale, a model registry and promotion path, inference optimisation, SLOs and cost reporting that keep sensitive patient data on infrastructure Doctolib controls. Separate product diligence was not advanced.[9]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[9] Official listing",
+          "url": "https://jobs.ashbyhq.com/doctolib/394db854-2131-4a7e-8d3d-103af9975305",
+          "quote": "Optimize inference performance and efficiency. Hybrid work setup (up to 2 remote days per week).",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[14] Rendered application",
+          "url": "https://jobs.ashbyhq.com/doctolib/394db854-2131-4a7e-8d3d-103af9975305/application",
+          "quote": "Please tell us if you have been a Public Official or a Close Family Member of a Public Official in the last 5 years?",
+          "checked": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "pennylane-57614043",
+      "company": "Pennylane",
+      "title": "Senior Machine Learning Engineer - Embedded AI",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/pennylane/57614043-7914-40b1-94a2-ed5203c4c0d4",
+      "applyUrl": "https://jobs.ashbyhq.com/pennylane/57614043-7914-40b1-94a2-ed5203c4c0d4/application",
+      "checked": "2026-10-18",
+      "posted": "2026-09-09",
+      "location": "remote",
+      "locationQuote": "All France (remote); Germany (remote); Italy; Portugal (remote); Spain; Spain (remote). Remote location type.[11]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No numerical salary or equity terms are published; the application asks for salary expectations.[11]"
+      },
+      "reasons": [
+        "The annual gross cash-base floor is unknown, not below threshold.[11]",
+        "Explicit France-remote eligibility. Senior ML engineering for document understanding, extraction, matching and scoring behind Copilot and Autopilot; 5–8 years of experience requested.[10]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: specialised ML systems behind Copilot and Autopilot (invoice parsing, document classification, accounting suggestions, matching and scoring), owned across the full lifecycle. Separate product diligence was not advanced.[10]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[10] Official listing",
+          "url": "https://jobs.ashbyhq.com/pennylane/57614043-7914-40b1-94a2-ed5203c4c0d4",
+          "quote": "We build the specialized machine learning systems behind Copilot and Autopilot. Have 5–8 years of experience and are very strong in Python.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[11] Rendered application and locations",
+          "url": "https://jobs.ashbyhq.com/pennylane/57614043-7914-40b1-94a2-ed5203c4c0d4/application",
+          "quote": "All France (remote). What are your salary expectations ?",
+          "checked": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "escape-32e02dde",
+      "company": "Escape",
+      "title": "Senior Full Stack Engineer | AI & Security",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/escape/32e02dde-b428-4ed5-8a50-51e98fca5ddc",
+      "applyUrl": "https://jobs.ashbyhq.com/escape/32e02dde-b428-4ed5-8a50-51e98fca5ddc/application",
+      "checked": "2026-10-18",
+      "posted": "2026-10-01",
+      "location": "hybrid",
+      "locationQuote": "Paris Office; Hybrid. “Location: Paris (75002), 2 days remote per week”.[12]",
+      "salary": {
+        "lower": 75000,
+        "upper": 90000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Compensation: €75–90k base + 0.05% BSPCE depending on seniority and scope”.[12]"
+      },
+      "reasons": [
+        "Pay fails: the published base floor is €75,000. Equity is explicit, but the floor is below the €80,000 equity-path minimum.[12]",
+        "AI-central assignment is unverified: the employer describes PostgreSQL performance, data modelling and full-stack product work as most of the job, with AI-native workflow surfaces as one part. This is a different requisition from the previously reported Escape research role.[12]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: product and platform engineering for an AI offensive-security product. Owns the asset and findings data model, Svelte and GraphQL surfaces, and AI-assisted triage and remediation workflows. Separate product diligence was not advanced.[12]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[12] Official listing: pay, location and duties",
+          "url": "https://jobs.ashbyhq.com/escape/32e02dde-b428-4ed5-8a50-51e98fca5ddc",
+          "quote": "Compensation: €75–90k base + 0.05% BSPCE depending on seniority and scope. Push PostgreSQL to its edge. Location: Paris (75002), 2 days remote per week.",
+          "checked": "2026-10-18"
+        },
+        {
+          "label": "[15] Rendered application",
+          "url": "https://jobs.ashbyhq.com/escape/32e02dde-b428-4ed5-8a50-51e98fca5ddc/application",
+          "quote": "Thanks for your interest in joining Escape!",
+          "checked": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}
