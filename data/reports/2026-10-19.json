@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on October 19. No new role in the bounded sweep published an annual cash-base floor that meets the pay rule together with explicit Paris attendance or France-eligible remote work and a hands-on AI-central assignment. OpenAI’s Paris Forward Deployed Engineer (three office days a week) and GitLab’s Staff Forward Deployed Engineer for agentic software delivery (remote, France named) are near-misses because pay is unpublished. Four other roles were rejected for an ambiguous location, a non-AI-central remit or a base floor below the minimum. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 19: 128 of 274 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Every Paris or France engineering role on the reachable Ashby boards was screened for published pay, and Greenhouse pay-transparency data was read for 23 France-located AI roles. Web search was used for discovery; several job-board searches returned no results and one job board blocked automated access. Six roles were examined individually and six application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 19, 2026. Posting dates come from employer ATS metadata; GitLab’s requisition was first published May 11, 2026 and updated October 15, 2026, so it is new to this site’s history rather than newly created.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Only Algolia’s role published a base range, and its floor is below the minimum.",
+    "OpenAI’s Codex role lists Paris in the ATS but London in its description; the conflict was not resolved.",
+    "Deduplication covered the accessible October 10–18 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. Previously reported roles still visible on the boards, including the October 18 DeployCo selection, were not re-listed because no material change was found in the screened fields.",
+    "Company financial diligence was not advanced because no role was ranked.",
+    "Automated web extraction and some web searches were unavailable. Direct official ATS API retrieval and browser rendering were used instead."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero roles qualified today. The two near-misses need an employer-published base salary before reconsideration; the rejected roles are listed only to show what was checked. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "openai-9ddb1bd1",
+      "company": "OpenAI",
+      "title": "Forward Deployed Engineer - Paris",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/openai/9ddb1bd1-3ee0-4350-88f7-3710057b8c93",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/9ddb1bd1-3ee0-4350-88f7-3710057b8c93/application",
+      "checked": "2026-10-19",
+      "posted": "2026-10-05",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris, France. Location Type: Hybrid. “This role is based in Paris. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.”[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and the official ATS data carries no compensation field for this role. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual cash-base lower bound was found, so the role cannot be ranked under the pay rule.[1]",
+        "Location passes on employer evidence: Paris with three office days per week, plus up to 50% travel. The application asks: “Are you able to work from our Paris office three days per week?”[1][2]",
+        "AI centrality passes: FDEs “lead complex end-to-end deployments of frontier models in production” and are asked to have built or deployed systems powered by LLMs or generative models.[1]",
+        "Level is not named in the title; the listing asks for 5+ years of engineering or technical deployment experience that includes customer-facing work.[1]",
+        "The application form rendered on the check date and states a limit of five applications per 180 days across roles.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: OpenAI’s Forward Deployed Engineering team partners with strategic customers to put frontier models into production. The role owns discovery, technical scoping, system design, build and production rollout, measured by production adoption and eval-driven feedback to product and model roadmaps. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official listing: location, duties and requirements",
+          "url": "https://jobs.ashbyhq.com/openai/9ddb1bd1-3ee0-4350-88f7-3710057b8c93",
+          "quote": "This role is based in Paris. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required. Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontier models in production alongside our most strategic customers.",
+          "checked": "2026-10-19"
+        },
+        {
+          "label": "[2] Rendered application",
+          "url": "https://jobs.ashbyhq.com/openai/9ddb1bd1-3ee0-4350-88f7-3710057b8c93/application",
+          "quote": "Candidates may not apply more than 5 times in any 180 day span. Are you able to work from our Paris office three days per week?",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "gitlab-8522265002",
+      "company": "GitLab",
+      "title": "Forward Deployed Engineer - EMEA (Staff Forward Deployed Engineer, Agentic SDLC)",
+      "status": "near-miss",
+      "listingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002",
+      "checked": "2026-10-19",
+      "posted": "2026-05-11",
+      "location": "remote",
+      "locationQuote": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom. “All of our roles are remote, however some roles may carry specific location-based eligibility requirements.”[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No base-salary range is published for France. The benefits section lists “Equity Compensation & Employee Stock Purchase Plan”; equity is not counted as cash. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "Pay gate unverified: the official listing and Greenhouse pay-transparency data publish no base range for this role.[3]",
+        "Location passes on employer evidence: remote with France explicitly named among the eligible countries.[3]",
+        "Seniority is explicit in the body title: Staff Forward Deployed Engineer, Agentic SDLC (EMEA only).[3]",
+        "AI centrality is partial: driving production adoption of GitLab Duo Agent Platform is one of three duty areas, alongside production code contributions to GitLab’s product and strategic customer stewardship. Strong Ruby on Rails or Go experience is requested.[3]",
+        "Greenhouse first-published date is May 11, 2026; the posting was updated on October 15, 2026. The same-page application form rendered on the check date.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: a field-situated product engineering role for strategic GitLab customers. It contributes production-quality fixes and features to GitLab, diagnoses complex adoption and scale problems, and develops customer-safe patterns for the agentic software development lifecycle, AI governance and human-in-the-loop delivery with GitLab Duo Agent Platform. Separate product diligence was not advanced.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official listing and same-page application",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002",
+          "quote": "Staff Forward Deployed Engineer, Agentic SDLC - (EMEA Only). Drive governed, measurable, and production-oriented adoption of GitLab Duo Agent Platform with strategic customers. Strong Ruby on Rails or Go experience and the ability to contribute directly to GitLab’s product and adjacent systems.",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "openai-21ee6dd3",
+      "company": "OpenAI",
+      "title": "Applied AI Engineer, Codex",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/openai/21ee6dd3-dcd0-425a-91e9-34a23ab3e434",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/21ee6dd3-dcd0-425a-91e9-34a23ab3e434/application",
+      "checked": "2026-10-19",
+      "posted": "2026-09-23",
+      "location": "unknown",
+      "locationQuote": "ATS location: Paris, France, Hybrid. The description says: “This role is based in our London office. We use a hybrid work model of 3 days in the office per week.” The application asks about working “from a local office three days per week”.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing or in the official ATS data. Pay is unknown, not below the threshold.[4]"
+      },
+      "reasons": [
+        "Location gate fails as ambiguous: the ATS location is Paris, but the description says the role is based in the London office. The Paris attendance policy cannot be confirmed from employer evidence.[4]",
+        "Pay is unpublished.[4]",
+        "Hands-on AI work is central: building AI coding workflows, integrations and evaluation harnesses for Codex deployments. Fluent English and French are requested. This is a different requisition from the Codex startups role recorded on October 14.[4]",
+        "The application form rendered on the check date.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: partner with engineering organizations to design, build and deploy AI-powered software development workflows with Codex, including evaluation of AI coding systems with representative tasks and automated graders.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official listing: location conflict and duties",
+          "url": "https://jobs.ashbyhq.com/openai/21ee6dd3-dcd0-425a-91e9-34a23ab3e434",
+          "quote": "This role is based in our London office. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Design systematic approaches for evaluating AI coding systems using representative software engineering tasks, automated graders, production signals, and developer feedback.",
+          "checked": "2026-10-19"
+        },
+        {
+          "label": "[5] Rendered application",
+          "url": "https://jobs.ashbyhq.com/openai/21ee6dd3-dcd0-425a-91e9-34a23ab3e434/application",
+          "quote": "Are you able to work from a local office three days per week?",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "databricks-8820652002",
+      "company": "Databricks",
+      "title": "Sr. Forward Deployed Engineer",
+      "status": "rejected",
+      "listingUrl": "https://www.databricks.com/company/careers/professional-services-operations/sr-forward-deployed-engineer-8820652002?gh_jid=8820652002",
+      "applyUrl": "https://www.databricks.com/company/careers/professional-services-operations/sr-forward-deployed-engineer-8820652002?gh_jid=8820652002",
+      "checked": "2026-10-19",
+      "posted": "2026-10-12",
+      "location": "unknown",
+      "locationQuote": "Paris, France. No hybrid, remote or office-attendance policy is stated; the listing says “Travel to customers 20% of the time”.[6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and Greenhouse pay-transparency data is empty. Pay is unknown, not below the threshold.[6]"
+      },
+      "reasons": [
+        "Location gate fails as ambiguous: Paris is named, but no attendance policy is published.[6]",
+        "Pay is unpublished.[6]",
+        "AI centrality is not established: the requirements centre on data engineering, Apache Spark internals and cloud platforms, with “working knowledge of MLOps, ML/AI models and AI APIs”. The embedded application form rendered on the check date.[6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: billable, customer-facing delivery of production data and AI systems on the Databricks platform, spanning data engineering, ML/AI model integration and applications.[6]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official careers listing with embedded application",
+          "url": "https://www.databricks.com/company/careers/professional-services-operations/sr-forward-deployed-engineer-8820652002?gh_jid=8820652002",
+          "quote": "6+ years experience in data engineering, data platforms & analytics, or software engineering. Deep experience with distributed computing with Apache Spark™ and knowledge of Spark runtime internals. Working knowledge of MLOps, ML/AI models and AI APIs. Travel to customers 20% of the time",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "celonis-8007977003",
+      "company": "Celonis",
+      "title": "Senior/ Lead AI Deployment Engineer - Supply Chain",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/celonis/jobs/8007977003",
+      "applyUrl": "https://job-boards.greenhouse.io/celonis/jobs/8007977003",
+      "checked": "2026-10-19",
+      "posted": "2026-09-30",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. The listing mentions “a flexible hybrid work model” and client-site travel “primarily based in Paris, typically 2–3 days per month”; no weekly office-day count is published.[7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No base-salary range is published; the application asks for a salary expectation. Every full-time employee receives Restricted Stock Units (RSUs) according to the listing. Pay is unknown, not below the threshold.[7]"
+      },
+      "reasons": [
+        "AI-central gate fails: the role delivers process-mining solutions on the Celonis platform (data models, process analyses, dashboards and business cases), using AI tools to accelerate the build rather than building AI systems as the primary duty.[7]",
+        "Pay is unpublished, and the weekly office attendance is not stated.[7]",
+        "The same-page application form rendered on the check date. Professional French and English and supply-chain domain experience are required.[7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: hands-on customer delivery of supply-chain process-intelligence solutions on the Celonis platform, directing Celonis’s AI deployment tooling and validating its outputs.[7]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official listing and same-page application",
+          "url": "https://job-boards.greenhouse.io/celonis/jobs/8007977003",
+          "quote": "Build and configure the analytical core on the platform—data models, process analyses, and dashboards —directing Celonis's AI deployment tooling to move fast and validating every output for accuracy and business relevance.",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "algolia-6200281004",
+      "company": "Algolia",
+      "title": "Senior Site Reliability Engineer, AI Platform",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/algolia/jobs/6200281004",
+      "applyUrl": "https://job-boards.greenhouse.io/algolia/jobs/6200281004",
+      "checked": "2026-10-19",
+      "posted": "2026-09-18",
+      "location": "unknown",
+      "locationQuote": "Paris, France. “Positions listed within a specific city are only available in that location - depending on the role it may be available with either a hybrid-remote or in-office schedule.” No schedule is given for this role.[8]",
+      "salary": {
+        "lower": 69768,
+        "upper": 96900,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": null,
+        "quote": "Base Salary Pay Range €69.768 - €96.900 EUR. No equity terms are stated in the listing.[8]"
+      },
+      "reasons": [
+        "Pay gate fails: the published annual base floor of €69,768 is below €80,000, so it fails both the €100,000 branch and the €80,000-with-equity branch.[8]",
+        "The office schedule is not stated for this Paris role.[8]",
+        "The role operates Kubernetes and cloud infrastructure for AI-related workloads; AI/ML serving experience is listed only as nice to have. The same-page application form rendered on the check date.[8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Algolia’s AI Platform team builds and operates shared production foundations for AI-powered capabilities, covering Kubernetes, cloud infrastructure, CI/CD, observability, reliability and FinOps.[8]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[8] Official listing: pay, location policy and duties",
+          "url": "https://job-boards.greenhouse.io/algolia/jobs/6200281004",
+          "quote": "Own and evolve production infrastructure supporting AI-related workloads and services at scale. Base Salary Pay Range €69.768 - €96.900 EUR",
+          "checked": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
