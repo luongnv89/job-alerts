@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "requestedCount": 3,
+  "summary": "One role cleared every hard gate on October 20: Langfuse’s Senior Software Engineer, SDK, now part of ClickHouse. It publishes a €90,000–€160,000 annual salary with equity and names France among six remote-first European countries, with Berlin visits of 3–5 days every two months. The role owns the open-source Python and TypeScript SDKs that trace and evaluate LLM applications and agents. Six other roles were examined: three near-misses (Langfuse Senior Product Engineer, Mistral AI Evaluation Engineer and White Circle AI Red Team Engineer) and three rejections for non-AI-central, management or on-site remits. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 20: 128 of 274 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as was every Paris- or France-located engineering role with published pay on reachable Ashby boards (92 roles). Three web searches were used for discovery through a fallback search provider; automated page extraction was unavailable, so pages were read through official ATS APIs and browser rendering. Seven roles were examined individually and seven application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 20, 2026. Posting dates come from employer ATS metadata.",
+    "Langfuse’s ATS labels its roles “Hybrid” without a city; remote eligibility from France rests on the six named countries plus the company careers page describing European roles as remote-first with periodic Berlin visits. The careers page is company-wide, not role-specific.",
+    "Langfuse publishes one €90,000–€160,000 range across six countries; the listing says actual pay may be higher or lower. A France-specific offer is not verified, and equity terms are unquantified.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Anthropic’s and Dust’s published figures are not confirmed as cash base (OTE or “Full Comp” wording).",
+    "Deduplication covered the accessible October 10–19 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. The Langfuse Product and Backend roles were posted on September 18 but were missed by earlier title-based screens; they are new to this site’s history, not newly created.",
+    "Company financial figures are company-reported or press-reported, not audited. Langfuse revenue, profitability, runway and headcount are not publicly verified."
+  ],
+  "decision": "No approval needed for this authorized daily website update. One role qualified today: Langfuse’s Senior Software Engineer, SDK. Before applying, readers should confirm the France pay band and the Berlin travel cadence with the employer. Near-misses need published pay or explicit eligibility before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "langfuse-870b82b7",
+      "company": "Langfuse (ClickHouse)",
+      "title": "Langfuse - Senior Software Engineer, SDK",
+      "status": "qualified",
+      "listingUrl": "https://jobs.ashbyhq.com/clickhouse/870b82b7-6550-45b4-90a3-4019226b0470",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/870b82b7-6550-45b4-90a3-4019226b0470/application",
+      "checked": "2026-10-20",
+      "posted": "2026-10-19",
+      "location": "remote",
+      "locationQuote": "Location: Germany; France; Italy; Portugal; Spain; The Netherlands. ATS location type: Hybrid. Langfuse careers page: “European roles are remote-first with 3-5 days every two months in Berlin (travel covered); SF and Berlin locals use the office when it's useful.”[1][3]",
+      "salary": {
+        "lower": 90000,
+        "upper": 160000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Salary €90K – €160K • Offers Equity”; the official ATS data classifies the €90,000–€160,000 component as an annual EUR salary. The listing adds that every new team member receives stock options. One published range covers all six listed countries.[1]"
+      },
+      "reasons": [
+        "Pay passes the €80,000-plus-equity branch: the published annual salary floor is €90,000 and equity is explicitly offered. Equity is not counted as cash, and the €90,000 floor alone does not clear the €100,000 cash-only branch.[1]",
+        "Location passes: France is one of six named countries, and Langfuse states that European roles are remote-first. The role still requires 3–5 days in Berlin every two months, with travel covered, and the ATS labels it “Hybrid”.[1][3]",
+        "AI centrality passes: the role owns Python and TypeScript SDKs that instrument LLM applications and agent loops, maintains integrations with 40+ AI frameworks and model providers, and supports evaluation workflows such as the experiment runner. The craft is SDK and API engineering rather than model training.[1][4]",
+        "Seniority is explicit in the title. It was first published on October 19, 2026, and the same-page application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Langfuse is an open-source (MIT) LLM engineering platform for tracing, evaluation and prompt management, used by teams building AI applications and agents. Its SDKs are built on OpenTelemetry, so third-party instrumentations appear inside Langfuse traces, and they also expose the prompt-management and evaluation features.[4] This role owns those SDKs: reliability and low CPU and memory overhead inside customers’ production systems, from serverless functions to long-running agent loops; batching, async flushing and graceful degradation; framework integrations; the OTLP endpoint; and contributing to OpenTelemetry GenAI semantic conventions.[1] A concrete near-term problem is migration: Langfuse’s docs say the legacy POST /api/public/ingestion endpoint on Langfuse Cloud stops accepting everything except scores on November 16, 2026.[4] A narrower assigned project beyond SDK ownership is unknown.",
+      "financials": "Langfuse was acquired by ClickHouse, announced on January 16, 2026, alongside ClickHouse’s $400 million Series D led by Dragoneer; the acquisition price was not disclosed.[5] TechCrunch, citing Bloomberg, reported a $15 billion valuation for that round.[7] ClickHouse reported more than 3,000 ClickHouse Cloud customers and ARR growth above 250% year over year; these are company claims, not audited financial statements.[5] Langfuse said it had term sheets for a Series A before choosing the acquisition and that it remains open source and self-hostable.[6] Langfuse ended 2025 with over 20K GitHub stars and 26M+ SDK installs per month, per ClickHouse.[5] Revenue, profitability, runway and Langfuse team headcount are not publicly verified.",
+      "evidence": [
+        {
+          "label": "[1] Official listing: pay, countries and SDK duties",
+          "url": "https://jobs.ashbyhq.com/clickhouse/870b82b7-6550-45b4-90a3-4019226b0470",
+          "quote": "Salary €90K – €160K • Offers Equity. We maintain SDKs in Python and TypeScript both built on OpenTelemetry. Langfuse integrates with 40+ frameworks and model providers. Equity in the company - Every new team member who joins our company receives stock options.",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/clickhouse/870b82b7-6550-45b4-90a3-4019226b0470/application",
+          "quote": "Do you require sponsorship by an employer for your right to work in your current location?",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[3] Langfuse careers: work model",
+          "url": "https://langfuse.com/careers",
+          "quote": "European roles are remote-first with 3-5 days every two months in Berlin (travel covered); SF and Berlin locals use the office when it's useful.",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[4] Langfuse SDK documentation",
+          "url": "https://langfuse.com/docs/observability/sdk/overview",
+          "quote": "The Langfuse SDKs are built on top of OpenTelemetry. On Langfuse Cloud, POST /api/public/ingestion stops accepting everything except scores on November 16, 2026.",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[5] ClickHouse announcement: Series D and Langfuse acquisition (January 16, 2026)",
+          "url": "https://clickhouse.com/blog/clickhouse-raises-400-million-series-d-acquires-langfuse-launches-postgres",
+          "quote": "announced today the close of its Series D financing, raising $400 million. The company now serves more than 3,000 customers on its fully managed service, ClickHouse Cloud, with ARR growing more than 250 percent year over year.",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[6] Langfuse post: joining ClickHouse",
+          "url": "https://langfuse.com/blog/joining-clickhouse",
+          "quote": "Langfuse stays open source and self‑hostable. There are no planned changes to licensing.",
+          "checked": "2026-10-20"
+        },
+        {
+          "label": "[7] TechCrunch funding coverage (January 16, 2026)",
+          "url": "https://techcrunch.com/2026/01/16/snowflake-databricks-challenger-clickhouse-hits-15b-valuation/",
+          "quote": "Database provider ClickHouse secured $400 million at a $15 billion valuation, Bloomberg reported",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "langfuse-0087feaa",
+      "company": "Langfuse (ClickHouse)",
+      "title": "Langfuse - Senior Product Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/clickhouse/0087feaa-a275-427d-bf4a-14a508708687",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/0087feaa-a275-427d-bf4a-14a508708687/application",
+      "checked": "2026-10-20",
+      "posted": "2026-09-18",
+      "location": "remote",
+      "locationQuote": "Location: Germany; France; Italy; Portugal; Spain; The Netherlands. ATS location type: Hybrid. Langfuse careers page: “European roles are remote-first with 3-5 days every two months in Berlin (travel covered); SF and Berlin locals use the office when it's useful.”[8][3]",
+      "salary": {
+        "lower": 90000,
+        "upper": 160000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Salary €90K – €160K • Offers Equity”, classified as an annual EUR salary in the official ATS data; every new team member receives stock options.[8]"
+      },
+      "reasons": [
+        "AI centrality is not established: the role is full-stack feature ownership across a React frontend, Next.js backend, ClickHouse analytics, SDKs and docs on an LLM engineering platform. Building AI systems is not stated as the primary duty, and ML/AI background is listed as a bonus.[8]",
+        "Pay and location would pass on the same evidence as the SDK role: a €90,000 annual floor with equity, and remote-first work from France with periodic Berlin visits.[8][3]",
+        "It was first published on September 18, 2026 and is new to this site’s history. The same-page application form rendered on the check date.[8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": "Listing summary: end-to-end product features for Langfuse, from user calls and specs to code, docs and changelog. Named past examples include agent trace views and agent graphs, the TypeScript SDK v4 rewrite, and dashboard management via API, CLI and MCP.[8]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[8] Official listing and same-page application",
+          "url": "https://jobs.ashbyhq.com/clickhouse/0087feaa-a275-427d-bf4a-14a508708687",
+          "quote": "Work across the full stack: and we mean full. ML/AI background or familiarity with the LLM framework ecosystem",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "mistral-5e6f3efd",
+      "company": "Mistral AI",
+      "title": "Evaluation Engineer, Applied AI",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/5e6f3efd-36a5-48ab-8643-843edaeee578",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/5e6f3efd-36a5-48ab-8643-843edaeee578/application",
+      "checked": "2026-10-20",
+      "posted": "2026-10-19",
+      "location": "unknown",
+      "locationQuote": "Location: Paris. No hybrid, remote or office-attendance policy is stated on the listing.[10]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[10]"
+      },
+      "reasons": [
+        "Pay is unpublished, so the pay gate cannot be verified.[10]",
+        "Paris is named, but no attendance policy is given.[10]",
+        "AI centrality passes: the role designs frameworks to evaluate LLM performance across customer use cases and builds evaluation infrastructure. The listing asks for at least 3 years of evaluating ML, LLM or agentic systems and does not name a senior level.[10]",
+        "The application form rendered on the check date; it limits candidates to 3 applications in 90 days across all open roles.[10]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: on the Applied AI team, build customer-specific evaluation suites and scalable evaluation pipelines that define when an LLM is ready for production, and feed results back to research and product teams.[10]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[10] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/5e6f3efd-36a5-48ab-8643-843edaeee578",
+          "quote": "Design and implement comprehensive frameworks to evaluate large language model (LLM) performance across customer use cases. At least 3 years of experience evaluating ML, LLM, or agentic systems. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "whitecircle-d2c5f461",
+      "company": "White Circle",
+      "title": "AI Red Team Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/whitecircle/d2c5f461-55d2-4c20-97a6-41a0fa0b51e9",
+      "applyUrl": "https://jobs.ashbyhq.com/whitecircle/d2c5f461-55d2-4c20-97a6-41a0fa0b51e9/application",
+      "checked": "2026-10-20",
+      "posted": "2026-07-06",
+      "location": "remote",
+      "locationQuote": "Location: Global. Location Type: Remote. France is not named, and no country eligibility rules are stated.[11]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "“Competitive compensation package, including equity”. No salary range is published; pay is unknown, not below the threshold.[11]"
+      },
+      "reasons": [
+        "Pay is unpublished; equity is mentioned without a cash-base range.[11]",
+        "Location is unconfirmed: the listing says “Global” remote but does not explicitly name France or state country eligibility.[11]",
+        "AI centrality passes: hands-on adversarial testing of LLM systems, including prompt injection, tool misuse and data leakage, with Python attack automation and regression tests. No seniority level is stated.[11]",
+        "The application form rendered on the check date.[11]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: White Circle builds a safety, reliability and optimization layer for AI systems based on natural-language policies. This role red-teams chatbots, copilots, RAG pipelines and agents and turns findings into an internal attack library, reports and regression tests.[11]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[11] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/whitecircle/d2c5f461-55d2-4c20-97a6-41a0fa0b51e9",
+          "quote": "Red-team LLM-powered systems: chatbots, copilots, RAG pipelines, AI agents, tool-calling workflows, and API-based AI products. Competitive compensation package, including equity",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "langfuse-31500bec",
+      "company": "Langfuse (ClickHouse)",
+      "title": "Langfuse - Senior Backend Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/clickhouse/31500bec-b690-4795-b4d6-0dce06a4c180",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/31500bec-b690-4795-b4d6-0dce06a4c180/application",
+      "checked": "2026-10-20",
+      "posted": "2026-09-18",
+      "location": "remote",
+      "locationQuote": "Location: Germany; France; Italy; Portugal; Spain; The Netherlands. ATS location type: Hybrid. Langfuse careers page: “European roles are remote-first with 3-5 days every two months in Berlin (travel covered); SF and Berlin locals use the office when it's useful.”[9][3]",
+      "salary": {
+        "lower": 90000,
+        "upper": 160000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Salary €90K – €160K • Offers Equity”, classified as an annual EUR salary in the official ATS data.[9]"
+      },
+      "reasons": [
+        "AI-central gate fails: the primary duties are the trace-ingestion pipeline, ClickHouse schemas and query performance. LLM-as-a-Judge appears as one example of infrastructure-heavy features, not the core assignment.[9]",
+        "Pay and location would pass on the same evidence as the SDK role.[9][3]",
+        "The same-page application form rendered on the check date.[9]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": "Listing summary: own the ingestion pipeline that moves terabytes of AI tracing data per day from the API into ClickHouse, with load tests on production data.[9]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[9] Official listing and same-page application",
+          "url": "https://jobs.ashbyhq.com/clickhouse/31500bec-b690-4795-b4d6-0dce06a4c180",
+          "quote": "Own and optimize our ingestion pipeline. Build new infrastructure-heavy features: things like LLM-as-a-Judge",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-5456581008",
+      "company": "Anthropic",
+      "title": "Manager of Applied AI Architecture, Industries",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456581008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456581008",
+      "checked": "2026-10-20",
+      "posted": "2026-10-19",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. “Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.”[12]",
+      "salary": {
+        "lower": 265000,
+        "upper": 310000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "Annual Salary: €265.000 - €310.000 EUR. The listing adds: “For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range”. Whether this figure is base or OTE is not confirmed.[12]"
+      },
+      "reasons": [
+        "Hands-on AI engineering gate fails: this is a second-level manager role that hires and manages first-line managers of pre-sales Applied AI Architects across France, Iberia and Italy.[12]",
+        "Pay is not confirmed as cash base, because the listing says sales-role ranges are OTE.[12]",
+        "The same-page application form rendered on the check date.[12]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: lead the Southern Europe Applied AI Industries pre-sales architecture organization and sponsor strategic enterprise customers adopting Claude products.[12]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[12] Official listing and same-page application",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456581008",
+          "quote": "Hire, manage, and guide a team of 1st line managers who will in turn build teams of pre-sales Applied AI Architects across France, Iberia and Italy. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range. €265.000 - €310.000 EUR. Currently, we expect all staff to be in one of our offices at least 25% of the time.",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "dust-e37ef1af",
+      "company": "Dust",
+      "title": "Lead Solutions Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/dust/e37ef1af-8dc8-46a3-b910-9b4a3cf64895",
+      "applyUrl": "https://jobs.ashbyhq.com/dust/e37ef1af-8dc8-46a3-b910-9b4a3cf64895/application",
+      "checked": "2026-10-20",
+      "posted": "2026-08-03",
+      "location": "on-site",
+      "locationQuote": "Location: Paris. Location Type: On-site. Department: Sales.[13]",
+      "salary": {
+        "lower": 130000,
+        "upper": 160000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "Compensation tier “Lead SE- Full Comp - FR”: €130K – €160K. The “Full Comp” label leaves base versus total package unconfirmed.[13]"
+      },
+      "reasons": [
+        "Hands-on AI engineering gate fails: this is a founding player-coach role that leads the global Solutions Engineering function across pre-sales and post-sales, with authority over hiring, structure and operating model.[13]",
+        "The location gate fails because the role is on-site rather than hybrid or remote. Pay is not confirmed as cash base.[13]",
+        "First seen in this site’s ATS pay sweep today; the requisition was first published on August 3, 2026.[13]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: build and lead Dust’s Solutions Engineering organization for enterprise evaluations and post-deployment expansion of its AI agent platform.[13]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[13] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/dust/e37ef1af-8dc8-46a3-b910-9b4a3cf64895",
+          "quote": "This is a founding player-coach role. You will lead our global Solutions Engineering function across pre-sales and post-sales. Lead SE- Full Comp - FR",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}
