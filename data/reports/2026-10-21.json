@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-21",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 21. Four new roles are near-misses because none publishes an annual cash-base range: OpenAI’s Paris Applied AI Engineer (three office days a week), two Mistral AI research-engineering roles in inference efficiency and formal methods, and Hugging Face’s Senior Open-Source Python Engineer for ML developer tools. Alan’s Senior GRC Security Engineer published qualifying pay with equity but was rejected because AI is not its primary duty. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 21: 128 of 274 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were all Paris- or France-located engineering roles with published pay on reachable Ashby boards (94 roles) and Greenhouse and Lever pay data for 114 France-located engineering roles. A supplementary Workable and Recruitee check reached 6 of 44 board aliases. Web search returned no results, so discovery relied on official ATS data. Five new roles were examined individually and five application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 21, 2026. Posting dates come from employer ATS metadata.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. None of the four near-misses publishes a cash-base range.",
+    "Mistral’s inference role offers remote work from France only to “senior profiles”, a level the listing does not define; its hybrid office cadence is not stated.",
+    "Hugging Face’s role is listed as “EMEA Remote”; France appears only in hidden ATS location data, not in visible eligibility text.",
+    "Deduplication covered the accessible October 10–20 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. Previously reported roles still visible on the boards, including the October 20 Langfuse SDK selection, were not re-listed because no material change was found in the screened fields.",
+    "Company financial diligence was not advanced because no role was ranked.",
+    "Web search and automated page extraction were unavailable; official ATS APIs and browser rendering were used instead."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. The four near-misses need an employer-published base salary, and three also need explicit France eligibility or attendance terms, before reconsideration. The rejected role is listed only to show what was checked. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "openai-112e34f2",
+      "company": "OpenAI",
+      "title": "Applied AI Engineer, Digital Natives",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/openai/112e34f2-45da-4a08-adf4-cc29398938df",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/112e34f2-45da-4a08-adf4-cc29398938df/application",
+      "checked": "2026-10-21",
+      "posted": "2026-10-20",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris, France. Location Type: Hybrid. “This role is based in Paris. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees”[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and the official ATS data carries no compensation field for this role. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual cash-base lower bound was found, so the role cannot be ranked under the pay rule.[1]",
+        "Location passes on employer evidence: Paris with three office days per week.[1]",
+        "AI centrality passes: the engineer designs, builds and deploys AI systems with customers, working hands-on in code on prototypes, evaluation harnesses, integrations and production accelerators across models, agents, retrieval and tools.[1]",
+        "No level is named in the title or requirements; the listing asks for a demonstrated track record of taking AI or ML systems from prototype to production, and fluency in French and English. The role sits in the Go To Market department.[1]",
+        "The application form rendered on the check date and states a limit of five applications in any 180-day span.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: OpenAI’s Applied AI Engineering team helps enterprise and digital-native customers turn frontier AI capabilities into production systems, from use-case selection and architecture through prototyping, evaluation, launch and scale, and feeds deployment lessons back to OpenAI product teams. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official listing: location, duties and requirements",
+          "url": "https://jobs.ashbyhq.com/openai/112e34f2-45da-4a08-adf4-cc29398938df",
+          "quote": "This role is based in Paris. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Work hands-on in code to build prototypes, evaluation harnesses, reference implementations, integrations, and production accelerators. Are fluent in both French and English",
+          "checked": "2026-10-21"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/openai/112e34f2-45da-4a08-adf4-cc29398938df/application",
+          "quote": "Please Note: we have set up limits for applications across roles. Candidates may not apply more than 5 times in any 180 day span.",
+          "checked": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "mistral-8d384b55",
+      "company": "Mistral AI",
+      "title": "Research Engineer, Latency & Throughput",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/8d384b55-6341-40a7-ba37-6ab362e9b303",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/8d384b55-6341-40a7-ba37-6ab362e9b303/application",
+      "checked": "2026-10-21",
+      "posted": "2026-10-20",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris; London. “This role is based in our Paris or London offices (hybrid).” “For senior profiles, we will also consider remote candidates based in France.” Remote hires visit the Paris office for the first onboarding week, “Then at least 3 days per month”. No weekly office attendance is stated for the hybrid option.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[3]",
+        "Location is conditional: hybrid attendance is not quantified, and the remote-from-France option applies only to “senior profiles”, a level the listing does not define.[3]",
+        "AI centrality passes: the team researches and prototypes LLM inference techniques such as speculative decoding, quantization, KV compression and new attention variants, then ships those that prove out into the serving stack.[3]",
+        "The role is research-leaning: the listing asks for research depth such as a thesis, publications or efficiency-oriented lab work, plus hands-on Python and PyTorch.[3]",
+        "The application form rendered on the check date; it limits candidates to 3 applications in 90 days across all open roles.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: the Latency & Throughput team sits between Mistral’s production inference engineers and its research scientists, turning recent inference-efficiency literature into experiments and shipped serving-stack improvements. Separate product diligence was not advanced because the role is not ranked.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/8d384b55-6341-40a7-ba37-6ab362e9b303",
+          "quote": "This role is based in our Paris or London offices (hybrid). For senior profiles, we will also consider remote candidates based in France. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "mistral-d722e1e1",
+      "company": "Mistral AI",
+      "title": "Applied Scientist - Research Engineer (Formal Methods), EMEA",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/d722e1e1-dcc6-489b-a3b5-ecc6813ca374",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/d722e1e1-dcc6-489b-a3b5-ecc6813ca374/application",
+      "checked": "2026-10-21",
+      "posted": "2026-10-20",
+      "location": "unknown",
+      "locationQuote": "Location: Paris; London. No hybrid, remote or office-attendance policy is stated on the listing.[4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[4]",
+        "Location gate unverified: Paris is named, but no attendance policy is given.[4]",
+        "AI centrality passes: run pre-training and post-training of large language models, curate theorem-proving and software-verification datasets, and build evaluators and benchmarks for formal reasoning. No seniority level is stated.[4]",
+        "The application form rendered on the check date with the same 3-applications-in-90-days limit.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: applied science on formal methods at Mistral AI, training and deploying LLMs for theorem proving and software verification and managing research projects with client research teams. Separate product diligence was not advanced because the role is not ranked.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/d722e1e1-dcc6-489b-a3b5-ecc6813ca374",
+          "quote": "Generate and curate datasets for theorem proving and software verification, and build evaluators and benchmarks for formal reasoning. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "huggingface-db4d7c0ec8",
+      "company": "Hugging Face",
+      "title": "Senior Open-Source Python Engineer, ML Developer Tools - EMEA Remote",
+      "status": "near-miss",
+      "listingUrl": "https://apply.workable.com/huggingface/j/DB4D7C0EC8/",
+      "applyUrl": "https://apply.workable.com/huggingface/j/DB4D7C0EC8/apply/",
+      "checked": "2026-10-21",
+      "posted": "2026-09-21",
+      "location": "remote",
+      "locationQuote": "Title: “EMEA Remote”. The rendered page shows “Remote” without naming eligible countries; France appears only as a hidden location in the official Workable data. “While we have office spaces in NYC and Paris, we're very distributed”.[5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "“All employees have company equity as part of their compensation package.” No salary range is published; pay is unknown, not below the threshold.[5]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is stated, but no cash-base range is published.[5]",
+        "Location is unconfirmed: “EMEA Remote” is stated, but the visible listing does not name France or country eligibility.[5]",
+        "AI centrality is not established: the role maintains developer libraries for building ML applications (Gradio, Trackio, FastRTC), including real-time streaming and frontend work. It builds tools for ML developers rather than building, evaluating or operating AI systems as the primary duty.[5]",
+        "Seniority is explicit in the title, with 5+ years of professional Python required. First published September 21, 2026, it is new to this site’s history, not newly created. The application form rendered on the check date.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: the Applications team builds tooling for creating ML applications on top of Hugging Face Hub primitives, maintaining Gradio, the Trackio experiment tracker and the FastRTC streaming library, with real-time streaming named as a priority for Gradio 7. Separate product diligence was not advanced because the role is not ranked.[5]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official listing and rendered application",
+          "url": "https://apply.workable.com/huggingface/j/DB4D7C0EC8/",
+          "quote": "maintaining and growing libraries like Trackio, a local-first, agent-friendly experiment tracking platform, FastRTC, our library for real-time audio and video streaming in Python, and Gradio itself. All employees have company equity as part of their compensation package.",
+          "checked": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "alan-14e49a11",
+      "company": "Alan",
+      "title": "Security Engineer Senior - GRC",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/alan/14e49a11-ee06-48f6-93ef-ff7a49aaf219",
+      "applyUrl": "https://jobs.ashbyhq.com/alan/14e49a11-ee06-48f6-93ef-ff7a49aaf219/application",
+      "checked": "2026-10-21",
+      "posted": "2026-10-20",
+      "location": "hybrid",
+      "locationQuote": "Location: Anywhere in France. Location Type: Hybrid. No office-attendance frequency is stated.[6]",
+      "salary": {
+        "lower": 83000,
+        "upper": 100000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "Compensation “Level D to E”: €83K – €100K, classified as an annual EUR salary in the official ATS data. “At Alan we offer an attractive Equity package on top of an above market-average base salary.”[6]"
+      },
+      "reasons": [
+        "AI-central gate fails: the role owns security governance, risk and certification (ISO 27001, HDS) and incident governance. AI appears only as one risk area to govern.[6]",
+        "Pay would pass the €80,000-plus-equity branch: an €83,000 annual floor with an equity package stated on the listing.[6]",
+        "Hybrid “Anywhere in France” is stated, but attendance frequency is not. The application form rendered on the check date.[6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": "Listing summary: own Alan’s security framework, certification cycle, regulatory security answers, risk programme and incident governance as a hands-on senior GRC engineer.[6]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/alan/14e49a11-ee06-48f6-93ef-ff7a49aaf219",
+          "quote": "€83K – €100K. At Alan we offer an attractive Equity package on top of an above market-average base salary. You map and prioritise security risks, including AI risks, turn them into clear treatment plans",
+          "checked": "2026-10-21"
+        }
+      ]
+    }
+  ]
+}
