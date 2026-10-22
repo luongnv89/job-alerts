@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 22. Three roles are near-misses because none publishes an annual cash-base range: ElevenLabs’ Europe-remote Applied AI Engineer, which builds internal LLM agents and names France among its locations, and two Mistral AI engineering roles building agent sandboxes and the agentic training and evaluation platform. Legora’s Paris Legal Engineer was rejected on pay, role type and on-site attendance. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 22: 128 of 274 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards and Greenhouse and Lever pay data for 115 France-located engineering roles. Engineering roles on reachable Ashby boards first published since October 14 with a France or Europe-remote location were screened separately (46 roles). A supplementary Workable and Recruitee check reached 6 of 44 board aliases. Web search returned no results, so discovery relied on official ATS data. Four new roles were examined individually and four application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 22, 2026. Posting dates come from employer ATS metadata.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. None of the three near-misses publishes a cash-base range.",
+    "ElevenLabs states no seniority level, and Mistral’s two roles name none; level fit could not be confirmed from the listings.",
+    "Mistral’s Sandbox role is labelled Remote with a Paris location but gives no country-eligibility text; its Orchestral role gives no attendance policy.",
+    "Deduplication covered the accessible October 10–21 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. Previously reported roles still visible on the boards, including the October 20 Langfuse SDK selection and the October 21 near-misses, were not re-listed because no material change was found in the screened fields.",
+    "Company financial diligence was not advanced because no role was ranked.",
+    "Web search was unavailable; official ATS APIs and browser rendering were used instead."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. The three near-misses need an employer-published base salary, and the Mistral roles also need explicit France eligibility or attendance terms, before reconsideration. The rejected role is listed only to show what was checked. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "elevenlabs-b8a111fa",
+      "company": "ElevenLabs",
+      "title": "Applied AI Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
+      "applyUrl": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef/application",
+      "checked": "2026-10-22",
+      "posted": "2026-10-21",
+      "location": "remote",
+      "locationQuote": "Location: United Kingdom; Bulgaria; Dublin; France; Germany; Hungary; Italy; Netherlands; Poland; Spain. Location Type: Remote. “This role is remote-first, so it can be executed from anywhere in Europe, with the ability to operate in GMT and GMT+1 timezones.”[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and the official ATS data carries no compensation for this role. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual cash-base lower bound, so the role cannot be ranked under the pay rule.[1]",
+        "Location passes on employer evidence: fully remote within Europe, with France named among the listed locations.[1]",
+        "AI centrality passes: the engineer builds agents that run parts of the business, using the company’s own agents platform, orchestration tools and frontier models, and is responsible for making them reliable, measurable and safe. Requirements include Python, SQL, LLM APIs and agent orchestration, and evaluating LLM systems beyond a demo.[1]",
+        "Seniority is not stated: the company says it does not use job titles, and the listing gives no level or years of experience. The role sits in Marketing Engineering and is forward-deployed to growth teams.[1]",
+        "The application form rendered on the check date and asks applicants to describe a shipped agent or LLM system and how it was evaluated.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: ElevenLabs builds AI voice models and three platforms (ElevenAgents for voice and chat agents, ElevenCreative for media generation, and ElevenAPI for developer access to its audio models). This role builds internal agents for the company’s growth teams rather than a customer-facing product. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official listing: location, duties and requirements",
+          "url": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
+          "quote": "This role is remote-first, so it can be executed from anywhere in Europe, with the ability to operate in GMT and GMT+1 timezones. We're building agents that run real parts of our business, take on real work, and get better based on the results they produce.",
+          "checked": "2026-10-22"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef/application",
+          "quote": "Describe an agent or LLM-powered system you have shipped. How did you evaluate whether it was working?",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "mistral-d23aec52",
+      "company": "Mistral AI",
+      "title": "Software Engineer (Golang), Sandbox",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/d23aec52-d08e-4a99-bc17-b7f98a6be0d4",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/d23aec52-d08e-4a99-bc17-b7f98a6be0d4/application",
+      "checked": "2026-10-22",
+      "posted": "2026-10-21",
+      "location": "remote",
+      "locationQuote": "Location: Paris. Location Type: Remote. The listing gives no further remote-eligibility or attendance text.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[3]",
+        "Location is unconfirmed: the role is labelled Remote with a Paris location, but the listing does not state which countries remote applicants may work from.[3]",
+        "AI centrality is not established: the role builds secure, isolated sandboxes (microVMs or containers, snapshot and restore) designed for AI agents and reinforcement-learning workloads. The primary duties are Linux isolation, security boundaries and fleet-scale infrastructure in Go rather than building or evaluating AI models.[3]",
+        "No level is named; the listing asks for 5+ years building backend or infrastructure systems and production Go experience. The application form rendered on the check date with Mistral’s 3-applications-in-90-days limit.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: part of the Cloud Platform team building Mistral’s European AI cloud. The Sandbox team builds network-controlled execution environments where customers’ agents and RL training runs execute untrusted code, created and destroyed at high rates with low latency. Separate product diligence was not advanced because the role is not ranked.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/d23aec52-d08e-4a99-bc17-b7f98a6be0d4",
+          "quote": "We build secure, isolated, network-controlled environments with snapshotting primitives, designed for AI agents and reinforcement-learning workloads. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "mistral-dff09cb5",
+      "company": "Mistral AI",
+      "title": "Research Engineer, Orchestral",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/dff09cb5-0c21-4bec-971b-297225d5fbcd",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/dff09cb5-0c21-4bec-971b-297225d5fbcd/application",
+      "checked": "2026-10-22",
+      "posted": "2026-10-16",
+      "location": "unknown",
+      "locationQuote": "Location: Paris; London; Warsaw. No hybrid, remote or office-attendance policy is stated on the listing.[4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[4]",
+        "Location gate unverified: Paris is named, but no attendance policy is given.[4]",
+        "AI centrality passes, with a caveat: the role builds the agentic platform Mistral’s researchers use to train and evaluate models, including the rollout engine, long-running tasks, subagents and RL features. The listing itself calls it a software-engineering role, with RL and PyTorch experience not required.[4]",
+        "No level is named; the listing asks for experience building and debugging complex distributed systems at scale and strong Python. First published October 16, 2026, it is new to this site’s history, not newly created. The application form rendered on the check date.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Orchestral is the internal system Mistral’s science team uses to run training and evaluation at scale, from the rollout engine behind agentic workflows to the infrastructure that keeps those workloads reliable. Separate product diligence was not advanced because the role is not ranked.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/dff09cb5-0c21-4bec-971b-297225d5fbcd",
+          "quote": "As a Research Engineer on the Orchestral team, you will help build the agentic platform we use to train and evaluate our models. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "legora-29604827",
+      "company": "Legora",
+      "title": "Legal Engineer, Tax & Audit",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/legora/29604827-8a32-4691-9e08-ef4dd75bbe95",
+      "applyUrl": "https://jobs.ashbyhq.com/legora/29604827-8a32-4691-9e08-ef4dd75bbe95/application",
+      "checked": "2026-10-22",
+      "posted": "2026-10-21",
+      "location": "on-site",
+      "locationQuote": "Location: Paris. Location Type: On-site.[5]",
+      "salary": {
+        "lower": 65000,
+        "upper": 170000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": null,
+        "quote": "“Estimated Base Salary Band €65K – €170K”. The listing says most roles are paired with “meaningful equity” but does not state equity for this role.[5]"
+      },
+      "reasons": [
+        "Pay gate fails: the published base-salary band starts at €65,000, below both the €100,000 floor and the €80,000-plus-equity branch, and equity is not stated for this specific role.[5]",
+        "AI-central engineering gate fails: the role is for tax or audit professionals who demonstrate the product, run pilots and build client workflows with Legora’s AI workspace, not for building or operating AI systems.[5]",
+        "Location fails the hybrid rule as written: the role is on-site in Paris rather than hybrid. The application form rendered on the check date.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "fail",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Legora sells an AI workspace for legal professionals; this Paris role brings it to tax and audit teams through demonstrations, pilots, onboarding and reusable workflow templates.[5]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/legora/29604827-8a32-4691-9e08-ef4dd75bbe95",
+          "quote": "Estimated Base Salary Band €65K – €170K. As a Legal Engineer in our Paris team, you’ll help tax and audit professionals put AI to work in their day-to-day practice.",
+          "checked": "2026-10-22"
+        }
+      ]
+    }
+  ]
+}
