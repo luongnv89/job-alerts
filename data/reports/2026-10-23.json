@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-23",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 23. Five roles are near-misses. The closest is Vibe’s Paris-hybrid Staff or Senior Machine Learning Engineer for identity resolution, which publishes a €99,000–€171,000 pay range with equity but does not say whether the range is base salary. Qonto’s new France-eligible Staff Product Engineer for internal coding agents, Mistral AI’s cybersecurity RL-environments Research Engineer, Shift Technology’s Staff AI Engineer and Doctolib’s Senior AI Engineer for patient search publish no pay. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 23: 128 of 274 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards and Greenhouse and Lever pay data for 119 France-located engineering roles. Engineering roles on reachable Ashby boards first published since October 15 with a France or Europe-remote location were screened separately. A supplementary Workable and Recruitee check reached 6 of 44 board aliases. Web search worked today and was used for discovery only; it surfaced the Vibe and Shift Technology boards, which the automated sweep does not cover. Six new listings were examined individually on official pages and six application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 23, 2026. Posting dates come from employer ATS metadata.",
+    "Vibe’s €99,000–€171,000 range is not labelled base salary and the listing also offers variable pay, so it was not treated as a verified cash base. If the employer confirms it is annual base, the role would meet the equity branch of the pay rule.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Qonto, Mistral AI, Shift Technology and Doctolib publish no salary range for these roles.",
+    "Mistral AI and Doctolib state hybrid work without an attendance pattern, Doctolib’s workplace is Levallois rather than Paris, and Shift Technology states neither attendance nor remote-country eligibility.",
+    "Deduplication covered the accessible October 10–22 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. Previously reported roles still visible on the boards, including the October 22 near-misses, were not re-listed because no material change was found in the screened fields.",
+    "Third-party job sites returned by web search were used only to find employer pages; none of their pay or location claims were used.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Vibe needs confirmation that its published range is annual base salary; the other four near-misses need an employer-published base salary, and Mistral AI, Shift Technology and Doctolib also need explicit attendance or eligibility terms, before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "vibe-1870510e",
+      "company": "Vibe",
+      "title": "Staff or Senior Machine Learning Engineer - Identity & Audience",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/vibe/1870510e-4300-4369-b69b-78449e642ae8",
+      "applyUrl": "https://jobs.ashbyhq.com/vibe/1870510e-4300-4369-b69b-78449e642ae8/application",
+      "checked": "2026-10-23",
+      "posted": "2026-10-08",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris. Location Type: Hybrid. “Hybrid flexibility — We're in the Heart of Paris and our team is in 3x a week!”[1]",
+      "salary": {
+        "lower": 99000,
+        "upper": 171000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "“The pay range for this role is €99,000 - €171,000.” The listing separately offers “Equity — Employee Stock Ownership Plan” and “Variable pay — Based on real Vibe business goals.” The range is not labelled as annual base salary, and the official ATS data carries no structured compensation for this role.[1]"
+      },
+      "reasons": [
+        "Pay gate unconfirmed: the listing publishes a €99,000–€171,000 pay range and explicit equity, but does not say whether the range is annual gross base salary or includes variable pay. Only a confirmed base lower bound of at least €80,000 with equity would pass, so the role is held as a near-miss rather than ranked.[1]",
+        "Location passes on employer evidence: a Paris hybrid role with the team in the office three times a week.[1]",
+        "AI centrality passes: the engineer researches and builds machine-learning, clustering and statistical algorithms that resolve users and households from billions of advertising events, and turns them into production systems that feed targeting, measurement and model training sets.[1]",
+        "Seniority passes: the title is Staff or Senior, and the listing asks for 5+ years as an ML engineer or data scientist building and operating production services, plus data-scale tools such as Dagster, Spark or Iceberg.[1]",
+        "First published October 8, 2026 and new to this site’s history. The application form rendered on the check date.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Vibe runs a streaming-TV advertising platform used, it says, by more than 12,000 brands to reach 120 million+ households, and states it became a Walmart company in August 2026. This role sits on the Data Platform team and owns identity resolution, the layer that decides which ad reaches which household and whether it worked. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official listing: pay, equity, attendance and duties",
+          "url": "https://jobs.ashbyhq.com/vibe/1870510e-4300-4369-b69b-78449e642ae8",
+          "quote": "The pay range for this role is €99,000 - €171,000. We will support relocation to Paris for great candidates. Hybrid flexibility — We're in the Heart of Paris and our team is in 3x a week!",
+          "checked": "2026-10-23"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/vibe/1870510e-4300-4369-b69b-78449e642ae8/application",
+          "quote": "Submit Application",
+          "checked": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "qonto-b822acb0",
+      "company": "Qonto",
+      "title": "Staff Product Engineer - AI Core - remote friendly",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/b822acb0-0283-408b-9d45-6ea6e4a2d666",
+      "applyUrl": "https://jobs.ashbyhq.com/qonto/b822acb0-0283-408b-9d45-6ea6e4a2d666/application",
+      "checked": "2026-10-23",
+      "posted": "2026-10-22",
+      "location": "remote",
+      "locationQuote": "Location: Paris, France. “You can apply to work at Qonto as long as you're living in (or willing to relocate to) France, Germany, Spain, or Italy. This role is hybrid or remote.”[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and the official ATS data carries no compensation for this role. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual cash-base lower bound.[3]",
+        "Location passes on employer evidence: applicants living in France are eligible, and the role may be done hybrid or remote.[3]",
+        "AI centrality passes, with a caveat: the engineer restructures Qonto’s internal AI Software Factory and ships agents for bug resolution, code review, QA, auto-approval and safe auto-merge, starting with autonomous bug resolution. Part of the role is acting as the product manager of that internal tool.[3]",
+        "Seniority passes on title (Staff). Requirements are strong engineering, the ability to read Python, and working knowledge of how models, prompting and evaluation work.[3]",
+        "First published October 22, 2026. The application form rendered on the check date.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Qonto is a business-finance and banking platform for European SMEs; the listing says it has 1,700 employees, over 750,000 customers in 8 countries and has been profitable since 2023 (employer statements, not independently verified here). This internal role builds coding agents for Qonto’s own engineers, not a customer-facing product. Separate product diligence was not advanced because the role is not ranked.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/qonto/b822acb0-0283-408b-9d45-6ea6e4a2d666",
+          "quote": "You can apply to work at Qonto as long as you're living in (or willing to relocate to) France, Germany, Spain, or Italy. This role is hybrid or remote.",
+          "checked": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "mistral-818ab64d",
+      "company": "Mistral AI",
+      "title": "Research Engineer - Cybersecurity (RL Environments)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/818ab64d-6d6d-4e3e-9f6c-cc50ffd3e76c",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/818ab64d-6d6d-4e3e-9f6c-cc50ffd3e76c/application",
+      "checked": "2026-10-23",
+      "posted": "2026-09-25",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris. Location Type: Hybrid. The listing states no number of office days or other attendance terms.[4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[4]",
+        "Location gate unconfirmed: Paris hybrid is stated, but the explicit attendance pattern the rule requires is not.[4]",
+        "AI centrality passes: the engineer designs reinforcement-learning environments that simulate security scenarios, builds pipelines that generate synthetic cybersecurity training instances at scale, and runs evaluations whose results feed Mistral’s production training runs.[4]",
+        "No level is named. Requirements include hands-on offensive or defensive security expertise, Python plus reading C/C++, and Docker, Kubernetes and cloud deployment experience. First published September 25, 2026, it is new to this site’s history, not newly created. The application form rendered on the check date with Mistral’s 3-applications-in-90-days limit.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: part of Mistral’s Science department, this track develops its frontier models’ abilities in vulnerability discovery and remediation, security analysis and incident response, across the offensive-to-defensive spectrum. Separate product diligence was not advanced because the role is not ranked.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/818ab64d-6d6d-4e3e-9f6c-cc50ffd3e76c",
+          "quote": "Concretely, that means designing and building RL environments that reproduce realistic security scenarios, pipelines that generate synthetic training instances at scale, and experiments and evaluations that show what our models can actually do. Candidates may submit up to 3 total applications within a 90 day period across all open roles.",
+          "checked": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "shift-8012550003",
+      "company": "Shift Technology",
+      "title": "Staff AI Engineer - Architecture skills",
+      "status": "near-miss",
+      "listingUrl": "https://job-boards.greenhouse.io/shifttechnology/jobs/8012550003",
+      "applyUrl": "https://job-boards.greenhouse.io/shifttechnology/jobs/8012550003",
+      "checked": "2026-10-23",
+      "posted": "2026-10-03",
+      "location": "unknown",
+      "locationQuote": "Location: “Any Shift Location; France - Paris”. Benefits list “Flexible remote and hybrid working options”; no attendance pattern or remote-country eligibility is stated.[5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "The listing promises “Competitive Salary and a variable component” but publishes no figure or equity terms, and the official ATS data carries no pay range. Pay is unknown, not below the threshold.[5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[5]",
+        "Location gate unverified: Paris is named alongside “Any Shift Location”, but neither an attendance pattern nor explicit remote eligibility for France is given.[5]",
+        "AI centrality passes: the hands-on Staff AI Engineer designs and ships agentic workflows, LLM orchestration layers and tool-calling integrations, moves AI prototypes into production microservices on Azure, and sets up evaluation, tracing and token-budget practices.[5]",
+        "Seniority passes on title (Staff). First published October 3, 2026, it is new to this site’s history. The Greenhouse application form rendered on the same page on the check date.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Shift Technology sells AI agents for insurers’ claims and fraud work; this role is the technical anchor for its AI platform capabilities, including MCP, advanced RAG patterns and structured LLM outputs. Separate product diligence was not advanced because the role is not ranked.[5]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official listing and on-page application form",
+          "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/8012550003",
+          "quote": "We are looking for an experienced, hands-on Staff AI Engineer to serve as the technical anchor for our AI capabilities; someone who is deeply passionate about building, prototyping, and scaling modern AI/LLM systems, while helping shape our broader AI engineering strategy.",
+          "checked": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-4c8b1db6",
+      "company": "Doctolib",
+      "title": "Senior AI Engineer - Search & Recommendation - Patient Team (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/4c8b1db6-ac2f-4173-a613-4e2787f7df3d",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/4c8b1db6-ac2f-4173-a613-4e2787f7df3d/application",
+      "checked": "2026-10-23",
+      "posted": "2026-09-14",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris. Location Type: Hybrid. Job details: “Workplace: Levallois”. No number of office days is stated.[6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published; the only figures are meal-voucher amounts. The listing mentions an employee value-sharing plan but no equity grant. Pay is unknown, not below the threshold.[6]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary range.[6]",
+        "Location gate unconfirmed: the workplace is Levallois, next to Paris rather than in the city, and the hybrid attendance pattern is not stated.[6]",
+        "AI centrality passes: the engineer designs the production retrieval, ranking and reranking pipeline (vector search, semantic retrieval, LLM or managed rerankers) behind Doctolib’s patient health companion, with offline and online evaluation built into every stage.[6]",
+        "Seniority passes on title (Senior). The ATS header labels the employment type “Contract”, while the body says “Permanent position”. A near-identical sibling listing, “Senior AI Engineer - Patient Team”, carries the same text under a different requisition. Both application forms rendered on the check date.[6][7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Doctolib’s Patient domain builds a health companion that it says helps 100M patients across Europe find the right care; this role owns the search and recommendation architecture behind it. Separate product diligence was not advanced because the role is not ranked.[6]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/doctolib/4c8b1db6-ac2f-4173-a613-4e2787f7df3d",
+          "quote": "Design and build the production search & recommendation architecture: full retrieval, ranking, reranking pipeline with standard and off-the-shelf components (vector search, semantic retrieval, LLM/managed rerankers).",
+          "checked": "2026-10-23"
+        },
+        {
+          "label": "[7] Sibling listing with the same text",
+          "url": "https://jobs.ashbyhq.com/doctolib/852ecbc4-15b2-4a0d-954a-64074bf34445",
+          "quote": "We are looking for a Senior AI Engineer to join the Patient team in Paris.",
+          "checked": "2026-10-23"
+        }
+      ]
+    }
+  ]
+}
