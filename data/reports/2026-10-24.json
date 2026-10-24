@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 24. Three roles are near-misses. The closest is Vibe’s Paris-hybrid Lead Developer for identity and audience, which publishes a €127,000–€171,000 France pay range but does not say whether that range is base salary. White Circle’s Paris-hybrid agentic-systems and evals research roles offer equity but publish no salary or attendance pattern. Three more roles were rejected: one Vibe data-platform role passes pay but is not AI-central, and two fail the pay rule. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 24: 131 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data, now including Vibe and Shift Technology; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards and Greenhouse and Lever pay data for 120 France-located engineering roles. A second pass tried 100 more company names on all three ATS types and reached 43 boards. A supplementary Workable and Recruitee check reached 6 of 44 board aliases. Seven web searches were used for discovery only. Seven listings were examined individually on official pages and their application forms rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 24, 2026. Posting dates come from employer ATS metadata.",
+    "Vibe’s €127,000–€171,000 range for the Lead Developer role is not labelled base salary and the listing also offers variable pay. Vibe’s ATS codes the same wording as salary for a sibling role, which suggests but does not establish that this range is base. If the employer confirms it is annual base, the role would pass the pay rule.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. White Circle offers equity on both research roles but publishes no salary figure.",
+    "Vibe’s Staff or Senior Machine Learning Engineer listing, a near-miss on October 23, is unchanged and was not re-listed. Qonto’s Staff Product Engineer listing from the same day still renders but no longer appears on Qonto’s public job board, so its status is unclear.",
+    "Deduplication covered the accessible October 10–23 reports and the supplied October 3/5 Escape history. None of today’s requisition IDs appear in those reports. Previously reported roles still visible on the boards were not re-listed because no material change was found in the screened fields.",
+    "Third-party job sites returned by web search were used only to find employer pages. Several aggregator listings with attractive pay could not be matched to an open official listing and were not used.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Vibe’s Lead Developer role needs confirmation that its published range is annual base salary; White Circle’s two roles need a published base salary and an explicit attendance pattern before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "vibe-40d3907a",
+      "company": "Vibe",
+      "title": "Lead Developer - Identity and Audience",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/vibe/40d3907a-5174-4ed4-a974-4c754ed04955",
+      "applyUrl": "https://jobs.ashbyhq.com/vibe/40d3907a-5174-4ed4-a974-4c754ed04955/application",
+      "checked": "2026-10-24",
+      "posted": "2026-08-06",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris; New York. Location Type: Hybrid. “Hybrid flexibility — We're in the Heart of Paris and our team is in 3x a week!”[1]",
+      "salary": {
+        "lower": 127000,
+        "upper": 171000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "“For candidates based in France, the pay range for this role is €127,000-€171,000.” The listing separately offers “Variable pay — Based on real Vibe business goals.” The range is not labelled as base salary, no equity is stated for this role, and the official ATS data carries no structured compensation for it.[1]"
+      },
+      "reasons": [
+        "Pay gate unconfirmed: the France pay range starts at €127,000, above the €100,000 floor, but the listing does not say whether the range is annual gross base salary or includes the separately listed variable pay. The role is held as a near-miss rather than ranked.[1]",
+        "Supporting but not decisive: for a sibling Vibe listing that uses the same “pay range” wording, Vibe’s official ATS data codes the range as a salary component separate from bonus and equity. That is evidence about Vibe’s convention, not a statement for this role.[3]",
+        "Location passes on employer evidence: Paris hybrid, with the team in the office three times a week.[1]",
+        "AI centrality passes, with a caveat: the lead designs and builds the clustering and entity-resolution algorithms that attach every observed ad event to a real identity, drives accuracy improvements through evaluation frameworks, and feeds the training data Vibe’s models learn from. It is a player-coach role that also manages one senior engineer.[1]",
+        "Seniority passes: the listing asks for 8+ years building and operating production ML or data systems, including technical leadership as a tech lead, staff engineer or team lead. First published August 6, 2026 and new to this site’s history. The application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Vibe runs a streaming-TV advertising platform that, it says, more than 12,000 brands use to reach 120 million+ households, and states it became a Walmart company in August 2026. This role leads the three-person Identity squad on the Data Platform team, which resolves identity at US scale and is extending it into audience construction and attribution. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official listing: pay, attendance and duties",
+          "url": "https://jobs.ashbyhq.com/vibe/40d3907a-5174-4ed4-a974-4c754ed04955",
+          "quote": "For candidates based in France, the pay range for this role is €127,000-€171,000. Design and build clustering algorithms and pipelines that resolve identity at US scale",
+          "checked": "2026-10-24"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/vibe/40d3907a-5174-4ed4-a974-4c754ed04955/application",
+          "quote": "Submit Application",
+          "checked": "2026-10-24"
+        },
+        {
+          "label": "[3] Sibling Vibe listing with structured salary data",
+          "url": "https://jobs.ashbyhq.com/vibe/8284bc22-6569-474f-8270-2f3a7ef4009d",
+          "quote": "The pay range for this role is €99,000 - €171,000.",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "whitecircle-6b1ac4a8",
+      "company": "White Circle",
+      "title": "Research Scientist/Engineer (Agentic Systems)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/whitecircle/6b1ac4a8-00c9-4124-80f6-c533092afab3",
+      "applyUrl": "https://jobs.ashbyhq.com/whitecircle/6b1ac4a8-00c9-4124-80f6-c533092afab3/application",
+      "checked": "2026-10-24",
+      "posted": "2026-06-29",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris; London. Location Type: Hybrid. “Office in central London/Paris with flexible hybrid setup”; no number of office days is stated.[4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "“Competitive compensation, including equity.” No salary figure is published on the listing, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[4]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is offered, but no employer-published annual cash-base lower bound.[4]",
+        "Location gate unconfirmed: Paris hybrid is stated, but the explicit attendance pattern the rule requires is not.[4]",
+        "AI centrality passes: the role builds adversarial single- and multi-agent environments that push LLM agents to failure, runs experiments against external APIs and White Circle’s own models, and catalogues agent failure modes with tooling to surface them at scale.[4]",
+        "No level is named; the listing asks for a track record of empirical research in agents, red-teaming or post-training. First published June 29, 2026, it is new to this site’s history, not newly created. The application form rendered on the check date.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: White Circle describes itself as an AI safety company whose platform tests and enforces natural-language policies on AI systems; it says it has raised $70M in total, including a Series A, and processes over 100M API calls a month (employer statements, not independently verified here). This research team studies how agents fail and turns findings into guardrails. Separate product diligence was not advanced because the role is not ranked.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/whitecircle/6b1ac4a8-00c9-4124-80f6-c533092afab3",
+          "quote": "TL;DR: We're looking for a research scientist to build autonomous, large-scale environments that push LLM agents (single and multi-agent) to failure, and study how they actually break.",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "whitecircle-07d24ec8",
+      "company": "White Circle",
+      "title": "Research Engineer (Evals)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/whitecircle/07d24ec8-117f-4849-8dd5-2c2bc2cfbb40",
+      "applyUrl": "https://jobs.ashbyhq.com/whitecircle/07d24ec8-117f-4849-8dd5-2c2bc2cfbb40/application",
+      "checked": "2026-10-24",
+      "posted": "2026-06-28",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris; London. Location Type: Hybrid. “Office in central London/Paris with flexible hybrid setup”; no number of office days is stated.[5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "“Competitive compensation, including equity.” No salary figure is published, and the official ATS data carries no compensation. Pay is unknown, not below the threshold.[5]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is offered, but no employer-published annual cash-base lower bound.[5]",
+        "Location gate unconfirmed: Paris hybrid is stated without an attendance pattern.[5]",
+        "AI centrality passes: the engineer owns the internal benchmark suite for content and agentic guardrails, builds evals for the company’s flagship models and studies real-world LLM and agent failure modes.[5]",
+        "No level is named. First published June 28, 2026 and new to this site’s history. The application form rendered on the check date.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: White Circle describes itself as an AI safety company whose platform tests and enforces natural-language policies on AI systems; it says it has raised $70M in total, including a Series A, and processes over 100M API calls a month (employer statements, not independently verified here). This role maintains the benchmarks that measure those guardrails and models. Separate product diligence was not advanced because the role is not ranked.[5]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/whitecircle/07d24ec8-117f-4849-8dd5-2c2bc2cfbb40",
+          "quote": "Own and maintain our internal benchmark suite, covering single/multi-turn content guardrails and agentic safety.",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "vibe-8284bc22",
+      "company": "Vibe",
+      "title": "Staff or Senior Data Platform Engineer - Data Infrastructure",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/vibe/8284bc22-6569-474f-8270-2f3a7ef4009d",
+      "applyUrl": "https://jobs.ashbyhq.com/vibe/8284bc22-6569-474f-8270-2f3a7ef4009d/application",
+      "checked": "2026-10-24",
+      "posted": "2026-10-08",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris. Location Type: Hybrid. “Hybrid flexibility — We're in the Heart of Paris and our team is in 3x a week!”[3]",
+      "salary": {
+        "lower": 99000,
+        "upper": 171000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“The pay range for this role is €99,000 - €171,000.” Vibe’s official ATS data lists this €99K–€171K range as an annual salary component, separate from “Offers Bonus” and “Offers Equity”, and the listing offers “Equity — Employee Stock Ownership Plan.”[3]"
+      },
+      "reasons": [
+        "AI-central engineering gate fails: the role owns Kafka streaming, Dagster batch orchestration and the ClickHouse serving path for the data platform. Machine-learning teams are among its internal users, but building or operating AI systems is not a primary duty.[3]",
+        "Pay passes the equity branch on employer evidence: a €99,000 annual salary lower bound with an explicit employee stock ownership plan.[3]",
+        "Location passes: Paris hybrid, three office days a week. The application form rendered on the check date.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Vibe runs a streaming-TV advertising platform that, it says, more than 12,000 brands use to reach 120 million+ households, and states it became a Walmart company in August 2026. This Data team role runs the batch, streaming and reporting stacks behind advertiser reporting and internal analytics.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official listing, ATS salary data and rendered application",
+          "url": "https://jobs.ashbyhq.com/vibe/8284bc22-6569-474f-8270-2f3a7ef4009d",
+          "quote": "Design and operate real-time event processing on Kafka at production scale",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "vibe-d3fd25fa",
+      "company": "Vibe",
+      "title": "Senior SRE/ML Ops Engineer - Performance",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/vibe/d3fd25fa-6da0-4569-9199-0ae4dc9e459a",
+      "applyUrl": "https://jobs.ashbyhq.com/vibe/d3fd25fa-6da0-4569-9199-0ae4dc9e459a/application",
+      "checked": "2026-10-24",
+      "posted": "2026-09-14",
+      "location": "hybrid",
+      "locationQuote": "Location: Paris. Location Type: Hybrid. “Hybrid flexibility — We're in the heart of Paris and our team is in 3x a week!”[6]",
+      "salary": {
+        "lower": 70000,
+        "upper": 110000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "“For candidates in France, the pay range for this role is €70,000-€110,000.” Variable pay is listed separately; no equity is stated for this role.[6]"
+      },
+      "reasons": [
+        "Pay gate fails: the published range starts at €70,000, below both the €100,000 floor and the €80,000-plus-equity branch, whatever the range covers.[6]",
+        "AI centrality is partial: the engineer owns reliability, latency and cost for the prediction-serving and bidding stack and works with the data scientists who ship models into it, rather than building the models.[6]",
+        "Location passes: Paris hybrid, three office days a week. The application form rendered on the check date.[6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Vibe runs a streaming-TV advertising platform that, it says, more than 12,000 brands use to reach 120 million+ households, and states it became a Walmart company in August 2026. The Performance team owns the prediction models, bidding engine, pacing and delivery stack.[6]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/vibe/d3fd25fa-6da0-4569-9199-0ae4dc9e459a",
+          "quote": "For candidates in France, the pay range for this role is €70,000-€110,000.",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "everai-6f9797f8",
+      "company": "EverAI",
+      "title": "Mid/Senior AI LLM Engineer (Full Remote - Europe)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/everai/6f9797f8-0768-4cf5-8112-7c8fe213f652",
+      "applyUrl": "https://jobs.ashbyhq.com/everai/6f9797f8-0768-4cf5-8112-7c8fe213f652/application",
+      "checked": "2026-10-24",
+      "posted": "2026-10-20",
+      "location": "remote",
+      "locationQuote": "Location: Europe. Location Type: Remote. “Work From Anywhere: Fully remote.” The listing names no specific countries and says the company prefers B2B contracts.[7]",
+      "salary": {
+        "lower": 75000,
+        "upper": 125000,
+        "currency": "EUR",
+        "annualBase": false,
+        "equity": null,
+        "quote": "“Annual Compensation Range (Gross) €75K – €125K.” The listing says “Published ranges reflect total gross annual compensation, including any applicable target bonus.” No equity is stated.[7]"
+      },
+      "reasons": [
+        "Pay gate fails: the published range is total compensation including target bonus, not base salary, and its €75,000 lower bound is below both branches of the rule.[7]",
+        "AI centrality passes: the engineer fine-tunes open-weight LLMs with SFT, LoRA/QLoRA, DPO and GRPO, builds training data and evals, and ships models to production.[7]",
+        "Location is unconfirmed for France: “Europe” remote with no named eligible countries, and a stated preference for B2B contracts. The listing also says the work involves explicit adult content. First published October 20, 2026; the application form rendered on the check date.[7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: EverAI says it builds AI companion products running mostly on self-hosted, fine-tuned open-weight models, and reports 50M+ users (employer statement, not independently verified here).[7]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official listing and rendered application",
+          "url": "https://jobs.ashbyhq.com/everai/6f9797f8-0768-4cf5-8112-7c8fe213f652",
+          "quote": "Published ranges reflect total gross annual compensation, including any applicable target bonus.",
+          "checked": "2026-10-24"
+        }
+      ]
+    }
+  ]
+}
