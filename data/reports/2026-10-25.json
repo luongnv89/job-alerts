@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-25",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 25. One role is a near-miss: JAKALA’s Paris-hybrid AI Engineer – Senior Consultant is open and AI-central, with at most two remote days a week, but publishes no salary. Two promising AI roles found through search were already closed on the employer pages: INOCO’s AI Security Engineer and a recruiter’s Senior AI Engineer listing for a Paris fintech. The official job boards showed no new matching postings since October 24. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 25: 131 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever pay data for 120 France-located engineering roles, and Ashby engineering roles first published since October 17 with a France or Europe-remote location. Compared with October 24, the sweep found no new matching postings. A second pass reached 43 of 300 attempted board aliases for 100 more companies, and a Workable and Recruitee check reached 6 of 44. Eight web searches were used for discovery only. Five listings were examined individually on employer or recruiter pages; one application form rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 25, 2026, a Sunday. Posting dates come from employer metadata where published; none of today’s three entries publishes one.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. JAKALA publishes no salary; third-party job sites show conflicting figures for the same listing, and none was used.",
+    "October 24’s near-misses (Vibe’s Lead Developer for identity and audience, and White Circle’s two research roles) are still on their boards with no change found in the screened fields, so they were not re-listed.",
+    "A previously closed Mendo listing that still appears in search results was rechecked and remains unavailable on the employer page.",
+    "Deduplication covered the accessible October 10–24 reports and the supplied October 3/5 Escape history. None of today’s entries appear in those reports.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. JAKALA’s role needs a published annual base salary (above €100,000, or at least €80,000 with equity) before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "jakala-ai-engineer-senior-consultant",
+      "company": "JAKALA",
+      "title": "AI Engineer – Senior Consultant",
+      "status": "near-miss",
+      "listingUrl": "https://jakala.welcomekit.co/jobs/ai-engineer-senior-consultant_paris",
+      "applyUrl": "https://jakala.welcomekit.co/jobs/ai-engineer-senior-consultant_paris",
+      "checked": "2026-10-25",
+      "posted": null,
+      "location": "hybrid",
+      "locationQuote": "“Bureau en plein centre de Paris” and “Télétravail possible jusqu’à 2 jours par semaine” (remote work possible up to two days a week). Lieu : Paris.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Rémunération selon profil et expérience” (pay depends on profile and experience). The employer page publishes no salary figure and no equity. Third-party job sites show conflicting figures for this listing and were not used. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: the official listing publishes no annual base salary and no equity, so neither branch of the pay rule can be checked.[1]",
+        "Location passes on employer evidence: a central-Paris office with remote work capped at two days a week.[1]",
+        "AI centrality passes: the engineer designs and builds LLM solutions (conversational agents, RAG, tool-using agents) and ML models, keeps them running in production, and monitors token cost, model choice, caching, latency and reliability of agents in production.[1]",
+        "Seniority is only partly established: the title is Senior Consultant, but the listing asks for more than three years of experience, and the role also covers client use-case discovery and proofs of concept in a consulting setting.[1]",
+        "New to this site’s history. No posting date is published on the employer page. The application form (name, current role, contact details, CV upload) opened from the listing’s Postuler button on the check date.[1]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: JAKALA describes itself as a European data and AI consulting firm for marketing, founded in Italy in 2000, present in 20 countries with 3,000 staff, and established in France in 2023 with close to 250 consultants at the end of 2025 (employer statements, not independently verified here). This role builds LLM and ML solutions for client use cases. Separate product diligence was not advanced because the role is not ranked.[1]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official JAKALA careers listing and application form",
+          "url": "https://jakala.welcomekit.co/jobs/ai-engineer-senior-consultant_paris",
+          "quote": "Rémunération selon profil et expérience",
+          "checked": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "inoco-ai-security-engineer",
+      "company": "INOCO",
+      "title": "AI Security Engineer",
+      "status": "rejected",
+      "listingUrl": "https://www.welcometothejungle.com/fr/companies/inoco/jobs/ai-security-engineer_paris",
+      "applyUrl": null,
+      "checked": "2026-10-25",
+      "posted": null,
+      "location": "hybrid",
+      "locationQuote": "Paris, “Télétravail occasionnel” (occasional remote work); workplace 6 Rue du 8 Mai 1945, 75010 Paris. No attendance pattern is stated.[2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Salaire : Non spécifié” (salary not specified) on the employer’s job page. A company-wide perk list mentions a share purchase plan, BSPCE or stock options, which is not a role-specific equity offer. A higher figure shown on a third-party job site was not used.[2]"
+      },
+      "reasons": [
+        "Open-listing gate fails: the employer’s job page states “Cette offre n’est plus disponible” (this offer is no longer available), and no application path is offered.[2]",
+        "The role would have been AI-central: threat modeling of LLM and agentic applications, agent permission and isolation design, guardrails, and red teaming client applications before and after release.[2]",
+        "Pay was not published by the employer, and the location wording gives no attendance pattern.[2]"
+      ],
+      "gates": {
+        "open": "fail",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: INOCO describes itself as an independent, employee-owned IT services firm of about 60 people that takes client AI projects from scoping to production (employer statement, not independently verified here).[2]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[2] Employer job page (closed on the check date)",
+          "url": "https://www.welcometothejungle.com/fr/companies/inoco/jobs/ai-security-engineer_paris",
+          "quote": "Cette offre n’est plus disponible.",
+          "checked": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "bureaudestalents-senior-ai-engineer",
+      "company": "Bureaudestalents (recruiter for an unnamed fintech client)",
+      "title": "Senior AI Engineer",
+      "status": "rejected",
+      "listingUrl": "https://www.welcometothejungle.com/fr/companies/bureaudestalents/jobs/senior-ai-engineer_paris_BUREA_Ao2P67d",
+      "applyUrl": null,
+      "checked": "2026-10-25",
+      "posted": null,
+      "location": "hybrid",
+      "locationQuote": "Paris 75008. “Work setup: Hybrid (3–4 days/week in the office)”.[3]",
+      "salary": {
+        "lower": 85000,
+        "upper": 120000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "Job summary: “Salaire : 85K à 120K €”. Listing body: “Salary: Depending on experience ( + stock options )”. The range is not labelled as base salary.[3]"
+      },
+      "reasons": [
+        "Open-listing gate fails: both copies of this recruiter listing state “Cette offre n’est plus disponible” (this offer is no longer available), and no application path is offered.[3][4]",
+        "The role would have been AI-central: designing and deploying LLM features for document understanding, financial data extraction and semantic search, and owning the AI roadmap and evaluation frameworks.[3]",
+        "The employer is an unnamed client of a recruitment firm, described as a Paris fintech SaaS company of about 15 people that recently raised €4 million (recruiter statements), so the company could not be researched separately.[3]"
+      ],
+      "gates": {
+        "open": "fail",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: the recruiter describes the client as building proprietary financial data and analytics tools for analysts, portfolio managers and research teams.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Recruiter job page (closed on the check date)",
+          "url": "https://www.welcometothejungle.com/fr/companies/bureaudestalents/jobs/senior-ai-engineer_paris_BUREA_Ao2P67d",
+          "quote": "Work setup: Hybrid (3–4 days/week in the office)",
+          "checked": "2026-10-25"
+        },
+        {
+          "label": "[4] Second copy of the same recruiter listing (closed on the check date)",
+          "url": "https://www.welcometothejungle.com/fr/companies/bureaudestalents/jobs/senior-ai-engineer_paris_BUREA_dQMyxy3",
+          "quote": "Cette offre n’est plus disponible.",
+          "checked": "2026-10-25"
+        }
+      ]
+    }
+  ]
+}
