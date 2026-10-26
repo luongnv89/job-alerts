@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "requestedCount": 3,
+  "summary": "One role cleared every hard gate on October 26: Inato’s Senior AI Engineer, open to the Paris office or fully remote from France. It pays €85,000–€100,000 a year plus equity, and the work is LLM pipelines and agents for clinical-trial recruitment and site selection. It is not a new listing. This site rejected the same requisition on October 14 because its floor was then €70,000; the employer republished it on October 23 with a higher range. Two other leads were already closed: lemlist’s Senior Applied AI Engineer (filled) and a Jus Mundi Staff Engineer listing. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 26: 131 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever pay data for 120 France-located engineering roles, and Ashby engineering roles first published since October 22 with a France or Europe-remote location. Compared with October 25, no new matching postings appeared. This run also compared every previously reported listing still on a reachable board against its recorded pay and posting date, which surfaced the Inato change. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. Seven web searches were used for discovery only. Six listings were examined individually on employer or job-board pages; one application form rendered. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 26, 2026. Posting dates come from employer metadata where published.",
+    "Inato’s pay change was visible in this site’s automated sweeps from October 24, but those runs treated the listing as previously reported and did not re-examine it. It is reported today as a material change to an existing requisition, not as a newly discovered role.",
+    "Inato’s salary is classified as an annual EUR salary in the employer’s ATS data, separate from equity; the listing does not use the word “gross”. Equity terms (amount, vesting) are not published.",
+    "Inato’s current headcount, revenue, profitability and runway are not publicly verified. The latest funding found is a 2023 Series A2; no later round was found.",
+    "Previously reported near-misses were rechecked where boards were reachable. Cohere’s agent-security role still publishes pay only for Canada and the US, and n8n’s agent-platform role publishes European regional pay tiers but still does not name France. Their earlier decisions stand, so they were not re-listed.",
+    "Deduplication covered the accessible October 10–25 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. One role qualified today: Inato’s Senior AI Engineer, after an evidenced pay change to a previously rejected requisition. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "inato-6059da1d",
+      "company": "Inato",
+      "title": "Senior AI Engineer",
+      "status": "qualified",
+      "listingUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+      "applyUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application",
+      "checked": "2026-10-26",
+      "posted": "2026-10-23",
+      "location": "remote",
+      "locationQuote": "“PARIS OFFICE or REMOTE FROM FRANCE”; ATS location type: Remote. The application form adds: “This role requires you to be based in France and already have full authorization to work here.”[1][2]",
+      "salary": {
+        "lower": 85000,
+        "upper": 100000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“€85K – €100K • Offers Equity”. The official ATS data lists €85,000–€100,000 as a one-year EUR Salary component, with equity as a separate component. The listing does not say “gross” explicitly. This site’s archived October 14 report recorded the same requisition at €70K – €95K.[1][3]"
+      },
+      "reasons": [
+        "Pay passes the €80,000-plus-equity branch: the published annual salary floor is €85,000 and equity is explicitly offered as a separate component. Equity is not counted as cash, and the €100,000 ceiling does not clear the strict cash-only branch.[1][3]",
+        "Material change since this site’s history: the same requisition was rejected on October 14 because its published floor was €70,000. The employer republished it on October 23 with a €85,000–€100,000 range; the location wording and the duty quoted on October 14 are unchanged. The earlier range is in this site’s archived October 14 report.[1][3]",
+        "Location passes: the role is open to the Paris office or fully remote from France. The application requires living in France at least six months a year, paying tax there and already holding full French work authorization.[1][2]",
+        "AI centrality passes: the engineer orchestrates models over multimodal data, builds RAG over long medical documents and patient histories, and builds agentic systems for patient recruitment and site selection.[1]",
+        "Seniority passes on the title. The listing asks for several years with ML or AI at the centre of the work and shipped, maintained LLM features in production; it says AI work limited to prototypes, or a first AI feature shipped in the last year, is probably not a fit.[1]",
+        "Language requirement: the application says strong English and French are both assessed, and the engineering team works fully in French. The application form rendered on the check date.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Inato runs a platform that connects pharmaceutical trial sponsors with clinical research sites; its homepage claims 6,000+ sites and 25+ sponsors in 50+ countries (company claims). Its AI products cover site selection and pre-screening that automates chart review against trial eligibility criteria.[6] The listing names two example projects, which are examples rather than guaranteed assignments.[1] The first is a pre-screening tool built on reasoning models and visual RAG, used across hundreds of clinical sites. Inato’s March 2025 arXiv paper describes that pipeline: reasoning LLMs read unprocessed EHR documents as images, with multimodal embeddings for record search. It reports 93% criterion-level accuracy on the n2c2 2018 benchmark and 87% on a real-world set of 485 patients from 30 sites against 36 trials, with chart review taking under 9 minutes per patient on average.[4] The second is a site-selection agent that turns a sponsor’s request into constraints and objectives and calls a mathematical optimizer. An Inato engineer’s November 2025 post describes building it, including flaky tests from non-deterministic LLM calls, checking tool-call sequences instead of only final answers, and inspecting traces with Langfuse.[5] Concrete engineering problems: eligibility reasoning when records are incomplete (the paper attributes the real-world accuracy gap partly to this), evaluation of multi-call agents, and handling patient data, which Inato says is anonymized.[4][5]",
+      "financials": "Investment: Inato announced a $20 million Series A2 on March 29–30, 2023, led by returning investor Cathay Innovation with Obvious Ventures, La Maison and Top Harvest Capital; MedCity News reported this brought total funding to $36 million.[8][9] No later funding round was found on the company’s news page or in this run’s searches, so newer financing is not publicly verified. Financial condition: revenue, profitability and runway are not publicly verified; funding does not establish them. Size: a current, attributable employee count is not publicly verified. Recent activity: Inato’s news page lists a September 2, 2026 Fierce AI Innovation Awards win in clinical trial operations.[7] pharmaphorum reported in February 2026 that Brad Cottreau joined as chief commercial officer.[10] The homepage features an October 23, 2026 recap of a SCOPE EU fireside chat with Sanofi.[6]",
+      "evidence": [
+        {
+          "label": "[1] Official Inato listing: location, pay and duties",
+          "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+          "quote": "PARIS OFFICE or REMOTE FROM FRANCE. Compensation €85K – €100K • Offers Equity. Build agentic systems to revolutionize key aspects of drug development such as patient recruitment or site selection",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[2] Rendered application form",
+          "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application",
+          "quote": "This role requires you to be based in France and already have full authorization to work here. Is that the case for you?",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[3] Official ATS data: salary component and publish date",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/inato?includeCompensation=true",
+          "quote": "Metadata summary: Salary component €85,000–€100,000, interval 1 YEAR, currency EUR; separate equity component; published October 23, 2026; workplace type Remote; location PARIS OFFICE or REMOTE FROM FRANCE.",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[4] Inato arXiv paper on LLM patient–trial matching (March 19, 2025)",
+          "url": "https://arxiv.org/abs/2503.15374",
+          "quote": "In real-world trials, the pipeline yielded an accuracy of 87%",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[5] Inato engineering blog: building the site-selection agent (November 4, 2025)",
+          "url": "https://inato.substack.com/p/five-challenges-faced-when-building",
+          "quote": "an agent for clinical trial managers working at pharmaceutical companies to select the best set of clinical sites for a given clinical trial",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[6] Inato homepage: platform and AI products",
+          "url": "https://www.inato.com/",
+          "quote": "Reduce site burden and accelerate patient enrollment by using AI to automate chart review and pre-screening.",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[7] Inato news and press page",
+          "url": "https://www.inato.com/news-press",
+          "quote": "September 2, 2026 Inato named 2026 Winner of Fierce AI Innovation Awards - Clinical Trial Operations",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[8] MedCity News funding coverage (April 2023)",
+          "url": "https://medcitynews.com/2023/04/inato-snags-20m-to-make-clinical-trials-more-diverse-accessible/",
+          "quote": "The financing round, which raised the company’s total funding to date to $36 million",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[9] Cathay Innovation funding release (March 30, 2023)",
+          "url": "https://www.cathaycapital.com/inato-raises-20-million-in-new-funding-to-make-clinical-trials-more-inclusive/",
+          "quote": "today announced the close of $20 million in Series A2 funding from existing and new investors",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[10] pharmaphorum appointments, February 2026",
+          "url": "https://pharmaphorum.com/digital/changing-faces-digital-and-supplier-february-2026",
+          "quote": "Brad Cottreau was appointed chief commercial officer at Inato",
+          "checked": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "lemlist-senior-applied-ai-engineer",
+      "company": "lemlist",
+      "title": "Senior Applied AI Engineer",
+      "status": "rejected",
+      "listingUrl": "https://lemlist.welcomekit.co/companies/lemlist/jobs/senior-applied-ai-engineer_paris",
+      "applyUrl": null,
+      "checked": "2026-10-26",
+      "posted": null,
+      "location": "unknown",
+      "locationQuote": "Paris. A search snippet mentioned possible full remote, but the employer page no longer shows the listing details.[11]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "Not published on the employer page on the check date.[11]"
+      },
+      "reasons": [
+        "Open-listing gate fails: the employer’s job page states “This position has been filled!”, and no application path is offered.[11]"
+      ],
+      "gates": {
+        "open": "fail",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[11] Employer job page (filled on the check date)",
+          "url": "https://lemlist.welcomekit.co/companies/lemlist/jobs/senior-applied-ai-engineer_paris",
+          "quote": "This position has been filled!",
+          "checked": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "jus-mundi-staff-engineer",
+      "company": "Jus Mundi",
+      "title": "Staff Engineer - Paris",
+      "status": "rejected",
+      "listingUrl": "https://www.hellowork.com/fr-fr/emplois/82313591.html",
+      "applyUrl": null,
+      "checked": "2026-10-26",
+      "posted": null,
+      "location": "unknown",
+      "locationQuote": "Paris. The job-board page no longer shows attendance details.[12]",
+      "salary": {
+        "lower": 80000,
+        "upper": 110000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "The closed job-board page shows “80 000 - 110 000 € / an”; it is not labelled as base salary and is not employer-hosted. A search snippet mentioned equity, which could not be confirmed on any open page.[12]"
+      },
+      "reasons": [
+        "Open-listing gate fails: the job-board page says the offer is no longer available, and the employer’s own careers board lists no Staff Engineer role on the check date.[12][13]",
+        "AI centrality was not established: the role was described as a staff-level engineering reference for the whole platform, with the AI layer as one part of it.[12]"
+      ],
+      "gates": {
+        "open": "fail",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[12] Job-board page (closed on the check date)",
+          "url": "https://www.hellowork.com/fr-fr/emplois/82313591.html",
+          "quote": "Cette offre d'emploi chez Jus Mundi n'est plus disponible",
+          "checked": "2026-10-26"
+        },
+        {
+          "label": "[13] Employer careers board",
+          "url": "https://jus-mundi.welcomekit.co/",
+          "quote": "Only one open role was listed on the check date: Account Executive - DACH region, Paris.",
+          "checked": "2026-10-26"
+        }
+      ]
+    }
+  ]
+}
