@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-27",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 27. The closest lead is a near-miss: Shift Technology’s Lead AI Engineer for LLMOps and agentic AI, first published October 26, open in Paris or remote from France, but with no published salary. Alan’s new Agentic Platform engineer role is also a near-miss: no published salary and no senior level. Dust republished its Senior AI Support Engineer role with a €50,000–€100,000 range, which fails the pay floor. Photoroom reposted a Product ML Engineer role this site rejected on October 13. Yesterday’s pick, Inato’s Senior AI Engineer, is still listed unchanged and is not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 27: 132 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever pay data for 116 France-located engineering roles, and Ashby engineering roles first published since October 24 with a France or Europe-remote location. Compared with October 26, the sweep found eight new AI-titled postings; three were relevant enough to examine. Every previously reported listing still on a reachable board was compared against its recorded pay and posting date. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. Three web searches were used for discovery only; leads found there were checked against employer pages. Seven listings were examined individually on employer pages or official ATS data; one application form was present. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 27, 2026. Posting dates come from employer ATS metadata.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Shift and Alan publish no salary for these roles.",
+    "Inato’s Senior AI Engineer (October 26 pick) is still on its board with the same €85K–€100K plus equity range and October 23 publish date. It stays in the October 26 archive and is not counted today.",
+    "Earlier near-misses rechecked where boards were reachable: Shift’s Staff AI Engineer (October 23) is still listed; n8n’s agent-platform role still does not name France; Cohere’s agent-security role still publishes pay only for Canada and the US. Their earlier decisions stand, so they were not re-listed.",
+    "Search leads that could not be verified on employer pages were excluded: a Dust LLM agents engineer role seen only on an aggregator is not on Dust’s official board; Qonto’s Staff ML Engineer for AI Engines and Datadog’s Staff ML Engineer for Bits AI are no longer on their official boards; Mendo’s Senior AI Engineer page says the offer is no longer available.",
+    "Deduplication covered the accessible October 10–26 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Shift Technology’s and Alan’s roles need a published annual base salary (above €100,000, or at least €80,000 with equity) before reconsideration; Alan’s would also need a senior or staff level. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "shift-technology-8044723003",
+      "company": "Shift Technology",
+      "title": "Lead AI Engineer - ML/LLM Ops & Agentic AI",
+      "status": "near-miss",
+      "listingUrl": "https://job-boards.greenhouse.io/shifttechnology/jobs/8044723003",
+      "applyUrl": "https://job-boards.greenhouse.io/shifttechnology/jobs/8044723003",
+      "checked": "2026-10-27",
+      "posted": "2026-10-26",
+      "location": "remote",
+      "locationQuote": "ATS location: “France - Paris; France - Remote”. Benefits: “Flexible remote and hybrid working options”. The process ends with “A final round at our office with multiple interviews”. No weekly attendance pattern is stated.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Competitive Salary and a variable component tied to personal and company performance”. No figure or equity terms are published on the listing, and the official ATS data carries no pay range. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: the employer publishes no annual base salary and no equity, so neither branch of the pay rule can be checked.[1][2]",
+        "Location passes on employer evidence: the ATS lists “France - Remote” alongside Paris, and the benefits mention remote and hybrid options.[1][2]",
+        "AI centrality passes: the role is to “design and ship production-grade agentic workflows (LLM orchestration, tool calling, MCP, RAG, structured outputs)”, own LLMOps standards (evaluation harnesses, prompt and agent versioning, tracing, cost governance, release gates) and own the inference layer for self-hosted open-weight models.[1]",
+        "Seniority passes: a hands-on lead role that is to “coach and develop 2 to 5 people” while continuing to build.[1]",
+        "New requisition, first published October 26, 2026 per the ATS. It is separate from Shift’s Staff AI Engineer near-miss of October 23, which is still listed with no change in the screened fields. The Greenhouse application form was present on the listing page on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: “Shift delivers AI agents that transform insurers' most critical work.” The role sits in Shift’s Data & AI Platform Engineering team. Named duties include a Databricks-based ML platform (Unity Catalog, MLflow, serving on AKS), self-hosting open-weight foundation models with Cloud Ops, and time-boxed proofs of concept such as relational foundation models for claims fraud detection and agentic ingestion of medical billing sources. English is required; French is a plus. A separate company or product source was not read today, so the product gate is not marked as passed.[1]",
+      "financials": "Not researched today because the role was not ranked. Shift’s funding, financial condition and headcount are not publicly verified in this report.",
+      "evidence": [
+        {
+          "label": "[1] Official Shift Technology listing (Greenhouse)",
+          "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/8044723003",
+          "quote": "design and ship production-grade agentic workflows (LLM orchestration, tool calling, MCP, RAG, structured outputs)",
+          "checked": "2026-10-27"
+        },
+        {
+          "label": "[2] Official Greenhouse job data: location, dates, pay fields",
+          "url": "https://boards-api.greenhouse.io/v1/boards/shifttechnology/jobs/8044723003",
+          "quote": "Metadata summary: location “France - Paris; France - Remote”; first published October 26, 2026; requisition 950; no pay range in the pay-transparency field.",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "alan-3b78382c",
+      "company": "Alan",
+      "title": "Fullstack Software Engineer (x/f/m) - Agentic Platform",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/alan/3b78382c-b243-46c1-a22e-a67850b21821",
+      "applyUrl": null,
+      "checked": "2026-10-27",
+      "posted": "2026-10-26",
+      "location": "remote",
+      "locationQuote": "ATS location: “Anywhere in France, Belgium, Spain”. “Location: you must be legally eligible to work in France, Belgium, or Spain.” “Remote work: we offer remote work flexibility, but we value in-person collaboration.”[3][4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Generous equity packages complement your base salary.” No salary figure is published on the listing, and the official ATS data carries no compensation tier for this role. Pay is unknown, not below the threshold.[3][4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual base salary for this role.[3][4]",
+        "Seniority not established: the title carries no senior or staff level, and the listing asks for “3+ years in software engineering, with solid backend fundamentals”.[3]",
+        "AI centrality passes: the Agentic Platform area says “We own the environment agents run in (infrastructure, runtime, evaluation, observability, skills lifecycle)”, on a stack that includes PydanticAI, Temporal, MCP and sandboxes.[3]",
+        "Location passes on employer evidence: open anywhere in France for people legally eligible to work there, with remote flexibility.[3][4]",
+        "New to this site’s history; first published October 26, 2026 per the ATS. The application form was not opened because the role failed two gates.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Alan sells health insurance with prevention and care services. The listing says agents already answer members’ health questions, resolve support requests, read medical documents and detect fraud, and that “In 2027, we expect to run more AI agents than we have employees.” The Agentic Platform area builds the shared runtime, evaluation and observability layer, plus the internal assistant Hopper and an Agent Studio. Company-reported figures in the listing (40K+ companies, 1M+ members, €800M+ ARR, 1000+ people) were not independently verified.[3]",
+      "financials": "Not researched today because the role was not ranked. The listing’s company figures are employer claims, not verified financial disclosures.",
+      "evidence": [
+        {
+          "label": "[3] Official Alan listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/alan/3b78382c-b243-46c1-a22e-a67850b21821",
+          "quote": "We own the environment agents run in (infrastructure, runtime, evaluation, observability, skills lifecycle)",
+          "checked": "2026-10-27"
+        },
+        {
+          "label": "[4] Official Ashby job data: location, date, compensation fields",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/alan?includeCompensation=true",
+          "quote": "Metadata summary: location “Anywhere in France, Belgium, Spain”; published October 26, 2026; no compensation tiers.",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "dust-31640a53-7c85-416b-9c95-610445a55e81",
+      "company": "Dust",
+      "title": "Senior AI Support Engineer (Paris)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+      "applyUrl": null,
+      "checked": "2026-10-27",
+      "posted": "2026-10-23",
+      "location": "on-site",
+      "locationQuote": "ATS location: Paris, workplace type On-site. “We're prioritizing building our team with an in-person culture at our offices in Paris, London, San Francisco, and New York”.[5][6]",
+      "salary": {
+        "lower": 50000,
+        "upper": 100000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "Official ATS data: “€50K – €100K”, a one-year EUR Salary component titled “Depending on experience”. Benefits: “Significant equity package in a Sequoia-backed startup”. This site’s October 17 report recorded no published salary figure for this requisition.[5][6]"
+      },
+      "reasons": [
+        "Pay gate fails: the published annual salary floor is €50,000, below €80,000 even with equity and well below the €100,000 cash-only branch.[5][6]",
+        "Changed since this site’s October 17 near-miss: the employer republished the requisition on October 23 with a published range. The new evidence settles the pay gate as a fail.[6]",
+        "The role is a senior support-engineering position (“As a Senior AI Support Engineer, you will help define what world-class support looks like in an AI-native company.”), recorded as AI-relevant on October 17; that decision is not revisited because pay fails.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official Dust listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/dust/31640a53-7c85-416b-9c95-610445a55e81",
+          "quote": "Significant equity package in a Sequoia-backed startup",
+          "checked": "2026-10-27"
+        },
+        {
+          "label": "[6] Official Ashby job data: salary and publish date",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/dust?includeCompensation=true",
+          "quote": "Metadata summary: Salary component €50,000–€100,000, interval 1 YEAR, currency EUR, tier “Depending on experience”; published October 23, 2026; workplace type On-site.",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "photoroom-41ba8841",
+      "company": "Photoroom",
+      "title": "Product ML Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/photoroom/41ba8841-a50e-49a2-947a-15dff61bbd55",
+      "applyUrl": null,
+      "checked": "2026-10-27",
+      "posted": "2026-10-26",
+      "location": "hybrid",
+      "locationQuote": "ATS location: Paris. Benefits: “Hybrid working from our Paris headquarters”. No attendance pattern is stated.[7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Competitive salary + meaningful equity”. No salary figure is published on the listing or in the official ATS data.[7][8]"
+      },
+      "reasons": [
+        "Seniority gate fails: the title has no senior or staff level and the listing asks for “You have 2+ years of hands-on experience building and shipping ML-powered products”.[7]",
+        "Pay is unpublished and the hybrid attendance pattern is unstated.[7][8]",
+        "Same title and content as the Photoroom listing this site rejected on October 13; the employer reposted it under a new ID on October 26 and the old ID is no longer on the board. No material change was found.[8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Photoroom listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/photoroom/41ba8841-a50e-49a2-947a-15dff61bbd55",
+          "quote": "Competitive salary + meaningful equity",
+          "checked": "2026-10-27"
+        },
+        {
+          "label": "[8] Official Ashby job data: publish date and compensation fields",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/photoroom?includeCompensation=true",
+          "quote": "Metadata summary: published October 26, 2026; location Paris; no compensation tiers; previous Product ML Engineer ID absent from the board.",
+          "checked": "2026-10-27"
+        }
+      ]
+    }
+  ]
+}
