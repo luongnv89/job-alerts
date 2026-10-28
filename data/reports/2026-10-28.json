@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 28. The closest lead is a near-miss: Qonto republished on October 27 its Staff Software Engineer role for AI agents in anti-financial-crime tooling, remote from France, but it still publishes no salary; this site first recorded that requisition on October 12. Mendo posted a new Senior AI Engineer – AI Tech Lead role in Paris hybrid whose €75,000–€85,000 package includes variable pay, which fails the pay floor. Docker’s new Principal Forward Deployed Engineer role for agent infrastructure does not list France. Earlier picks and near-misses still listed without change are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 28: 132 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. AI-titled roles on reachable boards were screened, as were Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever pay data for 116 France-located engineering roles, and Ashby engineering roles first published since October 25 with a France or Europe-remote location. Compared with October 27, the sweep found three new senior AI-titled postings on reachable boards; one names France. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. Six web searches were used for discovery only; leads found there were checked against employer pages and boards. Ten listings or boards were examined individually on employer pages or official ATS data. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 28, 2026. Posting dates come from employer ATS metadata or the employer page.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Qonto publishes no salary for this role.",
+    "Inato’s Senior AI Engineer (October 26 pick) is still on its board with the same €85K–€100K plus equity range and October 23 publish date. It stays in the October 26 archive and is not counted today.",
+    "Earlier near-misses rechecked where boards were reachable: Shift Technology’s Lead AI Engineer (October 27) and Staff AI Engineer (October 23) still publish no salary; JAKALA’s AI Engineer – Senior Consultant (October 25) still publishes no salary on the employer page. Their earlier decisions stand, so they were not re-listed.",
+    "Search leads that could not be verified on employer pages were excluded: a Gorgias Staff AI Engineer role with a Paris salary range appears on a third-party site but is not on Gorgias’s official board. HackerOne’s new Staff Software Engineer, Applied AI role is listed for the United States only. Theodo’s Paris AI engineering listings date from 2025 or earlier in 2026 and publish no salary.",
+    "Deduplication covered the accessible October 10–27 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Qonto’s role needs a published annual base salary (above €100,000, or at least €80,000 with equity) before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "qonto-b1d8d47e",
+      "company": "Qonto",
+      "title": "Staff Software Engineer, AI Agents (Python)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/b1d8d47e-6fef-48ab-90fe-445354f3d2cd",
+      "applyUrl": null,
+      "checked": "2026-10-28",
+      "posted": "2026-10-27",
+      "location": "remote",
+      "locationQuote": "“Location: France, Germany, Spain, or Italy — remote within these hiring locations.” ATS location: Paris, France, workplace type Remote.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity terms are published on the listing, and the official ATS data carries no compensation tiers for this role. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual base salary and no equity terms, so neither branch of the pay rule can be checked.[1][2]",
+        "Location passes on employer evidence: remote work is open within France, Germany, Spain or Italy.[1]",
+        "AI centrality passes: “Design and ship agentic tools and AI-powered workflows that gather context from multiple internal systems, orchestrate models and tools, parse structured outputs, and handle uncertainty and failure safely”. The listing adds: “This is not a conventional backend role using AI only as a coding assistant, nor an ML research role.”[1]",
+        "Seniority passes: a staff-level role that asks for “Staff-level autonomy and judgement”.[1]",
+        "Same requisition this site rejected on October 12 for unpublished pay. The employer republished it on October 27 with a detailed team description; pay is still unpublished, so the earlier decision stands. It is listed again only because of the republication. The application form was not opened because the pay gate is unverified. The October 12 record is preserved in that day’s archived report.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Qonto is a business finance workspace with banking at its core for SMEs. The role sits in the AI Compliance Tooling team within Financial Crime Compliance. The listing says the team does not build fraud-detection or KYC/KYB rule engines; it builds the AI automation layer used by human investigators. One current system “gathers information from 10–15 internal tools and produces a structured compliance analysis for a person to approve or edit”, cutting treatment time from about 15–20 minutes to about 30 seconds (employer claim). A separate product source was not read today, so the product gate is not marked as passed.[1]",
+      "financials": "Not researched today because the role was not ranked. The listing states 1,700 staff, over 750,000 customers in 8 European countries and profitability since 2023; these are employer statements, not verified financial disclosures.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Qonto listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/qonto/b1d8d47e-6fef-48ab-90fe-445354f3d2cd",
+          "quote": "Location: France, Germany, Spain, or Italy — remote within these hiring locations.",
+          "checked": "2026-10-28"
+        },
+        {
+          "label": "[2] Official Ashby job data: publish date and compensation fields",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/qonto?includeCompensation=true",
+          "quote": "Metadata summary: published October 27, 2026; location Paris, France; workplace type Remote; no compensation tiers.",
+          "checked": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "mendo-8611034",
+      "company": "Mendo",
+      "title": "Senior AI Engineer - AI Tech Lead",
+      "status": "rejected",
+      "listingUrl": "https://mendoai-1730204279.teamtailor.com/jobs/8611034-senior-ai-engineer-ai-tech-lead",
+      "applyUrl": null,
+      "checked": "2026-10-28",
+      "posted": "2026-10-23",
+      "location": "hybrid",
+      "locationQuote": "“Location: Paris, Châtelet – Hybrid (2 days on-site / 3 days remote)”.[3]",
+      "salary": {
+        "lower": 75000,
+        "upper": 85000,
+        "currency": "EUR",
+        "annualBase": false,
+        "equity": true,
+        "quote": "“Compensation: €75,000–€85,000 gross annual package (base + 12% target variable) + BSPCE (equity), depending on step”. The figures are a package including variable pay, so the base salary is lower than the quoted floor.[3]"
+      },
+      "reasons": [
+        "Pay gate fails: the published floor is a €75,000 gross package that includes a 12% target variable. That is below €80,000 even before removing the variable part, so the equity branch fails, and the cash-only branch (above €100,000 base) fails too.[3]",
+        "Location passes: Paris hybrid with an explicit two-days-on-site pattern.[3]",
+        "AI centrality and seniority pass on the listing: “Train and ship on-device AI models, improve production features, and help leading organizations turn generative AI into everyday value”, and it asks for “6+ years in ML / AI engineering”.[3]",
+        "New requisition, posted October 23, 2026 per the employer page. It is separate from Mendo’s earlier Senior AI Engineer listing, which this site recorded as unavailable on October 15 and which is no longer on the board.[3][4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Mendo listing (Teamtailor)",
+          "url": "https://mendoai-1730204279.teamtailor.com/jobs/8611034-senior-ai-engineer-ai-tech-lead",
+          "quote": "Compensation: €75,000–€85,000 gross annual package (base + 12% target variable) + BSPCE (equity), depending on step",
+          "checked": "2026-10-28"
+        },
+        {
+          "label": "[4] Official Mendo careers board",
+          "url": "https://mendoai-1730204279.teamtailor.com/jobs",
+          "quote": "Metadata summary: the board lists Senior AI Engineer - AI Tech Lead (8611034); the earlier Senior AI Engineer listing (6979783) is not listed.",
+          "checked": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "docker-1d33a956",
+      "company": "Docker",
+      "title": "Principal Forward Deployed Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/docker/1d33a956-a03f-48fb-8b80-7ddce36c2636",
+      "applyUrl": null,
+      "checked": "2026-10-28",
+      "posted": "2026-10-27",
+      "location": "remote",
+      "locationQuote": "ATS locations: England, Portugal, Spain, Italy and Germany; workplace type Remote. France is not listed. The listing also says: “Travel to customer sites to build in person with customer teams, estimated at up to 50%.”[5][6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The only published range is “United States: €121K – €198K + equity”. No range is published for any European location, and no range applies to France.[5]"
+      },
+      "reasons": [
+        "Location gate fails: the official ATS locations are England, Portugal, Spain, Italy and Germany, with no France eligibility stated.[5][6]",
+        "Pay is unverified for Europe: the only published figure is for the United States.[5]",
+        "AI centrality passes on the listing: deliverables include “custom MCP servers with tightly integrated Docker Sandbox environments for coding agents and containerized agents”, and it requires hands-on production experience with LLMs, agents, MCP and agent evaluation.[5]",
+        "New to this site’s history; first published October 27, 2026 per the ATS. A large share of the role is customer-facing delivery with up to 50% travel.[5][6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official Docker listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/docker/1d33a956-a03f-48fb-8b80-7ddce36c2636",
+          "quote": "Deliver working technical artifacts to customers: custom MCP servers with tightly integrated Docker Sandbox environments for coding agents and containerized agents",
+          "checked": "2026-10-28"
+        },
+        {
+          "label": "[6] Official Ashby job data: locations and publish date",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/docker?includeCompensation=true",
+          "quote": "Metadata summary: primary location England; secondary locations Portugal, Spain, Italy, Germany; remote; published October 27, 2026; no compensation tier summary.",
+          "checked": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}
