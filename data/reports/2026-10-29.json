@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 29. Three newly examined postings were rejected. GitLab’s Staff Solutions Architect role for AI is a pre-sales specialist position judged on technical wins and bookings. Parallel’s Forward Deployed Engineer role in Paris is mainly hospital IT deployment and integration. Idun Group’s Senior AI Engineer role for agentic AI pays from €55,000. Qonto’s Staff Software Engineer, AI Agents role (yesterday’s near-miss) still publishes no salary and is not repeated. Earlier picks and near-misses that are unchanged are not repeated either. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 29: 132 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, and Greenhouse and Lever data for 108 France-located engineering roles (29 with pay text). It also screened Ashby engineering roles first published since October 26 with a France or Europe-remote location. Compared with October 28, the main sweep surfaced two newly matched senior AI-titled postings that list France, plus one reappearing Paris posting. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. Five web searches were used for discovery only; leads found there were checked against employer pages and boards. Twelve listings or boards were examined individually on employer pages or official ATS data. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 29, 2026. Posting dates come from employer ATS metadata or the employer page.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. GitLab and Parallel publish no salary for these roles.",
+    "Qonto’s Staff Software Engineer, AI Agents (Python) (October 28 near-miss) is still listed with the same October 27 publish date and no compensation data. That decision stands, so it is not re-listed.",
+    "Inato’s Senior AI Engineer (October 26 pick) is still on its board with the same €85K–€100K plus equity range and October 23 publish date. It stays in the October 26 archive and is not counted today.",
+    "GitLab’s Forward Deployed Engineer – EMEA (October 19 near-miss) shows a refreshed October 28 update timestamp but still no published pay; a refreshed timestamp is not a material change. Shift Technology’s Lead AI Engineer and Staff AI Engineer still publish no salary.",
+    "Search leads not counted: a Dust LLM Engineer and a Mirakl Senior AI Developer appear with salary ranges only on a third-party job site and were not found on the employers’ own boards. Datadog’s Staff AI Engineer – Notebooks no longer appears on Datadog’s official board. Consulting roles at OCTO Technology, Equancy and a recruiter listing (Novera Talent) show ranges whose lower bounds are €54,000–€60,000 on third-party pages; they were not verified on employer pages and would fail the pay floor as quoted.",
+    "Agicap’s AI Software Engineer (Forward Deployment Engineer) is based in Lyon with a published €55,000–€70,000 range, created in 2023 per the ATS; it fails the location and pay gates and was not examined further.",
+    "Deduplication covered the accessible October 10–28 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Qonto’s Staff Software Engineer, AI Agents role still needs a published annual base salary (above €100,000, or at least €80,000 with equity) before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "gitlab-8860196002",
+      "company": "GitLab",
+      "title": "Staff Solutions Architect, AI Subject Matter Expert",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8860196002",
+      "applyUrl": null,
+      "checked": "2026-10-29",
+      "posted": "2026-10-16",
+      "location": "remote",
+      "locationQuote": "Official Greenhouse locations: “Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom”.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary range is published on the listing, and the Greenhouse pay-transparency field is empty. The benefits list names “Equity Compensation & Employee Stock Purchase Plan”. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "AI-central hands-on engineering gate fails: this is a field pre-sales specialist role. The listing says “Your success will be measured by technical win rate and bookings on SME-engaged opportunities” and asks for “Substantial experience in technical pre-sales, solutions architecture, consulting, or software engineering”.[1]",
+        "AI is one of four possible specialisms, not the guaranteed assignment: “You'll specialize in one product group, not all four.” The AI track reads: “In AI & Competitive, you'll focus on GitLab Duo Agent Platform, agentic workflows, AI-native development, competitive displacement including GitHub, and migrations.”[1]",
+        "Location passes on employer evidence (remote, France listed). Pay gate unverified: no published base salary.[1][2]",
+        "New to this site’s history. First published October 16, 2026 per Greenhouse; the board record was updated October 28, which is when the daily sweep first matched it.[2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official GitLab listing (Greenhouse)",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860196002",
+          "quote": "Your success will be measured by technical win rate and bookings on SME-engaged opportunities",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "[2] Official Greenhouse job data: locations, dates and pay fields",
+          "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs/8860196002?pay_transparency=true",
+          "quote": "Metadata summary: locations Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom; first published October 16, 2026; updated October 28, 2026; no pay-transparency ranges.",
+          "checked": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "parallel-137e6dca",
+      "company": "Parallel",
+      "title": "Forward Deployed Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/beparallel/137e6dca-6539-465a-b242-0c3bcd74333a",
+      "applyUrl": null,
+      "checked": "2026-10-29",
+      "posted": "2026-09-07",
+      "location": "hybrid",
+      "locationQuote": "ATS location: Paris, workplace type Hybrid. The listing says: “Flexibility: on average one day of remote work per week, and one remote week per year.”[3][4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No figure is published; the listing offers a “Competitive salary and equity package”. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "AI-central gate fails: the primary duty is field deployment and integration. The mission is to “Technically lead end-to-end deployments by understanding each facility's IT infrastructure, adapt our platform to their constraints (interfaces, integrations, security, network architecture, on-prem deployments), and unblock projects by getting hands-on with the product when needed.”[3]",
+        "AI is a secondary requirement: “You've played with LLMs and AI agents — whether on side projects or professionally (LangChain, Hugging Face)”. The product itself is AI-based: “Our technology combines Large Language Models with system-level automation to handle real work inside existing hospital tools.”[3]",
+        "Seniority is not stated as senior or staff (the listing asks for 5+ years of full-stack experience), and pay is unpublished.[3]",
+        "Not new: published September 7, 2026 per the ATS. The posting was on the board from October 20 to 23, missing from this site’s sweeps from October 24 to 28, and listed again today. It was never recorded in an earlier report.[4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Parallel listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/beparallel/137e6dca-6539-465a-b242-0c3bcd74333a",
+          "quote": "Technically lead end-to-end deployments by understanding each facility's IT infrastructure, adapt our platform to their constraints (interfaces, integrations, security, network architecture, on-prem deployments), and unblock projects by getting hands-on with the product when needed.",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "[4] Official Ashby job data: location, publish date and compensation fields",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/beparallel?includeCompensation=true",
+          "quote": "Metadata summary: location Paris, workplace type Hybrid; published September 7, 2026; no compensation tier summary.",
+          "checked": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "idun-senior-ai-engineer",
+      "company": "Idun Group",
+      "title": "Senior AI Engineer: Agentic AI",
+      "status": "rejected",
+      "listingUrl": "https://idun-group.com/en/careers/senior-ai-engineer",
+      "applyUrl": null,
+      "checked": "2026-10-29",
+      "posted": "2026-10-07",
+      "location": "hybrid",
+      "locationQuote": "“Paris, Île-de-France · 50% on-site, 50% remote”.[5]",
+      "salary": {
+        "lower": 55000,
+        "upper": 80000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "“€55–80k/year + equity”. The page does not say whether the range is base salary or a package. Either way the €55,000 floor is below €80,000.[5]"
+      },
+      "reasons": [
+        "Pay gate fails: the published floor of €55,000 is below the €80,000 equity branch and the above-€100,000 cash branch.[5]",
+        "Location passes: Paris with a stated 50% on-site attendance pattern.[5]",
+        "AI centrality passes on the listing: “Build production-grade agents in-house on the Idun Platform: from architecture to eval to deployment, for our consulting clients.” The work is delivered for consulting clients.[5]",
+        "Found through web search and confirmed on the employer’s own careers page. Posted October 7, 2026 per the employer page; new to this site’s history.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official Idun Group careers page",
+          "url": "https://idun-group.com/en/careers/senior-ai-engineer",
+          "quote": "€55–80k/year + equity",
+          "checked": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}
