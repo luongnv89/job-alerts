@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-30",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 30. Three postings first published or republished on October 29 were examined and rejected. n8n’s Staff agentic-engineering platform role is clearly AI-central and now pays from €159,400 in its Western Europe tier, but its location list still omits France. Filigran’s Staff AppSec / Product Security Engineer role is remote in France but is product-security work, with AI only one review area, and no salary is published. Langfuse’s Senior Cloud Infra Engineer role pays from €90,000 with equity but is infrastructure and SRE work, not AI-central. Earlier picks and near-misses that are unchanged are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 30: 132 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, and Greenhouse and Lever data for 109 France-located engineering roles (29 with pay text). It also screened Ashby engineering roles first published since October 27 with a France or Europe-remote location. Compared with October 29, the main sweep surfaced no newly matched senior AI-titled posting that lists France; the recent-postings pass surfaced the three roles reported here. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. A direct check of 16 further employer board aliases reached 12. Seven web searches were used for discovery only (three returned no results); leads found there were checked against employer boards. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 30, 2026. Posting dates come from employer ATS metadata.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Filigran publishes no salary for this role. n8n’s published tiers cover only the listed countries, so its France pay is unknown rather than failing.",
+    "Qonto’s Staff Software Engineer, AI Agents (Python) (October 28 near-miss) is still listed with the same October 27 publish date and no compensation data, so it is not re-listed.",
+    "Inato’s Senior AI Engineer (October 26 pick) and Pigment’s Senior GenAI Engineer (October 10 pick) are still on their boards with unchanged ranges. They stay in their original archives and are not counted today.",
+    "Shift Technology’s Lead AI Engineer and Staff AI Engineer, Vibe’s Staff or Senior Machine Learning Engineer and GitLab’s Forward Deployed Engineer – EMEA remain listed with no material change found in the official data. They are not repeated.",
+    "Other leads not counted: Mistral AI posted several Engineering Manager roles in Paris on October 28, including one for agent sandboxes; these are people-management roles with no published pay. Brevo’s Technical Lead – AI Ops and Linkup’s Machine Learning Engineer publish no salary. Finary’s AI Product Engineer is listed at €65K–€80K with equity, below the floor. Several consulting AI roles in Paris (OCTO Technology, Equancy, Idun Group, a recruiter listing) show ranges with lower bounds from €54,000 to €60,000.",
+    "Third-party job sites showed salary ranges for Giskard, Sicara, Owkin and Geoox Staff ML roles that could not be matched to the employers’ own boards. They were treated as unverified and not counted.",
+    "Deduplication covered the accessible October 10–29 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. n8n’s Staff agentic-engineering platform role would need France added to its eligible locations before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "n8n-1af7a193-2026-10-30",
+      "company": "n8n",
+      "title": "Agentic Engineering Platform Engineer (Staff Platform Engineer, Agentic Engineering)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1",
+      "applyUrl": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1/application",
+      "checked": "2026-10-30",
+      "posted": "2026-10-29",
+      "location": "remote",
+      "locationQuote": "Official location list: “Berlin Office; Albania; Austria; Belgium; Bosnia; Bulgaria; Croatia; Czech Republic; Denmark; Estonia; Finland; Germany; Greece; Hungary; Ireland; Kosovo; Latvia; Lithuania; London Office; Moldova; Montenegro; Netherlands; Norway; Poland; Portugal; Romania; Serbia; Slovakia; Slovenia; Spain; United Kingdom”, location type Remote. France is not listed.[1][2]",
+      "salary": {
+        "lower": 159400,
+        "upper": 175300,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "“Western Europe / Northern Europe €159.4K – €175.3K • Offers Equity”. This is a regional tier for the listed countries; France is not among them, so no French offer range is published.[1][2]"
+      },
+      "reasons": [
+        "Location gate fails: the role-specific location list names 31 European locations but not France. The same employer lists France on other postings on its board, such as Senior Product Manager (Enterprise), so the omission here is specific to this role.[1][2]",
+        "AI centrality passes on the listing: “This is a Staff individual contributor role in Developer Platform and the technical driving force behind ACDC (Agent-centric Development Cycle), our engineering-wide initiative for agentic development.”[1]",
+        "Recorded as a near-miss on October 17. Material changes since then: the ATS publish date is now October 29, 2026; the description now names a Staff individual contributor level; the Western/Northern Europe tier rose from €114.3K–€149.3K to €159.4K–€175.3K. The location list still omits France, so the role is rejected rather than reconsidered.[1][2]",
+        "The same-page application form rendered on the check date.[1]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[1] Official n8n listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/n8n/1af7a193-334d-4d5c-b45d-250122d9c3f1",
+          "quote": "This is a Staff individual contributor role in Developer Platform and the technical driving force behind ACDC (Agent-centric Development Cycle), our engineering-wide initiative for agentic development.",
+          "checked": "2026-10-30"
+        },
+        {
+          "label": "[2] Official Ashby job data: locations, publish date and compensation tiers",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/n8n?includeCompensation=true",
+          "quote": "Metadata summary: primary location Berlin Office plus 30 secondary locations, none of them France; workplace type Remote; published October 29, 2026; Western Europe / Northern Europe salary tier €159,400–€175,300 per year with equity.",
+          "checked": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "filigran-6287db6b",
+      "company": "Filigran",
+      "title": "Staff AppSec / Product Security Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/filigran/6287db6b-cf82-4b17-bdff-434a060b15fc",
+      "applyUrl": "https://jobs.ashbyhq.com/filigran/6287db6b-cf82-4b17-bdff-434a060b15fc/application",
+      "checked": "2026-10-30",
+      "posted": "2026-10-29",
+      "location": "remote",
+      "locationQuote": "Official listing: location “France”, location type “Remote”; the profile asks for someone “Comfortable working in a remote, async-first environment”.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published on the listing or in the ATS compensation data. Pay is unknown, not below the threshold.[3]"
+      },
+      "reasons": [
+        "AI-central gate fails: the primary duty is product security across the XTM platform, for example “Drive secure SDLC and supply chain tooling in CI (SAST, SCA, secret and container scanning, Renovate, Snyk, SBOMs, signed releases), tuned so teams trust the results.”[3]",
+        "AI appears as one review area and as a productivity tool, not the core assignment: “Lead threat modeling and security reviews in feature refinements with Product Owners: authentication and RBAC, multi-tenancy, connectors, the GraphQL API, and AI and agent features.”[3]",
+        "Location and seniority pass on the listing (France, remote; Staff). Pay gate unverified: no published salary.[3]",
+        "New to this site’s history; published October 29, 2026 per the ATS. The same-page application form rendered on the check date.[3]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Filigran listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/filigran/6287db6b-cf82-4b17-bdff-434a060b15fc",
+          "quote": "Lead threat modeling and security reviews in feature refinements with Product Owners: authentication and RBAC, multi-tenancy, connectors, the GraphQL API, and AI and agent features.",
+          "checked": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "langfuse-cf36e6db",
+      "company": "Langfuse (ClickHouse)",
+      "title": "Langfuse - Senior Cloud Infra Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/clickhouse/cf36e6db-3939-4ff0-8bcf-a3bb200d9e46",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/cf36e6db-3939-4ff0-8bcf-a3bb200d9e46/application",
+      "checked": "2026-10-30",
+      "posted": "2026-10-29",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Germany; France; Italy; Portugal; Spain; The Netherlands”, location type “Hybrid”. The listing does not state an office or attendance pattern for France-based hires.[4][5]",
+      "salary": {
+        "lower": 90000,
+        "upper": 160000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Salary €90K – €160K • Offers Equity”; the official ATS data classifies the €90,000–€160,000 component as an annual EUR salary. The listing adds that every new team member receives stock options.[4][5]"
+      },
+      "reasons": [
+        "AI-central gate fails: this is a cloud infrastructure and SRE role for an LLM-observability product. The listing says “You'll own uptime, performance, and cost efficiency across our entire cloud footprint” on AWS ECS Fargate and ClickHouse Cloud.[4]",
+        "Pay passes on employer evidence (€90,000 annual salary floor with equity). Seniority passes (Senior).[4][5]",
+        "Location is not established: France is listed, but the type is Hybrid and no French office or attendance rule is given. A remote-first statement quoted from the Langfuse careers page on October 20 was not found on that page today.[4]",
+        "New to this site’s history; published October 29, 2026 per the ATS. Langfuse SDK, Product and Backend roles appear in the October 20 report and are separate requisitions.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official Langfuse listing and same-page application (Ashby, ClickHouse board)",
+          "url": "https://jobs.ashbyhq.com/clickhouse/cf36e6db-3939-4ff0-8bcf-a3bb200d9e46",
+          "quote": "You'll own uptime, performance, and cost efficiency across our entire cloud footprint",
+          "checked": "2026-10-30"
+        },
+        {
+          "label": "[5] Official Ashby job data: locations, publish date and compensation",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse?includeCompensation=true",
+          "quote": "Metadata summary: primary location Germany with France, Italy, Portugal, Spain and The Netherlands as secondary locations; workplace type Hybrid; published October 29, 2026; salary component €90,000–€160,000 EUR, interval 1 year, plus equity.",
+          "checked": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}
