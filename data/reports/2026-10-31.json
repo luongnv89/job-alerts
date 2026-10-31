@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-31",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on October 31. Five postings were examined. Two are near-misses because no salary is published: GitGuardian’s Senior Software Engineer, AI (Paris, three office days a week, stock options; AI is one of several duties) and Remanence’s Member of Technical Staff for agent training environments and evaluations (clearly AI-central, but no pay or attendance rule is published). Three were rejected: n8n’s new Forward Deployed Engineer – EMEA and Vanta’s Staff Software Engineer, AI and Data Risk both exclude France, and Mistral AI’s crashworthiness AI Scientist is a simulation-domain-expert role. Earlier picks and near-misses that are unchanged are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on October 31: 132 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, and Greenhouse and Lever data for 111 France-located engineering roles (31 with pay text). It also screened Ashby engineering roles first published since October 28 with a France or Europe-remote location. A second pass reached 43 of 300 attempted aliases, and a Workable and Recruitee check reached 6 of 44. Eight web searches were used for discovery only; leads found there were checked against employer boards, which added the GitGuardian careers site and the Remanence Ashby board. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked October 31, 2026. Posting dates come from employer ATS metadata or structured data on the employer’s page.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. Neither near-miss publishes a salary on the employer’s own page.",
+    "n8n’s Agentic Engineering Platform Engineer (October 30 rejection) is unchanged: same pay tiers, and France is still absent from its location list. It is not repeated.",
+    "Qonto’s Staff Software Engineer, AI Agents (Python) (October 28 near-miss) is still listed with no compensation data. Inato’s Senior AI Engineer (October 26 pick) and Pigment’s Senior GenAI Engineer (October 10 pick) are still listed with unchanged ranges. They stay in their original archives and are not counted today.",
+    "Shift Technology’s Lead AI Engineer and Staff AI Engineer remain listed on the official board and were not re-examined in depth. Dust’s on-site solutions-engineering leadership role (October 20 rejection) has been retitled Global Head of Solutions Engineering with the same requisition ID; it is not repeated.",
+    "Search-result leads not found on employer boards today (recruiter posts and third-party listings with salary figures) were not counted.",
+    "Deduplication covered the accessible October 10–30 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked; GitGuardian’s funding note is employer-stated only."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. GitGuardian and Remanence would need an employer-published salary (and, for Remanence, an attendance rule) before reconsideration. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "gitguardian-8622939",
+      "company": "GitGuardian",
+      "title": "Senior Software Engineer, AI",
+      "status": "near-miss",
+      "listingUrl": "https://careers.gitguardian.com/jobs/8622939-senior-software-engineer-ai",
+      "applyUrl": "https://careers.gitguardian.com/jobs/8622939-senior-software-engineer-ai/applications/new",
+      "checked": "2026-10-31",
+      "posted": "2026-10-27",
+      "location": "hybrid",
+      "locationQuote": "Official listing: “ENGINEERING · PARIS · HYBRID” and “Remote policy: hybrid (3 days/week at the office in Paris)”.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary range is published. The listing states “Package that includes stock-options”. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published annual cash-base lower bound, so the role cannot be ranked under the pay rule.[1]",
+        "Location passes on employer evidence: Paris, hybrid, three office days per week.[1]",
+        "AI centrality is mixed: the Incidents team runs “an LLM risk score that rates every new incident and an MCP server that lets AI agents work with GitGuardian”, and one listed mission is “Bring AI to production in our product”. Other listed missions centre on backend performance, Django/Celery delivery and on-call support, and production LLM experience is listed as a plus rather than a requirement.[1]",
+        "Seniority passes on the title (Senior; 5+ years of web software development). New to this site’s history. Posted October 27, 2026 per the structured data on the employer’s page. The application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: GitGuardian sells secrets detection and non-human-identity security. The Incidents team handles prioritisation, routing and remediation after a leaked credential is detected, at millions of incidents per day.[1]",
+      "financials": "Employer-stated on the listing: Series C raised in early 2026; offices in Paris, New York City and Boston. Amount, revenue and headcount were not publicly verified in this run.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official GitGuardian listing (Teamtailor careers site)",
+          "url": "https://careers.gitguardian.com/jobs/8622939-senior-software-engineer-ai",
+          "quote": "We put AI into production where it matters, with an LLM risk score that rates every new incident and an MCP server that lets AI agents work with GitGuardian.",
+          "checked": "2026-10-31"
+        },
+        {
+          "label": "[2] Official GitGuardian application form",
+          "url": "https://careers.gitguardian.com/jobs/8622939-senior-software-engineer-ai/applications/new",
+          "quote": "Summary: the application form with CV upload and required personal fields rendered on the check date.",
+          "checked": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "remanence-133df3c2",
+      "company": "Remanence",
+      "title": "Member of Technical Staff — Environments / Evals",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/remanence/133df3c2-827a-4e95-95f9-91bb84045fa6",
+      "applyUrl": "https://jobs.ashbyhq.com/remanence/133df3c2-827a-4e95-95f9-91bb84045fa6/application",
+      "checked": "2026-10-31",
+      "posted": "2026-09-22",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris; London”, location type “Hybrid”; “A flexible hybrid setup, with a preference for working together in person.” No office-day pattern is stated.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The employer listing says only “Competitive compensation and equity”, and the official ATS data carries no compensation. A third-party job site shows €90,000–€130,000, but that figure is not on the employer’s board and was not counted.[3][4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary. The €90K–€130K figure seen on a third-party site cannot be matched to the employer’s board.[3][4]",
+        "Location is not established: Paris is listed and the role is hybrid, but no attendance rule is published (“a preference for working together in person”).[3]",
+        "AI centrality passes: the role builds task generators, curricula, learned simulators and evaluation harnesses for training AI agents, e.g. “Build reproducible evaluation harnesses and held-out tests that detect reward exploitation, simulator shortcuts, contamination, and failures to generalize.”[3]",
+        "Seniority is not stated: the title is Member of Technical Staff with no level or years requirement. New to this site’s history; first published September 22, 2026 per the ATS. The application form rendered on the check date.[3][4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Remanence turns enterprise workflows into simulated, interactive environments where AI agents are trained and evaluated, aiming at specialised models for long-horizon tasks.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Remanence listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/remanence/133df3c2-827a-4e95-95f9-91bb84045fa6",
+          "quote": "Build reproducible evaluation harnesses and held-out tests that detect reward exploitation, simulator shortcuts, contamination, and failures to generalize.",
+          "checked": "2026-10-31"
+        },
+        {
+          "label": "[4] Official Ashby job data for the Remanence board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/remanence?includeCompensation=true",
+          "quote": "Metadata summary: location Paris with London secondary, workplace type Hybrid, published September 22, 2026, no compensation component.",
+          "checked": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "n8n-c9fc97fa",
+      "company": "n8n",
+      "title": "Forward Deployed Engineer - EMEA",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/n8n/c9fc97fa-a473-4133-b3cb-502785649ecd",
+      "applyUrl": "https://jobs.ashbyhq.com/n8n/c9fc97fa-a473-4133-b3cb-502785649ecd/application",
+      "checked": "2026-10-31",
+      "posted": "2026-10-30",
+      "location": "remote",
+      "locationQuote": "Official location list: “Berlin Office; Albania; Austria; Belgium; Bosnia; Bulgaria; Croatia; Czech Republic; Denmark; Estonia; Finland; Greece; Hungary; Ireland; Latvia; Lithuania; London Office; Montenegro; Netherlands; Norway; Poland; Portugal; Serbia; Slovakia; Slovenia; Spain; United Kingdom”, location type Remote. France is not listed.[5][6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range is published; the listing says “Competitive compensation 💸 – We offer fair and attractive pay.” The ATS data carries no compensation tier. Pay is unknown.[5][6]"
+      },
+      "reasons": [
+        "Location gate fails: France is absent from the 27-location list.[5][6]",
+        "AI-central gate fails: the main duty is enterprise workflow-automation delivery, “embedding on-site, solving real customer problems, and building reusable automation patterns”, including 5-day on-site deployment engagements. Building AI systems is not named as a primary duty.[5]",
+        "Pay is unpublished. New requisition, published October 30, 2026 per the ATS, with an application deadline of December 8, 2026. The application form rendered on the check date.[5][6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official n8n listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/n8n/c9fc97fa-a473-4133-b3cb-502785649ecd",
+          "quote": "Embed on-site with enterprise customers for focused 5-day deployment engagements, arriving with a hypothesis and leaving with production workflows in place.",
+          "checked": "2026-10-31"
+        },
+        {
+          "label": "[6] Official Ashby job data for the n8n board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/n8n?includeCompensation=true",
+          "quote": "Metadata summary: primary location Berlin Office plus 26 secondary locations, none of them France; workplace type Remote; published October 30, 2026; no compensation tier.",
+          "checked": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "vanta-31cdf07c",
+      "company": "Vanta",
+      "title": "Staff Software Engineer, AI and Data Risk",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/vanta/31cdf07c-21ab-460c-912e-f288dc38090e",
+      "applyUrl": "https://jobs.ashbyhq.com/vanta/31cdf07c-21ab-460c-912e-f288dc38090e/application",
+      "checked": "2026-10-31",
+      "posted": "2026-10-30",
+      "location": "remote",
+      "locationQuote": "Official listing: location “Remote - Ireland; Dublin, Ireland”; “This role is remote-first. For engineers based in the London area, we ask for 2–3 days per week in the office. For engineers based elsewhere in the UK/Ireland, we expect occasional travel to London”.[7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No range is published; the listing says “Industry-competitive salary and equity”. Pay is unknown.[7]"
+      },
+      "reasons": [
+        "Location gate fails: eligibility is described for the UK and Ireland only; France is not mentioned.[7]",
+        "AI centrality is not established: the role drives “privacy, AI, and risk management features” for a compliance product, built with TypeScript, React and Node.js; building or evaluating AI systems is not stated as the primary duty.[7]",
+        "Pay is unpublished. The requisition first appeared in this site’s sweep with a September 18 date and was republished October 30, 2026 per the ATS; it was not reported before. The application form rendered on the check date.[7][8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Vanta listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/vanta/31cdf07c-21ab-460c-912e-f288dc38090e",
+          "quote": "This role is remote-first. For engineers based in the London area, we ask for 2–3 days per week in the office. For engineers based elsewhere in the UK/Ireland, we expect occasional travel to London (roughly once per quarter, <20% of your time).",
+          "checked": "2026-10-31"
+        },
+        {
+          "label": "[8] Official Ashby job data for the Vanta board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
+          "quote": "Metadata summary: location Remote - Ireland with Dublin secondary; workplace type Remote; published October 30, 2026; no compensation tier.",
+          "checked": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "mistral-bc659575",
+      "company": "Mistral AI",
+      "title": "AI Scientist - Domain Expert Crashworthiness",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/bc659575-b7c2-406c-825b-fdd58c503594",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/bc659575-b7c2-406c-825b-fdd58c503594/application",
+      "checked": "2026-10-31",
+      "posted": "2026-10-30",
+      "location": "remote",
+      "locationQuote": "Official listing: location “Paris; Amsterdam; Berlin; Linz; London; Munich”, location type “Remote”.[9]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published on the listing or in the ATS data. Pay is unknown.[9][10]"
+      },
+      "reasons": [
+        "AI-engineering gate fails: this is a domain-expert role whose core requirement is industrial crash simulation, e.g. “Design and run high-fidelity simulation campaigns using structural mechanics solvers such as Abaqus, LS-DYNA, Ansys Mechanical, Radioss or equivalent tools.” Model training is done “with research teams”.[9]",
+        "Pay is unpublished.[9][10]",
+        "New requisition, published October 30, 2026 per the ATS. The application form rendered on the check date.[9][10]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[9] Official Mistral AI listing and same-page application (Ashby)",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/bc659575-b7c2-406c-825b-fdd58c503594",
+          "quote": "Design and run high-fidelity simulation campaigns using structural mechanics solvers such as Abaqus, LS-DYNA, Ansys Mechanical, Radioss or equivalent tools.",
+          "checked": "2026-10-31"
+        },
+        {
+          "label": "[10] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: location Paris with Amsterdam, Berlin, Linz, London and Munich secondary; workplace type Remote; published October 30, 2026; no compensation tier.",
+          "checked": "2026-10-31"
+        }
+      ]
+    }
+  ]
+}
