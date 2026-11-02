@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-02",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on November 2. Five postings not previously covered on this site were examined. Three are near-misses that are clearly AI-central but publish no salary: Veepee’s Senior AI Engineer and Doctolib’s Senior Staff Machine Learning Engineer (Clinical) both state Paris office days, and Doctrine’s Experienced/Senior Machine Learning Engineer leaves the attendance rule to the team. Uncovr’s Senior AI Engineer and Winamax’s Senior ML / AI Engineer were rejected because they are on-site only, and neither publishes pay. Earlier picks and near-misses that are unchanged are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 2: 131 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever data for 108 France-located engineering roles (31 with pay text), and Ashby engineering roles first published since November 1 with a France or Europe-remote location. Compared with November 1, it surfaced no new AI-titled requisition. A second pass reached 42 of 300 attempted aliases, a Workable and Recruitee check reached 6 of 44, and a pass over 105 additional company names reached 49 of 315 attempted aliases. Ten web searches were used for discovery only; leads found there were checked on employer boards, which added the Veepee, Doctrine, Uncovr and Winamax requisitions. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 2, 2026. Posting dates come from employer ATS metadata; Doctolib’s and Doctrine’s requisitions have been open for a long time and were reposted on third-party sites recently.",
+    "Unpublished pay is recorded as unknown, not as below the threshold. None of the five employers publishes a salary figure for these roles.",
+    "Several job aggregators show salary ranges for some of these and other Paris AI roles (for example Uncovr, Owkin and Shift Technology). Those figures are not employer-published and were not used.",
+    "The November 1 near-misses (Mirakl, Kpler, Nebius) and the Supabase rejection are still listed with unchanged pay terms. They stay in the November 1 archive and are not repeated. Vibe’s Staff or Senior Machine Learning Engineer, Identity & Audience, which appeared in recent search results, is unchanged since its October 23 near-miss entry.",
+    "Earlier picks and near-misses that remain listed with unchanged terms, including Inato, Pigment, Qonto and Shift Technology, stay in their original archives and are not counted today.",
+    "Search leads not confirmed on an employer board today were not counted. These include recruiter posts, aggregator-only roles (an Owkin Staff ML Engineer, a Mendo Senior AI Engineer at €80,000–€95,000) and a Yubo Staff ML Engineer that is no longer on Yubo’s board. Artefact and Shine postings were found in search results but name no French hybrid rule, so they were not examined.",
+    "Deduplication covered the accessible October 10 to November 1 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked; the Veepee and Doctrine notes are employer-stated only."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Veepee, Doctolib and Doctrine would need a published base salary above €100,000 (or at least €80,000 with explicit equity) before reconsideration, and Doctrine would also need a stated office-day rule. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "veepee-b0b72975",
+      "company": "Veepee",
+      "title": "Senior AI Engineer - H/F/X",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.lever.co/veepee/b0b72975-cfd3-4e75-abd7-49f7e9e042fc",
+      "applyUrl": "https://jobs.lever.co/veepee/b0b72975-cfd3-4e75-abd7-49f7e9e042fc/apply",
+      "checked": "2026-11-02",
+      "posted": "2026-04-20",
+      "location": "hybrid",
+      "locationQuote": "Official listing header: “Paris”, “VeepeeTech – Engineering / Permanent / Hybrid”; benefits: “a hybrid setup with up to 2 days of remote work per week”, so at least three office days a week.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range, base figure or equity term is published. The listing mentions only a “Performance-Based Variable Bonus”, and the official Lever data carries no salary range. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[1][2]",
+        "Location passes on employer evidence: Paris, hybrid, with up to two remote days a week.[1]",
+        "AI centrality passes: “Design, implement, and maintain scalable machine learning pipelines, emphasizing Large Language Models (LLMs) and generative architectures” and “Fine-tune custom LLMs for specific use cases for cost and performance optimizations”. Part of the role is internal advocacy, training and tech scouting.[1]",
+        "Seniority passes (Senior; 6+ years in software development and 3+ years deploying ML models). New to this site’s history; created April 20, 2026 per the official Lever data. The application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Veepee runs online flash sales with over 7,000 brands. The role builds generative-AI systems for personalization and search, pricing mechanics, fraud detection and sales and media production, from problem framing and possible model fine-tuning to production deployment and monitoring.[1]",
+      "financials": "Employer-stated on the listing: turnover of 3.3 billion euros including VAT in 2024 and 5,000 staff across 10 countries. Funding and profitability were not publicly verified in this run.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Veepee listing and application form (Lever)",
+          "url": "https://jobs.lever.co/veepee/b0b72975-cfd3-4e75-abd7-49f7e9e042fc",
+          "quote": "Flexible Work Model: Enjoy a hybrid setup with up to 2 days of remote work per week",
+          "checked": "2026-11-02"
+        },
+        {
+          "label": "[2] Official Lever job data for the requisition",
+          "url": "https://api.lever.co/v0/postings/veepee/b0b72975-cfd3-4e75-abd7-49f7e9e042fc",
+          "quote": "Metadata summary: location Paris, workplace type hybrid, created April 20, 2026, no salary range.",
+          "checked": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-d5055c45",
+      "company": "Doctolib",
+      "title": "Senior Staff Machine Learning Engineer - Clinical - AI Teams (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/d5055c45-db4f-4566-ac91-0ebfc80d3a8e",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/d5055c45-db4f-4566-ac91-0ebfc80d3a8e/application",
+      "checked": "2026-11-02",
+      "posted": "2025-10-29",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, location type “Hybrid”; job details: “Hybrid work mode (3 days/week in the office)”.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range is published and the official Ashby data has no compensation tier; the application form asks for the applicant’s salary expectation instead. The listing names a long-term “employee value sharing plan called DoctoGrowth”, which is not stated to be equity. Pay is unknown.[3][4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary, and DoctoGrowth is not described as equity.[3][4]",
+        "Location passes on employer evidence: Paris, three office days a week.[3]",
+        "AI centrality passes: “Lead design and implementation of LLM-powered clinical agents (consultation summarization, clinical coding, evidence-grounded recommendations)” and build evaluation frameworks and production infrastructure with guardrails.[3]",
+        "Seniority passes but is demanding: 10+ years in ML/AI with 3+ years at Staff+ or Principal level, and a PhD or equivalent research experience. New to this site’s history; first published October 29, 2025 per the official Ashby data, so it has been open about a year. The application form rendered on the check date.[3][4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: the Clinical team in Doctolib’s AI and Machine Learning department builds AI systems for clinical decision-making, from voice-powered consultation assistants to LLM evaluation frameworks for clinical safety, under GDPR, MDR and EU AI Act constraints.[3]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Doctolib listing and application form (Ashby)",
+          "url": "https://jobs.ashbyhq.com/doctolib/d5055c45-db4f-4566-ac91-0ebfc80d3a8e",
+          "quote": "Lead design and implementation of LLM-powered clinical agents (consultation summarization, clinical coding, evidence-grounded recommendations)",
+          "checked": "2026-11-02"
+        },
+        {
+          "label": "[4] Official Ashby job data for the Doctolib board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/doctolib?includeCompensation=true",
+          "quote": "Metadata summary: location Paris, workplace type Hybrid, published October 29, 2025, no compensation tier.",
+          "checked": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-26bf6212",
+      "company": "Doctrine",
+      "title": "Experienced/Senior Machine Learning Engineer - Squad Distribute",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.lever.co/doctrine/26bf6212-5402-45b7-b26e-7b53f14799db",
+      "applyUrl": "https://jobs.lever.co/doctrine/26bf6212-5402-45b7-b26e-7b53f14799db/apply",
+      "checked": "2026-11-02",
+      "posted": "2025-01-23",
+      "location": "hybrid",
+      "locationQuote": "Official listing header: “Paris”, “Engineering / Full-Time / Hybrid”; benefits: “A flexible remote work policy, allowing up to three days of remote work per week (depending on your team).” The office-day rule for this team is not stated.[5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range, equity or package term is published, and the official Lever data carries no salary range. Pay is unknown.[5][6]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary.[5][6]",
+        "Location is not established: the remote allowance is “up to three days” and depends on the team, so this role’s attendance rule is not explicit.[5]",
+        "AI centrality passes: “Develop NLP models … to assist with information search and recommendation within legal documents”, maintain them in production, and “Design conversational agents to accelerate lawyers’ work”.[5]",
+        "Seniority is “confirmed/senior”; the listing requires proficiency in French because the work uses French legal data. New to this site’s history; created January 23, 2025 per the official Lever data. The application form rendered on the check date.[5][6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Doctrine builds a legal AI platform used by 27,000 legal professionals in five countries. This squad covers secondary legal sources and private documents, with NLP search and recommendation models and conversational agents for drafting.[5]",
+      "financials": "Employer-stated on the listing: a team of around 250 people. Funding, revenue and profitability were not publicly verified in this run.[5]",
+      "evidence": [
+        {
+          "label": "[5] Official Doctrine listing and application form (Lever)",
+          "url": "https://jobs.lever.co/doctrine/26bf6212-5402-45b7-b26e-7b53f14799db",
+          "quote": "A flexible remote work policy, allowing up to three days of remote work per week (depending on your team).",
+          "checked": "2026-11-02"
+        },
+        {
+          "label": "[6] Official Lever job data for the requisition",
+          "url": "https://api.lever.co/v0/postings/doctrine/26bf6212-5402-45b7-b26e-7b53f14799db",
+          "quote": "Metadata summary: location Paris, workplace type hybrid, created January 23, 2025, no salary range.",
+          "checked": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "uncovr-e0eda2bd",
+      "company": "Uncovr",
+      "title": "Senior AI Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/uncovr/e0eda2bd-645c-44c5-b7e6-fc0c0f7dfacc",
+      "applyUrl": "https://jobs.ashbyhq.com/uncovr/e0eda2bd-645c-44c5-b7e6-fc0c0f7dfacc/application",
+      "checked": "2026-11-02",
+      "posted": "2026-10-26",
+      "location": "on-site",
+      "locationQuote": "Official listing: location “Paris”, location type “On-site”. No hybrid or remote option is stated.[7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published, and the official Ashby data has no compensation tier. A third-party job site shows a range, but it is not employer-published and was not used. Pay is unknown.[7][8]"
+      },
+      "reasons": [
+        "Location fails the configured rule: the role is listed as on-site in Paris, not hybrid with a stated attendance rule or fully remote.[7]",
+        "Pay is unpublished.[7][8]",
+        "AI centrality passes: “Build, test, and improve AI systems that support Uncovr’s product” and “Integrate language models, multimodal models, and AI services into product and backend systems”, with evaluation workflows for clinical scenarios.[7]",
+        "New requisition, first published October 26, 2026 per the ATS; the listing states no minimum years of experience. The application form rendered on the check date.[7][8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Uncovr builds AI-powered infrastructure for surgery, turning surgical video and clinical workflow data into structured insights for surgical teams.[7]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Uncovr listing and application form (Ashby)",
+          "url": "https://jobs.ashbyhq.com/uncovr/e0eda2bd-645c-44c5-b7e6-fc0c0f7dfacc",
+          "quote": "Integrate language models, multimodal models, and AI services into product and backend systems.",
+          "checked": "2026-11-02"
+        },
+        {
+          "label": "[8] Official Ashby job data for the Uncovr board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/uncovr?includeCompensation=true",
+          "quote": "Metadata summary: location Paris, workplace type OnSite, published October 26, 2026, no compensation tier.",
+          "checked": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "winamax-204636ed",
+      "company": "Winamax",
+      "title": "Senior ML / AI Engineer - Team Data (H/F)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.lever.co/winamax/204636ed-55f8-4103-8842-ae9f4e79f44a",
+      "applyUrl": "https://jobs.lever.co/winamax/204636ed-55f8-4103-8842-ae9f4e79f44a/apply",
+      "checked": "2026-11-02",
+      "posted": "2025-03-20",
+      "location": "on-site",
+      "locationQuote": "Official listing header: “Paris”, “Permanent Contract / On-Site”, with a four-day work week. The application form asks whether a schedule of “4 jours par semaine, de 9h à 19h, en présentiel uniquement” suits the applicant.[9]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "“Rémunération : selon le profil + participation et intéressement”. No figure is published, and the official Lever data carries no salary range. Pay is unknown.[9][10]"
+      },
+      "reasons": [
+        "Location fails the configured rule: the role is on-site only (four days a week in the office), not hybrid or remote.[9]",
+        "Pay is unpublished (“selon le profil”).[9][10]",
+        "AI centrality passes: “Concevoir et maintenir des modèles de machine learning / IA générative”, with example projects including a chatbot and internal RAG.[9]",
+        "Seniority is in the title only; no years of experience are stated. Created March 20, 2025 per the official Lever data. The application form rendered on the check date.[9][10]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Winamax runs online poker and sports betting in France and other European markets. The Data team’s ML/AI engineer builds machine-learning and generative-AI models for business problems such as game integrity, addiction analysis and internal tools.[9]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[9] Official Winamax listing and application form (Lever)",
+          "url": "https://jobs.lever.co/winamax/204636ed-55f8-4103-8842-ae9f4e79f44a",
+          "quote": "Rémunération : selon le profil + participation et intéressement",
+          "checked": "2026-11-02"
+        },
+        {
+          "label": "[10] Official Lever job data for the requisition",
+          "url": "https://api.lever.co/v0/postings/winamax/204636ed-55f8-4103-8842-ae9f4e79f44a",
+          "quote": "Metadata summary: location Paris, workplace type onsite, created March 20, 2025, no salary range.",
+          "checked": "2026-11-02"
+        }
+      ]
+    }
+  ]
+}
