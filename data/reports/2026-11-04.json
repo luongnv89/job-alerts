@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-04",
+  "requestedCount": 3,
+  "summary": "No new role cleared every hard gate on November 4. Two postings not previously covered on this site were examined, and both are near-misses. Yield Studio’s Lead AI Engineering role, first published November 2, builds an internal agentic software factory. Mistral AI’s Applied AI Forward Deployed Engineer, CyberSecurity, builds agentic security workflows for clients. Both are AI-central, but neither publishes pay or a Paris office-day rule, and the Mistral listing names no seniority level. Earlier picks and near-misses that are unchanged are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 4: 131 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever data for 109 France-located engineering roles (31 with pay text), and Ashby engineering roles first published since November 3 with a France or Europe-remote location. Compared with November 3’s sweep, it surfaced no new AI engineering requisition open to France. A second pass reached 42 of 300 attempted aliases, a Workable and Recruitee check reached 6 of 44, and a pass over 105 additional company names reached 49 of 315 attempted aliases. Eight web searches were used for discovery only; leads were checked on employer pages, which added the Yield Studio requisition. The Mistral AI requisition was already in the sweep data but had not been examined before. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 4, 2026. Unpublished pay is recorded as unknown, not as below the threshold; neither employer publishes a salary figure for these roles.",
+    "The Mistral AI cybersecurity requisition was first published July 9, 2026. It is new to this site, not a newly posted role.",
+    "The November 3 near-misses (vector8 and Mistral AI’s Agentic CAD role) are still listed with no published pay. They stay in the November 3 archive and are not repeated.",
+    "Earlier picks that remain listed with unchanged terms, including OpenAI Deployment Company’s Forward Deployed Engineer - EU (October 18, still €115K–€200K with equity), stay in their original archives and are not counted today.",
+    "n8n’s agentic engineering platform requisition (rejected October 30) is listed again under the title Staff Platform Engineer, Agentic Engineering. Its location list still omits France, so it was not reconsidered.",
+    "Search leads not confirmed as open on an employer page were not counted. Two Paris founding AI engineer listings posted by a recruitment firm for unnamed clients now show “Ce job n’est plus disponible” (no longer available). Recruiter, freelance-platform and aggregator listings without an identifiable employer page were also not counted.",
+    "Deduplication covered the accessible October 10 to November 3 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked; the product notes are employer-stated only."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Yield Studio and Mistral AI would each need a published base salary above €100,000 (or at least €80,000 with explicit equity) and a stated Paris office-day rule before reconsideration; the Mistral role would also need a stated senior level. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "yield-studio-435f028b",
+      "company": "Yield Studio & Advisory",
+      "title": "Lead AI Engineering",
+      "status": "near-miss",
+      "listingUrl": "https://www.welcometothejungle.com/fr/companies/yield-studio/jobs/435f028b-d646-4b3f-a399-64a2fa421ac9",
+      "applyUrl": "https://ats.welcometothejungle.com/board/yield-studio-advisory-Ok4INM/job/435f028b-d646-4b3f-a399-64a2fa421ac9/apply?referrer=wttj",
+      "checked": "2026-11-04",
+      "posted": "2026-11-02",
+      "location": "hybrid",
+      "locationQuote": "Employer listing on Welcome to the Jungle: “CDI · Paris · Télétravail fréquent” (permanent contract, Paris, frequent remote work). The application page shows “Paris · Hybrid”. The number of office days is not stated.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "The listing states “Salaire : non spécifié” (salary not specified), and no equity term is published. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no salary figure or equity is published.[1]",
+        "Location is not established: the role is in Paris with “frequent remote work”, but no office-day rule is stated.[1][2]",
+        "AI centrality passes: “Très hands-on, vous construisez notre Software Factory agentique : une plateforme où des agents IA prennent en charge une part croissante du cycle de développement” (hands-on, you build our agentic software factory, a platform where AI agents take on a growing share of the development cycle), including multi-agent architectures, context engineering and agent orchestration.[1]",
+        "Seniority passes: the listing asks for a “Profil Senior, Staff ou Principal Engineer”. Part of the role is internal enablement (training teams, setting AI-assisted development standards), not only building. First published November 2, 2026; the application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Yield Studio is a product and software agency that designs and builds web, mobile, business software and AI systems for client companies, and says an internal Lab builds AI tools for its own delivery. This role builds that internal agentic “software factory”, where agents cover specification, design, development, testing, code review, deployment and maintenance, and changes how the company’s product, design and engineering teams work with AI.[1][3]",
+      "financials": "Not publicly verified. The employer’s Welcome to the Jungle profile shows 30 employees and a 2019 founding year; no funding, revenue or profitability figure was checked.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Yield Studio listing (Welcome to the Jungle)",
+          "url": "https://www.welcometothejungle.com/fr/companies/yield-studio/jobs/435f028b-d646-4b3f-a399-64a2fa421ac9",
+          "quote": "Très hands-on, vous construisez notre Software Factory agentique : une plateforme où des agents IA prennent en charge une part croissante du cycle de développement (spécification, conception, développement, tests, code review, déploiement, maintenance).",
+          "checked": "2026-11-04"
+        },
+        {
+          "label": "[2] Yield Studio application form (Welcome to the Jungle ATS)",
+          "url": "https://ats.welcometothejungle.com/board/yield-studio-advisory-Ok4INM/job/435f028b-d646-4b3f-a399-64a2fa421ac9/apply?referrer=wttj",
+          "quote": "Summary: the application form for Lead AI Engineering, Paris, Hybrid, rendered with name, email, LinkedIn, phone and resume fields.",
+          "checked": "2026-11-04"
+        },
+        {
+          "label": "[3] Yield Studio company website",
+          "url": "https://www.yieldstudio.fr/",
+          "quote": "Notre Lab’ interne développe les outils IA qui éliminent le travail répétitif : scaffolding intelligent, génération de boilerplate, pipelines auto-configurés.",
+          "checked": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "mistral-647be1ec",
+      "company": "Mistral AI",
+      "title": "Applied AI, Forward Deployed Engineer - CyberSecurity (Europe)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/647be1ec-19d1-421c-9c49-6bbf12c0c93a",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/647be1ec-19d1-421c-9c49-6bbf12c0c93a/application",
+      "checked": "2026-11-04",
+      "posted": "2026-07-09",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris”, employment type “Full time”. The official Ashby data records no workplace type, and the listing states no remote or office-attendance rule.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published, and the official Ashby data has no compensation tier. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[4][5]",
+        "Location is not established: the listing names Paris but no workplace type or attendance rule.[4][5]",
+        "Seniority is not established: the listing asks for “2+ years as a technical individual contributor (data scientist or software engineer) on AI-based products” and names no level.[4]",
+        "AI centrality passes: the role composes “cybersecurity-related agentic workflows” and configures harnesses for agentic vulnerability scanning, red-teaming and penetration-testing scenarios for clients. It also includes pre-sales calls and may cover non-security use cases. First published July 9, 2026 and not previously examined on this site; the application form rendered on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Mistral provides frontier models, developer tools, applications and compute to enterprises in finance, manufacturing, defense, healthcare and the public sector. This forward-deployed seat builds client use cases on the Mistral stack, with cybersecurity assignments as the priority: cloud-defense harness configuration, agentic vulnerability scanning, agentic red-teaming and penetration-testing scenarios.[4]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today.",
+      "evidence": [
+        {
+          "label": "[4] Official Mistral AI listing and application form (Ashby)",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/647be1ec-19d1-421c-9c49-6bbf12c0c93a",
+          "quote": "This role is about composing cybersecurity-related agentic workflows, configuring harnesses for real-world scenarios, and delivering value directly to clients.",
+          "checked": "2026-11-04"
+        },
+        {
+          "label": "[5] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: location Paris, no workplace type, published July 9, 2026, no compensation tier.",
+          "checked": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
