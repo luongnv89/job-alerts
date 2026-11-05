@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-05",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 5. Four postings first published on November 3 or 4 were examined. Databricks’ AI Forward Deployed Engineer - France explicitly allows remote work from France but publishes no pay and no seniority level. Mistral AI’s Applied Scientist Lead (Robotics) is a lead/staff model-building role with no published pay or office-day rule. Anthropic’s Manager, Forward Deployed Engineering, Paris, publishes €235,000–€295,000 but is a people-management seat. Moxie’s Staff AI Engineer is remote-global with pay tiers only for countries in the Americas. Unchanged earlier picks and near-misses are not repeated. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 5: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever data for 110 France-located engineering roles (32 with pay text), and Ashby engineering roles first published since November 4 with a France or Europe-remote location. Compared with November 4’s sweep, it surfaced the Databricks, Anthropic and Mistral AI requisitions above, two further Mistral AI applied-scientist roles, and refreshed timestamps on previously examined requisitions. A second pass reached 41 of 300 attempted aliases, a Workable and Recruitee check reached 6 of 44, and a pass over additional company names reached 49 of 315 attempted aliases. Six web searches were used for discovery only; leads were checked on employer pages, which added the Moxie requisition. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 5, 2026. Unpublished pay is recorded as unknown, not as below the threshold; none of the near-misses publishes a salary figure.",
+    "Mistral AI also published Applied Scientist - Research Engineer roles for tabular data and optimisation on November 4 (Paris and three other EMEA cities, no published pay, no stated level). They were screened but not added as separate entries.",
+    "Doctolib’s Senior Machine Learning Engineer - Applied AI & LLMs (rejected October 13) shows a new publish date of November 4 under the same requisition, still with no published salary. Shift Technology’s Lead AI Engineer and Staff AI Engineer (October near-misses) show refreshed timestamps and still no published pay. None is treated as a new role.",
+    "Earlier picks that remain listed with unchanged terms, including OpenAI Deployment Company’s Forward Deployed Engineer - EU (October 18), Inato and Pigment, stay in their original archives and are not counted today.",
+    "Search leads not confirmed as open on an employer page were not counted. A recruitment-firm Senior AI Engineer listing for an unnamed client (€85K–€120K) still shows “Ce job n’est plus disponible” (no longer available), and a Datadog Senior AI Engineer page returned HTTP 404. Recruiter, freelance-platform and aggregator listings without an identifiable employer page were also not counted.",
+    "Deduplication covered the accessible October 10 to November 4 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked; the product notes are employer-stated only."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Databricks would need a published base salary above €100,000 (or at least €80,000 with explicit equity) and a stated senior level; Mistral AI would need published pay and a Paris office-day rule. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "databricks-8929894002",
+      "company": "Databricks",
+      "title": "AI Forward Deployed Engineer - France",
+      "status": "near-miss",
+      "listingUrl": "https://www.databricks.com/company/careers/professional-services-operations/ai-forward-deployed-engineer---france-8929894002?gh_jid=8929894002",
+      "applyUrl": "https://www.databricks.com/company/careers/professional-services-operations/ai-forward-deployed-engineer---france-8929894002?gh_jid=8929894002",
+      "checked": "2026-11-05",
+      "posted": "2026-11-04",
+      "location": "remote",
+      "locationQuote": "Official listing: “We welcome remote applicants located near our offices. Preferred locations: Paris, France. Remote location for candidates to be based in the France region only (not remote from any other country)”. The listing also asks for willingness to travel to customers once every 4–8 weeks.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published on the listing, and the official Greenhouse data for this requisition carries no pay range. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[1][2]",
+        "Seniority is not established: the listing asks for “Min 4 years' experience” and names no level; the title carries no senior or staff designation.[1]",
+        "Location passes on employer evidence: remote work is explicitly allowed for candidates based in France, with Paris as the preferred location.[1]",
+        "AI centrality passes: duties include “Develop cutting-edge GenAI solutions” and “Own production rollouts of consumer and internally facing GenAI applications”, with RAG, multi-agent systems, Text2SQL and fine-tuning listed as expected experience. It is a customer-facing professional-services seat. First published November 4, 2026; the embedded Greenhouse application form rendered on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Databricks sells a data and AI platform; its Agent Bricks product is described as a “unified platform to build and govern AI agents”, with access to OpenAI, Anthropic, Google and open-source models, governance of agents, MCP servers, models and tools, and automatically generated synthetic data for agent evaluation. The AI Forward Deployed Engineering team delivers professional-services engagements that help customers build and put first-of-their-kind GenAI applications into production, and feeds field learning back to product and engineering.[1][3]",
+      "financials": "Not publicly verified in this run. The listing states that more than 20,000 organizations use the Databricks platform; no funding, revenue, profitability or headcount source was checked today.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Databricks listing with embedded application form",
+          "url": "https://www.databricks.com/company/careers/professional-services-operations/ai-forward-deployed-engineer---france-8929894002?gh_jid=8929894002",
+          "quote": "Remote location for candidates to be based in the France region only (not remote from any other country)",
+          "checked": "2026-11-05"
+        },
+        {
+          "label": "[2] Official Greenhouse job data for this requisition",
+          "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs/8929894002",
+          "quote": "Metadata summary: title AI Forward Deployed Engineer - France, location Paris, France, first published November 4, 2026, no pay range.",
+          "checked": "2026-11-05"
+        },
+        {
+          "label": "[3] Databricks Agent Bricks product page",
+          "url": "https://www.databricks.com/product/artificial-intelligence/agent-bricks",
+          "quote": "Unified platform to build and govern AI agents that continuously improve.",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "mistral-c5fd092e",
+      "company": "Mistral AI",
+      "title": "Applied Scientist Lead (Robotics), EMEA",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/c5fd092e-adb9-4912-a1cb-b23f140183a3",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/c5fd092e-adb9-4912-a1cb-b23f140183a3/application",
+      "checked": "2026-11-05",
+      "posted": "2026-11-04",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris; Amsterdam; Lausanne; London”, location type “Hybrid”. No number of office days is stated.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published, and the official Ashby data has no compensation tier. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[4][5]",
+        "Location is not established: the role is hybrid across four European cities, including Paris, but no office-attendance rule is stated.[4][5]",
+        "Seniority passes: “Mistral AI is seeking a Lead / Staff Applied Scientist to help lead our robotics research and industrial collaborations”. The role mixes hands-on model work with building and mentoring a team.[4]",
+        "AI centrality passes: the role designs, trains and deploys vision-language and vision-language-action models for robot navigation and manipulation, runs pre-training and post-training on GPU clusters, and builds evaluators and benchmarks. The listing asks for a track record of shipping models on real robots. First published November 4, 2026; the application form rendered on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Mistral builds frontier and specialist open-weight models and sells model customization (Forge), agent and application tooling (Studio, Vibe) and hosted or self-hosted inference and compute to enterprises and public bodies. This Applied Science seat sets technical direction for robotics and delivers robotics models with industrial partners, from scoping to deployment.[4][6]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today.",
+      "evidence": [
+        {
+          "label": "[4] Official Mistral AI listing and application form (Ashby)",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/c5fd092e-adb9-4912-a1cb-b23f140183a3",
+          "quote": "Mistral AI is seeking a Lead / Staff Applied Scientist to help lead our robotics research and industrial collaborations in the Applied Science team.",
+          "checked": "2026-11-05"
+        },
+        {
+          "label": "[5] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: location Paris with Amsterdam, London and Lausanne as secondary locations, workplace type Hybrid, published November 4, 2026, no compensation tier.",
+          "checked": "2026-11-05"
+        },
+        {
+          "label": "[6] Mistral AI company website",
+          "url": "https://mistral.ai/",
+          "quote": "Start with Mistral’s frontier and specialist open-weight models. Use them as they are, or make them specific to your organization.",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-5471721008",
+      "company": "Anthropic",
+      "title": "Manager, Forward Deployed Engineering",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5471721008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5471721008",
+      "checked": "2026-11-05",
+      "posted": "2026-11-04",
+      "location": "hybrid",
+      "locationQuote": "Paris, France. “Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.” The role also requires 25–50% travel to customer sites.[7]",
+      "salary": {
+        "lower": 235000,
+        "upper": 295000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "Annual Salary: €235.000 — €295.000 EUR. The listing adds: “For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range”. Whether this figure is base or OTE is not stated for this role, and no equity grant is stated.[7]"
+      },
+      "reasons": [
+        "Hands-on engineering gate fails: “This is a player-coach role with a strong bias toward leadership … your primary impact will come from the people you hire, the standards you set, and the culture you create.” The listing asks for 2+ years of people management.[7]",
+        "Pay is published but not confirmed as cash base, because the listing applies an OTE caveat to sales roles without saying whether it covers this one.[7]",
+        "Location passes: Paris with a stated minimum of 25% office time. First published November 4, 2026; the same-page application form rendered on the check date.[7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: first manager of the Southern Europe Forward Deployed Engineering team, which embeds with strategic customers to ship production applications built on Anthropic’s Claude models.[7]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Anthropic listing and same-page application (Greenhouse)",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5471721008",
+          "quote": "This is a player-coach role with a strong bias toward leadership.",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "moxie-6cbe045b",
+      "company": "Moxie",
+      "title": "Staff AI Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/moxie/6cbe045b-a4be-45d8-9293-8ad31ec37352",
+      "applyUrl": "https://jobs.ashbyhq.com/moxie/6cbe045b-a4be-45d8-9293-8ad31ec37352/application",
+      "checked": "2026-11-05",
+      "posted": "2026-11-03",
+      "location": "remote",
+      "locationQuote": "Official listing: location “Remote - Global”, location type “Remote”. Compensation is published only for Canada, Chile, Brazil and Colombia, and the Dominican Republic; the listing does not say that France-based applicants are eligible.[8][9]",
+      "salary": {
+        "lower": 97000,
+        "upper": 225000,
+        "currency": "USD",
+        "annualBase": true,
+        "equity": null,
+        "quote": "Annual salary tiers: Canada $195K – $225K, Chile $137K – $170K, Brazil and Colombia $130K – $165K, Dominican Republic $97K – $113K (USD). No tier covers France and no equity is stated, so no France-applicable floor exists to convert to EUR.[8][9]"
+      },
+      "reasons": [
+        "Location gate fails: “Remote - Global” is not an explicit statement that France-based applicants are eligible, and the published pay tiers name only countries in the Americas.[8][9]",
+        "Pay gate unverified for France: no France tier and no equity are published.[8][9]",
+        "AI centrality and seniority pass: a staff-level hands-on IC role leading production LLM features, including an assistant that answers medical-spa texts and calls, and building evaluation systems. First published November 3, 2026; the application form rendered on the check date.[8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Moxie provides software and services to independent medical-aesthetics practices; this role leads its production AI features (the Maia assistant, a context engine and AI-drafted messages) and its shared AI platform.[8]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[8] Official Moxie listing and application form (Ashby)",
+          "url": "https://jobs.ashbyhq.com/moxie/6cbe045b-a4be-45d8-9293-8ad31ec37352",
+          "quote": "You've led large, ambiguous initiatives as a hands-on IC, owning delivery, tradeoffs, and major architectural decisions across teams.",
+          "checked": "2026-11-05"
+        },
+        {
+          "label": "[9] Official Ashby job data for the Moxie board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/moxie?includeCompensation=true",
+          "quote": "Metadata summary: location Remote - Global, workplace type Remote, published November 3, 2026, salary tiers for Canada, Chile, Brazil and Colombia, and the Dominican Republic only.",
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}
