@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-08",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 8. The official job-board sweep found no new or removed requisitions compared with November 7. Discovery searches surfaced one new lead: Belmont Lavan's Agent Security Engineer (posted November 4). The role secures AI agents in production, covering guardrails, attacking the agents and governance controls, and is limited to France-based applicants. It publishes no pay and no office-day rule, and names no product or client. A Trustpair staff role that an aggregator showed with €120K–€180K pay is closed on the employer's site. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 8: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, 108 Paris- or France-located engineering roles with published pay on reachable Ashby boards, Greenhouse and Lever data for 108 France-located engineering roles (32 with pay text), and Ashby engineering roles first published since November 7 (none matched). A second pass reached 41 of 300 attempted aliases, a Workable and Recruitee check reached 6 of 44, and a pass over additional company names reached 49 of 315. None of these passes added or removed a requisition compared with November 7. Six web searches were used for discovery only. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 8, 2026 (a Sunday; few new postings were expected). Unpublished pay is recorded as unknown, not as below the threshold.",
+    "Salary figures that appear only on job aggregators were not counted. One aggregator shows the same €120,000–€180,000 range on several unrelated Paris staff listings, including Believe's Staff Engineer Agentic AI, whose employer listing is still active with no published pay. Believe's role was a near-miss on November 6 and is not re-listed.",
+    "Screened and not listed: a recruiter's Staff Machine Learning Engineer listing for an unnamed Paris scale-up (the recruiter's own job page did not render, and the client cannot be identified); a job-matching intermediary's fully remote France Staff AI Engineer listing for an unnamed company with no stated pay; and older Paris AI-engineer listings whose published ranges start below €80,000 or include variable pay.",
+    "Unchanged and not repeated: Mistral AI's two Forward Software Engineer requisitions (near-misses November 7) are still listed with no compensation data, and the November 7 recruiter lead for a Paris legal-tech client showed the same terms in today's discovery results. Inato's Senior AI Engineer (qualified October 26) is unchanged.",
+    "Deduplication covered the accessible October 10 to November 7 reports and the supplied October 3/5 Escape history.",
+    "Company financial diligence was not advanced because no role was ranked; product notes are employer-stated only."
+  ],
+  "decision": "No approval needed for this authorized daily website update. Zero new roles qualified today. Belmont Lavan's role would need a published base salary above €100,000 (or at least €80,000 with explicit equity), an explicit Paris attendance rule and a named product or client scope. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "belmont-lavan-agent-security-engineer",
+      "company": "Belmont Lavan",
+      "title": "Agent Security Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.workable.com/view/huSBSoh3RD82X7gaNoyZXW/hybrid-agent-security-engineer-in-paris-at-belmont-lavan-ltd",
+      "applyUrl": "https://jobs.workable.com/view/huSBSoh3RD82X7gaNoyZXW/hybrid-agent-security-engineer-in-paris-at-belmont-lavan-ltd",
+      "checked": "2026-11-08",
+      "posted": "2026-11-04",
+      "location": "hybrid",
+      "locationQuote": "Official Workable listing: “Hybrid · Paris, Île-de-France, France”, full time. The page's structured job data also marks the job as telecommute with applicants required to be in France. No office-day count is stated.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published; the listing's salary fields are empty. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[1]",
+        "Location gate unverified: Paris hybrid limited to France-based applicants, but no attendance rule is published, and the page's “hybrid” label conflicts with its telecommute job data.[1]",
+        "AI centrality passes: the role secures autonomous AI agents before and after production, designs guardrails, attacks the systems itself and builds governance controls. It asks for 5+ years in security engineering, including at least 1 year securing LLM or agent-based systems, and hands-on knowledge of prompt injection, jailbreaks, tool-based data exfiltration and RAG poisoning. No seniority level is in the title.[1]",
+        "Product gate unverified: the listing does not say whether the hire secures Belmont Lavan's own agents or client deployments, and no agent product or project is named.[1][2]",
+        "New listing first posted November 4, 2026; the listing and its Workable application form were reachable on the check date.[1]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Belmont Lavan describes itself as a system integrator for startups and corporates, designing and implementing ERP, CRM, EAM, open-source, Microsoft and cybersecurity systems, with AI and ML among its listed capabilities. The listing describes agent identity, least-privilege access, monitoring and testing, but names no client, product or agent platform.[1][2]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[1] Official Belmont Lavan listing (Workable) with application form",
+          "url": "https://jobs.workable.com/view/huSBSoh3RD82X7gaNoyZXW/hybrid-agent-security-engineer-in-paris-at-belmont-lavan-ltd",
+          "quote": "Belmont Lavan is hiring an Agent Security Engineer to secure autonomous AI agents before and after they reach production.",
+          "checked": "2026-11-08"
+        },
+        {
+          "label": "[2] Belmont Lavan homepage (company overview)",
+          "url": "https://belmontlavan.com/",
+          "quote": "Belmont Lavan is a trusted leader in IT solutions, specializing in the design, development, and implementation of robust ERP, CRM, EAM, Open Source, Microsoft, and Cybersecurity systems.",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "trustpair-staff-software-engineer-6851893",
+      "company": "Trustpair",
+      "title": "Staff Software Engineer (Core Evaluation, fraud engine)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.trustpair.com/jobs/6851893-staff-software-engineer-m-f-mx",
+      "applyUrl": null,
+      "checked": "2026-11-08",
+      "posted": "2025-11-27",
+      "location": "unknown",
+      "locationQuote": "The employer page now shows only “Paris | Headquarters” and no job description, so no current attendance rule could be read.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary is shown on the employer page. A €120,000–€180,000 figure seen on a job aggregator was not counted because the employer did not publish it.[3]"
+      },
+      "reasons": [
+        "Open gate fails: the employer page says “This position is no longer active. Either the position was filled, or the ad has expired.” The role is not in Trustpair's current list of open positions.[3][4]",
+        "Found through a job aggregator that still showed the role as posted November 6, 2026, with pay the employer never published. The employer page's structured data dates the posting to November 27, 2025.[3]",
+        "AI centrality was doubtful in any case: discovery copies describe a Ruby on Rails distributed-systems role in which LLM experience is only a bonus.[3]"
+      ],
+      "gates": {
+        "open": "fail",
+        "location": "unknown",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[3] Official Trustpair job page (inactive on the check date)",
+          "url": "https://jobs.trustpair.com/jobs/6851893-staff-software-engineer-m-f-mx",
+          "quote": "This position is no longer active",
+          "checked": "2026-11-08"
+        },
+        {
+          "label": "[4] Trustpair open positions",
+          "url": "https://jobs.trustpair.com/jobs",
+          "quote": "Summary: the open-positions list on the check date includes Senior Backend Engineer (Ruby on Rails) and Engineering Manager roles but no Staff Software Engineer.",
+          "checked": "2026-11-08"
+        }
+      ]
+    }
+  ]
+}
