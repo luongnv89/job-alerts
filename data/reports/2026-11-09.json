@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-09",
+  "requestedCount": 3,
+  "summary": "One role cleared every hard gate on November 9: Ooak Data's Lead ML Engineer in Paris (posted November 4). The base salary is €90,000–€120,000 with BSPCE equity, and the role is on-site with one to two work-from-home days a week. Ooak Data, a Y Combinator Summer 2026 company, turns real company data from Slack, Jira, Notion and similar tools into anonymized digital twins and reinforcement-learning environments for AI agents. The role owns the ML behind that pipeline: sensitive-entity detection, entity resolution, and evaluation of anonymization quality. It is a hands-on lead role that also includes growing and managing a small ML team. One new Vibe staff full-stack role passed pay and location but is not AI-central. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 9: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 8 (one new match, Vibe's full-stack role). Additional passes over other board names, Workable/Recruitee boards and Greenhouse/Lever France roles returned the same requisitions as November 8. About a dozen web searches surfaced the Ooak Data listing and other leads; leads were verified on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 9, 2026. Ooak Data's company figures (revenue, contracts, pre-YC bootstrapping) are self-reported and unaudited; its investment amount, profitability and runway are not publicly verified.",
+    "Ooak Data's role combines hands-on engineering with managing a small team; readers looking for a pure individual-contributor role should weigh that. Its listing gives two different start dates.",
+    "Salary figures that appear only on job aggregators were not counted. Shift Technology's Staff AI Engineer is shown by an aggregator at €120,000–€150,000, but the employer's Greenhouse listing still publishes no pay; the role was a near-miss on October 23 and is not re-listed.",
+    "Screened and not listed: several Paris senior AI engineering listings with published ranges whose floor is below €80,000 (including iAdvize, consulting firms and recruiter postings); a fully remote France LLM fine-tuning role whose €75,000 floor was rejected here on October 24 and November 7, plus a recruiter repost of a similar role at €80,000 with no stated equity; a Staff ML Engineer listing seen on an aggregator that is not on the employer's own board; Yubo's Staff ML Engineer (Paris, full remote) and a BNP Paribas senior GenAI engineer role, neither of which publishes a salary figure; and AI listings from Modjo, Volta and Skaleet whose employer pages could not be read for pay (Welcome to the Jungle blocked automated access).",
+    "Not re-listed: Belmont Lavan's Agent Security Engineer (near-miss November 8) is still posted with no published salary. Believe's Staff Engineer Agentic AI (near-miss November 6) is still active with no published compensation. Inato's Senior AI Engineer (qualified October 26) is unchanged in the ATS data. Mistral AI's two Forward Software Engineer requisitions (near-misses November 7) were not rechecked today.",
+    "Deduplication covered the accessible October 10 to November 8 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. One role qualified today: Ooak Data's Lead ML Engineer. Before acting, a reader should confirm the start date, the people-management share of the role, and that the €90,000–€120,000 range is gross annual base salary. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "ooak-data-lead-ml-engineer",
+      "company": "Ooak Data",
+      "title": "Lead ML Engineer",
+      "status": "qualified",
+      "listingUrl": "https://ooak-data.welcomekit.co/jobs/lead-ml-engineer_paris",
+      "applyUrl": "https://ooak-data.welcomekit.co/jobs/lead-ml-engineer_paris",
+      "checked": "2026-11-09",
+      "posted": "2026-11-04",
+      "location": "hybrid",
+      "locationQuote": "“Location: Paris (city center), on-site with 1 to 2 days WFH”, which means three to four office days a week. The ATS summary separately labels the role “Occasional remote authorized”. No other country or remote option is offered.[1]",
+      "salary": {
+        "lower": 90000,
+        "upper": 120000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“Compensation: €90k to €120k + bonus + equity (BSPCE)”. The ATS summary gives “Salary: between 90000€ and 120000€ / year”, and the Y Combinator job page shows the same range. Bonus and equity are listed separately from the salary range. The listing does not say “gross” explicitly.[1][2]"
+      },
+      "reasons": [
+        "Pay passes the €80,000-plus-equity branch: the published annual salary floor is €90,000 and BSPCE equity is offered explicitly. Equity is not counted as cash, and the €90,000 floor does not clear the strict cash-only branch above €100,000.[1][2]",
+        "Location passes: the role is based at the Paris city-centre office, on-site with one to two work-from-home days a week.[1]",
+        "AI centrality passes: the lead owns machine learning across the data pipeline. That covers detecting sensitive entities in text and images, entity resolution, the knowledge graph that keeps pseudonyms consistent across tools, document understanding, and automated evaluation of anonymization and dataset quality. Next on the roadmap are reinforcement-learning environments and fine-tuning open-source models on company data.[1]",
+        "Seniority passes with a caveat: this is a hands-on lead role (“you prototype, code and ship to production yourself”), but it also includes people leadership. The lead grows the ML team from “a few ML engineers today” to about six by mid-2027 and runs 1:1s and hiring. The listing asks for 8+ years of ML engineering, including 2+ years leading ML engineers.[1]",
+        "Open on the check date: the ATS data dates the posting to November 4, 2026, and the application form rendered. The listing says the start is “as soon as you are available”, while the ATS summary shows a start date of January 4, 2027. The same role is on Ooak Data's Y Combinator job page.[1][2]",
+        "New to this site: no Ooak Data role appears in earlier reports."
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Ooak Data describes itself as an applied AI research lab that turns real company data into reinforcement-learning (RL) environments where AI agents learn to do real work. It connects to tools such as Slack, Gmail, Notion, Jira, SharePoint and Teams. An automated multimodal anonymization pipeline then turns that data into a “digital twin” that keeps the structure and relationships while transforming names, dates and proprietary content. From the twin, Ooak Data generates multi-step, multi-tool tasks calibrated against the latest frontier models. Its listed customers are frontier AI labs, enterprise AI teams and AI startups.[3] The careers page names the dataset effort Alexandria, described as a library of real-world business workflow datasets.[1] The role's AI work is the anonymization and data-understanding layer: sensitive-entity detection in text and images, cross-tool entity resolution, document understanding and automated quality evaluation, with RL environments and fine-tuning planned next.[1] Concrete engineering problems implied by the listing: keeping pseudonyms consistent across many tools without leaking real identities, measuring anonymization quality automatically so delivery can scale without manual checks, and handling partners' most sensitive data. Lab contracts and customers are company claims; no customer is named.[1][3]",
+      "financials": "Investment: Ooak Data is in Y Combinator's Summer 2026 batch, founded in 2024.[4] The careers page says the company was “100% bootstrapped” before joining Y Combinator.[1] The amount of any investment is not publicly verified. Financial condition: the company's Launch YC post says it works with “multiple frontier labs” and is “now well above 7 figures in revenue”.[5] The job listing claims “8 figures contracts signed with frontier AI labs”.[2] Both are unaudited self-reports; profitability and runway are not publicly verified. Size: the Y Combinator profile lists a team size of 5, which may lag current hiring. The listing mentions “a few ML engineers today”.[1][4] Recent material activity: the Y Combinator batch, plus several open Paris roles on its Y Combinator profile, including ML, software and data engineering.[4]",
+      "evidence": [
+        {
+          "label": "[1] Official Ooak Data listing (Welcome to the Jungle ATS) with application form",
+          "url": "https://ooak-data.welcomekit.co/jobs/lead-ml-engineer_paris",
+          "quote": "Location: Paris (city center), on-site with 1 to 2 days WFH. Compensation: €90k to €120k + bonus + equity (BSPCE). Stay hands-on: you prototype, code and ship to production yourself.",
+          "checked": "2026-11-09"
+        },
+        {
+          "label": "[2] Ooak Data job page on Y Combinator",
+          "url": "https://www.ycombinator.com/companies/ooak-data/jobs/6ZXVTLr-lead-ml-engineer",
+          "quote": "We are a Y Combinator company with 8 figures contracts signed with frontier AI labs. Compensation: €90k to €120k + bonus + equity (BSPCE).",
+          "checked": "2026-11-09"
+        },
+        {
+          "label": "[3] Ooak Data homepage (product)",
+          "url": "https://ooakdata.com/",
+          "quote": "We turn real company data into RL environments where AI agents learn to work in the real world.",
+          "checked": "2026-11-09"
+        },
+        {
+          "label": "[4] Ooak Data company profile on Y Combinator",
+          "url": "https://www.ycombinator.com/companies/ooak-data",
+          "quote": "Founded: 2024. Batch: Summer 2026. Team Size: 5. The profile lists open Paris roles for ML, software and data engineering.",
+          "checked": "2026-11-09"
+        },
+        {
+          "label": "[5] Ooak Data Launch YC post",
+          "url": "https://www.ycombinator.com/launches/Sih-ooak-data-turn-internal-company-data-into-a-training-ground-where-ai-agents-can-be-trained-on-real-work",
+          "quote": "We're working with multiple frontier labs and are now well above 7 figures in revenue.",
+          "checked": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "vibe-staff-full-stack-engineer-admanager",
+      "company": "Vibe",
+      "title": "Staff Full Stack Engineer - AdManager",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/vibe/97fc2118-2ae6-462e-9180-fd0547b00f19",
+      "applyUrl": "https://jobs.ashbyhq.com/vibe/97fc2118-2ae6-462e-9180-fd0547b00f19/application",
+      "checked": "2026-11-09",
+      "posted": "2026-11-08",
+      "location": "hybrid",
+      "locationQuote": "ATS location: Paris, hybrid. The listing says: “We're in the Heart of Paris and our team is in 3x a week!”[6]",
+      "salary": {
+        "lower": 99000,
+        "upper": 133000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“The pay range for this role is €99,000 - €133,000.” The ATS lists the range as a one-year EUR salary component, with equity (an employee stock ownership plan) and a bonus as separate components.[6]"
+      },
+      "reasons": [
+        "AI centrality fails: the role builds the advertiser-facing campaign setup, reporting, creatives, integrations, payments and account management. AI appears only as the team's AI-assisted development workflows, testing design-to-code tools, and “Built AI-powered products” as a nice-to-have.[6]",
+        "Pay and location would pass: a €99,000 floor with explicit equity, and Paris hybrid with three office days a week.[6]",
+        "New listing first published November 8, 2026; the listing and application tab were reachable on the check date.[6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "unknown"
+      },
+      "product": null,
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[6] Official Vibe listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/vibe/97fc2118-2ae6-462e-9180-fd0547b00f19",
+          "quote": "The pay range for this role is €99,000 - €133,000. Hybrid flexibility: our team is in 3x a week. The team uses AI-assisted development workflows.",
+          "checked": "2026-11-09"
+        }
+      ]
+    }
+  ]
+}
