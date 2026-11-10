@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-10",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 10. Three AI-central senior roles were new on this site but publish no salary on the employer's page, so they are near-misses, not picks. Datadog posted two Paris research-engineering roles on November 9: one on LLM training and inference infrastructure, the other on GPU kernels. Neither states pay or an office-day rule. Neuralk's senior ML engineer role on its data-science agent is Paris hybrid with BSPCE equity, but its salary appears only on a job aggregator. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 10: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 9. Compared with November 9, the only new Paris AI requisitions were Datadog's two research-engineering roles; the other additions were outside France or not engineering roles. Additional passes over other board names and Workable/Recruitee boards found no new matches. About fifteen web searches surfaced the Neuralk listing and other leads; leads were checked on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 10, 2026. Missing salary on the three near-misses means pay is unknown, not that it fails the threshold.",
+    "Salary figures that appear only on job aggregators were not counted. Besides Neuralk, an aggregator shows a €110,000–€160,000 range for an ODDO BHF Asset Management AI agent architect role and €110,000–€150,000 for a VISEO senior generative-AI developer role. VISEO's own application page publishes no pay, no ODDO BHF employer page was found, and VISEO's role is client consulting.",
+    "Gone when checked: an Escape “AI Engineer (Security Research)” page and a Hub machine learning engineer page on Y Combinator's job board both returned “not found” on the check date. Escape's Senior Research Engineer requisition (seen on this site on October 16) is still listed with no published pay.",
+    "Screened and not listed: Paris senior AI roles with published ranges whose floor is below €80,000 or that offer no equity below €100,000 (including Mendo, Idun Group, iAdvize, Hymaïa, Seven Mile, OCTO Technology and a Skaleet role in Boulogne-Billancourt), and recruiter postings for unnamed clients.",
+    "Not re-listed: Mistral AI's two Forward Software Engineer requisitions (near-misses November 7) are still posted with no pay. Doctolib's Senior Staff ML Engineer (Clinical) is still posted with no pay. Ooak Data's Lead ML Engineer (qualified November 9) was not re-verified today and is not a new pick. EverAI's France remote LLM engineer requisition (rejected November 7) no longer appears on its board.",
+    "Deduplication covered the accessible October 10 to November 9 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. Readers interested in the Datadog or Neuralk roles would need the salary and, for Datadog, the office-attendance rule from the employer before those roles could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "datadog-8364908",
+      "company": "Datadog",
+      "title": "Senior AI Research Engineer - LLM Training & Inference Infrastructure",
+      "status": "near-miss",
+      "listingUrl": "https://careers.datadoghq.com/detail/8364908/?gh_jid=8364908",
+      "applyUrl": "https://job-boards.greenhouse.io/datadog/jobs/8364908",
+      "checked": "2026-11-10",
+      "posted": "2026-11-09",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris, France”, tagged “#LI-Hybrid”, and the benefits mention collaborating with “colleagues across the Datadog offices in New York City and Paris”. No office-day count or remote eligibility is published.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary range is published on the listing, and the official Greenhouse job data has no pay range for this requisition. The benefits list “New hire stock equity (RSUs) and employee stock purchase plan (ESPP)”. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary. Equity (RSUs) is stated, but the €80,000-plus-equity branch still needs a published cash floor.[1][2]",
+        "Location gate unverified: Paris-based and tagged hybrid, but no attendance rule is published.[1]",
+        "AI centrality and seniority pass: a senior research-engineering role that designs, builds and operates distributed training and inference infrastructure for large language models, including Mixture-of-Experts models, and builds “execution environments and sandboxes for online RL and agent post-training”.[1]",
+        "New requisition first published November 9, 2026; the listing and its Greenhouse application page were reachable on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Datadog describes itself as an observability and security platform for the AI era. Both roles sit in Datadog AI Research (DAIR), on the Frontier Foundations team, which builds the infrastructure to train and serve large language models. That team supports DAIR's work on trained agents for observability: post-training models to operate autonomously across Datadog's domain, with SRE incident response named as the first target and code repair, security response and infrastructure optimization as later ones. The listings name earlier AI work (Bits AI, Bits Evolve and the Toto time-series foundation model). Separate company or product diligence beyond the listings was not done because neither role passed the hard gates.[1][3]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[1] Official Datadog listing",
+          "url": "https://careers.datadoghq.com/detail/8364908/?gh_jid=8364908",
+          "quote": "Build execution environments and sandboxes for online RL and agent post-training. New hire stock equity (RSUs) and employee stock purchase plan (ESPP).",
+          "checked": "2026-11-10"
+        },
+        {
+          "label": "[2] Official Greenhouse job page with application form",
+          "url": "https://job-boards.greenhouse.io/datadog/jobs/8364908",
+          "quote": "Summary: Paris, France; first published November 9, 2026; no pay range in the official job data; application form present.",
+          "checked": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "datadog-8365206",
+      "company": "Datadog",
+      "title": "Senior AI Research Engineer - GPU Systems & Kernels",
+      "status": "near-miss",
+      "listingUrl": "https://careers.datadoghq.com/detail/8365206/?gh_jid=8365206",
+      "applyUrl": "https://job-boards.greenhouse.io/datadog/jobs/8365206",
+      "checked": "2026-11-10",
+      "posted": "2026-11-09",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris, France”, tagged “#LI-Hybrid”. No office-day count or remote eligibility is published.[3][4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range or equity term is published on the listing, and the official Greenhouse job data has no pay range for this requisition. Pay is unknown, not below the threshold.[3][4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[3][4]",
+        "Location gate unverified: Paris-based and tagged hybrid, but no attendance rule is published.[3]",
+        "AI centrality and seniority pass: the engineer will “write, tune, and debug GPU kernels (CUDA, Triton, or similar) for the operations that dominate LLM training and inference”, reduce communication cost in distributed training, and profile training and rollout workloads.[3]",
+        "New requisition first published November 9, 2026; the listing and its Greenhouse application page were reachable on the check date.[3][4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Datadog describes itself as an observability and security platform for the AI era. Both roles sit in Datadog AI Research (DAIR), on the Frontier Foundations team, which builds the infrastructure to train and serve large language models. That team supports DAIR's work on trained agents for observability: post-training models to operate autonomously across Datadog's domain, with SRE incident response named as the first target and code repair, security response and infrastructure optimization as later ones. The listings name earlier AI work (Bits AI, Bits Evolve and the Toto time-series foundation model). Separate company or product diligence beyond the listings was not done because neither role passed the hard gates.[3]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[3] Official Datadog listing",
+          "url": "https://careers.datadoghq.com/detail/8365206/?gh_jid=8365206",
+          "quote": "Write, tune, and debug GPU kernels (CUDA, Triton, or similar) for the operations that dominate LLM training and inference.",
+          "checked": "2026-11-10"
+        },
+        {
+          "label": "[4] Official Greenhouse job page with application form",
+          "url": "https://job-boards.greenhouse.io/datadog/jobs/8365206",
+          "quote": "Summary: Paris, France; first published November 9, 2026; no pay range in the official job data; application form present.",
+          "checked": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "neuralk-machine-learning-engineer",
+      "company": "Neuralk",
+      "title": "Machine Learning Engineer (Senior, Data Science Agent)",
+      "status": "near-miss",
+      "listingUrl": "https://www.neuralk.ai/job-posting/machine-learning-engineer",
+      "applyUrl": "https://tally.so/r/wodVQX",
+      "checked": "2026-11-10",
+      "posted": null,
+      "location": "hybrid",
+      "locationQuote": "Official listing: “You will be located in our Paris offices” (page location “Paris / London”). Neuralk's careers page describes a hybrid model “with up to two days of remote work per week”, which means at least three office days.[5][6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The employer listing offers “A competitive salary” and “Equity (BSPCE)” but publishes no figure. A €110,000–€140,000 range appears only on a job aggregator and was not counted. Pay is unknown, not below the threshold.[5]"
+      },
+      "reasons": [
+        "Pay gate unverified: the employer page states equity but no salary figure; aggregator figures are not employer evidence.[5]",
+        "Location passes on employer wording: Paris office with up to two remote days a week.[5][6]",
+        "AI centrality and seniority pass: the senior engineer will “help design and build the machine learning intelligence behind our Data Science Agent”, including the agent's decision logic for exploring, training, comparing and evaluating models on tabular data. The listing asks for 7+ years of applied ML or ML engineering.[5]",
+        "Open on the check date: the listing shows “Open” and its application form loads. The employer page shows no posting date; aggregators first listed it on November 5, 2026. No Neuralk role appears in earlier reports on this site.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Neuralk builds foundation models for structured (tabular) business data and a Data Science agent powered by them, which helps data scientists from problem framing to production-ready models on problems such as churn prediction, risk modelling and demand forecasting. This role builds the agent's modelling logic, predictive pipelines and evaluation protocols on top of the research team's models; the listing says it is not core model research or infrastructure operations. Separate company or product diligence beyond the employer pages was not done because the role did not pass the pay gate.[5][6]",
+      "financials": "The listing calls Neuralk an “early-stage, well-funded AI startup”; that is a company claim. Funding amounts, revenue and headcount were not publicly verified in this run.[5]",
+      "evidence": [
+        {
+          "label": "[5] Official Neuralk listing",
+          "url": "https://www.neuralk.ai/job-posting/machine-learning-engineer",
+          "quote": "help design and build the machine learning intelligence behind our Data Science Agent. A competitive salary Equity (BSPCE). You will be located in our Paris offices.",
+          "checked": "2026-11-10"
+        },
+        {
+          "label": "[6] Neuralk careers page (work model)",
+          "url": "https://www.neuralk.ai/careers",
+          "quote": "We offer a flexible hybrid work model that lets you enjoy the vibrant energy of our office as often as you like, with up to two days of remote work per week.",
+          "checked": "2026-11-10"
+        },
+        {
+          "label": "[7] Neuralk application form",
+          "url": "https://tally.so/r/wodVQX",
+          "quote": "Summary: the listing's “Apply here” button opens this Machine Learning Engineer application form, which loaded on the check date.",
+          "checked": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}
