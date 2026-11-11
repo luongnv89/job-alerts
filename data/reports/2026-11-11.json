@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 11. Three AI-central roles that are new on this site publish no salary on the employer's page, so they are near-misses, not picks. Cast AI's Kimchi team is hiring a senior applied-ML engineer to own the model inside its LLM router; the role is remote with France listed and equity options. Axelera AI's senior/staff model-enablement role on its AI accelerators is remote-eligible from France. Qonto posted a Paris hybrid AI engineer role on agent evaluation and observability on November 10 with no pay or office-day rule. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 11: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 9. Compared with November 10, the new requisitions in that Paris or France screen were Qonto's Senior AI Engineer, Qonto's Senior Android Engineer – AI Agents (the same requisition seen here October 17, republished), a Lifen Head of AI role, a Celonis forward-deployed role and a reposted n8n role; other additions were outside France or not engineering roles. About fifteen web searches surfaced the Cast AI and Axelera AI listings and other leads; leads were checked on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 11, 2026. Missing salary on the three near-misses means pay is unknown, not that it fails the threshold.",
+    "Salary figures that appear only on job aggregators or recruiter sites were not counted. Examples seen today: €110,000–€160,000 for a Doctolib senior ML engineer role, €110,000–€170,000 for a Capital Fund Management GenAI security role, €110,000–€190,000 for a Qonto staff AI agents role and €120,000–€160,000 for Axelera AI's role above. The employer pages checked for Doctolib (October 13), Qonto (October 28) and Axelera AI (today) publish no pay. A CFM listing posted on a job board states only “Competitive”.",
+    "n8n reposted its Staff Platform Engineer, Agentic Engineering role under a new requisition on November 10. It publishes €159,400–€175,300 plus equity for its Western and Northern Europe tier, but France is still absent from its 31 listed locations, as in the October 17 and October 30 reports, so it was not re-listed.",
+    "Screened and not listed: Joko's remote AI engineer role (published floor €76,300 with equity, below the €80,000 equity branch; rejected here October 14); Lifen's Head of AI (a management role with no published pay); Cast AI's agent-platform engineer roles, which publish “€6,500 to €9,000 gross” with no stated pay period (an unlabelled range does not pass); Mendo, Hymaïa, iAdvize, OCTO Technology and Idun Group roles with published floors below €80,000 or package-only pay; and recruiter postings for unnamed clients, including Built Different and Harnham.",
+    "Not re-listed: Datadog's two Paris AI research engineering roles (near-misses November 10) are still listed. Escape's Senior Research Engineer requisition (seen on this site in October) is still listed. Ooak Data's Lead ML Engineer (qualified November 9) was not re-verified today and is not a new pick.",
+    "Deduplication covered the accessible October 10 to November 10 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. Readers interested in the Cast AI or Axelera AI roles would need the employer's salary range before those roles could pass. For Qonto, they would also need the office-attendance rule and confirmation of equity. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "cast-ai-4451280009",
+      "company": "Cast AI (Kimchi)",
+      "title": "Senior Applied ML Engineer | Kimchi (Model Router)",
+      "status": "near-miss",
+      "listingUrl": "https://cast.ai/careers/apply/?gh_jid=4451280009",
+      "applyUrl": "https://cast.ai/careers/apply/?gh_jid=4451280009",
+      "checked": "2026-11-11",
+      "posted": "2026-10-15",
+      "location": "remote",
+      "locationQuote": "Official listing: location “Austria; France; Germany; Italy; Netherlands; Poland; Spain; United Kingdom”, with a “flexible, remote-first global environment” and a #LI-Remote tag. France is named explicitly. The listing also says Cast AI provides no visa sponsorship or work permit.[1]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The listing offers “Competitive salary (depending on the level of experience)” and “Equity options”, but publishes no figure, and the official Greenhouse job data has no pay range. Pay is unknown, not below the threshold.[1]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity options are stated, but no cash-base figure is published, so neither the €100,000 branch nor the €80,000-plus-equity branch can be checked.[1]",
+        "Location passes on employer wording: a remote role whose location list names France.[1]",
+        "AI centrality and seniority pass: the listing calls it “an applied-ML seat, not an infrastructure one”. The engineer owns the model inside Kimchi's LLM router (training data, objective, evaluation, calibration and release) and asks for 5+ years in applied ML or ML research.[1]",
+        "Open on the check date: the listing loaded with an embedded Greenhouse application form. First published October 15, 2026; no Cast AI or Kimchi role appears in earlier reports on this site.[1]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Kimchi is Cast AI's autonomous multi-model coding agent and inference service. An orchestration engine routes each task to the best-fit model on complexity and cost, mostly to self-hosted open-weight models, and keeps frontier models for the hardest steps. This role owns the routing model itself: for each request it predicts the quality, cost and decoding speed each candidate model would deliver. The listing names production-parity evaluation with error bars, shadow and A/B rollouts, drift monitoring and calibrated abstention as part of the work. Cast AI's own claim of 2.5x lower cost than a commercial-models-only baseline in shadow-mode evaluations was not independently checked.[1][2]",
+      "financials": "Not publicly verified in this run. No funding, revenue or headcount source was checked because the role did not pass the pay gate.",
+      "evidence": [
+        {
+          "label": "[1] Official Cast AI listing with embedded Greenhouse application",
+          "url": "https://cast.ai/careers/apply/?gh_jid=4451280009",
+          "quote": "This is an applied-ML seat, not an infrastructure one. Competitive salary (depending on the level of experience). Equity options. Enjoy a flexible, remote-first global environment. Location: Austria; France; Germany; Italy; Netherlands; Poland; Spain; United Kingdom.",
+          "checked": "2026-11-11"
+        },
+        {
+          "label": "[2] Kimchi product announcement (Cast AI)",
+          "url": "https://kimchi.dev/blog/kimchi-coding-is-ga",
+          "quote": "Kimchi is an autonomous multi-model coding agent. The orchestration engine routes every task to the best-fit model on complexity and cost.",
+          "checked": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "axelera-ai-1e26c9c9",
+      "company": "Axelera AI",
+      "title": "Senior/Staff AI Application Engineer - Heterogeneous Computing",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/axelera/1e26c9c9-1aad-40f9-8ec1-7f347a1b40f8",
+      "applyUrl": "https://jobs.ashbyhq.com/axelera/1e26c9c9-1aad-40f9-8ec1-7f347a1b40f8/application",
+      "checked": "2026-11-11",
+      "posted": "2026-10-26",
+      "location": "remote",
+      "locationQuote": "Official listing: location type “Remote”; the location list includes “France (remote)” and “Paris (on-site)”, and the role can be done by working “fully remotely from any European country (incl. the UK) you are already in”. The listing adds that “priority will be given to candidates who are [interested in being] based in Belgium or Italy”.[3]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The listing describes “an attractive compensation package, including a pension plan, extensive employee insurances and the option to get company shares”, but publishes no figure. The application form asks for salary expectations. A €120,000–€160,000 range appears only on a job aggregator and was not counted. Pay is unknown, not below the threshold.[3][4]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary; aggregator figures are not employer evidence.[3][4]",
+        "Location passes on employer wording: France is listed as a remote location. Applicants should note the stated priority for Belgium- or Italy-based candidates.[3]",
+        "AI centrality and seniority pass: the engineer builds the model-enablement platform that decides how each PyTorch or ONNX model is split across Axelera's AI accelerator, the host CPU and other accelerators, plus an agent harness for model bring-up. The listing asks for 8+ years in systems, compilers, runtimes or performance.[3]",
+        "Open on the check date: the listing and its Ashby application form loaded. First published October 26, 2026; no Axelera role appears in earlier reports on this site.[3][4]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Axelera AI designs AI accelerator chips and cards (Metis today, Europa named in the listing) for vision, agentic and generative AI workloads, from embedded modules to servers, using digital in-memory computing. The listing ties the role to the end-to-end performance customers see in Axelera's Voyager SDK. This role builds the platform and agent harness that partition, compile, run and profile models across the accelerator and host, including large models, cascades and multi-model pipelines. It is model-systems and compiler work rather than LLM application building.[3][5]",
+      "financials": "Not publicly verified in this run. No funding, revenue or headcount source was checked because the role did not pass the pay gate.",
+      "evidence": [
+        {
+          "label": "[3] Official Axelera AI listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/axelera/1e26c9c9-1aad-40f9-8ec1-7f347a1b40f8",
+          "quote": "France (remote) is among the listed locations. Work fully remotely from any European country (incl. the UK) you are already in. We offer an attractive compensation package, including a pension plan, extensive employee insurances and the option to get company shares.",
+          "checked": "2026-11-11"
+        },
+        {
+          "label": "[4] Axelera AI application form",
+          "url": "https://jobs.ashbyhq.com/axelera/1e26c9c9-1aad-40f9-8ec1-7f347a1b40f8/application",
+          "quote": "Summary: the Ashby application form loaded on the check date and asks for “Salary expectations (total yearly gross compensation, in your local currency)”.",
+          "checked": "2026-11-11"
+        },
+        {
+          "label": "[5] Axelera AI homepage",
+          "url": "https://axelera.ai/",
+          "quote": "Vision, Agentic and Gen AI running on the world's most efficient silicon, from embedded to edge to server.",
+          "checked": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "qonto-91ac24cd",
+      "company": "Qonto",
+      "title": "Senior AI Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/91ac24cd-5445-4882-ae22-9d65446196a0",
+      "applyUrl": "https://jobs.ashbyhq.com/qonto/91ac24cd-5445-4882-ae22-9d65446196a0/application",
+      "checked": "2026-11-11",
+      "posted": "2026-11-10",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris, France; Barcelona, Spain; Berlin, Germany; Madrid, Spain; Milan, Italy”, location type “Hybrid”. No office-day count is published; the application form asks which working arrangement the applicant wants and says it “will be discussed during the hiring process”.[6][7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary is published on the listing or in the official Ashby job data. Qonto's careers page says recruiters discuss compensation early in the process and that ESOPs are offered “for eligible roles”, which does not confirm equity for this role. Pay is unknown, not below the threshold.[6][8]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or role-specific equity.[6][8]",
+        "Location gate unverified: Paris-based and marked hybrid, but no attendance rule is published.[6][7]",
+        "AI centrality passes: the engineer builds customer-facing agents and designs their evaluation, observability and tooling. Seniority is uncertain: despite the senior title, the requirements read as mid-level and accept products shipped “during an internship or as a side project”.[6]",
+        "New requisition first published November 10, 2026; the listing and its application form loaded on the check date. Earlier Qonto AI requisitions on this site (October 12–28) are different roles.[6][7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Qonto offers business banking and finance tools to small businesses. This role sits in its AI Products team, which ships agents that “take real actions for customers”, and focuses on making them reliable: sizing evaluation to the risk of each action, building production monitoring, and turning evaluation and monitoring into a self-service platform for other teams. The listed stack is Python with Pydantic AI, models accessed through AWS, Grafana for usage and cost per sub-agent, and a self-hosted Braintrust instance for evaluation.[6][8]",
+      "financials": "Not publicly verified in this run. No funding, revenue or headcount source was checked because the role did not pass the pay and location gates.",
+      "evidence": [
+        {
+          "label": "[6] Official Qonto listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/qonto/91ac24cd-5445-4882-ae22-9d65446196a0",
+          "quote": "You'll design the evals, observability and tooling that keep agent quality high in a regulated bank. Build agents: You'll develop agents that take real actions for customers. Location type: Hybrid.",
+          "checked": "2026-11-11"
+        },
+        {
+          "label": "[7] Qonto application form",
+          "url": "https://jobs.ashbyhq.com/qonto/91ac24cd-5445-4882-ae22-9d65446196a0/application",
+          "quote": "Summary: the application form loaded on the check date and asks “What working arrangement are you ideally looking for? (we will discuss it during the hiring process)”.",
+          "checked": "2026-11-11"
+        },
+        {
+          "label": "[8] Qonto careers page",
+          "url": "https://qonto.com/en/careers",
+          "quote": "Your recruiter will discuss compensation early in the interview process. ESOPs (Employee Stock Ownership Plans) are offered for eligible roles.",
+          "checked": "2026-11-11"
+        }
+      ]
+    }
+  ]
+}
