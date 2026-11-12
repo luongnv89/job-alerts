@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 12. Two AI-central roles that are new on this site publish no salary on the employer's page, so they are near-misses, not picks. Seedtag is hiring a senior engineer to build the runtime, tool servers and evaluations behind Liz Agent, its advertising-planning AI agent; the role is fully remote with French contracts available. Alice & Bob, which is building a quantum computer, is hiring a senior MLOps/LLMOps engineer in Paris (hybrid, remote capped at 40%) with a stock-option plan. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 12: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 10. Compared with November 11, the new requisitions in that screen were n8n's Lead Forward Deployed Engineer – EMEA, two Mistral AI data-centre networking roles, Legora's Paris solutions engineer, Doctolib engineering-manager roles and sales or design roles outside the search; Alice & Bob's MLOps role appeared because its board answered today. About a dozen web searches surfaced Seedtag and other leads. Leads were checked on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 12, 2026. Missing salary on the two near-misses means pay is unknown, not that it fails the threshold.",
+    "A Jobgether listing for an Applied AI Engineer at an unnamed partner company, remote in France, is shown on job aggregators with €100,000–€150,000. Its Lever page and Lever's job data both returned “not found” today, so it was not listed. Even if it reopens, a floor of exactly €100,000 does not clear the “strictly above €100,000” rule, and no equity is mentioned.",
+    "Salary figures that appear only on job aggregators were not counted. Examples seen today: €120,000–€170,000 for a Doctolib Senior AI Engineer – Patient Team listing (search and recommendation) and €110,000–€150,000 for VISEO's senior generative-AI developer role. Doctolib's own job data for its Patient Team AI roles and VISEO's own job page publish no pay. Doctolib's search-and-recommendation requisition was a near-miss here on October 23.",
+    "Mistral AI retitled its two Applied AI roles first listed here on November 7 (now “Applied AI, Frontier Engineering, Staff” and “Applied AI, Frontier Data Engineering, Staff”). The requisitions are the same, and they still publish no pay or office-day rule, so they were not re-listed.",
+    "Screened and not listed: n8n's new Lead Forward Deployed Engineer – EMEA (France is absent from its 27 listed locations, as with the related role rejected October 31); n8n's Staff Platform Engineer, Agentic Engineering (still no France location; its published range now spans €127,500–€201,600 across regional tiers); Mirakl's Lead AI Engineer (a €90,000–€100,000 “package” with four office days, below the cash rule); and recruiter postings for unnamed Paris clients.",
+    "Not re-listed: Inato's Senior AI Engineer (qualified October 26) and OpenAI Deployment Company's Forward Deployed Engineer – EU (qualified October 18) remain on their boards with unchanged pay. They are archived picks, not new ones, and were not re-verified in full today.",
+    "Deduplication covered the accessible October 10 to November 11 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. Readers interested in the Seedtag or Alice & Bob roles would need the employer's salary range before those roles could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "seedtag-8562761",
+      "company": "Seedtag",
+      "title": "Senior Agentic Platform Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.seedtag.com/jobs/8562761-senior-agentic-platform-engineer",
+      "applyUrl": "https://jobs.seedtag.com/jobs/8562761-senior-agentic-platform-engineer/applications/new",
+      "checked": "2026-11-12",
+      "posted": "2026-10-16",
+      "location": "remote",
+      "locationQuote": "Official listing: “Multiple locations · Fully Remote”, with a “Flexible work model with 100% remote or hybrid options. (Remote contracts available in Spain, Italy, UK, Belgium, Netherlands, France, and Germany.)” France is named explicitly; the application form also lists Paris among its location choices.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing. The application form asks “What are your yearly salary expectations?” for the “expected annual fixed salary (gross)”. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity, so neither the €100,000 branch nor the €80,000-plus-equity branch can be checked.[1][2]",
+        "Location passes on employer wording: fully remote, with remote contracts explicitly available in France.[1]",
+        "AI centrality and seniority pass: the engineer owns key parts of Liz Agent, Seedtag's AI agent platform: the agent runtime and context management, MCP tool servers, multi-model routing, memory, evaluation and prompt-injection protection. The listing asks for 5+ years building production backend systems and hands-on experience shipping LLM applications or AI agents.[1]",
+        "Open on the check date: the listing and its Teamtailor application form loaded. The page's structured data gives a posting date of October 16, 2026; no Seedtag role appears in earlier reports on this site.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Seedtag sells contextual advertising for the open web and connected TV that does not rely on cookies or user tracking. Its proprietary AI is called Liz. Liz Agent, launched on March 11, 2026, is a conversational agent for brands and agencies that plans and activates media campaigns from Seedtag's data. Seedtag says it runs on “a sophisticated multi-agent orchestration engine” combining LLMs with Seedtag's own data and tools. The listing says the platform runs on 30+ services on Google Kubernetes Engine, with Python and Go, MCP, PydanticAI, LangGraph, the Claude Agent SDK and OpenAI Agents SDK, Langfuse and LiteLLM.[1][3]",
+      "financials": "Employer-stated on the listing: founded in 2014, 500+ employees in 17 countries and “backed by €250M in funding”. These figures were not independently verified. Revenue and profitability were not publicly verified.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Seedtag listing (Teamtailor)",
+          "url": "https://jobs.seedtag.com/jobs/8562761-senior-agentic-platform-engineer",
+          "quote": "Remote contracts available in Spain, Italy, UK, Belgium, Netherlands, France, and Germany. As our Senior Agentic Platform Engineer, you will take technical ownership of key components of Liz Agent, Seedtag's AI agent platform. 5+ years of experience building and maintaining production backend systems.",
+          "checked": "2026-11-12"
+        },
+        {
+          "label": "[2] Seedtag application form",
+          "url": "https://jobs.seedtag.com/jobs/8562761-senior-agentic-platform-engineer/applications/new",
+          "quote": "Summary: the application form loaded on the check date. It asks “What are your yearly salary expectations?” and offers Paris among its location choices.",
+          "checked": "2026-11-12"
+        },
+        {
+          "label": "[3] Seedtag press release on Liz Agent (March 11, 2026)",
+          "url": "https://www.seedtag.com/press/seedtag-launches-liz-agent-the-agentic-ai-platform-for-faster-smarter-media-strategy",
+          "quote": "Liz Agent is built on a sophisticated multi-agent orchestration engine that harmonizes state-of-the-art Large Language Models (LLMs) with Seedtag’s exclusive data, tools, and deep domain expertise.",
+          "checked": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "alice-bob-d6d44fbb",
+      "company": "Alice & Bob",
+      "title": "Senior MLOps Engineer (MLOps / LLMOps)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.lever.co/alice-bob/d6d44fbb-9759-4057-aaba-bdb3c2a185d8",
+      "applyUrl": "https://jobs.lever.co/alice-bob/d6d44fbb-9759-4057-aaba-bdb3c2a185d8/apply",
+      "checked": "2026-11-12",
+      "posted": "2026-08-18",
+      "location": "hybrid",
+      "locationQuote": "Official listing: “Paris”, “CDI / Hybrid”, with a “Flexible remote policy, up to 40 % a month”, so most working time is in the office. The application form asks whether the applicant holds a valid work permit for France.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary is published. The benefits list says “own it with our BSPCE plan” (French startup stock options) and mentions bonuses for patents. The application form asks for the “expected salary range for this role (annual gross in EUR)”. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity (BSPCE) is stated, but no cash-base figure is published, so the €80,000-plus-equity branch cannot be checked.[4][5]",
+        "Location passes on employer wording: Paris hybrid with remote work capped at 40% a month.[4]",
+        "AI centrality and seniority pass, with a caveat: the engineer builds and runs the company's MLOps and LLMOps infrastructure on Google Cloud (pipelines, deployment, monitoring) for both classic ML and GenAI/LLM use cases. The role supports the company's own researchers; it is not work on a customer-facing AI product. The listing asks for 7+ years in ML engineering, MLOps or software engineering.[4]",
+        "Open on the check date: the listing and its Lever application form loaded. The Lever posting data shows it was created in August 2026. It has not appeared in earlier reports on this site; it appeared in today's sweep because the board answered today.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Alice & Bob is building a fault-tolerant quantum computer based on “cat qubits”, a superconducting qubit design that it says corrects some errors by itself. This role belongs to its Data & AI Ops team, which is building an “AI-ready Data Platform” on Google Cloud. The work turns research ML and AI experiments into reproducible, monitored production systems, and helps teams across the company adopt AI tooling.[4][6]",
+      "financials": "The company homepage says NVIDIA's NVentures has joined its Series B; the round size and date were not checked. The listing describes a team of 250+ people. Revenue and profitability were not publicly verified.[4][6]",
+      "evidence": [
+        {
+          "label": "[4] Official Alice & Bob listing (Lever)",
+          "url": "https://jobs.lever.co/alice-bob/d6d44fbb-9759-4057-aaba-bdb3c2a185d8",
+          "quote": "As a Senior MLOps / LLMOps Engineer, you will help turn ML and AI experiments into reliable, production-ready solutions. Design reliable and scalable solutions for both traditional ML and GenAI / LLM use cases. Our success is your success: own it with our BSPCE plan. Flexible remote policy, up to 40 % a month.",
+          "checked": "2026-11-12"
+        },
+        {
+          "label": "[5] Alice & Bob application form (Lever)",
+          "url": "https://jobs.lever.co/alice-bob/d6d44fbb-9759-4057-aaba-bdb3c2a185d8/apply",
+          "quote": "Summary: the application form loaded on the check date. It asks “What is your expected salary range for this role (annual gross in EUR)?” and whether the applicant holds a valid work permit for France.",
+          "checked": "2026-11-12"
+        },
+        {
+          "label": "[6] Alice & Bob homepage",
+          "url": "https://alice-bob.com/",
+          "quote": "NVIDIA’s NVentures joins our Series B. We pioneer the cat qubit, the first qubit with built-in error correction.",
+          "checked": "2026-11-12"
+        }
+      ]
+    }
+  ]
+}
