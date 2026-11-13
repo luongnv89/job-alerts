@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 13. Four AI-related roles that are new on this site publish no salary, so they are near-misses, not picks. GitLab is hiring a Staff Forward Deployed Engineer, remote with France named, who helps large customers adopt its Duo Agent Platform for AI agents. Mistral AI posted two Paris roles: one owns the tokenizers and model-interface libraries behind every model it ships, the other builds training data, evaluations and agent harnesses for engineering software. Neural Concept is hiring a Paris-based forward deployed engineer to apply its 3D deep-learning platform to customers' engineering problems. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 13: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 10. Compared with November 12, the new AI-related requisitions in that screen were GitLab's Staff Forward Deployed Engineer, EMEA and Mistral AI's two November 12 roles. Vibe's new Paris Senior Software Engineer, Supply role (€90,000–€125,000 base) builds ad-inventory backend systems and is not AI-central. About ten web searches surfaced Neural Concept and other leads. Leads were checked on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 13, 2026. Missing salary on the four near-misses means pay is unknown, not that it fails the threshold.",
+    "Revolut's Senior AI Platform Engineer (Serverless Training and Inference) role, which builds GPU training and inference platforms, is shown on job aggregators as remote in several countries including France. The copies reproduce published ranges for Poland, Austria (€120,700–€184,000) and Lithuania only, with “Other locations: Compensation will be discussed during the interview process”, so no France figure is published. Revolut's own careers page stopped at a browser security check today, so the role was not verified and is not listed.",
+    "SecretSauce Labs' Senior AI Agent Engineer (€120,000–€150,000 plus equity, “Remote, Europe”) appears only on a third-party recruiting platform. No employer careers page or ATS listing was found, and France is not named, so it was not listed.",
+    "Salary figures that appear only on job aggregators were not counted. Examples seen today: €110,000–€150,000 for Mistral AI's Forward Software Engineer (the same requisition listed here on November 7, since retitled “Applied AI, Frontier Engineering, Staff”), €120,000–€150,000 for Shift Technology's Staff AI Engineer (a near-miss here on October 23) and €110,000–€170,000 for a Doctolib Senior Machine Learning Engineer – Applied AI & LLMs listing. The employers' own job data for these roles publish no pay.",
+    "Mistral AI re-published its “AI Scientist, Agentic CAD” requisition on November 12 (a near-miss here on November 3); the requisition is unchanged in pay and policy, so it was not re-listed.",
+    "Not re-listed: Seedtag's and Alice & Bob's near-misses from November 12 were not re-checked today. Inato's Senior AI Engineer (qualified October 26) and OpenAI Deployment Company's Forward Deployed Engineer – EU (qualified October 18) still appear in their employers' job data with unchanged pay; they are archived picks, not new ones, and were not re-verified in full today.",
+    "Deduplication covered the accessible October 10 to November 12 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The four near-misses would need an employer-published salary (and, for three of them, a clear attendance rule) before they could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "gitlab-8936153002",
+      "company": "GitLab",
+      "title": "Staff Forward Deployed Engineer, EMEA",
+      "status": "near-miss",
+      "listingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8936153002",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8936153002",
+      "checked": "2026-11-13",
+      "posted": "2026-11-12",
+      "location": "remote",
+      "locationQuote": "Official listing: “Remote Ireland; Remote, Austria; Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom”, and “All of our roles are remote, however some roles may carry specific location-based eligibility requirements.” France is named explicitly.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and Greenhouse's pay-transparency data for this job is empty. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[1][2]",
+        "Location passes on employer wording: remote, with France named among the seven eligible countries.[1]",
+        "Seniority passes (Staff title; the listing asks for the “technical standards and contribution discipline of a Staff-level product engineer”). AI centrality is partial: driving production adoption of GitLab Duo Agent Platform is one of four duty areas, alongside production code contributions, strategic customer troubleshooting and thought leadership. The listing asks for strong Ruby on Rails or Go.[1]",
+        "New requisition, first published November 12, 2026; the same-page application form loaded on the check date. A similar GitLab role (Staff Forward Deployed Engineer, Agentic SDLC, requisition 8522265002) was a near-miss here on October 19; that requisition's job data now returns “not found”.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: GitLab sells a DevSecOps platform. GitLab Duo Agent Platform is its agent layer: built-in and custom agents and flows for planning, coding, security analysis and pipelines, triggered from GitLab events, with policy controls over which agents and models may run and a trace of every agent action. This role helps strategic customers adopt it safely and feeds what it learns back into the product. Specific customer projects are not named.[1][3]",
+      "financials": "Not publicly verified in this run; GitLab is a listed company, but no filing, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[1] Official GitLab listing (Greenhouse) with same-page application",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8936153002",
+          "quote": "As a Staff Forward Deployed Engineer, you'll work closely with customers while maintaining the technical standards and contribution discipline of a Staff-level product engineer. Drive governed, measurable, and production-oriented adoption of GitLab Duo Agent Platform with strategic customers.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[2] Official Greenhouse job data with pay-transparency fields",
+          "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs/8936153002?pay_transparency=true",
+          "quote": "Metadata summary: first published and updated November 12, 2026; location lists seven remote countries including France; the pay-range field is empty.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[3] GitLab Duo Agent Platform product page",
+          "url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+          "quote": "GitLab Duo Agent Platform is the repo-side AI that carries the change through review, tests, security, and pipelines, to a change that actually ships.",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "mistral-3dd6e713",
+      "company": "Mistral AI",
+      "title": "Research Engineer - Tokenizer & Protocols",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/3dd6e713-fc72-480f-8947-831d765131fa",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/3dd6e713-fc72-480f-8947-831d765131fa/application",
+      "checked": "2026-11-13",
+      "posted": "2026-11-12",
+      "location": "unknown",
+      "locationQuote": "Official listing: “This role is primarily based at one of our European offices (Paris and London).” Remote is conditional: “In certain specific situations, we will also consider remote candidates based in one of the countries listed in this job posting — currently France & UK”, with the first week and then “at least 4 days per month” in the local office. No office-day rule is stated for office-based hires.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing or in the Ashby job data. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[4][5]",
+        "Location gate unverified: the role is office-based in Paris or London; remote work from France is allowed only “in certain specific situations”, and no weekly attendance rule is given for office-based hires.[4]",
+        "Seniority gate unverified: the title and listing state no level or years of experience.[4]",
+        "AI centrality passes: the engineer designs, builds and maintains the tokenization and model-interface libraries used across pretraining, post-training and deployment, so that training, evaluation and production use the same formats.[4]",
+        "New requisition, first published November 12, 2026; the listing and its application tab loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Mistral AI builds frontier and specialist open-weight models that customers can use as-is or adapt, plus Studio for building, governing and improving agents and applications, and Vibe for research, coding and everyday tasks.[6] This role owns the tokenizers, chat formats and model-interface libraries that, in the listing's words, sit “between a conversation and a model”; the listing says these decisions reach every model Mistral ships.[4]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[4] Official Mistral AI listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/3dd6e713-fc72-480f-8947-831d765131fa",
+          "quote": "Design, build and maintain core libraries for tokenization and model interfaces. In certain specific situations, we will also consider remote candidates based in one of the countries listed in this job posting — currently France & UK.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[5] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: both Mistral AI requisitions below were first published November 12, 2026, with Paris as the primary location and no compensation tier. Tokenizer & Protocols has no workplace type; Agentic Engineering is marked Remote, with Linz, Munich, London and Berlin as secondary locations.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[6] Mistral AI homepage (product overview)",
+          "url": "https://mistral.ai/",
+          "quote": "Start with Mistral’s frontier and specialist open-weight models. Use them as they are, or make them specific to your organization. Build, govern and improve agents and applications with Studio.",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "mistral-d040f4c6",
+      "company": "Mistral AI",
+      "title": "AI Scientist - Agentic Engineering",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/d040f4c6-ed98-4370-b6e9-460c359a5e2a",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/d040f4c6-ed98-4370-b6e9-460c359a5e2a/application",
+      "checked": "2026-11-13",
+      "posted": "2026-11-12",
+      "location": "unknown",
+      "locationQuote": "Official listing header: “Paris; Berlin; Linz; London; Munich”, location type “Remote”. The listing text states no remote-eligibility or office-attendance policy.[7][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing or in the Ashby job data. Pay is unknown, not below the threshold.[7][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[7][5]",
+        "Location gate unverified: the job data marks the role Remote and lists Paris among five cities, but the listing gives no written remote-eligibility or attendance rule.[7][5]",
+        "Seniority gate unverified: no level or years of experience are stated.[7]",
+        "AI centrality passes: the role designs pretraining, SFT and RL data and verifiers for engineering tasks (CAD, CAE, EDA), builds evaluation benchmarks, and designs agent architectures and harnesses for long multi-step workflows. It asks for demonstrated experience with real CAD, CAE, semiconductor-simulation or EDA workflows.[7]",
+        "New requisition, first published November 12, 2026, in the same AI4Engineering area as the “AI Scientist, Agentic CAD” requisition listed here on November 3 (which Mistral re-published the same day). The listing and its application tab loaded on the check date.[7][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Mistral AI builds frontier and specialist open-weight models that customers can use as-is or adapt, plus Studio for building, governing and improving agents and applications, and Vibe for research, coding and everyday tasks.[6] This role is in AI4Engineering Science, which trains Mistral's models to reason about and carry out engineering tasks in CAE and EDA/semiconductor tools.[7]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[7] Official Mistral AI listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/d040f4c6-ed98-4370-b6e9-460c359a5e2a",
+          "quote": "Design and improve agent architectures and harnesses: how models plan, call tools, recover from errors, and chain steps together across long-horizon engineering workflows",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[5] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: both Mistral AI requisitions below were first published November 12, 2026, with Paris as the primary location and no compensation tier. Tokenizer & Protocols has no workplace type; Agentic Engineering is marked Remote, with Linz, Munich, London and Berlin as secondary locations.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[6] Mistral AI homepage (product overview)",
+          "url": "https://mistral.ai/",
+          "quote": "Start with Mistral’s frontier and specialist open-weight models. Use them as they are, or make them specific to your organization. Build, govern and improve agents and applications with Studio.",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "neural-concept-9365b781",
+      "company": "Neural Concept",
+      "title": "Forward Deployed Engineer - France",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/neuralconcept/9365b781-7493-4eed-9882-cc36129b3f49",
+      "applyUrl": "https://jobs.ashbyhq.com/neuralconcept/9365b781-7493-4eed-9882-cc36129b3f49/application",
+      "checked": "2026-11-13",
+      "posted": "2026-11-09",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, location type “Hybrid”, and “Balance life and work with a hybrid model and flexible hours”. No office-day rule is stated.[8][9]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "The listing offers “a competitive salary” but publishes no figure or equity term, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[8][9]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity.[8][9]",
+        "Location gate unverified: Paris hybrid, but no attendance rule is published.[8]",
+        "Seniority passes: 7+ years in engineering, simulation or applied machine learning is a “strict requirement”. AI centrality passes: the engineer applies the company's machine- and deep-learning workflows to customers' engineering and physics problems and builds proofs of concept on its platform. French and English are both mandatory.[8]",
+        "First published November 9, 2026 and not in earlier reports on this site; the listing and its application tab loaded on the check date.[8][9]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Neural Concept sells an AI platform for product engineering teams that uses 3D deep learning on CAD and simulation data to speed up design in fields such as aerodynamics, thermal management and structural mechanics, working with CAD tools like CATIA and NX and simulation tools like Fluent and Abaqus. Its forward deployed engineers run customer projects in the automotive, aerospace and energy industries.[8][10]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked. The homepage claims use by “50% of the world’s leading OEMs and top-tier suppliers”; that claim was not independently checked.[10]",
+      "evidence": [
+        {
+          "label": "[8] Official Neural Concept listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/neuralconcept/9365b781-7493-4eed-9882-cc36129b3f49",
+          "quote": "You have 7+ years of professional experience in engineering, simulation, or applied machine learning, ideally in an industrial or customer-facing environment (strict requirement)",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[9] Official Ashby job data for the Neural Concept board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/neuralconcept?includeCompensation=true",
+          "quote": "Metadata summary: published November 9, 2026; location Paris, France; workplace type Hybrid; no compensation tier.",
+          "checked": "2026-11-13"
+        },
+        {
+          "label": "[10] Neural Concept homepage",
+          "url": "https://www.neuralconcept.com/",
+          "quote": "Neural Concept is trusted by 50% of the world’s leading OEMs and top-tier suppliers to drive performance breakthroughs and stay ahead of the curve.",
+          "checked": "2026-11-13"
+        }
+      ]
+    }
+  ]
+}
