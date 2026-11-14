@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 14. Three AI roles that are new on this site publish no salary, so they are near-misses, not picks. Filigran is hiring a Principal Software Engineer, remote with France named, to set the architecture of XTM One, the AI-agent layer of its open-source threat-management suite; the listing mentions equity but no salary. Datadog posted two Paris Staff Research Scientist roles in its AI research lab: one post-trains models and agents for observability and security work, the other trains multimodal foundation models on telemetry data. A new ElevenLabs agent-platform security role was rejected because France is not named. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 14: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Additional passes over other board names and Workable/Recruitee boards found no new AI matches. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 11. Compared with November 13, the new AI-related requisitions were Datadog's two Paris research roles, ElevenLabs' agent-platform security role, Mistral AI's Senior AI Deployment Strategist (an advisory and presales role, not hands-on engineering) and Owkin's Research Scientist – Foundation Models and Multimodal AI (2–4 years of experience requested, below senior level; no pay published). Filigran's November 12 requisition was found on its board today. About ten web searches surfaced other leads. Leads were checked on employer or ATS pages before inclusion. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 14, 2026. Missing salary on the three near-misses means pay is unknown, not that it fails the threshold.",
+    "Piston's Senior Backend Engineer role at an AI-native ERP start-up (€80,000–€120,000 plus equity, Paris or remote in the EU) appears only on job aggregators, with applications by email. The employer's own careers page lists only a full-stack engineer role, and the duties are mainly backend work with AI integration as one item, so it was not listed.",
+    "Recruiter listings for unnamed employers were not counted, including a Paris senior AI engineer role advertised at €80,000–€120,000 plus equity with four office days per week; the employer could not be identified or checked.",
+    "Leads named on November 13 (Revolut's AI platform role, SecretSauce Labs' agent engineer role and aggregator-only salary figures for Mistral AI, Shift Technology and Doctolib) were not re-checked today.",
+    "Not re-listed: November 13's four near-misses (GitLab, two Mistral AI roles and Neural Concept) were not re-checked in full today. Joko's AI Software Engineer (October 14), Sierra's Software Engineer, Agent (October 18) and EverAI's France remote LLM engineer role (rejected November 7) reappeared in web searches; they were handled in earlier reports and were not re-checked. Inato's Senior AI Engineer (qualified October 26) and OpenAI Deployment Company's Forward Deployed Engineer – EU (qualified October 18) still appear in their employers' job data with unchanged pay; they are archived picks, not new ones, and were not re-verified in full today.",
+    "Deduplication covered the accessible October 10 to November 13 reports and the supplied October 3/5 Escape history. Escape's and Pigment's previously reported requisitions still appear in today's job data and were not re-listed."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The three near-misses would need an employer-published salary (and, for the two Datadog roles, a clear office-attendance rule) before they could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "filigran-6cbda08e",
+      "company": "Filigran",
+      "title": "Principal Software Engineer - XTM One",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/filigran/6cbda08e-2981-430b-b3a8-b7898c933a9e",
+      "applyUrl": "https://jobs.ashbyhq.com/filigran/6cbda08e-2981-430b-b3a8-b7898c933a9e/application",
+      "checked": "2026-11-14",
+      "posted": "2026-11-12",
+      "location": "remote",
+      "locationQuote": "Official listing: location “France; Germany; Italy; Portugal; Spain; United Kingdom”, location type “Remote”, and “Remote-first flexibility — work from wherever you’re based”. France is named explicitly.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The listing offers “Competitive compensation + equity — everyone shares in our success” but publishes no salary figure, and the Ashby job data has no compensation tier. Equity is stated; the cash base is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is stated, but no employer-published base salary exists for either branch of the rule.[1][2]",
+        "Location passes: a remote requisition with France named among six countries.[1][2]",
+        "Seniority passes (Principal, 10+ years in software engineering with technical leadership, an individual-contributor role with no headcount). AI centrality passes: the engineer owns the architecture of XTM One's agent runtime and orchestration, tool and MCP integrations, LLM latency and inference cost, and the evaluations and guardrails for agent behaviour in production, and writes production code.[1]",
+        "New requisition, first published November 12, 2026 and not in earlier reports on this site; the listing and its same-page application tab loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Filigran builds an open-source threat-management suite (OpenCTI for threat intelligence, OpenAEV for attack simulation and exposure validation, OpenGRC). XTM One is its agentic AI layer: pre-built and custom security agents (threat hunting, attack-scenario creation, remediation guidance) that work across those products with human approval steps, bring-your-own-LLM support, and SaaS or on-premises deployment. This role sets XTM One's technical direction across all connected products.[1][3]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked. The listing states 60+ engineers at Filigran (employer statement).[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Filigran listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/filigran/6cbda08e-2981-430b-b3a8-b7898c933a9e",
+          "quote": "Own the platform architecture: agent runtime and orchestration, tool and MCP integrations, data and context layers, APIs, permission model, shared commons.",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[2] Official Ashby job data for the Filigran board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/filigran?includeCompensation=true",
+          "quote": "Metadata summary: published November 12, 2026; location France with Germany, Portugal, Spain, United Kingdom and Italy as secondary locations; workplace type Remote; no compensation tier.",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[3] Filigran XTM One product page",
+          "url": "https://filigran.io/products/xtm-one",
+          "quote": "XTM One is the agentic AI layer that consolidates and orchestrates all assistive and agentic AI capabilities across the entire XTM platform and supercharges threat-informed exposure management – so you can move from threat signal to validated action at machine speed.",
+          "checked": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "datadog-8385200",
+      "company": "Datadog",
+      "title": "Staff Research Scientist - Post-Training for Observability Native Models",
+      "status": "near-miss",
+      "listingUrl": "https://careers.datadoghq.com/detail/8385200/?gh_jid=8385200",
+      "applyUrl": "https://job-boards.greenhouse.io/datadog/jobs/8385200",
+      "checked": "2026-11-14",
+      "posted": "2026-11-13",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris, France”, tagged “#LI-Hybrid”, and “We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.” No office-day count is published.[4][6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the official Greenhouse job data has an empty pay-range field. Pay is unknown, not below the threshold.[4][6]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[4][6]",
+        "Location gate unverified: Paris-based and described as hybrid, but no attendance rule is published.[4]",
+        "Seniority and AI centrality pass: a Staff, hands-on individual-contributor research role that designs post-training methods, simulated environments, synthetic data and evaluation frameworks for decision models and agents operating in observability and security settings. The listing asks for a PhD or equivalent experience and a research-impact track record.[4]",
+        "New requisition, first published November 13, 2026; the listing and its embedded Greenhouse application form loaded on the check date.[4][6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Datadog sells an observability and security platform. Datadog AI Research (DAIR) builds models on telemetry data; its public work includes Toto 2.0, a family of open-weights time-series forecasting models (4 million to 2.5 billion parameters) trained on observability and synthetic data.[7] This role post-trains decision and generative models for agents that act across complex systems in observability and security.[4]",
+      "financials": "Not publicly verified in this run; Datadog is a listed company, but no filing, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[4] Official Datadog listing (post-training) with embedded application",
+          "url": "https://careers.datadoghq.com/detail/8385200/?gh_jid=8385200",
+          "quote": "Build simulated environments, synthetic data generation approaches, and evaluation frameworks that enable scalable model training and rigorous measurement",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[6] Official Greenhouse job data for both Datadog requisitions",
+          "url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs/8385200?pay_transparency=true",
+          "quote": "Metadata summary: requisitions 8385200 and 8385205 were first published November 13, 2026, located “Paris, France”, with an empty pay-range field. The Greenhouse application form is embedded on each careers page.",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[7] Datadog AI Research blog: Toto 2.0 release",
+          "url": "https://www.datadoghq.com/blog/ai/toto-2/",
+          "quote": "Today we’re releasing Toto 2, a family of open-weights time series forecasting models, on Hugging Face.",
+          "checked": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "datadog-8385205",
+      "company": "Datadog",
+      "title": "Staff Research Scientist - Foundation & World Models",
+      "status": "near-miss",
+      "listingUrl": "https://careers.datadoghq.com/detail/8385205/?gh_jid=8385205",
+      "applyUrl": "https://job-boards.greenhouse.io/datadog/jobs/8385205",
+      "checked": "2026-11-14",
+      "posted": "2026-11-13",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris, France”, tagged “#LI-Hybrid”, and “We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.” No office-day count is published.[5][6]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the official Greenhouse job data has an empty pay-range field. Pay is unknown, not below the threshold.[5][6]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[5][6]",
+        "Location gate unverified: Paris-based and described as hybrid, but no attendance rule is published.[5]",
+        "Seniority and AI centrality pass: a Staff, hands-on individual-contributor research role that trains large multimodal foundation models on metrics, logs, traces, topology and events, covering pre-training, representation learning, scaling and evaluation. The listing asks for a PhD or equivalent experience and a research-impact track record.[5]",
+        "New requisition, first published November 13, 2026; the listing and its embedded Greenhouse application form loaded on the check date.[5][6]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Datadog sells an observability and security platform. Datadog AI Research (DAIR) builds models on telemetry data; its public work includes Toto 2.0, a family of open-weights time-series forecasting models (4 million to 2.5 billion parameters) trained on observability and synthetic data.[7] This role extends that foundation-model work to multimodal telemetry and world models of distributed systems.[5]",
+      "financials": "Not publicly verified in this run; Datadog is a listed company, but no filing, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[5] Official Datadog listing (foundation and world models) with embedded application",
+          "url": "https://careers.datadoghq.com/detail/8385205/?gh_jid=8385205",
+          "quote": "Train large-scale multimodal models on diverse telemetry data, including metrics, logs, traces, topology, events, and other non-text modalities",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[6] Official Greenhouse job data for both Datadog requisitions",
+          "url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs/8385200?pay_transparency=true",
+          "quote": "Metadata summary: requisitions 8385200 and 8385205 were first published November 13, 2026, located “Paris, France”, with an empty pay-range field. The Greenhouse application form is embedded on each careers page.",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[7] Datadog AI Research blog: Toto 2.0 release",
+          "url": "https://www.datadoghq.com/blog/ai/toto-2/",
+          "quote": "Today we’re releasing Toto 2, a family of open-weights time series forecasting models, on Hugging Face.",
+          "checked": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs-709b53e4",
+      "company": "ElevenLabs",
+      "title": "Application Security Engineer - Agents platform",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/ElevenLabs/709b53e4-9db5-47ae-9c4b-a6fb9f33044c",
+      "applyUrl": "https://jobs.ashbyhq.com/ElevenLabs/709b53e4-9db5-47ae-9c4b-a6fb9f33044c/application",
+      "checked": "2026-11-14",
+      "posted": "2026-11-13",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “United Kingdom; Dublin; London”, location type “Remote”, and “This role is remote and can be executed globally. However, to facilitate working with the Security Team, we prefer candidates based in GMT to GMT+3 or UK.” France is not named.[8][9]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing or in the Ashby job data. Pay is unknown, not below the threshold.[8][9]"
+      },
+      "reasons": [
+        "Location gate fails as ambiguous: the listed locations are the UK, Dublin and London, and “can be executed globally” does not explicitly name France as an eligible country.[8]",
+        "Pay gate unverified: no employer-published base salary or equity term.[8][9]",
+        "AI centrality is partial: the engineer builds security tooling, authentication and authorization controls and guardrails for ElevenAgents, a platform for conversational AI agents; security for AI and LLM applications is listed as a bonus, not a requirement. The listing asks for 5+ years in application security engineering.[8]",
+        "New requisition, first published November 13, 2026; the listing loaded on the check date.[8][9]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "fail",
+        "ai": "unknown",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: ElevenLabs builds AI voice models and three platforms, including ElevenAgents for deploying voice and chat agents. Separate product diligence was not done because the role failed the location gate.[8]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[8] Official ElevenLabs listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/ElevenLabs/709b53e4-9db5-47ae-9c4b-a6fb9f33044c",
+          "quote": "This role is remote and can be executed globally. However, to facilitate working with the Security Team, we prefer candidates based in GMT to GMT+3 or UK.",
+          "checked": "2026-11-14"
+        },
+        {
+          "label": "[9] Official Ashby job data for the ElevenLabs board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/ElevenLabs?includeCompensation=true",
+          "quote": "Metadata summary: published November 13, 2026; location United Kingdom with Dublin and London as secondary locations; workplace type Remote; no compensation tier.",
+          "checked": "2026-11-14"
+        }
+      ]
+    }
+  ]
+}
