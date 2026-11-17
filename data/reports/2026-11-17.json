@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-17",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 17. Two AI engineering roles new to this site publish no salary, so they are near-misses, not picks. Mistral AI posted a Paris Applied AI Engineer role that builds agentic cyberdefense systems (alert triage, incident response, detection engineering) for defence and government customers, including air-gapped deployments; it is open only to French nationals eligible for security clearance. Kraken Technologies has a hybrid Senior Software Engineer role in AI Foundations, with Paris among four locations, building the agent runtimes, gateways, knowledge pipelines and evals that other teams use to run AI agents. A new Photoroom Product ML Engineer requisition was rejected at 2+ years of experience. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 17: 130 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Additional passes over other board names and Workable/Recruitee boards found no new AI matches. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 14. No reports were published on November 15 or 16, so today's comparison is against the November 14 sweep. Since then, the new AI-related requisitions in France were Mistral AI's cyberdefense role and Photoroom's Product ML Engineer; Mistral AI's Research Engineer, Orchestral role (near-miss on October 22) was retitled Research Engineer, Reinforcement Learning Systems and republished on November 16 with no pay. The only new France role with published pay was a non-AI Mozilla performance-engineering role at €65,000–€87,000. Four web searches surfaced other leads, including Kraken Technologies' role, which was then read on its Ashby board. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 17, 2026. Missing salary on the two near-misses means pay is unknown, not that it fails the threshold.",
+    "No report exists for November 15 or 16. Roles posted and closed within those days would not have been seen.",
+    "November 14's near-misses (Filigran's Principal Software Engineer – XTM One and Datadog's two Staff Research Scientist roles) are still on their employers' boards with no published pay; they were not re-listed.",
+    "Recruiter and aggregator listings were not counted: a senior AI engineer role at an unnamed Paris scale-up advertised at €75,000–€90,000 plus stock options (lower bound below €80,000), a recruiter's Paris senior AI engineer role at €80,000–€120,000 plus equity for an unidentified employer, and an EverAI security engineer role advertised on aggregators at €85,000–€115,000 for senior level, whose duties are mainly application security and governance rather than AI systems; it was not checked on the employer's page today.",
+    "Not re-listed: Mistral AI's Applied AI, Forward Deployed Engineer – CyberSecurity (Europe) (near-miss November 4) and Qonto's Senior AI Engineer (near-miss November 11) still appear in searches or job data and were not re-checked in full. Joko, Sierra, Inato and OpenAI Deployment Company roles reported in October reappeared in web searches; they are archived entries, not new ones, and were not re-verified today. Pigment's and Escape's previously reported requisitions still appear in job data.",
+    "Deduplication covered the accessible October 10 to November 14 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The two near-misses would need an employer-published salary and a clear office-attendance rule before they could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "mistral-ai-4589a3be",
+      "company": "Mistral AI",
+      "title": "Applied AI Engineer, CyberSecurity, Defense",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/4589a3be-baca-49cd-806f-6159f56bea6a",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/4589a3be-baca-49cd-806f-6159f56bea6a/application",
+      "checked": "2026-11-17",
+      "posted": "2026-11-17",
+      "location": "unknown",
+      "locationQuote": "Official listing: location “Paris”, employment type “Full time”. No location type (on-site, hybrid or remote) and no office-attendance rule is published; the Ashby job data has an empty workplace type.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. The benefits section names healthcare, parental leave and allowances, not pay. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[1][2]",
+        "Location gate unverified: Paris is the only location named, but no work mode or attendance rule is stated.[1][2]",
+        "Eligibility is narrower than usual: the listing limits applicants to French nationals (“France for now”) who can meet local requirements for high-level security clearance, and asks for fluent French.[1]",
+        "AI centrality passes: the engineer composes and deploys agentic cyberdefense workflows (alert triage and investigation, incident-response automation, detection engineering, threat-intelligence and log analysis), designs evaluations for correctness and safety, and owns deployment including on-premises and air-gapped setups. Pre-sales calls are part of the role. Seniority is not in the title; the listing asks for 5+ years building cybersecurity systems plus 1+ year of hands-on agentic or LLM work.[1]",
+        "New requisition, first published November 17, 2026. It is separate from Mistral AI's Applied AI, Forward Deployed Engineer – CyberSecurity (Europe) requisition listed as a near-miss on November 4, which is still on the board. The listing and its application tab loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Mistral AI makes frontier and open-weight models, Forge for customising them, and Studio for building and governing agents, with deployment on-premises, in a customer's VPC or hosted by Mistral.[3] This role builds AI-for-cyberdefense systems on that stack for defence, government and critical-infrastructure customers, often in sovereign, on-premises or classified environments, and feeds field patterns back into Mistral's products.[1]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked.",
+      "evidence": [
+        {
+          "label": "[1] Official Mistral AI listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/4589a3be-baca-49cd-806f-6159f56bea6a",
+          "quote": "composing cybersecurity-related agentic workflows focused on cyberdefense, configuring harnesses for real-world scenarios, and delivering value directly to clients",
+          "checked": "2026-11-17"
+        },
+        {
+          "label": "[2] Official Ashby job data for the Mistral AI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: published November 17, 2026; location Paris; no workplace type; no compensation tier.",
+          "checked": "2026-11-17"
+        },
+        {
+          "label": "[3] Mistral AI home page",
+          "url": "https://mistral.ai/",
+          "quote": "Run on-prem, in your VPC, or have us run it for you.",
+          "checked": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "kraken-technologies-28653f8c",
+      "company": "Kraken Technologies",
+      "title": "Senior Software Engineer - AI Foundations",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/krakentech/28653f8c-bc4d-4159-a331-3fb6e27743ef",
+      "applyUrl": "https://jobs.ashbyhq.com/krakentech/28653f8c-bc4d-4159-a331-3fb6e27743ef/application",
+      "checked": "2026-11-17",
+      "posted": "2026-08-25",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “London, UK; Berlin, Germany; Manchester, UK; Paris, France”, location type “Hybrid”. No office-day count is published. The listing also states that visa sponsorship is not offered and applicants must already have the right to work in the country they apply to.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[4][5]",
+        "Location gate unverified: Paris is one of four hybrid locations, but no attendance rule is published.[4]",
+        "Seniority and AI centrality pass: a hands-on senior individual-contributor role in the team that lets other teams at Kraken build and run AI agents. The engineer builds Python services such as gateways, agent runtimes, knowledge pipelines and eval harnesses, and turns permissions, guardrails, budgets and data-access rules into software. The listing also asks for AWS and Kubernetes operations experience.[4]",
+        "First published August 25, 2026 (not recent) and new to this site; it surfaced today through a job-aggregator search, and the employer listing and its application tab loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Kraken sells an operating system for energy utilities, with clients including EDF, Octopus Energy and National Grid; its home page reports 90m+ customer accounts in 15+ countries and promotes AI for utility customer service.[6] The AI Foundations team runs internal AI infrastructure: a knowledge layer that grounds LLMs in company context, an AI hub with an MCP gateway, a LiteLLM gateway behind coding agents, and evals, guardrails and observability for live AI runs.[4]",
+      "financials": "Not publicly verified in this run; no funding, revenue or headcount source was checked today because no role was ranked. The home page claims 90m+ customer accounts (employer statement).[6]",
+      "evidence": [
+        {
+          "label": "[4] Official Kraken Technologies listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/krakentech/28653f8c-bc4d-4159-a331-3fb6e27743ef",
+          "quote": "We build the platform that lets teams across Kraken build and run AI agents.",
+          "checked": "2026-11-17"
+        },
+        {
+          "label": "[5] Official Ashby job data for the Kraken Technologies board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/krakentech?includeCompensation=true",
+          "quote": "Metadata summary: published August 25, 2026; location London with Manchester, Paris and Berlin as secondary locations; workplace type Hybrid; no compensation tier.",
+          "checked": "2026-11-17"
+        },
+        {
+          "label": "[6] Kraken home page",
+          "url": "https://kraken.tech/",
+          "quote": "Boosting customer service with Utility-Grade AI",
+          "checked": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "photoroom-866bdfdb",
+      "company": "Photoroom",
+      "title": "Product ML Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/photoroom/866bdfdb-a1d8-4d68-b9d1-66219f5f2d59",
+      "applyUrl": "https://jobs.ashbyhq.com/photoroom/866bdfdb-a1d8-4d68-b9d1-66219f5f2d59/application",
+      "checked": "2026-11-17",
+      "posted": "2026-11-15",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, with “Hybrid working from our Paris headquarters”. No office-day count is published.[7][8]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "The listing offers “Competitive salary + meaningful equity” but publishes no salary figure, and the Ashby job data has no compensation tier. Equity is stated; the cash base is unknown, not below the threshold.[7][8]"
+      },
+      "reasons": [
+        "Seniority gate fails: the listing asks for 2+ years of hands-on experience shipping ML-powered products and has no senior or staff level.[7]",
+        "Pay gate unverified: equity is stated but no base salary is published.[7][8]",
+        "AI centrality passes: the engineer owns short ML projects inside a product team, choosing between fine-tuning vision or diffusion models and integrating external models, then ships, evaluates and monitors them in production.[7]",
+        "New requisition ID, first published November 15, 2026. Photoroom requisitions with the same title were rejected on October 13 and October 27 for the same seniority reason; the listing and its application tab loaded on the check date.[7][8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Photoroom sells AI photo and video editing for e-commerce through a mobile app, web platform and API, and says it processes around 7 billion images a year. Separate product diligence was not done because the role failed the seniority gate.[7]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Photoroom listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/photoroom/866bdfdb-a1d8-4d68-b9d1-66219f5f2d59",
+          "quote": "You have 2+ years of hands-on experience building and shipping ML-powered products",
+          "checked": "2026-11-17"
+        },
+        {
+          "label": "[8] Official Ashby job data for the Photoroom board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/photoroom?includeCompensation=true",
+          "quote": "Metadata summary: published November 15, 2026; location Paris; no workplace type; no compensation tier.",
+          "checked": "2026-11-17"
+        }
+      ]
+    }
+  ]
+}
