@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-19",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 19. Scaleway, the Paris-based European cloud provider, posted a Software Engineer AI Agents role building a new platform for customers to build, deploy and run AI agents on its model catalog. The role is hybrid (up to three remote days a week) and asks for a senior profile, but it publishes no salary, so it is a near-miss. Anthropic's new Paris Applied AI Architect, Industries role was rejected: it is a pre-sales advisory role, and its €190,000–€220,000 range may include sales commission. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 19: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Three more passes over other board names (41 of 300, 49 of 315 and 6 of 44 Workable/Recruitee aliases reachable) found Scaleway's role and no other new AI match in France. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 17. No report was published on November 18, so today's comparison is against the November 17 sweep. Other new or refreshed France roles were not AI-central or not new: Vibe's Paris Staff Full Stack Engineer, AdManager (€93,000–€142,000 with equity) builds advertising product and only uses AI-assisted development; Databricks' AI Forward Deployed Engineer – France (near-miss on November 5) was refreshed with still no pay; Doctolib's new AI roles are internships. Three web searches surfaced only aggregator pages and expired listings. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 19, 2026. Missing salary on the near-miss means pay is unknown, not that it fails the threshold.",
+    "No report exists for November 18. Roles posted and closed on that day would not have been seen.",
+    "Not re-listed: November 17's near-misses (Mistral AI's Applied AI Engineer, CyberSecurity, Defense and Kraken Technologies' Senior Software Engineer, AI Foundations) and Mistral AI's Research Engineer, Reinforcement Learning Systems are still in their employers' job data with no published pay.",
+    "ElevenLabs posted a remote-first Full-Stack Engineer role for its AI music product, open across Europe including France, with no seniority level and no published pay; it was screened from job data only and not listed.",
+    "Scaleway's company financials and headcount were not checked beyond the listing's own statement about Iliad Group investment.",
+    "Deduplication covered the accessible October 10 to November 17 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. Scaleway's near-miss would need an employer-published salary meeting the threshold before it could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "scaleway-b3d95e02",
+      "company": "Scaleway",
+      "title": "Software Engineer AI Agents",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.lever.co/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f",
+      "applyUrl": "https://jobs.lever.co/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f/apply",
+      "checked": "2026-11-19",
+      "posted": "2026-11-17",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, with Toulouse, Rouen, Lyon, Bordeaux, Lille and Rennes also listed; Lever workplace type “hybrid”. The benefits section says “Hybrid work: Up to 3 days remote per week”, so at least two office days a week are implied.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Lever job data has no salary range. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[1][2]",
+        "AI centrality passes: the team is building a new AI Agentic Platform so customers can build, deploy and operate AI agents at scale; the engineer designs and develops the platform API, runs it in production and works with the AI Inference team on Scaleway's LLM catalog.[1]",
+        "Seniority is not in the title, but the requirements open with “Senior profile with extensive experience in Software Engineering, complex systems architecture”. The listed stack is Go, Kubernetes applications and operators, REST/gRPC APIs, PostgreSQL and agent frameworks such as LangChain or CrewAI.[1]",
+        "New requisition: the Lever posting was created on November 17, 2026, and no Scaleway role has appeared in earlier reports. The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Scaleway is a European cloud provider (bare metal, containers, serverless and AI products), backed by the Iliad Group.[1] Its Generative APIs product serves AI models through OpenAI-compatible, pay-per-token APIs, with guides for retrieval-augmented generation and tool-calling agents.[3] This role builds the next layer: a managed platform for building, deploying and operating AI agents and multi-agent workflows on top of that model catalog.[1]",
+      "financials": "Listing-stated only: the Iliad Group is “investing €3 billion” in a sovereign AI alternative.[1] Scaleway's own revenue, headcount and funding were not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[1] Official Scaleway listing (Lever) with application form",
+          "url": "https://jobs.lever.co/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f",
+          "quote": "we are building a new AI Agentic Platform to enable customers to build, deploy and operate AI agents at scale",
+          "checked": "2026-11-19"
+        },
+        {
+          "label": "[2] Official Lever job data for this posting",
+          "url": "https://api.lever.co/v0/postings/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f?mode=json",
+          "quote": "Metadata summary: created November 17, 2026; location Paris plus six other French cities; workplace type hybrid; no salary range.",
+          "checked": "2026-11-19"
+        },
+        {
+          "label": "[3] Scaleway Generative APIs product page",
+          "url": "https://www.scaleway.com/en/generative-apis/",
+          "quote": "Serve the latest AI models via API, pay by million token",
+          "checked": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-5482967008",
+      "company": "Anthropic",
+      "title": "[Paris] Applied AI Architect, Industries",
+      "status": "rejected",
+      "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5482967008",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5482967008",
+      "checked": "2026-11-19",
+      "posted": "2026-11-18",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris, France”. “Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time.”[4]",
+      "salary": {
+        "lower": 190000,
+        "upper": 220000,
+        "currency": "EUR",
+        "annualBase": false,
+        "equity": null,
+        "quote": "The listing shows “Annual Salary: €190.000 — €220.000 EUR” but adds that “For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range”. This pre-sales role has no separate base figure, so the range is not confirmed as cash base.[4][5]"
+      },
+      "reasons": [
+        "Hands-on AI-engineering gate fails: the employer describes “a pre-sales architect focused on becoming a trusted technical advisor”, working with account executives from technical discovery to deployment; the build work is the customer's.[4]",
+        "Pay gate unverified: the published range may be on-target earnings including sales commission, not base salary.[4][5]",
+        "The listing asks for 5+ years in technical customer-facing roles such as Solutions Architect or Sales Engineer, and native or fluent French (C1 or above). Paris and minimum 25% office attendance are explicit; the same-page application form loaded on the check date.[4]",
+        "New requisition, first published November 18, 2026. Anthropic's similar Paris Applied AI Architect, Partnerships role was rejected on October 16 for the same pre-sales reason.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Anthropic builds the Claude models, sold through the Claude API and Claude for Work. This role helps large enterprises evaluate and integrate Claude. Separate product diligence was not done because the role failed the hands-on engineering gate.[4]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[4] Official Anthropic listing (Greenhouse) with application form",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5482967008",
+          "quote": "you will be a pre-sales architect focused on becoming a trusted technical advisor",
+          "checked": "2026-11-19"
+        },
+        {
+          "label": "[5] Official Greenhouse job data with pay-transparency fields",
+          "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs/5482967008?pay_transparency=true",
+          "quote": "Metadata summary: first published November 18, 2026; location Paris, France; pay range €190,000–€220,000 with the sales OTE note.",
+          "checked": "2026-11-19"
+        }
+      ]
+    }
+  ]
+}
