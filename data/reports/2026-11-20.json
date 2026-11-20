@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-20",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 20. Two new senior AI engineering roles in Paris were posted on November 19, but neither publishes a salary, so both are near-misses. Doctolib is hiring a Staff AI Engineer for its AI evaluation platform, building the tooling its product teams use to test LLM agents; the role is hybrid in Levallois, with no stated office-day rule. Nabla, a clinical AI documentation company, is hiring a Senior Machine Learning Engineer to train and deploy its speech-to-text and note-generation models; the role is Paris-office based with 1–2 remote days a week and offers stock ownership. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 20: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Three more passes over other board names (41 of 300, 49 of 315 and 6 of 44 Workable/Recruitee aliases reachable) found no further new AI match in France. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 19, and was compared against the November 19 sweep. Other new roles were screened from job data and not listed: Databricks' Senior Manager, AI Forward Deployed Engineering in Paris is a management role; Mistral AI's new Software Engineer, Fullstack (IP & Licensing Platform) is not titled or described as AI-central work. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 20, 2026. Missing salary on both near-misses means pay is unknown, not that it fails the threshold.",
+    "Doctolib's listing does not state an office-attendance rule; earlier Doctolib listings stated three office days a week, but that was not assumed for this role.",
+    "Not re-listed: November 19's near-miss (Scaleway's Software Engineer AI Agents) and November 17's near-misses (Mistral AI's Applied AI Engineer, CyberSecurity, Defense and Kraken Technologies' Senior Software Engineer, AI Foundations) were not re-verified as part of today's shortlist.",
+    "Company financials for Doctolib and Nabla rely on employer statements only; funding, revenue and headcount beyond those statements were not checked.",
+    "No report exists for November 18. Deduplication covered the accessible October 10 to November 19 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. Both near-misses would need an employer-published base salary meeting the threshold, and Doctolib's an explicit office-attendance rule, before they could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "doctolib-75d2e4d3",
+      "company": "Doctolib",
+      "title": "Staff AI Engineer - Agent Evaluation Platform (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/75d2e4d3-4ddc-40e1-9e6c-b5cc499e27a1",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/75d2e4d3-4ddc-40e1-9e6c-b5cc499e27a1/application",
+      "checked": "2026-11-20",
+      "posted": "2026-11-19",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, location type “Hybrid”; job details: “Workplace: Levallois”. The listing does not state how many office days are expected, so the attendance requirement is unconfirmed.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary range is published and the official Ashby job data has no compensation tier. The listing names a long-term “employee value sharing plan called DoctoGrowth”, which is not stated to be equity. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published base salary or equity term.[1][2]",
+        "Attendance unconfirmed: the role is listed as hybrid with a Levallois workplace, but no office-day rule is stated.[1]",
+        "AI centrality passes: the engineer joins the AI Evaluation team (EvalX) to “design, ship, and operate production-grade evaluation tooling” and to design evaluation strategies for agentic systems using deterministic checks, LLM-as-a-judge, simulation-based testing and human review.[1]",
+        "Staff level is in the title; the listing asks for 6+ years as a software engineer with significant Python, or as a machine learning engineer, plus hands-on evaluation of LLM-powered or agentic systems.[1]",
+        "New requisition, first published November 19, 2026; it differs from the Doctolib requisitions reported on October 13, October 18, October 23 and November 2. The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Doctolib's AI products include the Consultation Assistant (an ambient scribe that drafts consultation notes), the Phone Assistant (which answers patients' calls for booking) and the AI Health Assistant (a medical chat for patients).[3] Its ML Platform provides a shared evaluation and observability platform for the feature teams building them.[3] This role builds the next layer of that evaluation platform: production sampling, dataset-representativeness and distribution-shift monitoring, test-case generation and quality gates for agentic systems.[1]",
+      "financials": "Employer-stated, July 2026: roughly 100 million people and 580,000 health professionals rely on Doctolib, which is built by about 3,000 employees.[3] Revenue, profitability and recent funding were not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[1] Official Doctolib listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/doctolib/75d2e4d3-4ddc-40e1-9e6c-b5cc499e27a1",
+          "quote": "We are looking for a Staff AI Software Engineer to join the AI Evaluation team (EvalX) at Doctolib",
+          "checked": "2026-11-20"
+        },
+        {
+          "label": "[2] Official Ashby job data for Doctolib",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/doctolib?includeCompensation=true",
+          "quote": "Metadata summary: published November 19, 2026; location Paris; workplace type Hybrid; no compensation tiers.",
+          "checked": "2026-11-20"
+        },
+        {
+          "label": "[3] Doctolib engineering blog: “From one AI product to an AI factory” (July 9, 2026)",
+          "url": "https://medium.com/doctolib/from-one-ai-product-to-an-ai-factory-e6337ffa75d9",
+          "quote": "Our scope is everything needed to train, evaluate and serve AI.",
+          "checked": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "nabla-3974e7ad",
+      "company": "Nabla",
+      "title": "Senior Machine Learning Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/nabla/3974e7ad-ea67-4872-91ce-3ccc5849e375",
+      "applyUrl": "https://jobs.ashbyhq.com/nabla/3974e7ad-ea67-4872-91ce-3ccc5849e375/application",
+      "checked": "2026-11-20",
+      "posted": "2026-11-19",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris office”, address Paris, France. “Our offices are based in Paris 3e (Arts & Métiers). Remote policy: 1-2 days a week (with some flexibility).”[4]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary range is published and the official Ashby job data has no compensation tier. The benefits list includes “Stock ownership”, but without a base figure the €80,000-with-equity rule cannot be checked. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is offered, but no employer-published base salary.[4][5]",
+        "AI centrality passes: the engineer leads ML projects, proposes experiments, model architectures and data-labeling strategies for speech-to-text, note generation and normalization, and implements, trains and deploys models in production.[4]",
+        "Senior level is in the title; the listing asks for 5+ years training and deploying neural networks, ML project leadership and advanced Python. The stated stack is PyTorch and Transformers for training, vLLM for inference and Google Cloud with Kubernetes for deployment.[4]",
+        "Paris office with 1–2 remote days a week is explicit. New requisition, first published November 19, 2026; no Nabla role appeared in earlier reports. The listing and its application form loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Nabla sells a clinical AI layer for health systems — ambient documentation that turns clinical conversations into structured notes, dictation, coding and agentic workflow tools embedded in electronic health record systems.[4][6] The listing says Nabla processes 10 billion LLM tokens a month; this role works on the speech-to-text, note-generation and normalization models behind the product.[4]",
+      "financials": "Employer-stated on its homepage: deployed in 130+ health organizations and used by 85,000+ clinicians.[6] Funding, revenue and headcount were not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[4] Official Nabla listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/nabla/3974e7ad-ea67-4872-91ce-3ccc5849e375",
+          "quote": "Remote policy: 1-2 days a week (with some flexibility).",
+          "checked": "2026-11-20"
+        },
+        {
+          "label": "[5] Official Ashby job data for Nabla",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/nabla?includeCompensation=true",
+          "quote": "Metadata summary: published November 19, 2026; location Paris office; no compensation tiers.",
+          "checked": "2026-11-20"
+        },
+        {
+          "label": "[6] Nabla homepage",
+          "url": "https://www.nabla.com/",
+          "quote": "Deployed in 130+ health organizations",
+          "checked": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}
