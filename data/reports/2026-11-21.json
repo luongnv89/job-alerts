@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-21",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 21. One new AI engineering role in Paris was posted on November 20: Alan is hiring a founding engineer for Mo, its LLM-based medical assistant, which the company says is live for its roughly one million French members. Alan offers equity but publishes no base salary, the role's attendance terms are ambiguous, and the listing asks for 3+ years of experience, so it is a near-miss. EverAI retitled and republished a remote-France LLM post-training role first rejected on November 7; its pay range is unchanged and still below the rule. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 21: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Three more passes over other board names (41 of 300, 49 of 315 and 6 of 44 Workable/Recruitee aliases reachable) found no other new AI-central senior role in France. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 19, and was compared against the November 20 sweep. New roles screened from job data and not listed: Mistral AI's Product Manager, Agentic Safety (not an engineering role), Mistral AI's SaaS Engineer and Alan's Fullstack Software Engineer, Product Platform (not described as AI-central), and Malt's Research Data Scientist (applied economics and causal inference, not AI engineering). Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 21, 2026. Missing salary on the Alan near-miss means pay is unknown, not that it fails the threshold.",
+    "Alan's job data says on-site, while its listing text also offers full-remote work; which applies to this role was not resolved.",
+    "Not re-listed: November 20's near-misses (Doctolib's Staff AI Engineer, Agent Evaluation Platform and Nabla's Senior Machine Learning Engineer) were still in the job data with no salary added, but were not re-verified as part of today's shortlist. Older near-misses were not rechecked.",
+    "Alan's financial statements come from its own shareholder letter; funding, revenue and headcount were not checked. No company research was done for EverAI beyond its listing.",
+    "Deduplication covered the accessible October 10 to November 20 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The Alan near-miss would need an employer-published base salary of at least €80,000 and an explicit attendance rule before it could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "alan-4c7e8e0a",
+      "company": "Alan",
+      "title": "Founding engineer- Mo team (AI Health Companion)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/alan/4c7e8e0a-0be9-47b8-b962-204a1360f11f",
+      "applyUrl": "https://jobs.ashbyhq.com/alan/4c7e8e0a-0be9-47b8-b962-204a1360f11f/application",
+      "checked": "2026-11-21",
+      "posted": "2026-11-20",
+      "location": "on-site",
+      "locationQuote": "Official listing: location “Paris, France”, location type “On-site”. The perks section of the same listing also offers “a full-remote experience with home office equipment sponsorship”, so the attendance requirement for this role is ambiguous.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": true,
+        "quote": "No salary range is published and the official Ashby job data has no compensation tier. The listing states “Generous equity packages complement your base salary”, but without a base figure the €80,000-with-equity rule cannot be checked. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: equity is explicit, but no employer-published base salary.[1][2]",
+        "Location unconfirmed: the job data says on-site in Paris, while the listing's perks text describes office, co-working or full-remote options; no office-day rule is stated.[1][2]",
+        "AI centrality passes: the team builds Mo, described as “an intelligent, empathetic, multimodal LLM-based conversational AI assistant able to prescribe, triage, and proactively follow up on care”; the engineer implements new capabilities and extends its architecture and agentic framework.[1]",
+        "Seniority is unclear: the title says founding engineer and the duties include architecture influence, mentoring and hiring, but the stated requirement is “Product engineers with 3+ years of experience”.[1]",
+        "New requisition, first published November 20, 2026; it differs from the Alan roles reported on October 21 and October 27. The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Alan is a French health insurer building Mo, an LLM-based medical conversational agent that handles health questions by chat, voice or video and connects members to Alan services such as chat with health professionals and prevention programs.[1] The listing says Mo launched to all of Alan's French members (about 1 million) in Q1 2026.[1] Alan's team published a randomized evaluation of a physician-supervised version of Mo inside an existing medical advice chat service: across 926 cases, Mo handled 298 complete patient interactions, and physicians rated 95% of conversations “good” or “excellent”.[3] The engineering problem is reliability and safety of a patient-facing medical agent at scale, plus integration with the insurer's care services.[1][3]",
+      "financials": "Employer-stated, October 29, 2025 shareholder letter: nearly one million members, a target of group profitability in 2027, and an expected EBITDA break-even for the France business in 2025.[4] Those are company statements, not audited results. Funding, revenue and headcount were not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[1] Official Alan listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/alan/4c7e8e0a-0be9-47b8-b962-204a1360f11f",
+          "quote": "We are building Mo, an intelligent, empathetic, multimodal LLM-based conversational AI assistant able to prescribe, triage, and proactively follow up on care.",
+          "checked": "2026-11-21"
+        },
+        {
+          "label": "[2] Official Ashby job data for Alan",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/alan?includeCompensation=true",
+          "quote": "Metadata summary: published November 20, 2026; location Paris, France; workplace type On-site; no compensation tiers.",
+          "checked": "2026-11-21"
+        },
+        {
+          "label": "[3] “Conversational Medical AI: Ready for Practice” (arXiv 2411.12808, revised April 10, 2025), linked from the listing",
+          "url": "https://arxiv.org/abs/2411.12808",
+          "quote": "Physician oversight ensured safety, with 95% of conversations rated as \"good\" or \"excellent\" by general practitioners experienced in operating a medical advice chat service.",
+          "checked": "2026-11-21"
+        },
+        {
+          "label": "[4] Alan 2025 Q3 letter to shareholders (October 29, 2025)",
+          "url": "https://alan.com/en/blog/discover-alan/a/alan-2025-q3-letter-to-shareholders",
+          "quote": "We are approaching the symbolic milestone of one million members, while accelerating our financial trajectory towards group profitability in 2027.",
+          "checked": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "everai-2498e407",
+      "company": "EverAI",
+      "title": "LLM Engineer — Post-Training (Remote - France)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/everai/2498e407-c519-4601-b05f-0220b7903352",
+      "applyUrl": "https://jobs.ashbyhq.com/everai/2498e407-c519-4601-b05f-0220b7903352/application",
+      "checked": "2026-11-21",
+      "posted": "2026-11-20",
+      "location": "remote",
+      "locationQuote": "Official listing: location “France; Portugal”, location type Remote, “Work From Anywhere: Fully remote.”[5][6]",
+      "salary": {
+        "lower": 75000,
+        "upper": 125000,
+        "currency": "EUR",
+        "annualBase": false,
+        "equity": null,
+        "quote": "“Annual Compensation Range (Gross) €75K – €125K.” The listing says “All ranges are gross annual compensation, including any target bonus where applicable.” No equity is stated.[5]"
+      },
+      "reasons": [
+        "Pay gate fails: the range includes target bonus, and its €75,000 lower bound is below both branches of the rule.[5]",
+        "Same requisition ID as the role rejected on November 7 under the title “Mid/Senior AI LLM Engineer (Full Remote - France)”. It was retitled and republished on November 20 with a post-training focus (SFT, LoRA/QLoRA, DPO and GRPO), but the pay range is unchanged, so it remains rejected.[5][6]",
+        "Location and AI centrality pass: fully remote and named for France; the work is fine-tuning self-hosted open-weight LLMs and turning model failures into experiments.[5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Listing summary: EverAI builds AI companion products and says most of its traffic runs on self-hosted, fine-tuned open-weight models, and that its smaller fine-tuned models can beat larger off-the-shelf models on its internal roleplay evaluations (employer statements, not independently verified).[5]",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[5] Official EverAI listing (Ashby) with application tab",
+          "url": "https://jobs.ashbyhq.com/everai/2498e407-c519-4601-b05f-0220b7903352",
+          "quote": "All ranges are gross annual compensation, including any target bonus where applicable.",
+          "checked": "2026-11-21"
+        },
+        {
+          "label": "[6] Official Ashby job data for the EverAI board",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/everai?includeCompensation=true",
+          "quote": "Metadata summary: location France with Portugal as a secondary location, workplace type Remote, published November 20, 2026, salary component €75,000–€125,000.",
+          "checked": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}
