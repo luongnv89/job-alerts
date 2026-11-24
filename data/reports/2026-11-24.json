@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-24",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 24. Mistral AI's Software Engineer, Inference role appeared on its board for the first time in our sweeps. It is AI-central work on the systems that serve Mistral's models, but it is on-site in Paris with no published pay, so it is a near-miss. E2B posted a remote-Europe Developer Relations Engineer role with published monthly pay and equity, but it is a developer-relations job, not AI engineering, and it does not name France. Doctolib posted a Senior ML Manager role for its voice AI teams; it is a people-management job. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 24: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Three more passes over other board names (41 of 300, 48 of 315 and 6 of 44 Workable/Recruitee aliases reachable) found no other new AI-central senior role in France. The sweep screened AI-titled roles on reachable boards, Paris- or France-located engineering roles with published pay, and Ashby engineering roles first published since November 21. It was compared against the November 21 sweep; no reports were produced on November 22 and 23, so roles posted and withdrawn in that gap could be missed. New roles screened from job data and not listed: Alan's Product Builder - Sales AI (product role), Mistral AI's Product Manager, Cloud/Inference (not engineering), Celonis's Senior Forward Deployed Engineer in Paris (internally a value-engineering consulting role, not AI-central), and new OpenAI Applied AI roles in the United States (location). Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 24, 2026. Missing salary on the Mistral AI and Doctolib entries means pay is unknown, not that it fails the threshold.",
+    "E2B publishes monthly pay; the annual figures are the monthly range multiplied by 12, not an employer-published annual figure.",
+    "Not re-listed: earlier near-misses with refreshed publication dates and no pay added in the job data (Nabla's Senior Machine Learning Engineer, GitLab's Staff Forward Deployed Engineer, EMEA). They were not re-verified as part of today's shortlist. Other older near-misses were not rechecked.",
+    "Company research was limited to employer documentation; funding, revenue and headcount were not checked for Mistral AI or Doctolib, and E2B's funding and revenue are its own claims.",
+    "Deduplication covered the accessible October 10 to November 21 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The Mistral AI near-miss would need employer-published pay meeting the rule and an attendance arrangement that fits the Paris-hybrid rule before it could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "mistral-75ea432f",
+      "company": "Mistral AI",
+      "title": "Software Engineer, Inference",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/mistral.ai/75ea432f-765f-4481-b138-29e832a61c39",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/75ea432f-765f-4481-b138-29e832a61c39/application",
+      "checked": "2026-11-24",
+      "posted": "2026-06-30",
+      "location": "on-site",
+      "locationQuote": "Official listing: location “Paris”, location type “On-site”. No office-day rule is given beyond the on-site label.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[1][2]",
+        "Location unresolved: the role is on-site in Paris, not described as hybrid, and no attendance rule beyond the on-site label is stated.[1]",
+        "AI centrality passes: the Inference team “builds and runs the systems that serve Mistral's models to the world”, including the inference APIs, the gateway, and routing and autoscaling across the GPU fleet.[1]",
+        "Seniority is implied but not titled: the listing asks for several years running production backend or distributed systems and for having “led the design of significant systems”; the title carries no level.[1]",
+        "Not in any earlier report, and not on the board in the November 21 sweep. The Ashby job data gives June 30, 2026 as the publication date. The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: the Inference team owns “the path from a trained model to a response on someone's screen”: the APIs and gateway requests pass through (authentication, streaming, rate limiting, usage metering), routing and scheduling across the GPU fleet, and model rollouts. The same systems serve researchers for evaluation, data generation and reinforcement learning.[1] One listed problem is exposing capabilities such as tool calling and structured outputs on launch day.[1] Mistral's public documentation describes function calling across its model families, with the model generating tool arguments and the developer executing the tool, including successive and parallel calls.[3] The engineering problem is serving-layer latency, reliability and GPU cost at growing traffic; vLLM experience is listed as a strong plus.[1]",
+      "financials": "Not publicly verified in this run: funding, revenue and headcount were not checked.",
+      "evidence": [
+        {
+          "label": "[1] Official Mistral AI listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/75ea432f-765f-4481-b138-29e832a61c39",
+          "quote": "The Inference team builds and runs the systems that serve Mistral's models to the world.",
+          "checked": "2026-11-24"
+        },
+        {
+          "label": "[2] Official Ashby job data for Mistral AI",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai?includeCompensation=true",
+          "quote": "Metadata summary: published June 30, 2026; location Paris; workplace type On-site; no compensation tiers.",
+          "checked": "2026-11-24"
+        },
+        {
+          "label": "[3] Mistral documentation: Function Calling",
+          "url": "https://docs.mistral.ai/capabilities/function_calling/",
+          "quote": "Function calling, under the Tool Calling umbrella, allows Mistral models to connect to external local tools.",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "e2b-aad3ec86",
+      "company": "E2B",
+      "title": "Developer Relations Engineer",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/e2b/aad3ec86-cceb-4b0d-96ac-3333218d3186",
+      "applyUrl": "https://jobs.ashbyhq.com/e2b/aad3ec86-cceb-4b0d-96ac-3333218d3186/application",
+      "checked": "2026-11-24",
+      "posted": "2026-11-23",
+      "location": "remote",
+      "locationQuote": "Official listing: location “Remote - EU”, location type Remote; “Location: Remote in Europe, with London or Berlin preferred. Expect regular trips to our Prague office.” France is not named as an eligible country; Paris is listed only as a meetup city.[4][5]",
+      "salary": {
+        "lower": 102000,
+        "upper": 132000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": true,
+        "quote": "Published as “€8.5K – €11K per month • Offers Equity” (Ashby salary component, monthly interval, EUR). The annual figures here are that monthly range multiplied by 12; the employer does not publish an annual figure.[4][5]"
+      },
+      "reasons": [
+        "Role-family gate fails: the job sits in the Marketing department and its main duties are demos, talks, meetups, technical content and community support, not building or operating AI systems.[4]",
+        "Seniority not met: the listing asks for “More than 3 years of relevant experience”, with no senior or staff level.[4]",
+        "Country eligibility is not explicit: the listing says remote in Europe with London or Berlin preferred, and does not name France.[4]",
+        "Pay would pass: the published monthly salary floor of €8,500 is at least €102,000 a year over 12 payments, and equity is explicit.[4][5]",
+        "New requisition published November 23, 2026; the listing and its application form loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "E2B's documentation describes isolated cloud sandboxes where AI agents execute code, process data and run tools, started from Python or JavaScript SDKs. Sandboxes can be paused and resumed with filesystem and memory preserved.[6] Employer-stated: E2B calls its product “the Agent Cloud” and names Manus, Genspark, Lindy, Groq and Artificial Analysis among its users. These are employer statements, not independently verified.[4]",
+      "financials": "Employer-stated in the listing: a Series A startup “with over $37M in funding and 9-figure revenue”.[4] Not independently verified; headcount was not checked.",
+      "evidence": [
+        {
+          "label": "[4] Official E2B listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/e2b/aad3ec86-cceb-4b0d-96ac-3333218d3186",
+          "quote": "Location: Remote in Europe, with London or Berlin preferred. Expect regular trips to our Prague office.",
+          "checked": "2026-11-24"
+        },
+        {
+          "label": "[5] Official Ashby job data for E2B",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/e2b?includeCompensation=true",
+          "quote": "Metadata summary: published November 23, 2026; location Remote - EU; workplace type Remote; salary component €8,500–€11,000 per month, EUR; equity offered.",
+          "checked": "2026-11-24"
+        },
+        {
+          "label": "[6] E2B documentation",
+          "url": "https://e2b.dev/docs",
+          "quote": "E2B provides isolated cloud sandboxes where AI agents safely execute code, process data, and run tools.",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-f2439e50",
+      "company": "Doctolib",
+      "title": "Senior ML Manager - Voice Team (x/f/m)",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/f2439e50-8f41-427e-b080-6ae99123433b",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/f2439e50-8f41-427e-b080-6ae99123433b/application",
+      "checked": "2026-11-24",
+      "posted": "2026-11-23",
+      "location": "hybrid",
+      "locationQuote": "Official listing: “Location: Doctolib Paris office, Levallois-Perret” and “Hybrid work setup (up to 2 remote days per week)”.[7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[7][8]"
+      },
+      "reasons": [
+        "Hands-on gate fails: this is a people-management role, leading “two ML engineering teams (8 engineers)” with performance management, hiring and roadmap ownership; the listing asks for 3+ years of people management.[7]",
+        "Pay gate unverified: no employer-published salary or equity.[7][8]",
+        "Location passes: Paris office (Levallois-Perret), with up to 2 remote days per week.[7]",
+        "AI subject matter is central (speech recognition, clinical dictation, phone assistance), but the job is managing that work, not building it.[7]",
+        "New requisition published November 23, 2026; it differs from the Doctolib roles in earlier reports. The listing and its application form loaded on the check date.[7][8]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Listing summary: Doctolib's Voice team in Applied AI builds speech recognition and conversational AI products for healthcare professionals, including real-time transcription, clinical dictation and phone assistance.[7] No separate product source was read in this run.",
+      "financials": null,
+      "evidence": [
+        {
+          "label": "[7] Official Doctolib listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/doctolib/f2439e50-8f41-427e-b080-6ae99123433b",
+          "quote": "Lead and develop two ML engineering teams (8 engineers), owning performance management, career development, and talent retention to build a high-performing, impact-driven culture",
+          "checked": "2026-11-24"
+        },
+        {
+          "label": "[8] Official Ashby job data for Doctolib",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/doctolib?includeCompensation=true",
+          "quote": "Metadata summary: published November 23, 2026; location Paris; workplace type Hybrid; no compensation tiers.",
+          "checked": "2026-11-24"
+        }
+      ]
+    }
+  ]
+}
