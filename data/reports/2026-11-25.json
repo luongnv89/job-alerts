@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-25",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 25. Qonto posted a hands-on Tech Lead role for its document-intelligence ML stream in Paris; it is AI-central work with fine-tuned LLMs and in-house models, but it publishes no pay and no office-day rule, so it is a near-miss. Oyster posted a fully remote Senior AI Solutions Engineer role building AI agents for its own business functions; it publishes no pay and does not name France among its countries, so it is also a near-miss. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 25: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Three more passes over other board names (41 of 300, 48 of 315 and 6 of 44 Workable/Recruitee aliases reachable) were run, and results were compared against the November 24 sweep. Two web searches for Paris and remote-France senior AI roles with published pay were used for discovery only. New roles screened and not listed: Voodoo's AI Growth Engineer (on-site, up to 3 years of experience), Mistral AI's Senior AI Deployment Strategist, Robotics (client-facing strategy, 30–60% travel), n8n's Forward Deployed Engineer - EMEA (France not among eligible countries), Mistral AI internships, and US-only roles at Docker and OpenAI. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 25, 2026. Missing salary on both entries means pay is unknown, not that it fails the threshold.",
+    "Aggregator-only leads were not listed: an Aircall Staff AI Software Engineer posting in Paris shows €80,000–€120,000 base on a job aggregator, but the linked official Lever page returned not found and no equity is stated, so it would not meet the pay rule even if confirmed. A Believe Staff AI Engineer posting with €120,000–€180,000 appears on an aggregator, but Believe's official board shows its Staff Engineer Agentic AI requisition as no longer active.",
+    "Not re-listed: n8n's Staff Platform Engineer, Agentic Engineering (first reported October 31) is still open with published pay and equity, but France is still not among its eligible countries. Other older near-misses were not rechecked.",
+    "Company research was limited to employer listings, help-center and homepage pages; funding, revenue and headcount were not checked for Qonto or Oyster.",
+    "Deduplication covered the accessible October 10 to November 24 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The Qonto near-miss would need employer-published pay meeting the rule and an explicit Paris attendance arrangement before it could pass; the Oyster near-miss would also need explicit France eligibility. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "qonto-29117e59",
+      "company": "Qonto",
+      "title": "Tech Lead - ML Engineering",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/qonto/29117e59-4b3c-489a-8a28-c6c4d631b090",
+      "applyUrl": "https://jobs.ashbyhq.com/qonto/29117e59-4b3c-489a-8a28-c6c4d631b090/application",
+      "checked": "2026-11-25",
+      "posted": "2026-11-24",
+      "location": "hybrid",
+      "locationQuote": "Official listing: locations “Paris, France; Barcelona, Spain; Belgrade, Serbia; Berlin, Germany; Madrid, Spain; Milan, Italy”, location type “Hybrid”. The listing gives no office-day or attendance rule.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[1][2]",
+        "Location unresolved: Paris is an eligible office and the role is labelled Hybrid, but no attendance rule is stated.[1]",
+        "AI centrality passes: the stream reads supplier invoices, client invoices and receipts “with in-house trained models and fine-tuned LLMs”, and the lead is expected to “design, train and deploy models into production yourself”.[1]",
+        "Hands-on lead, with management duties: the role starts with 2 ML engineers growing to 5 in 2027 and asks for 2+ years of people management plus 6+ years as an ML engineer.[1]",
+        "New requisition published November 24, 2026; it is not in any earlier report. The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Employer-stated: Document Intelligence, part of Qonto's AI Engines team, reads the invoices and receipts that 750,000 businesses upload and connects them to the right transaction; its North Star is the share of documents handled end to end with no human touch.[1] Qonto's help center describes the user-facing flow: imported invoices are scanned, OCR extracts the key fields including VAT, and an algorithm associates the invoice with an outgoing payment.[3] The engineering problem is choosing per document type and per field between a frontier LLM, a fine-tuned model or a purpose-built extractor, benchmarked on production data for accuracy and latency, and keeping those models healthy in production (drift, retraining, rollback). The listed stack includes Python, FastAPI, AWS SageMaker and Bedrock, MLflow, Airflow, Kafka and Kubernetes.[1]",
+      "financials": "Not publicly verified in this run: funding, revenue and headcount were not checked. The listing states the AI Engines team has 16 ML and data engineers.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official Qonto listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/qonto/29117e59-4b3c-489a-8a28-c6c4d631b090",
+          "quote": "Stay hands-on: you design, train and deploy models into production yourself, next to your team.",
+          "checked": "2026-11-25"
+        },
+        {
+          "label": "[2] Official Ashby job data for Qonto",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/qonto?includeCompensation=true",
+          "quote": "Metadata summary: published November 24, 2026; location Paris, France plus five other European cities; workplace type Hybrid; no compensation tiers.",
+          "checked": "2026-11-25"
+        },
+        {
+          "label": "[3] Qonto Help Center: automatic import and matching of invoices and receipts",
+          "url": "https://support-it.qonto.com/hc/en-us/articles/23949938278929-How-to-automate-the-import-and-matching-of-invoices-and-receipts-and-keep-them-organized-in-Qonto",
+          "quote": "When imported, invoices are automatically scanned by Qonto. Optical Character Recognition (OCR) extracts all the important information contained in your document, and our algorithm analyzes this information to associate the invoice with one of your outgoing payments.",
+          "checked": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "oyster-34e9f726",
+      "company": "Oyster",
+      "title": "Senior AI Solutions Engineer",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/oyster/34e9f726-4461-4ef7-9724-a0aba8c72a76",
+      "applyUrl": "https://jobs.ashbyhq.com/oyster/34e9f726-4461-4ef7-9724-a0aba8c72a76/application",
+      "checked": "2026-11-25",
+      "posted": "2026-11-24",
+      "location": "remote",
+      "locationQuote": "Official listing: “Location: Fully remote. To create the best experience for you and to meet our business needs, this role requires you to be based within the EMEA or AMER regions.” The location field lists “EMEA; Brazil; Canada; Ireland; Poland; Portugal; Romania; Spain; United Kingdom”; France is not named.[4][5]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the Ashby job data has no compensation tier. Pay is unknown, not below the threshold.[4][5]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[4][5]",
+        "Country eligibility not explicit: the text allows anyone based in EMEA, but the named-country list does not include France.[4]",
+        "AI centrality passes: the core duty is to “Design, build, test, and continuously improve reliable AI agents, agentic workflows, automations, and integrations using LLMs”.[4]",
+        "The work is internal AI transformation of Oyster's own People & Legal, Finance and Operations functions, not a customer-facing AI product; the listing calls it “a senior, hands on role”.[4]",
+        "New requisition published November 24, 2026; it is not in any earlier report. The listing and its application form loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "Oyster sells an employer-of-record and global payroll platform that lets companies hire, pay and manage employees and contractors in 180+ countries without local entities.[6] This role builds AI agents and automations for Oyster's internal functions (initially People & Legal, Finance and Operations), owning them from discovery through adoption, with measured quality, reliability and business impact after launch.[4] The engineering challenge is reliable agent workflows over enterprise data with human oversight in compliance-heavy HR and payroll operations; the listing also asks the engineer to recognise when AI is not the right solution.[4]",
+      "financials": "Not publicly verified in this run: funding, revenue and headcount were not checked. The listing states the company has been distributed across 60+ countries since 2020.[4]",
+      "evidence": [
+        {
+          "label": "[4] Official Oyster listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/oyster/34e9f726-4461-4ef7-9724-a0aba8c72a76",
+          "quote": "Location: Fully remote. To create the best experience for you and to meet our business needs, this role requires you to be based within the EMEA or AMER regions.",
+          "checked": "2026-11-25"
+        },
+        {
+          "label": "[5] Official Ashby job data for Oyster",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/oyster?includeCompensation=true",
+          "quote": "Metadata summary: published November 24, 2026; location EMEA plus eight named countries, France not among them; workplace type Remote; no compensation tiers.",
+          "checked": "2026-11-25"
+        },
+        {
+          "label": "[6] Oyster homepage",
+          "url": "https://www.oysterhr.com/",
+          "quote": "Hire, pay, and manage full-timers without entity setup",
+          "checked": "2026-11-25"
+        }
+      ]
+    }
+  ]
+}
