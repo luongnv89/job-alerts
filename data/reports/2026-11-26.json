@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-26",
+  "requestedCount": 3,
+  "summary": "No role cleared every hard gate on November 26. The closest new lead is PayFit's Senior AI Engineer (Quality & Knowledge): hands-on work on the evaluation, retrieval and agent harness behind Payfit AI, open to remote work from anywhere in France, but with no published pay, so it is a near-miss. Silae's Senior AI Engineer in Paris publishes a €70,000–€90,000 range, below the pay rule, and OpenAI's new Paris-labelled Applied AI Architect role is a customer-facing go-to-market job whose text places it in London. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 26: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Further passes over other board names were run and all results were compared against the November 25 sweep; the only new Paris or France-eligible AI listing they surfaced was OpenAI's Applied AI Architect. Three web searches for Paris and remote-France senior AI roles were used for discovery only; they led to the PayFit and Silae listings on Teamtailor career sites, which the board sweep does not cover. Leads already in earlier reports were not re-listed: Kpler's Senior AI Engineer (AI Enablement, first reported November 1, same requisition), Doctolib's Senior Staff ML Engineer - Clinical (November 2) and Shift Technology's Lead AI Engineer (October 27). Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 26, 2026. Missing salary on PayFit and OpenAI means pay is unknown, not that it fails the threshold.",
+    "PayFit's page carries both a “Hybrid” label and an explicit remote-anywhere-in-France statement; the explicit text was used for the location gate.",
+    "Silae's salary unit reads “€/mois” (per month); it is treated as an unconfirmed annual range. Either way it does not meet the pay rule.",
+    "Yesterday's near-misses (Qonto Tech Lead - ML Engineering and Oyster Senior AI Solutions Engineer) were still open on November 26 with no published pay; they stay in the November 25 report and are not repeated here.",
+    "Company research was limited to employer listings and one product page; funding, revenue and headcount were not checked.",
+    "Deduplication covered the accessible October 10 to November 25 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. No role qualified today. The PayFit near-miss would need employer-published pay meeting the rule before it could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "payfit-8757654",
+      "company": "PayFit",
+      "title": "Senior AI Engineer (Quality & Knowledge)",
+      "status": "near-miss",
+      "listingUrl": "https://careers.payfit.com/jobs/8757654-senior-ai-engineer-quality-knowledge",
+      "applyUrl": "https://careers.payfit.com/jobs/8757654-senior-ai-engineer-quality-knowledge/applications/new",
+      "checked": "2026-11-26",
+      "posted": "2026-11-17",
+      "location": "remote",
+      "locationQuote": "Official listing: “Location : Flexible location: work remotely from anywhere in France or Spain”. The page header and remote-status label say “Paris · Hybrid”, and the application form asks “Are you a legal resident in either France or Spain?”.[1][2]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing or in its structured job data; the application form asks for the applicant's salary expectations. Pay is unknown, not below the threshold.[1][2]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[1][2]",
+        "Location passes on the listing text: remote work from anywhere in France is stated explicitly, although the page label also says Hybrid.[1]",
+        "AI centrality passes: the role builds and evaluates the AI agents behind Payfit AI, including evaluations, retrieval and knowledge pipelines, tools, guardrails and human handoffs.[1]",
+        "Senior, hands-on level: the listing calls it “a hands-on senior engineering role” and asks for 7+ years of software engineering experience and a TypeScript/Node.js backend.[1]",
+        "Posted November 17, 2026 on PayFit's own careers site; not in any earlier report (first found in this run). The listing and its application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "pass"
+      },
+      "product": "PayFit sells payroll and HR software for small and medium businesses and says it supports over 20,000 clients from France, Spain and the UK.[1] Payfit AI, built into the product, handles reports, variable payroll items and leave requests, flags anomalies before payroll closes, and hands over to a human payroll expert when needed; PayFit states that 65% of its customers use it every month.[3] The role works on the quality of those agents: turning support and payroll-expert knowledge into test cases, measuring whether an agent gave the right answer, took the right action or asked a human, diagnosing failures across model, context, retrieval and tools, and catching regressions as payroll rules change.[1] The hard part is evaluation in a regulated domain where a wrong action changes someone's payslip.[1]",
+      "financials": "Not publicly verified in this run: funding, revenue and headcount were not checked. The listing states PayFit has operated since 2015 and supports over 20,000 clients.[1]",
+      "evidence": [
+        {
+          "label": "[1] Official PayFit listing (careers site)",
+          "url": "https://careers.payfit.com/jobs/8757654-senior-ai-engineer-quality-knowledge",
+          "quote": "Flexible location: work remotely from anywhere in France or Spain",
+          "checked": "2026-11-26"
+        },
+        {
+          "label": "[2] Official PayFit application form",
+          "url": "https://careers.payfit.com/jobs/8757654-senior-ai-engineer-quality-knowledge/applications/new",
+          "quote": "Are you a legal resident in either France or Spain?",
+          "checked": "2026-11-26"
+        },
+        {
+          "label": "[3] Payfit AI product page",
+          "url": "https://payfit.com/fr/payfit-ai/",
+          "quote": "Payfit AI prend en charge vos rapports, vos éléments variables de paie, vos demandes de congés.",
+          "checked": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "silae-8752697",
+      "company": "Silae",
+      "title": "Senior AI Engineer- IA Générative & LLM",
+      "status": "rejected",
+      "listingUrl": "https://silae-career.teamtailor.com/jobs/8752697-senior-ai-engineer-ia-generative-llm",
+      "applyUrl": "https://silae-career.teamtailor.com/jobs/8752697-senior-ai-engineer-ia-generative-llm/applications/new",
+      "checked": "2026-11-26",
+      "posted": "2026-11-17",
+      "location": "unknown",
+      "locationQuote": "Official listing: “Localisation: Paris”. The official page states no remote or office-attendance rule.[4]",
+      "salary": {
+        "lower": 70000,
+        "upper": 90000,
+        "currency": "EUR",
+        "annualBase": null,
+        "equity": null,
+        "quote": "Published as “Salaire: 70 000–90 000 €/mois”. The unit says per month, which is almost certainly an annual figure mislabelled, so annual base is not confirmed. Read as annual, the €70,000 floor is below €100,000 and no equity is stated.[4]"
+      },
+      "reasons": [
+        "Pay gate fails: the published floor of €70,000 is below €100,000, and no equity is stated that could apply the €80,000 rule.[4]",
+        "Location unresolved: Paris is the stated location but the official page gives no hybrid or attendance rule.[4]",
+        "AI centrality passes: the role builds LLM features, RAG, agent workflows and evaluation pipelines, and explores fine-tuning and distillation.[4]",
+        "Posted November 17, 2026; first found in this run. The listing and its application form loaded on the check date.[4][5]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "pass",
+        "pay": "fail",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: Silae makes payroll and HR SaaS; its AI team builds mySilae Assistant, which handles payroll requests from understanding emails and documents to preparing actions, and mySilae Legal, which answers from regulatory and collective-agreement sources. Only the job listing was read; no separate product source was checked.[4]",
+      "financials": "Not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[4] Official Silae listing (careers site)",
+          "url": "https://silae-career.teamtailor.com/jobs/8752697-senior-ai-engineer-ia-generative-llm",
+          "quote": "70 000–90 000 €/mois",
+          "checked": "2026-11-26"
+        },
+        {
+          "label": "[5] Official Silae application form",
+          "url": "https://silae-career.teamtailor.com/jobs/8752697-senior-ai-engineer-ia-generative-llm/applications/new",
+          "quote": "Metadata summary: the application form with name, e-mail and CV upload fields loaded on the check date.",
+          "checked": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "openai-f9818cd7",
+      "company": "OpenAI",
+      "title": "Applied AI Architect, Large Enterprise",
+      "status": "rejected",
+      "listingUrl": "https://jobs.ashbyhq.com/openai/f9818cd7-66b3-4d68-a354-868ea1ce976e",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/f9818cd7-66b3-4d68-a354-868ea1ce976e/application",
+      "checked": "2026-11-26",
+      "posted": "2026-11-25",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location field “Paris, France”, location type “Hybrid”, but the description says “This role is based in our London office. We use a hybrid work model of 3 days in the office per week”.[6][7]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing or in the Ashby job data. Pay is unknown.[6][7]"
+      },
+      "reasons": [
+        "Role-family gate fails: the job sits in the Go To Market department and is the technical owner of a customer portfolio (account plans, executive discovery, proofs of value, coordinating delivery teams), not building or operating AI systems.[6]",
+        "Location contradictory: the location field says Paris but the text says the role is based in London, 3 days a week in the office.[6]",
+        "Pay gate unverified: no employer-published salary or equity.[6][7]",
+        "New requisition published November 25, 2026; the listing and its application form loaded on the check date.[6][7]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "unknown",
+        "ai": "fail",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: the Applied AI Architect team helps enterprise customers adopt ChatGPT Enterprise, the OpenAI API, Codex and agentic solutions, from pre-sales discovery to production adoption. No separate product source was checked.[6]",
+      "financials": "Not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[6] Official OpenAI listing (Ashby) with application form",
+          "url": "https://jobs.ashbyhq.com/openai/f9818cd7-66b3-4d68-a354-868ea1ce976e",
+          "quote": "This role is based in our London office.",
+          "checked": "2026-11-26"
+        },
+        {
+          "label": "[7] Official Ashby job data for OpenAI",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+          "quote": "Metadata summary: published November 25, 2026; location Paris, France; workplace type Hybrid; no compensation tiers.",
+          "checked": "2026-11-26"
+        }
+      ]
+    }
+  ]
+}
