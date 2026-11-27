@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-27",
+  "requestedCount": 3,
+  "summary": "One role cleared every hard gate on November 27: Inato's Senior AI Engineer, fully remote within France or at the Paris office, paying €85,000–€100,000 a year plus equity, building LLM pipelines, agents and evaluation for clinical-trial recruitment and site selection. It is not a new requisition: this site listed it on October 26. The employer republished it on November 26 with a rewritten description (senior individual-contributor scope, explicit evaluation and observability duties, fully remote within France); pay is unchanged. Doctolib's new Senior/Staff AI Engineer in Paris (hybrid, up to 2 remote days a week) is a near-miss because it publishes no pay. These entries are research leads, not recommendations.",
+  "coverage": "Automated official-ATS sweep on November 27: 129 of 276 attempted Ashby, Lever and Greenhouse board aliases returned data; many failed aliases are likely wrong board names, not evidence of no vacancies. Further passes over other board names and over Ashby roles published since November 25 were compared against the November 26 sweep. They surfaced the Doctolib listing, Inato's republished listing and Qonto's republished Staff Product Engineer - AI Core (near-miss on October 23, still no published pay, not re-listed). Two web searches were used for discovery only; the Paris senior AI listings they showed either published ranges below the pay rule or no pay, and were not examined further. Coverage is bounded, not exhaustive.",
+  "criteria": [
+    "Paris hybrid with explicit attendance, or fully remote explicitly allowing France-based applicants.",
+    "Senior/staff hands-on AI-central engineering; an AI employer, coding assistant use or AI product UI alone does not establish the required assignment.",
+    "Employer-published annual gross cash-base lower bound strictly above €100,000, or at least €80,000 with explicit equity. Use the lower bound; equity is not cash; packages, OTE, unlabelled pay ranges and estimates do not pass.",
+    "No unchanged prior selections. Requisition identity takes precedence over refreshed titles, URLs or timestamps; historical qualification is not current-live verification."
+  ],
+  "uncertainty": [
+    "Sources checked November 27, 2026. Posting dates come from employer ATS metadata.",
+    "Inato's entry is a re-listing of the same requisition reported on October 26, justified by the employer's November 26 rewrite of duties, seniority wording and location terms; its pay range is the same as on October 26.",
+    "Inato's salary is classified as an annual EUR salary in the employer's ATS data, separate from equity; the listing does not say “gross”, and equity amount and vesting are not published.",
+    "Inato's December 2024 deal and headcount come from a third-party database preview, not from the company; revenue, profitability and runway are not publicly verified.",
+    "Doctolib's missing salary means pay is unknown, not that it fails the threshold.",
+    "Deduplication covered the accessible October 10 to November 26 reports and the supplied October 3/5 Escape history."
+  ],
+  "decision": "No approval needed for this authorized daily website update. One role qualified today: Inato's Senior AI Engineer, re-listed after an evidenced listing rewrite. The Doctolib near-miss would need employer-published pay meeting the rule before it could pass. No applications or outreach were made.",
+  "jobs": [
+    {
+      "id": "inato-6059da1d",
+      "company": "Inato",
+      "title": "Senior AI Engineer",
+      "status": "qualified",
+      "listingUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+      "applyUrl": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application",
+      "checked": "2026-11-27",
+      "posted": "2026-11-26",
+      "location": "remote",
+      "locationQuote": "Official listing: “PARIS OFFICE or REMOTE FROM FRANCE”, location type Remote, and in the rewritten conditions: “Location: Fully remote within France, with access to our Paris office. You must be based in France.” The application form asks: “This role requires you to be based in France and already have full authorization to work here. Is that the case for you?”[1][2]",
+      "salary": {
+        "lower": 85000,
+        "upper": 100000,
+        "currency": "EUR",
+        "annualBase": true,
+        "equity": true,
+        "quote": "“€85K – €100K • Offers Equity”. The official ATS data lists a Salary component of €85,000–€100,000, interval 1 YEAR, currency EUR, and a separate equity component with no published value. The listing does not use the word “gross”.[1][3]"
+      },
+      "reasons": [
+        "Pay passes the €80,000-plus-equity branch: the published annual salary floor is €85,000 and equity is offered as a separate component. Equity is not counted as cash, and the €100,000 ceiling does not clear the strict cash-only branch.[1][3]",
+        "Not a newly discovered requisition: this site rejected it on October 14 (€70,000 floor) and listed it as qualified on October 26. It is re-listed because the employer republished it on November 26, 2026 with a rewritten description; the pay range is unchanged.[3]",
+        "Evidenced changes in the November 26 text: it now calls the job “a Senior Individual Contributor role, combining AI architecture, technical decision-making, and day-to-day engineering”, adds duties to “Develop evaluation and observability approaches” and to balance “accuracy, latency, cost, scalability, and long-term maintainability”, and states the location as fully remote within France for France-based staff.[1]",
+        "Location passes: fully remote within France or the Paris office; the application requires living in France and existing French work authorization.[1][2]",
+        "AI centrality passes: the engineer architects, builds, deploys and improves production AI applications, orchestrates models over multimodal data, develops RAG for long medical documents and builds agentic systems for clinical research.[1]",
+        "Seniority and language: the listing asks for an established Senior AI Engineer with shipped, maintained AI products, and fluent English and French; the form says the engineering team works fully in French. The listing and application form loaded on the check date.[1][2]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "pass",
+        "product": "pass"
+      },
+      "product": "Inato runs a platform that connects pharmaceutical trial sponsors with clinical research sites; its homepage claims 25+ sponsors and 6,000+ sites in 50+ countries (company claims) and offers AI site selection and AI pre-screening that automates chart review.[6] The listing names three typical projects, which are examples rather than guaranteed assignments: patient pre-screening with reasoning models and visual RAG, a clinical site-selection agent combined with a mathematical optimizer, and AI evaluation and reliability work.[1] Inato's March 2025 arXiv paper describes the pre-screening pipeline: reasoning LLMs read unprocessed EHR documents as images, with multimodal embeddings for record search; it reports 93% criterion-level accuracy on the n2c2 2018 dataset and 87% on 485 real-world patients from 30 sites, attributing part of the gap to records that lack sufficient information.[4] An Inato engineer's post on the site-selection agent describes the agent translating a request into constraints and objectives for an optimizer, flaky tests from non-deterministic LLM calls, validating tool-call sequences rather than only final answers, and inspecting traces in Langfuse.[5] Concrete engineering problems: eligibility reasoning over incomplete records, evaluating multi-step agents, and cost and latency trade-offs, which the new listing names explicitly.[1][4][5]",
+      "financials": "Investment: Fierce Biotech reported a $20 million Series A2 on March 29, 2023, led by Cathay Innovation with Obvious Ventures, La Maison and Top Harvest Capital.[8] PitchBook's public profile preview lists a later-stage VC deal of $14.9M dated December 4, 2024 and $53.1M raised in total; this is third-party database data and no Inato announcement of that deal was found in this run.[7] Size: the same PitchBook preview lists 79 employees (undated third-party figure), and the listing says the engineering team has 15 engineers.[7][1] Financial condition: revenue, profitability and runway are not publicly verified; funding does not establish them. Recent activity: Inato's news page leads with its 2026 Fierce AI Innovation Awards win in clinical trial operations.[9]",
+      "evidence": [
+        {
+          "label": "[1] Official Inato listing (Ashby): location, pay, duties",
+          "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7",
+          "quote": "Location: Fully remote within France, with access to our Paris office. You must be based in France.",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[2] Official Inato application form",
+          "url": "https://jobs.ashbyhq.com/inato/6059da1d-8e0e-4d3b-81f6-2dab6bc72cd7/application",
+          "quote": "This role requires you to be based in France and already have full authorization to work here. Is that the case for you?",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[3] Official Ashby job data for Inato",
+          "url": "https://api.ashbyhq.com/posting-api/job-board/inato?includeCompensation=true",
+          "quote": "Metadata summary: published November 26, 2026; workplace type Remote; Salary component €85,000–€100,000, interval 1 YEAR, EUR; separate equity component with no value.",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[4] Inato arXiv paper on LLM patient–trial matching (March 19, 2025)",
+          "url": "https://arxiv.org/abs/2503.15374",
+          "quote": "In real-world trials, the pipeline yielded an accuracy of 87%",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[5] Inato engineering blog: building the site-selection agent",
+          "url": "https://inato.substack.com/p/five-challenges-faced-when-building",
+          "quote": "an agent for clinical trial managers working at pharmaceutical companies to select the best set of clinical sites for a given clinical trial",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[6] Inato homepage: platform and AI products",
+          "url": "https://www.inato.com/",
+          "quote": "Reduce site burden and accelerate patient enrollment by using AI to automate chart review and pre-screening.",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[7] PitchBook public profile preview (third-party data)",
+          "url": "https://pitchbook.com/profiles/company/223496-83",
+          "quote": "Metadata summary: Employees 79; Latest Deal Type Later Stage VC; Latest Deal Amount $14.9M, dated 04-Dec-2024; total raised $53.1M.",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[8] Fierce Biotech funding coverage (March 29, 2023)",
+          "url": "https://www.fiercebiotech.com/cro/inato-scores-20m-series-a2-funding-expand-growth-innovations",
+          "quote": "Inato, a clinical trial company based in France, has hauled in $20 million in series A2 funding",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[9] Inato news and press page",
+          "url": "https://www.inato.com/news-press",
+          "quote": "Inato named 2026 Winner of Fierce AI Innovation Awards - Clinical Trial Operations",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "doctolib-07c51ee8",
+      "company": "Doctolib",
+      "title": "Senior/Staff AI Engineer - Python (x/f/m)",
+      "status": "near-miss",
+      "listingUrl": "https://jobs.ashbyhq.com/doctolib/07c51ee8-97fe-4aaf-bdcc-dd65188d599d",
+      "applyUrl": "https://jobs.ashbyhq.com/doctolib/07c51ee8-97fe-4aaf-bdcc-dd65188d599d/application",
+      "checked": "2026-11-27",
+      "posted": "2026-11-26",
+      "location": "hybrid",
+      "locationQuote": "Official listing: location “Paris”, location type “Hybrid”; benefits list “Hybrid work setup (up to 2 remote days per week)”.[10]",
+      "salary": {
+        "lower": null,
+        "upper": null,
+        "currency": null,
+        "annualBase": null,
+        "equity": null,
+        "quote": "No salary or equity term is published on the listing, and the official Ashby job data carries no compensation for this role. Pay is unknown, not below the threshold.[10][11]"
+      },
+      "reasons": [
+        "Pay gate unverified: no employer-published salary or equity.[10][11]",
+        "Location passes: Paris hybrid with explicit attendance (up to 2 remote days per week, so at least 3 office days).[10]",
+        "AI centrality passes: the role designs, ships and operates production agentic LLM systems, builds memory, reasoning orchestration and tool adapters, and works on evaluation pipelines and safety guardrails.[10]",
+        "Seniority passes: Senior or Senior/Staff, 6+ years as a software engineer with significant Python and AI products delivered at scale.[10]",
+        "New requisition published November 26, 2026; not in earlier reports (Doctolib's Senior Staff ML Engineer - Clinical from November 2 is a different listing). The listing and application form loaded on the check date.[10][11]"
+      ],
+      "gates": {
+        "open": "pass",
+        "location": "pass",
+        "ai": "pass",
+        "pay": "unknown",
+        "product": "unknown"
+      },
+      "product": "Employer-stated: the role sits in a feature team building LLM-powered products for health professionals and patients, and the listing cites Doctolib's DoctoBERT open-source French clinical language models. No separate product source was read in this run.[10]",
+      "financials": "Not publicly verified in this run.",
+      "evidence": [
+        {
+          "label": "[10] Official Doctolib listing (Ashby)",
+          "url": "https://jobs.ashbyhq.com/doctolib/07c51ee8-97fe-4aaf-bdcc-dd65188d599d",
+          "quote": "Hybrid work setup (up to 2 remote days per week)",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "[11] Official Doctolib application form and Ashby job data",
+          "url": "https://jobs.ashbyhq.com/doctolib/07c51ee8-97fe-4aaf-bdcc-dd65188d599d/application",
+          "quote": "Metadata summary: application form with name, email and phone fields loaded; Ashby data shows published November 26, 2026, workplace type Hybrid, no compensation tiers.",
+          "checked": "2026-11-27"
+        }
+      ]
+    }
+  ]
+}
